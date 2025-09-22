@@ -34,12 +34,19 @@ jobs:
           touch openvas-feeds/cert-feed/.gitkeep
           touch openvas-feeds/vt-feed/.gitkeep
 
-      - name: Track all feed files with Git LFS
+      - name: Track feed files with Git LFS
         run: |
-          git lfs track "openvas-feeds/nvt-feed/**/*"
-          git lfs track "openvas-feeds/scap-feed/**/*"
-          git lfs track "openvas-feeds/cert-feed/**/*"
-          git lfs track "openvas-feeds/vt-feed/**/*"
+          # Track large .gz and .json files recursively, excluding .gitkeep
+          git lfs track "openvas-feeds/nvt-feed/**/*.gz"
+          git lfs track "openvas-feeds/nvt-feed/**/*.json"
+          git lfs track "openvas-feeds/scap-feed/**/*.gz"
+          git lfs track "openvas-feeds/scap-feed/**/*.json"
+          git lfs track "openvas-feeds/cert-feed/**/*.gz"
+          git lfs track "openvas-feeds/cert-feed/**/*.json"
+          git lfs track "openvas-feeds/vt-feed/**/*.gz"
+          git lfs track "openvas-feeds/vt-feed/**/*.json"
+
+          # Add .gitattributes for LFS tracking
           git add .gitattributes
 
       - name: Pull NVT feed
