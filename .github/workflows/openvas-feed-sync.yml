@@ -28,7 +28,7 @@ jobs:
           mkdir -p openvas-feeds/cert-feed
           mkdir -p openvas-feeds/vt-feed
 
-          # Add .gitkeep so empty directories are tracked
+          # Add .gitkeep to track empty directories
           touch openvas-feeds/nvt-feed/.gitkeep
           touch openvas-feeds/scap-feed/.gitkeep
           touch openvas-feeds/cert-feed/.gitkeep
@@ -48,14 +48,16 @@ jobs:
 
       - name: Pull VT feed (Notus)
         run: |
-          rsync -avz --ignore-existing --progress rsync://feed.community.greenbone.net/community/vulnerability-feed/24.10/vt-data/notus/ openvas-feeds/vt-feed/
+          # Recursive sync of VT feed, including all subfolders
+          rsync -avz --ignore-existing --progress rsync://feed.community.greenbone.net/community/vulnerability-feed/24.10/vt-data/ openvas-feeds/vt-feed/
 
       - name: Track large files with Git LFS
         run: |
-          git lfs track "openvas-feeds/nvt-feed/*.gz"
-          git lfs track "openvas-feeds/scap-feed/*.gz"
-          git lfs track "openvas-feeds/cert-feed/*.gz"
-          git lfs track "openvas-feeds/vt-feed/*.gz"
+          # Track all .gz files recursively in all feeds
+          git lfs track "openvas-feeds/nvt-feed/**/*.gz"
+          git lfs track "openvas-feeds/scap-feed/**/*.gz"
+          git lfs track "openvas-feeds/cert-feed/**/*.gz"
+          git lfs track "openvas-feeds/vt-feed/**/*.gz"
           git add .gitattributes
 
       - name: Commit and push changes
