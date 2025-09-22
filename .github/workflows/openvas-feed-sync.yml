@@ -24,7 +24,7 @@ jobs:
           mkdir -p openvas-feeds/scap-feed
           mkdir -p openvas-feeds/cert-feed
 
-          # Add .gitkeep so directories are tracked by git
+          # Add .gitkeep so empty directories are tracked
           touch openvas-feeds/nvt-feed/.gitkeep
           touch openvas-feeds/scap-feed/.gitkeep
           touch openvas-feeds/cert-feed/.gitkeep
@@ -32,6 +32,14 @@ jobs:
       - name: Pull NVT feed
         run: |
           rsync -avz --ignore-existing --progress rsync://feed.community.greenbone.net:/nvt-feed/ openvas-feeds/nvt-feed/
+
+      - name: Pull SCAP feed
+        run: |
+          rsync -avz --ignore-existing --progress rsync://feed.community.greenbone.net/community/vulnerability-feed/24.10/scap-data/ openvas-feeds/scap-feed/
+
+      - name: Pull CERT feed
+        run: |
+          rsync -avz --ignore-existing --progress rsync://feed.community.greenbone.net/community/vulnerability-feed/24.10/cert-data/ openvas-feeds/cert-feed/
 
       - name: Commit and push changes
         run: |
@@ -42,6 +50,6 @@ jobs:
           git add -u
 
           # Only commit if changes exist
-          git diff --cached --quiet || git commit -m "Incremental OpenVAS NVT feed update [skip ci]"
+          git diff --cached --quiet || git commit -m "Incremental OpenVAS feed update [skip ci]"
 
           git push
