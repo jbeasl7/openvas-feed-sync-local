@@ -1,0 +1,140 @@
+# SPDX-FileCopyrightText: 2022 Greenbone AG
+# Some text descriptions might be excerpted from (a) referenced
+# source(s), and are Copyright (C) by the respective right holder(s).
+#
+# SPDX-License-Identifier: GPL-2.0-only
+
+if(description)
+{
+  script_oid("1.3.6.1.4.1.25623.1.1.10.2018.0075");
+  script_cve_id("CVE-2017-1000407", "CVE-2017-15129", "CVE-2017-5754");
+  script_tag(name:"creation_date", value:"2022-01-28 10:58:44 +0000 (Fri, 28 Jan 2022)");
+  script_version("2024-10-23T05:05:59+0000");
+  script_tag(name:"last_modification", value:"2024-10-23 05:05:59 +0000 (Wed, 23 Oct 2024)");
+  script_tag(name:"cvss_base", value:"6.1");
+  script_tag(name:"cvss_base_vector", value:"AV:A/AC:L/Au:N/C:N/I:N/A:C");
+  script_tag(name:"severity_vector", value:"CVSS:3.0/AV:A/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H");
+  script_tag(name:"severity_origin", value:"NVD");
+  script_tag(name:"severity_date", value:"2017-12-22 14:26:12 +0000 (Fri, 22 Dec 2017)");
+
+  script_name("Mageia: Security Advisory (MGASA-2018-0075)");
+  script_category(ACT_GATHER_INFO);
+  script_copyright("Copyright (C) 2022 Greenbone AG");
+  script_family("Mageia Linux Local Security Checks");
+  script_dependencies("gather-package-list.nasl");
+  script_mandatory_keys("ssh/login/mageia_linux", "ssh/login/release", re:"ssh/login/release=MAGEIA5");
+
+  script_xref(name:"Advisory-ID", value:"MGASA-2018-0075");
+  script_xref(name:"URL", value:"https://advisories.mageia.org/MGASA-2018-0075.html");
+  script_xref(name:"URL", value:"https://bugs.mageia.org/show_bug.cgi?id=22333");
+  script_xref(name:"URL", value:"https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.106");
+  script_xref(name:"URL", value:"https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.107");
+  script_xref(name:"URL", value:"https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.108");
+  script_xref(name:"URL", value:"https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.109");
+  script_xref(name:"URL", value:"https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.110");
+  script_xref(name:"URL", value:"https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.111");
+  script_xref(name:"URL", value:"https://googleprojectzero.blogspot.fi/2018/01/reading-privileged-memory-with-side.html");
+  script_xref(name:"URL", value:"https://meltdownattack.com/");
+
+  script_tag(name:"summary", value:"The remote host is missing an update for the 'kernel-linus' package(s) announced via the MGASA-2018-0075 advisory.");
+
+  script_tag(name:"vuldetect", value:"Checks if a vulnerable package version is present on the target host.");
+
+  script_tag(name:"insight", value:"This kernel-linus update provides the upstream 4.4.111 and fixes
+several security issues.
+
+The most important fix in this update is for the security issue named
+'Meltdown' that is fixed in these kernels by enabling kernel Page
+Table Isolation (KTPI). Note that according to AMD, this issue does
+not effect Amd processors, so it is not enabled by default on systems
+using Amd CPU.
+
+The list of known security fixes and mitigations in this kernel:
+
+Systems with microprocessors utilizing speculative execution and indirect
+branch prediction may allow unauthorized disclosure of information to an
+attacker with local user access via a side-channel analysis of the data
+cache (CVE-2017-5754, 'Meltdown').
+
+A use-after-free vulnerability was found in network namespaces code
+affecting the Linux kernel before 4.14.11. The function get_net_ns_by_id()
+in net/core/net_namespace.c does not check for the net::count value after
+it has found a peer network in netns_ids idr, which could lead to double
+free and memory corruption. This vulnerability could allow an unprivileged
+local user to induce kernel memory corruption on the system, leading to a
+crash. Due to the nature of the flaw, privilege escalation cannot be fully
+ruled out, although it is thought to be unlikely (CVE-2017-15129).
+
+The Linux Kernel 2.6.32 and later are affected by a denial of service, by
+flooding the diagnostic port 0x80 an exception can be triggered leading
+to a kernel panic (CVE-2017-1000407).
+
+The kernels are also fixed to allow loading cpu microcode for Amd
+family 17 (Zen) processors.
+
+For more info about Meltdown, Spectre and other fixes in this update,
+see the references.");
+
+  script_tag(name:"affected", value:"'kernel-linus' package(s) on Mageia 5.");
+
+  script_tag(name:"solution", value:"Please install the updated package(s).");
+
+  script_tag(name:"solution_type", value:"VendorFix");
+  script_tag(name:"qod_type", value:"package");
+
+  exit(0);
+}
+
+include("revisions-lib.inc");
+include("pkg-lib-rpm.inc");
+
+release = rpm_get_ssh_release();
+if(!release)
+  exit(0);
+
+res = "";
+report = "";
+
+if(release == "MAGEIA5") {
+
+  if(!isnull(res = isrpmvuln(pkg:"kernel-linus-4.4.111-1.mga5", rpm:"kernel-linus-4.4.111-1.mga5~1~1.mga5", rls:"MAGEIA5"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"kernel-linus", rpm:"kernel-linus~4.4.111~1.mga5", rls:"MAGEIA5"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"kernel-linus-devel-4.4.111-1.mga5", rpm:"kernel-linus-devel-4.4.111-1.mga5~1~1.mga5", rls:"MAGEIA5"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"kernel-linus-devel-latest", rpm:"kernel-linus-devel-latest~4.4.111~1.mga5", rls:"MAGEIA5"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"kernel-linus-doc", rpm:"kernel-linus-doc~4.4.111~1.mga5", rls:"MAGEIA5"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"kernel-linus-latest", rpm:"kernel-linus-latest~4.4.111~1.mga5", rls:"MAGEIA5"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"kernel-linus-source-4.4.111-1.mga5", rpm:"kernel-linus-source-4.4.111-1.mga5~1~1.mga5", rls:"MAGEIA5"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"kernel-linus-source-latest", rpm:"kernel-linus-source-latest~4.4.111~1.mga5", rls:"MAGEIA5"))) {
+    report += res;
+  }
+
+  if(report != "") {
+    security_message(data:report);
+  } else if(__pkg_match) {
+    exit(99);
+  }
+  exit(0);
+}
+
+exit(0);

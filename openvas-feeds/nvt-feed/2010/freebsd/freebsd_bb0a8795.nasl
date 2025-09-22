@@ -1,0 +1,72 @@
+# SPDX-FileCopyrightText: 2010 E-Soft Inc.
+# Some text descriptions might be excerpted from (a) referenced
+# source(s), and are Copyright (C) by the respective right holder(s).
+#
+# SPDX-License-Identifier: GPL-2.0-only
+
+if(description)
+{
+  script_oid("1.3.6.1.4.1.25623.1.0.66814");
+  script_version("2023-07-26T05:05:09+0000");
+  script_tag(name:"last_modification", value:"2023-07-26 05:05:09 +0000 (Wed, 26 Jul 2023)");
+  script_tag(name:"creation_date", value:"2010-02-10 21:51:26 +0100 (Wed, 10 Feb 2010)");
+  script_cve_id("CVE-2010-0304");
+  script_tag(name:"cvss_base", value:"7.5");
+  script_tag(name:"cvss_base_vector", value:"AV:N/AC:L/Au:N/C:P/I:P/A:P");
+  script_name("FreeBSD Ports: wireshark, wireshark-lite");
+  script_category(ACT_GATHER_INFO);
+  script_copyright("Copyright (C) 2010 E-Soft Inc.");
+  script_family("FreeBSD Local Security Checks");
+  script_dependencies("gather-package-list.nasl");
+  script_mandatory_keys("ssh/login/freebsd", "ssh/login/freebsdrel");
+
+  script_tag(name:"insight", value:"The following packages are affected:
+
+  wireshark
+   wireshark-lite
+
+CVE-2010-0304
+Multiple buffer overflows in the LWRES dissector in Wireshark 0.9.15
+through 1.0.10 and 1.2.0 through 1.2.5 allow remote attackers to cause
+a denial of service (crash) via a malformed packet, as demonstrated
+using a stack-based buffer overflow to the
+dissect_getaddrsbyname_request function.");
+
+  script_tag(name:"solution", value:"Update your system with the appropriate patches or
+  software upgrades.");
+
+  script_xref(name:"URL", value:"http://secunia.com/advisories/38257/");
+  script_xref(name:"URL", value:"http://www.wireshark.org/security/wnpa-sec-2010-02.html");
+  script_xref(name:"URL", value:"http://www.vuxml.org/freebsd/bb0a8795-15dc-11df-bf0a-002170daae37.html");
+
+  script_tag(name:"summary", value:"The remote host is missing an update to the system
+  as announced in the referenced advisory.");
+
+  script_tag(name:"qod_type", value:"package");
+  script_tag(name:"solution_type", value:"VendorFix");
+
+  exit(0);
+}
+
+include("revisions-lib.inc");
+include("pkg-lib-bsd.inc");
+
+vuln = FALSE;
+txt = "";
+
+bver = portver(pkg:"wireshark");
+if(!isnull(bver) && revcomp(a:bver, b:"1.2.6")<0) {
+  txt += 'Package wireshark version ' + bver + ' is installed which is known to be vulnerable.\n';
+  vuln = TRUE;
+}
+bver = portver(pkg:"wireshark-lite");
+if(!isnull(bver) && revcomp(a:bver, b:"1.2.6")<0) {
+  txt += 'Package wireshark-lite version ' + bver + ' is installed which is known to be vulnerable.\n';
+  vuln = TRUE;
+}
+
+if(vuln) {
+  security_message(data:txt);
+} else if (__pkg_match) {
+  exit(99);
+}
