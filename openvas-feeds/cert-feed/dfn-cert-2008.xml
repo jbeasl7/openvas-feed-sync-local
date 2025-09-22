@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dfncert="http://www.dfn-cert.de/dfncert.dtd">
+  <entry>
+    <title>Denial of Service Schwachstelle in der HP-UX libc ()</title>
+    <link href="https://adv-archiv.dfn-cert.de/adv/2008-1100/" rel="alternate"/>
+    <updated>2009-11-05T12:42:41+01:00</updated>
+    <author>
+      <name>DFN-CERT Services GmbH</name>
+      <uri>http://www.dfn-cert.de/</uri>
+    </author>
+    <id>https://adv-archiv.dfn-cert.de/adv/2008-1100/</id>
+    <summary type="html">
+HP-UX beinhaltet eine Schwachstelle in der libc, welche von entfernten
+Angreifern für Denial of Service Angriffe ausgenutzt werden kann.
+</summary>
+    <dfncert:cve>CVE-2008-1664</dfncert:cve>
+    <published>2008-08-07T09:45:30+02:00</published>
+    <dfncert:refnum>DFN-CERT-2008-1100</dfncert:refnum>
+  </entry>
+  <entry>
+    <title>Schwachstellen in der Bibliothek libcdaudio vor Version 0.99.12p2 (Linux, Mandriva)</title>
+    <link href="https://adv-archiv.dfn-cert.de/adv/2008-1495/" rel="alternate"/>
+    <updated>2009-12-08T11:36:25+01:00</updated>
+    <author>
+      <name>DFN-CERT Services GmbH</name>
+      <uri>http://www.dfn-cert.de/</uri>
+    </author>
+    <id>https://adv-archiv.dfn-cert.de/adv/2008-1495/</id>
+    <summary type="html">
+Die Bibliothek libcdaudio beinhaltet mehrere Schwachstellen, die es
+einem entfernten Angreifer erlauben, über manipulierte CDDB-Einträge
+Schadcode in die Anwendung einzuschleusen und mit deren Rechten
+auszuführen.
+</summary>
+    <dfncert:cve>CVE-2008-5030</dfncert:cve>
+    <dfncert:cve>CVE-2005-0706</dfncert:cve>
+    <published>2008-11-21T15:01:11+01:00</published>
+    <dfncert:refnum>DFN-CERT-2008-1495</dfncert:refnum>
+  </entry>
+  <entry>
+    <title>Schwachstelle in BIND 9 vor Version 9.5.0-P1, 9.4.2-P1, 9.3.5-P1 (Unix, HP-UX)</title>
+    <link href="https://adv-archiv.dfn-cert.de/adv/2008-1021/" rel="alternate"/>
+    <updated>2010-10-14T15:58:06+02:00</updated>
+    <author>
+      <name>DFN-CERT Services GmbH</name>
+      <uri>http://www.dfn-cert.de/</uri>
+    </author>
+    <id>https://adv-archiv.dfn-cert.de/adv/2008-1021/</id>
+    <summary type="html">
+Eine Schwachstelle im BIND Nameserver bzw. Resolver ermöglicht
+Angreifern falsche Einträge in den Cachen des Nameservers bzw.
+Resolvers einzufügen (DNS Cache Poisoning).
+ Bitte beachten Sie: Da die Gegenmaßnahme das Verhalten des BIND
+Nameservers im Netz ändert, müssen sie ggfs. ihre Firewall Regeln
+anpassen.
+</summary>
+    <dfncert:cve>CVE-2008-1447</dfncert:cve>
+    <published>2008-07-17T12:45:17+02:00</published>
+    <dfncert:refnum>DFN-CERT-2008-1021</dfncert:refnum>
+  </entry>
+  <entry>
+    <title>Schwachstelle im HP Software Update (Windows)</title>
+    <link href="https://adv-archiv.dfn-cert.de/adv/2008-0644/" rel="alternate"/>
+    <updated>2010-10-27T13:54:59+02:00</updated>
+    <author>
+      <name>DFN-CERT Services GmbH</name>
+      <uri>http://www.dfn-cert.de/</uri>
+    </author>
+    <id>https://adv-archiv.dfn-cert.de/adv/2008-0644/</id>
+    <summary type="html">
+Aufgrund mehrerer fehlerhafter ActiveX Controls im HP Software Update
+kann ein entfernter Angreifer im schlimmsten Fall beliebige Befehle
+mit den Rechten der Anwendung ausführen.
+</summary>
+    <dfncert:cve>CVE-2008-0712</dfncert:cve>
+    <published>2008-04-28T14:35:35+02:00</published>
+    <dfncert:refnum>DFN-CERT-2008-0644</dfncert:refnum>
+  </entry>
+</feed>
