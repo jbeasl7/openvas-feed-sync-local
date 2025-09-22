@@ -12,8 +12,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-        with:
-          persist-credentials: true
 
       - name: Install dependencies
         run: |
@@ -25,6 +23,11 @@ jobs:
           mkdir -p openvas-feeds/nvt-feed
           mkdir -p openvas-feeds/scap-feed
           mkdir -p openvas-feeds/cert-feed
+
+          # Add .gitkeep so directories are tracked by git
+          touch openvas-feeds/nvt-feed/.gitkeep
+          touch openvas-feeds/scap-feed/.gitkeep
+          touch openvas-feeds/cert-feed/.gitkeep
 
       - name: Pull NVT feed
         run: |
