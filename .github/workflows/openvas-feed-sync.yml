@@ -10,13 +10,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repository with Git LFS
         uses: actions/checkout@v3
+        with:
+          lfs: true  # enable Git LFS
 
       - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y rsync git
+          sudo apt-get install -y rsync git-lfs
+          git lfs install
 
       - name: Ensure feed directory structure
         run: |
@@ -40,6 +43,13 @@ jobs:
       - name: Pull CERT feed
         run: |
           rsync -avz --ignore-existing --progress rsync://feed.community.greenbone.net/community/vulnerability-feed/24.10/cert-data/ openvas-feeds/cert-feed/
+
+      - name: Track large files with Git LFS
+        run: |
+          git lfs track "openvas-feeds/nvt-feed/*.gz"
+          git lfs track "openvas-feeds/scap-feed/*.gz"
+          git lfs track "openvas-feeds/cert-feed/*.gz"
+          git add .gitattributes
 
       - name: Commit and push changes
         run: |
