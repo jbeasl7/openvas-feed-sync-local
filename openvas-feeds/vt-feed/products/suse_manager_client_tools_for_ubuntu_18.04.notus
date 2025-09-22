@@ -1,0 +1,39 @@
+{
+    "version": "1.2",
+    "spdx-license-identifier": "GPL-2.0-only",
+    "copyright": "Copyright (C) 2008-2025 Greenbone AG",
+    "package_type": "rpm",
+    "product_name": "SUSE Manager Client Tools for Ubuntu 18.04",
+    "advisories": [
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.202306.15224.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-looseversion-1.0.2-2.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-common-3006.0+ds-1+144.2.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-minion-3006.0+ds-1+144.2.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacecmd-4.3.22-68.3.all",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.202306.15228.1",
+            "fixed_packages": [
+                {
+                    "full_name": "venv-salt-minion-3006.0-2.34.1.amd64",
+                    "specifier": ">="
+                }
+            ]
+        }
+    ]
+}

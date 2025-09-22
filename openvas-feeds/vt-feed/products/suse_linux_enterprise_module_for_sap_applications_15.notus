@@ -1,0 +1,30 @@
+{
+    "version": "1.2",
+    "spdx-license-identifier": "GPL-2.0-only",
+    "copyright": "Copyright (C) 2008-2025 Greenbone AG",
+    "package_type": "rpm",
+    "product_name": "SUSE Linux Enterprise Module for SAP Applications 15",
+    "advisories": [
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2021.2136.1",
+            "fixed_packages": [
+                {
+                    "full_name": "cryptctl-2.4-4.5.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cryptctl-2.4-4.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cryptctl-debuginfo-2.4-4.5.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cryptctl-debuginfo-2.4-4.5.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        }
+    ]
+}

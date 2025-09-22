@@ -1,0 +1,3637 @@
+{
+    "version": "1.2",
+    "spdx-license-identifier": "GPL-2.0-only",
+    "copyright": "Copyright (C) 2008-2025 Greenbone AG",
+    "package_type": "rpm",
+    "product_name": "SUSE CaaS Platform ALL",
+    "advisories": [
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.0053.1",
+            "fixed_packages": [
+                {
+                    "full_name": "sles12-caasp-dex-image-2.0.0-3.3.11.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sles12-dnsmasq-nanny-image-2.0.1-2.3.15.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sles12-haproxy-image-2.0.1-2.3.16.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sles12-kubedns-image-2.0.1-2.3.11.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sles12-mariadb-image-2.0.1-2.3.15.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sles12-openldap-image-2.0.0-2.3.11.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sles12-pause-image-2.0.1-2.3.9.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sles12-pv-recycler-node-image-2.0.1-2.3.10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sles12-salt-api-image-2.0.1-2.3.10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sles12-salt-master-image-2.0.1-2.3.10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sles12-salt-minion-image-2.0.1-2.3.14.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sles12-sidecar-image-2.0.1-2.3.11.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sles12-tiller-image-2.0.0-2.3.11.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sles12-velum-image-2.0.1-2.3.13.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.0074.1",
+            "fixed_packages": [
+                {
+                    "full_name": "glibc-2.22-62.3.4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-debuginfo-2.22-62.3.4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-debugsource-2.22-62.3.4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-locale-2.22-62.3.4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-locale-debuginfo-2.22-62.3.4.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.0118.1",
+            "fixed_packages": [
+                {
+                    "full_name": "rsync-3.1.0-13.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rsync-debuginfo-3.1.0-13.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rsync-debugsource-3.1.0-13.7.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.0120.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libncurses5-5.9-55.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libncurses5-debuginfo-5.9-55.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libncurses6-5.9-55.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libncurses6-debuginfo-5.9-55.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ncurses-debugsource-5.9-55.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ncurses-utils-5.9-55.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ncurses-utils-debuginfo-5.9-55.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "terminfo-base-5.9-55.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.0122.1",
+            "fixed_packages": [
+                {
+                    "full_name": "curl-7.37.0-37.11.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "curl-debuginfo-7.37.0-37.11.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "curl-debugsource-7.37.0-37.11.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcurl4-7.37.0-37.11.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcurl4-debuginfo-7.37.0-37.11.3.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.0123.1",
+            "fixed_packages": [
+                {
+                    "full_name": "perl-XML-LibXML-2.0019-6.3.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-XML-LibXML-debuginfo-2.0019-6.3.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-XML-LibXML-debugsource-2.0019-6.3.5.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.0174.1",
+            "fixed_packages": [
+                {
+                    "full_name": "rsync-3.1.0-13.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rsync-debuginfo-3.1.0-13.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rsync-debugsource-3.1.0-13.10.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.0200.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libevent-2_0-5-2.0.21-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libevent-2_0-5-debuginfo-2.0.21-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libevent-debugsource-2.0.21-6.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.0217.1",
+            "fixed_packages": [
+                {
+                    "full_name": "curl-7.37.0-37.14.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "curl-debuginfo-7.37.0-37.14.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "curl-debugsource-7.37.0-37.14.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcurl4-7.37.0-37.14.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcurl4-debuginfo-7.37.0-37.14.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.0284.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libncurses5-5.9-58.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libncurses5-debuginfo-5.9-58.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libncurses6-5.9-58.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libncurses6-debuginfo-5.9-58.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ncurses-debugsource-5.9-58.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ncurses-utils-5.9-58.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ncurses-utils-debuginfo-5.9-58.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "terminfo-base-5.9-58.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.0295.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libtasn1-4.9-3.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtasn1-6-4.9-3.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtasn1-6-debuginfo-4.9-3.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtasn1-debuginfo-4.9-3.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtasn1-debugsource-4.9-3.5.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.0299.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libsystemd0-228-150.29.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsystemd0-debuginfo-228-150.29.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libudev1-228-150.29.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libudev1-debuginfo-228-150.29.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-228-150.29.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-debuginfo-228-150.29.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-debugsource-228-150.29.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-sysvinit-228-150.29.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "udev-228-150.29.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "udev-debuginfo-228-150.29.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.0383.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-4.4.114-94.11.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.4.114-94.11.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.4.114-94.11.3.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.0401.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libxml2-2-2.9.4-46.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxml2-2-debuginfo-2.9.4-46.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxml2-debugsource-2.9.4-46.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxml2-tools-2.9.4-46.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxml2-tools-debuginfo-2.9.4-46.12.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.0414.1",
+            "fixed_packages": [
+                {
+                    "full_name": "freetype2-debugsource-2.6.3-7.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfreetype6-2.6.3-7.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfreetype6-debuginfo-2.6.3-7.15.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.0438.1",
+            "fixed_packages": [
+                {
+                    "full_name": "xen-debugsource-4.9.1_08-3.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-libs-4.9.1_08-3.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-libs-debuginfo-4.9.1_08-3.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-tools-domU-4.9.1_08-3.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-tools-domU-debuginfo-4.9.1_08-3.26.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.0451.1",
+            "fixed_packages": [
+                {
+                    "full_name": "glibc-2.22-62.6.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-debuginfo-2.22-62.6.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-debugsource-2.22-62.6.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-locale-2.22-62.6.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-locale-debuginfo-2.22-62.6.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.0510.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libdb-4_8-4.8.30-29.6.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libdb-4_8-debuginfo-4.8.30-29.6.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libdb-4_8-debugsource-4.8.30-29.6.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.0546.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libsystemd0-228-150.32.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsystemd0-debuginfo-228-150.32.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libudev1-228-150.32.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libudev1-debuginfo-228-150.32.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-228-150.32.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-debuginfo-228-150.32.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-debugsource-228-150.32.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-sysvinit-228-150.32.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "udev-228-150.32.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "udev-debuginfo-228-150.32.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.0650.1",
+            "fixed_packages": [
+                {
+                    "full_name": "augeas-debuginfo-1.2.0-17.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "augeas-debugsource-1.2.0-17.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libaugeas0-1.2.0-17.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libaugeas0-debuginfo-1.2.0-17.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.0655.1",
+            "fixed_packages": [
+                {
+                    "full_name": "glibc-2.22-62.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-debuginfo-2.22-62.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-debugsource-2.22-62.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-locale-2.22-62.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-locale-debuginfo-2.22-62.10.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.0662.1",
+            "fixed_packages": [
+                {
+                    "full_name": "shadow-4.2.1-27.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "shadow-debuginfo-4.2.1-27.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "shadow-debugsource-4.2.1-27.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.0674.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-firmware-20170530-21.19.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.0748.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kubernetes-client-1.8.9-11.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kubernetes-common-1.8.9-11.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kubernetes-kubelet-1.8.9-11.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kubernetes-master-1.8.9-11.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kubernetes-node-1.8.9-11.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.0762.1",
+            "fixed_packages": [
+                {
+                    "full_name": "qemu-debugsource-2.9.1-6.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-guest-agent-2.9.1-6.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-guest-agent-debuginfo-2.9.1-6.12.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.0769.1",
+            "fixed_packages": [
+                {
+                    "full_name": "curl-7.37.0-37.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "curl-debuginfo-7.37.0-37.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "curl-debugsource-7.37.0-37.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcurl4-7.37.0-37.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcurl4-debuginfo-7.37.0-37.17.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.0786.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-4.4.120-94.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.4.120-94.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.4.120-94.17.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.0846.1",
+            "fixed_packages": [
+                {
+                    "full_name": "krb5-1.12.5-40.23.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "krb5-debuginfo-1.12.5-40.23.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "krb5-debugsource-1.12.5-40.23.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.0878.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libidn-debugsource-1.28-5.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libidn11-1.28-5.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libidn11-debuginfo-1.28-5.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.0925.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libopenssl1_0_0-1.0.2j-60.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_0_0-debuginfo-1.0.2j-60.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1.0.2j-60.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-debuginfo-1.0.2j-60.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-debugsource-1.0.2j-60.24.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.0956.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ntp-4.2.8p11-64.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntp-debuginfo-4.2.8p11-64.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntp-debugsource-4.2.8p11-64.3.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.1048.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-4.4.126-94.22.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.4.126-94.22.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.4.126-94.22.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.1074.1",
+            "fixed_packages": [
+                {
+                    "full_name": "perl-5.18.2-12.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-base-5.18.2-12.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-base-debuginfo-5.18.2-12.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-debuginfo-5.18.2-12.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-debugsource-5.18.2-12.11.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.1076.1",
+            "fixed_packages": [
+                {
+                    "full_name": "boost-license1_54_0-1.54.0-26.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libboost_system1_54_0-1.54.0-26.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libboost_system1_54_0-debuginfo-1.54.0-26.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libboost_thread1_54_0-1.54.0-26.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libboost_thread1_54_0-debuginfo-1.54.0-26.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.1082.1",
+            "fixed_packages": [
+                {
+                    "full_name": "sles12-velum-image-2.0.1-2.7.3.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.1184.1",
+            "fixed_packages": [
+                {
+                    "full_name": "xen-debugsource-4.9.2_04-3.29.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-libs-4.9.2_04-3.29.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-libs-debuginfo-4.9.2_04-3.29.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-tools-domU-4.9.2_04-3.29.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-tools-domU-debuginfo-4.9.2_04-3.29.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.1327.1",
+            "fixed_packages": [
+                {
+                    "full_name": "curl-7.37.0-37.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "curl-debuginfo-7.37.0-37.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "curl-debugsource-7.37.0-37.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcurl4-7.37.0-37.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcurl4-debuginfo-7.37.0-37.23.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.1366.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-4.4.131-94.29.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.4.131-94.29.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.4.131-94.29.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.1372.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libpython2_7-1_0-2.7.13-28.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpython2_7-1_0-debuginfo-2.7.13-28.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-2.7.13-28.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-base-2.7.13-28.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-base-debuginfo-2.7.13-28.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-base-debugsource-2.7.13-28.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-debuginfo-2.7.13-28.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-debugsource-2.7.13-28.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-xml-2.7.13-28.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-xml-debuginfo-2.7.13-28.3.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.1378.1",
+            "fixed_packages": [
+                {
+                    "full_name": "qemu-debugsource-2.9.1-6.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-guest-agent-2.9.1-6.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-guest-agent-debuginfo-2.9.1-6.16.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.1398.1",
+            "fixed_packages": [
+                {
+                    "full_name": "bash-4.3-83.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bash-debuginfo-4.3-83.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bash-debugsource-4.3-83.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreadline6-6.3-83.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreadline6-debuginfo-6.3-83.10.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.1401.1",
+            "fixed_packages": [
+                {
+                    "full_name": "icu-debuginfo-52.1-8.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "icu-debugsource-52.1-8.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libicu52_1-52.1-8.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libicu52_1-data-52.1-8.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libicu52_1-debuginfo-52.1-8.7.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.1417.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ceph-common-12.2.5+git.1524775272.5e7ea8cf03-2.6.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ceph-common-debuginfo-12.2.5+git.1524775272.5e7ea8cf03-2.6.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ceph-debugsource-12.2.5+git.1524775272.5e7ea8cf03-2.6.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcephfs2-12.2.5+git.1524775272.5e7ea8cf03-2.6.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcephfs2-debuginfo-12.2.5+git.1524775272.5e7ea8cf03-2.6.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "librados2-12.2.5+git.1524775272.5e7ea8cf03-2.6.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "librados2-debuginfo-12.2.5+git.1524775272.5e7ea8cf03-2.6.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libradosstriper1-12.2.5+git.1524775272.5e7ea8cf03-2.6.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libradosstriper1-debuginfo-12.2.5+git.1524775272.5e7ea8cf03-2.6.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "librbd1-12.2.5+git.1524775272.5e7ea8cf03-2.6.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "librbd1-debuginfo-12.2.5+git.1524775272.5e7ea8cf03-2.6.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "librgw2-12.2.5+git.1524775272.5e7ea8cf03-2.6.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "librgw2-debuginfo-12.2.5+git.1524775272.5e7ea8cf03-2.6.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-cephfs-12.2.5+git.1524775272.5e7ea8cf03-2.6.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-cephfs-debuginfo-12.2.5+git.1524775272.5e7ea8cf03-2.6.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-rados-12.2.5+git.1524775272.5e7ea8cf03-2.6.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-rados-debuginfo-12.2.5+git.1524775272.5e7ea8cf03-2.6.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-rbd-12.2.5+git.1524775272.5e7ea8cf03-2.6.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-rbd-debuginfo-12.2.5+git.1524775272.5e7ea8cf03-2.6.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-rgw-12.2.5+git.1524775272.5e7ea8cf03-2.6.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-rgw-debuginfo-12.2.5+git.1524775272.5e7ea8cf03-2.6.3.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.1456.1",
+            "fixed_packages": [
+                {
+                    "full_name": "xen-debugsource-4.9.2_06-3.32.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-libs-4.9.2_06-3.32.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-libs-debuginfo-4.9.2_06-3.32.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-tools-domU-4.9.2_06-3.32.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-tools-domU-debuginfo-4.9.2_06-3.32.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.1562.1",
+            "fixed_packages": [
+                {
+                    "full_name": "glibc-2.22-62.13.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-debuginfo-2.22-62.13.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-debugsource-2.22-62.13.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-locale-2.22-62.13.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-locale-debuginfo-2.22-62.13.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.1566.1",
+            "fixed_packages": [
+                {
+                    "full_name": "git-core-2.12.3-27.14.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "git-core-debuginfo-2.12.3-27.14.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "git-debugsource-2.12.3-27.14.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.1571.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-firmware-20170530-21.22.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.1698.1",
+            "fixed_packages": [
+                {
+                    "full_name": "gpg2-2.0.24-9.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gpg2-debuginfo-2.0.24-9.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gpg2-debugsource-2.0.24-9.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.1765.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ntp-4.2.8p11-64.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntp-debuginfo-4.2.8p11-64.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntp-debugsource-4.2.8p11-64.5.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.1772.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-4.4.138-94.39.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.4.138-94.39.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.4.138-94.39.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.1836.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libprocps3-3.3.9-11.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libprocps3-debuginfo-3.3.9-11.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "procps-3.3.9-11.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "procps-debuginfo-3.3.9-11.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "procps-debugsource-3.3.9-11.11.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.1887.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libopenssl1_0_0-1.0.2j-60.30.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_0_0-debuginfo-1.0.2j-60.30.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1.0.2j-60.30.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-debuginfo-1.0.2j-60.30.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-debugsource-1.0.2j-60.30.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.1972.1",
+            "fixed_packages": [
+                {
+                    "full_name": "perl-5.18.2-12.14.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-base-5.18.2-12.14.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-base-debuginfo-5.18.2-12.14.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-debuginfo-5.18.2-12.14.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-debugsource-5.18.2-12.14.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.1982.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kubernetes-client-1.8.10-3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kubernetes-common-1.8.10-3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kubernetes-kubelet-1.8.10-3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kubernetes-master-1.8.10-3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kubernetes-node-1.8.10-3.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.1989.1",
+            "fixed_packages": [
+                {
+                    "full_name": "openssh-7.2p2-74.19.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssh-debuginfo-7.2p2-74.19.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssh-debugsource-7.2p2-74.19.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.1997.1",
+            "fixed_packages": [
+                {
+                    "full_name": "shadow-4.2.1-27.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "shadow-debuginfo-4.2.1-27.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "shadow-debugsource-4.2.1-27.9.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.2038.1",
+            "fixed_packages": [
+                {
+                    "full_name": "rsyslog-8.24.0-3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rsyslog-debuginfo-8.24.0-3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rsyslog-debugsource-8.24.0-3.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.2040.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libpython2_7-1_0-2.7.13-28.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpython2_7-1_0-debuginfo-2.7.13-28.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-2.7.13-28.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-base-2.7.13-28.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-base-debuginfo-2.7.13-28.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-base-debugsource-2.7.13-28.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-debuginfo-2.7.13-28.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-debugsource-2.7.13-28.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-xml-2.7.13-28.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-xml-debuginfo-2.7.13-28.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.2051.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-4.4.140-94.42.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.4.140-94.42.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.4.140-94.42.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.2059.1",
+            "fixed_packages": [
+                {
+                    "full_name": "xen-debugsource-4.9.2_08-3.35.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-libs-4.9.2_08-3.35.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-libs-debuginfo-4.9.2_08-3.35.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-tools-domU-4.9.2_08-3.35.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-tools-domU-debuginfo-4.9.2_08-3.35.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.2071.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libblkid1-2.29.2-3.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libblkid1-debuginfo-2.29.2-3.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfdisk1-2.29.2-3.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfdisk1-debuginfo-2.29.2-3.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmount1-2.29.2-3.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmount1-debuginfo-2.29.2-3.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmartcols1-2.29.2-3.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmartcols1-debuginfo-2.29.2-3.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libuuid1-2.29.2-3.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libuuid1-debuginfo-2.29.2-3.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "util-linux-2.29.2-3.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "util-linux-debuginfo-2.29.2-3.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "util-linux-debugsource-2.29.2-3.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "util-linux-systemd-2.29.2-3.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "util-linux-systemd-debuginfo-2.29.2-3.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "util-linux-systemd-debugsource-2.29.2-3.8.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.2089.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libgcrypt-debugsource-1.6.1-16.55.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgcrypt20-1.6.1-16.55.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgcrypt20-debuginfo-1.6.1-16.55.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.2171.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libtirpc-debugsource-1.0.1-17.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtirpc-netconfig-1.0.1-17.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtirpc3-1.0.1-17.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtirpc3-debuginfo-1.0.1-17.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.2193.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ceph-common-12.2.7+git.1531910353.c0ef85b854-2.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ceph-common-debuginfo-12.2.7+git.1531910353.c0ef85b854-2.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ceph-debugsource-12.2.7+git.1531910353.c0ef85b854-2.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcephfs2-12.2.7+git.1531910353.c0ef85b854-2.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcephfs2-debuginfo-12.2.7+git.1531910353.c0ef85b854-2.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "librados2-12.2.7+git.1531910353.c0ef85b854-2.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "librados2-debuginfo-12.2.7+git.1531910353.c0ef85b854-2.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libradosstriper1-12.2.7+git.1531910353.c0ef85b854-2.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libradosstriper1-debuginfo-12.2.7+git.1531910353.c0ef85b854-2.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "librbd1-12.2.7+git.1531910353.c0ef85b854-2.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "librbd1-debuginfo-12.2.7+git.1531910353.c0ef85b854-2.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "librgw2-12.2.7+git.1531910353.c0ef85b854-2.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "librgw2-debuginfo-12.2.7+git.1531910353.c0ef85b854-2.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-cephfs-12.2.7+git.1531910353.c0ef85b854-2.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-cephfs-debuginfo-12.2.7+git.1531910353.c0ef85b854-2.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-rados-12.2.7+git.1531910353.c0ef85b854-2.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-rados-debuginfo-12.2.7+git.1531910353.c0ef85b854-2.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-rbd-12.2.7+git.1531910353.c0ef85b854-2.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-rbd-debuginfo-12.2.7+git.1531910353.c0ef85b854-2.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-rgw-12.2.7+git.1531910353.c0ef85b854-2.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-rgw-debuginfo-12.2.7+git.1531910353.c0ef85b854-2.12.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.2328.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-4.4.143-94.47.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.4.143-94.47.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.4.143-94.47.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.2401.1",
+            "fixed_packages": [
+                {
+                    "full_name": "xen-debugsource-4.9.2_10-3.41.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-libs-4.9.2_10-3.41.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-libs-debuginfo-4.9.2_10-3.41.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-tools-domU-4.9.2_10-3.41.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-tools-domU-debuginfo-4.9.2_10-3.41.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.2451.2",
+            "fixed_packages": [
+                {
+                    "full_name": "libprocps3-3.3.9-11.14.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libprocps3-debuginfo-3.3.9-11.14.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "procps-3.3.9-11.14.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "procps-debuginfo-3.3.9-11.14.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "procps-debugsource-3.3.9-11.14.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.2452.2",
+            "fixed_packages": [
+                {
+                    "full_name": "libgcrypt-debugsource-1.6.1-16.62.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgcrypt20-1.6.1-16.62.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgcrypt20-debuginfo-1.6.1-16.62.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.2478.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ceph-common-12.2.7+git.1531910353.c0ef85b854-2.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ceph-common-debuginfo-12.2.7+git.1531910353.c0ef85b854-2.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ceph-debugsource-12.2.7+git.1531910353.c0ef85b854-2.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcephfs2-12.2.7+git.1531910353.c0ef85b854-2.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcephfs2-debuginfo-12.2.7+git.1531910353.c0ef85b854-2.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "librados2-12.2.7+git.1531910353.c0ef85b854-2.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "librados2-debuginfo-12.2.7+git.1531910353.c0ef85b854-2.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libradosstriper1-12.2.7+git.1531910353.c0ef85b854-2.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libradosstriper1-debuginfo-12.2.7+git.1531910353.c0ef85b854-2.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "librbd1-12.2.7+git.1531910353.c0ef85b854-2.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "librbd1-debuginfo-12.2.7+git.1531910353.c0ef85b854-2.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "librgw2-12.2.7+git.1531910353.c0ef85b854-2.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "librgw2-debuginfo-12.2.7+git.1531910353.c0ef85b854-2.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-cephfs-12.2.7+git.1531910353.c0ef85b854-2.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-cephfs-debuginfo-12.2.7+git.1531910353.c0ef85b854-2.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-rados-12.2.7+git.1531910353.c0ef85b854-2.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-rados-debuginfo-12.2.7+git.1531910353.c0ef85b854-2.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-rbd-12.2.7+git.1531910353.c0ef85b854-2.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-rbd-debuginfo-12.2.7+git.1531910353.c0ef85b854-2.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-rgw-12.2.7+git.1531910353.c0ef85b854-2.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-rgw-debuginfo-12.2.7+git.1531910353.c0ef85b854-2.12.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.2715.1",
+            "fixed_packages": [
+                {
+                    "full_name": "curl-7.37.0-37.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "curl-debuginfo-7.37.0-37.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "curl-debugsource-7.37.0-37.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcurl4-7.37.0-37.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcurl4-debuginfo-7.37.0-37.26.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.2776.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-4.4.155-94.50.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.4.155-94.50.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.4.155-94.50.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.2779.1",
+            "fixed_packages": [
+                {
+                    "full_name": "openslp-2.0.0-18.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openslp-debuginfo-2.0.0-18.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openslp-debugsource-2.0.0-18.15.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.2814.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libzypp-16.17.20-2.33.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libzypp-debuginfo-16.17.20-2.33.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libzypp-debugsource-16.17.20-2.33.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "zypper-1.13.45-21.21.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "zypper-debuginfo-1.13.45-21.21.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "zypper-debugsource-1.13.45-21.21.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.2835.1",
+            "fixed_packages": [
+                {
+                    "full_name": "shadow-4.2.1-27.19.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "shadow-debuginfo-4.2.1-27.19.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "shadow-debugsource-4.2.1-27.19.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.2853.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python-paramiko-1.18.5-10.6.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.2928.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libopenssl1_0_0-1.0.2j-60.39.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_0_0-debuginfo-1.0.2j-60.39.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1.0.2j-60.39.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-debuginfo-1.0.2j-60.39.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-debugsource-1.0.2j-60.39.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.2991.1",
+            "fixed_packages": [
+                {
+                    "full_name": "openslp-2.0.0-18.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openslp-debuginfo-2.0.0-18.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openslp-debugsource-2.0.0-18.17.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.3003.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-4.4.156-94.57.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.4.156-94.57.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.4.156-94.57.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.3081.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libxml2-2-2.9.4-46.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxml2-2-debuginfo-2.9.4-46.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxml2-debugsource-2.9.4-46.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxml2-tools-2.9.4-46.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxml2-tools-debuginfo-2.9.4-46.15.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.3219.1",
+            "fixed_packages": [
+                {
+                    "full_name": "fuse-debuginfo-2.9.3-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "fuse-debugsource-2.9.3-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfuse2-2.9.3-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfuse2-debuginfo-2.9.3-6.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.3286.1",
+            "fixed_packages": [
+                {
+                    "full_name": "rpm-4.11.2-16.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rpm-debuginfo-4.11.2-16.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rpm-debugsource-4.11.2-16.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rpm-python-4.11.2-16.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rpm-python-debuginfo-4.11.2-16.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rpm-python-debugsource-4.11.2-16.16.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.3342.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ntp-4.2.8p12-64.8.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntp-debuginfo-4.2.8p12-64.8.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntp-debugsource-4.2.8p12-64.8.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.3490.1",
+            "fixed_packages": [
+                {
+                    "full_name": "xen-debugsource-4.9.3_03-3.44.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-libs-4.9.3_03-3.44.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-libs-debuginfo-4.9.3_03-3.44.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-tools-domU-4.9.3_03-3.44.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-tools-domU-debuginfo-4.9.3_03-3.44.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.3554.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libpython2_7-1_0-2.7.13-28.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpython2_7-1_0-debuginfo-2.7.13-28.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-2.7.13-28.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-base-2.7.13-28.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-base-debuginfo-2.7.13-28.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-base-debugsource-2.7.13-28.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-debuginfo-2.7.13-28.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-debugsource-2.7.13-28.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-xml-2.7.13-28.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-xml-debuginfo-2.7.13-28.16.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.3555.1",
+            "fixed_packages": [
+                {
+                    "full_name": "qemu-debugsource-2.9.1-6.19.11.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-guest-agent-2.9.1-6.19.11.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-guest-agent-debuginfo-2.9.1-6.19.11.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.3591.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libfreebl3-3.36.4-58.15.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfreebl3-debuginfo-3.36.4-58.15.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsoftokn3-3.36.4-58.15.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsoftokn3-debuginfo-3.36.4-58.15.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nspr-4.19-19.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nspr-debuginfo-4.19-19.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nspr-debugsource-4.19-19.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-3.36.4-58.15.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-certs-3.36.4-58.15.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-certs-debuginfo-3.36.4-58.15.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-debuginfo-3.36.4-58.15.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-debugsource-3.36.4-58.15.3.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.3608.1",
+            "fixed_packages": [
+                {
+                    "full_name": "curl-7.37.0-37.31.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "curl-debuginfo-7.37.0-37.31.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "curl-debugsource-7.37.0-37.31.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcurl4-7.37.0-37.31.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcurl4-debuginfo-7.37.0-37.31.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.3689.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-4.4.162-94.69.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.4.162-94.69.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.4.162-94.69.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.3767.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libsystemd0-228-150.53.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsystemd0-debuginfo-228-150.53.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libudev1-228-150.53.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libudev1-debuginfo-228-150.53.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-228-150.53.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-debuginfo-228-150.53.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-debugsource-228-150.53.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-sysvinit-228-150.53.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "udev-228-150.53.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "udev-debuginfo-228-150.53.3.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.3866.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libopenssl1_0_0-1.0.2j-60.46.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_0_0-debuginfo-1.0.2j-60.46.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1.0.2j-60.46.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-debuginfo-1.0.2j-60.46.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-debugsource-1.0.2j-60.46.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.3884.1",
+            "fixed_packages": [
+                {
+                    "full_name": "rpm-4.11.2-16.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rpm-debuginfo-4.11.2-16.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rpm-debugsource-4.11.2-16.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rpm-python-4.11.2-16.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rpm-python-debuginfo-4.11.2-16.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rpm-python-debugsource-4.11.2-16.21.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.3910.1",
+            "fixed_packages": [
+                {
+                    "full_name": "openssh-7.2p2-74.30.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssh-debuginfo-7.2p2-74.30.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssh-debugsource-7.2p2-74.30.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.3926.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libblkid1-2.29.2-3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libblkid1-debuginfo-2.29.2-3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfdisk1-2.29.2-3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfdisk1-debuginfo-2.29.2-3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmount1-2.29.2-3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmount1-debuginfo-2.29.2-3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmartcols1-2.29.2-3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmartcols1-debuginfo-2.29.2-3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libuuid1-2.29.2-3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libuuid1-debuginfo-2.29.2-3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "util-linux-2.29.2-3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "util-linux-debuginfo-2.29.2-3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "util-linux-debugsource-2.29.2-3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "util-linux-systemd-2.29.2-3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "util-linux-systemd-debuginfo-2.29.2-3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "util-linux-systemd-debugsource-2.29.2-3.12.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.3967.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libncurses5-5.9-61.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libncurses5-debuginfo-5.9-61.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libncurses6-5.9-61.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libncurses6-debuginfo-5.9-61.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ncurses-debugsource-5.9-61.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ncurses-utils-5.9-61.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ncurses-utils-debuginfo-5.9-61.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "terminfo-base-5.9-61.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.4063.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python-cryptography-1.3.1-7.13.4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-cryptography-debuginfo-1.3.1-7.13.4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-cryptography-debugsource-1.3.1-7.13.4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-setuptools-18.0.1-4.8.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.4070.1",
+            "fixed_packages": [
+                {
+                    "full_name": "xen-debugsource-4.9.3_03-3.47.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-libs-4.9.3_03-3.47.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-libs-debuginfo-4.9.3_03-3.47.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-tools-domU-4.9.3_03-3.47.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-tools-domU-debuginfo-4.9.3_03-3.47.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.4088.1",
+            "fixed_packages": [
+                {
+                    "full_name": "git-core-2.12.3-27.17.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "git-core-debuginfo-2.12.3-27.17.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "git-debugsource-2.12.3-27.17.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.4129.1",
+            "fixed_packages": [
+                {
+                    "full_name": "qemu-debugsource-2.9.1-6.22.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-guest-agent-2.9.1-6.22.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-guest-agent-debuginfo-2.9.1-6.22.3.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.4150.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libldap-2_4-2-2.4.41-18.43.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libldap-2_4-2-debuginfo-2.4.41-18.43.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debuginfo-2.4.41-18.43.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debugsource-2.4.41-18.43.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.4236.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libfreebl3-3.40.1-58.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfreebl3-debuginfo-3.40.1-58.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsoftokn3-3.40.1-58.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsoftokn3-debuginfo-3.40.1-58.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nspr-4.20-19.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nspr-debuginfo-4.20-19.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nspr-debugsource-4.20-19.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-3.40.1-58.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-certs-3.40.1-58.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-certs-debuginfo-3.40.1-58.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-debuginfo-3.40.1-58.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-debugsource-3.40.1-58.18.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0111.1",
+            "fixed_packages": [
+                {
+                    "full_name": "krb5-1.12.5-40.31.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "krb5-debuginfo-1.12.5-40.31.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "krb5-debugsource-1.12.5-40.31.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0132.1",
+            "fixed_packages": [
+                {
+                    "full_name": "openssh-7.2p2-74.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssh-debuginfo-7.2p2-74.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssh-debugsource-7.2p2-74.35.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0135.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libsystemd0-228-150.58.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsystemd0-debuginfo-228-150.58.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libudev1-228-150.58.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libudev1-debuginfo-228-150.58.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-228-150.58.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-debuginfo-228-150.58.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-debugsource-228-150.58.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-sysvinit-228-150.58.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "udev-228-150.58.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "udev-debuginfo-228-150.58.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0139.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python-urllib3-1.22-3.10.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0209.1",
+            "fixed_packages": [
+                {
+                    "full_name": "rsyslog-8.24.0-3.19.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rsyslog-debuginfo-8.24.0-3.19.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rsyslog-debugsource-8.24.0-3.19.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0249.1",
+            "fixed_packages": [
+                {
+                    "full_name": "curl-7.37.0-37.34.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "curl-debuginfo-7.37.0-37.34.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "curl-debugsource-7.37.0-37.34.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcurl4-7.37.0-37.34.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcurl4-debuginfo-7.37.0-37.34.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0336.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libfreebl3-3.41.1-58.25.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfreebl3-debuginfo-3.41.1-58.25.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsoftokn3-3.41.1-58.25.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsoftokn3-debuginfo-3.41.1-58.25.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-3.41.1-58.25.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-certs-3.41.1-58.25.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-certs-debuginfo-3.41.1-58.25.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-debuginfo-3.41.1-58.25.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-debugsource-3.41.1-58.25.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0428.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libsystemd0-228-150.63.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsystemd0-debuginfo-228-150.63.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libudev1-228-150.63.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libudev1-debuginfo-228-150.63.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-228-150.63.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-debuginfo-228-150.63.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-debugsource-228-150.63.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-sysvinit-228-150.63.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "udev-228-150.63.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "udev-debuginfo-228-150.63.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0450.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libprocps3-3.3.9-11.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libprocps3-debuginfo-3.3.9-11.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "procps-3.3.9-11.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "procps-debuginfo-3.3.9-11.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "procps-debugsource-3.3.9-11.18.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0466.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-firmware-20170530-21.28.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0482.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libpython2_7-1_0-2.7.13-28.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpython2_7-1_0-debuginfo-2.7.13-28.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-2.7.13-28.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-base-2.7.13-28.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-base-debuginfo-2.7.13-28.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-base-debugsource-2.7.13-28.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-debuginfo-2.7.13-28.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-debugsource-2.7.13-28.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-xml-2.7.13-28.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-xml-debuginfo-2.7.13-28.21.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0499.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ceph-common-12.2.10+git.1549630712.bb089269ea-2.27.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ceph-common-debuginfo-12.2.10+git.1549630712.bb089269ea-2.27.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ceph-debugsource-12.2.10+git.1549630712.bb089269ea-2.27.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcephfs2-12.2.10+git.1549630712.bb089269ea-2.27.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcephfs2-debuginfo-12.2.10+git.1549630712.bb089269ea-2.27.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "librados2-12.2.10+git.1549630712.bb089269ea-2.27.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "librados2-debuginfo-12.2.10+git.1549630712.bb089269ea-2.27.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libradosstriper1-12.2.10+git.1549630712.bb089269ea-2.27.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libradosstriper1-debuginfo-12.2.10+git.1549630712.bb089269ea-2.27.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "librbd1-12.2.10+git.1549630712.bb089269ea-2.27.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "librbd1-debuginfo-12.2.10+git.1549630712.bb089269ea-2.27.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "librgw2-12.2.10+git.1549630712.bb089269ea-2.27.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "librgw2-debuginfo-12.2.10+git.1549630712.bb089269ea-2.27.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-cephfs-12.2.10+git.1549630712.bb089269ea-2.27.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-cephfs-debuginfo-12.2.10+git.1549630712.bb089269ea-2.27.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-rados-12.2.10+git.1549630712.bb089269ea-2.27.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-rados-debuginfo-12.2.10+git.1549630712.bb089269ea-2.27.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-rbd-12.2.10+git.1549630712.bb089269ea-2.27.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-rbd-debuginfo-12.2.10+git.1549630712.bb089269ea-2.27.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-rgw-12.2.10+git.1549630712.bb089269ea-2.27.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-rgw-debuginfo-12.2.10+git.1549630712.bb089269ea-2.27.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0541.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-4.4.175-94.79.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.4.175-94.79.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.4.175-94.79.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0582.1",
+            "fixed_packages": [
+                {
+                    "full_name": "qemu-debugsource-2.9.1-6.28.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-guest-agent-2.9.1-6.28.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-guest-agent-debuginfo-2.9.1-6.28.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0655.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libssh2-1-1.4.3-20.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libssh2-1-debuginfo-1.4.3-20.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libssh2_org-debugsource-1.4.3-20.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0789.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ntp-4.2.8p13-85.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntp-debuginfo-4.2.8p13-85.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntp-debugsource-4.2.8p13-85.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0801.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-4.4.176-94.88.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.4.176-94.88.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.4.176-94.88.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0803.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libopenssl1_0_0-1.0.2j-60.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_0_0-debuginfo-1.0.2j-60.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1.0.2j-60.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-debuginfo-1.0.2j-60.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-debugsource-1.0.2j-60.49.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0838.1",
+            "fixed_packages": [
+                {
+                    "full_name": "bash-4.3-83.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bash-debuginfo-4.3-83.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bash-debugsource-4.3-83.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreadline6-6.3-83.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreadline6-debuginfo-6.3-83.23.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0839.1",
+            "fixed_packages": [
+                {
+                    "full_name": "file-5.22-10.12.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "file-debuginfo-5.22-10.12.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "file-debugsource-5.22-10.12.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "file-magic-5.22-10.12.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmagic1-5.22-10.12.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmagic1-debuginfo-5.22-10.12.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0913.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libsqlite3-0-3.8.10.2-9.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsqlite3-0-debuginfo-3.8.10.2-9.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sqlite3-debuginfo-3.8.10.2-9.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sqlite3-debugsource-3.8.10.2-9.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0996.1",
+            "fixed_packages": [
+                {
+                    "full_name": "curl-7.37.0-37.37.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "curl-debuginfo-7.37.0-37.37.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "curl-debugsource-7.37.0-37.37.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcurl4-7.37.0-37.37.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcurl4-debuginfo-7.37.0-37.37.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1060.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libssh2-1-1.4.3-20.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libssh2-1-debuginfo-1.4.3-20.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libssh2_org-debugsource-1.4.3-20.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1122.1",
+            "fixed_packages": [
+                {
+                    "full_name": "supportutils-3.0-95.21.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1136.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libopenssl1_0_0-1.0.2j-60.52.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_0_0-debuginfo-1.0.2j-60.52.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1.0.2j-60.52.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-debuginfo-1.0.2j-60.52.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-debugsource-1.0.2j-60.52.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1208.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libsqlite3-0-3.8.10.2-9.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsqlite3-0-debuginfo-3.8.10.2-9.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sqlite3-debuginfo-3.8.10.2-9.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sqlite3-debugsource-3.8.10.2-9.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1243.1",
+            "fixed_packages": [
+                {
+                    "full_name": "qemu-debugsource-2.9.1-6.34.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-guest-agent-2.9.1-6.34.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-guest-agent-debuginfo-2.9.1-6.34.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1245.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-4.4.178-94.91.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.4.178-94.91.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.4.178-94.91.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1265.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libsystemd0-228-150.66.4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsystemd0-debuginfo-228-150.66.4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libudev1-228-150.66.4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libudev1-debuginfo-228-150.66.4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-228-150.66.4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-debuginfo-228-150.66.4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-debugsource-228-150.66.4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-sysvinit-228-150.66.4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "udev-228-150.66.4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "udev-debuginfo-228-150.66.4.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1354.1",
+            "fixed_packages": [
+                {
+                    "full_name": "screen-4.0.4-23.3.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "screen-debuginfo-4.0.4-23.3.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "screen-debugsource-4.0.4-23.3.3.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1363.1",
+            "fixed_packages": [
+                {
+                    "full_name": "curl-7.37.0-37.40.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "curl-debuginfo-7.37.0-37.40.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "curl-debugsource-7.37.0-37.40.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcurl4-7.37.0-37.40.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcurl4-debuginfo-7.37.0-37.40.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1379.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libtasn1-4.9-3.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtasn1-6-4.9-3.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtasn1-6-debuginfo-4.9-3.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtasn1-debuginfo-4.9-3.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtasn1-debugsource-4.9-3.10.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1439.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libpython2_7-1_0-2.7.13-28.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpython2_7-1_0-debuginfo-2.7.13-28.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-2.7.13-28.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-base-2.7.13-28.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-base-debuginfo-2.7.13-28.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-base-debugsource-2.7.13-28.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-debuginfo-2.7.13-28.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-debugsource-2.7.13-28.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-xml-2.7.13-28.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-xml-debuginfo-2.7.13-28.26.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1456.1",
+            "fixed_packages": [
+                {
+                    "full_name": "vim-7.4.326-17.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-debuginfo-7.4.326-17.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-debugsource-7.4.326-17.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1468.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libcroco-0_6-3-0.6.11-12.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcroco-0_6-3-debuginfo-0.6.11-12.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcroco-debuginfo-0.6.11-12.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcroco-debugsource-0.6.11-12.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1524.1",
+            "fixed_packages": [
+                {
+                    "full_name": "openssh-7.2p2-74.42.8.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssh-debuginfo-7.2p2-74.42.8.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssh-debugsource-7.2p2-74.42.8.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1532.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-4.4.180-94.97.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.4.180-94.97.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.4.180-94.97.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1554.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python-Jinja2-2.8-22.8.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1601.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libsqlite3-0-3.8.10.2-9.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsqlite3-0-debuginfo-3.8.10.2-9.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sqlite3-debuginfo-3.8.10.2-9.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sqlite3-debugsource-3.8.10.2-9.9.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1606.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libssh2-1-1.4.3-20.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libssh2-1-debuginfo-1.4.3-20.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libssh2_org-debugsource-1.4.3-20.9.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        }
+    ]
+}

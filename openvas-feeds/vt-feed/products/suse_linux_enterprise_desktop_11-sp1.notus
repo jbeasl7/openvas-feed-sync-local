@@ -1,0 +1,3635 @@
+{
+    "version": "1.2",
+    "spdx-license-identifier": "GPL-2.0-only",
+    "copyright": "Copyright (C) 2008-2025 Greenbone AG",
+    "package_type": "rpm",
+    "product_name": "SUSE Linux Enterprise Desktop 11-SP1",
+    "advisories": [
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0033.1",
+            "fixed_packages": [
+                {
+                    "full_name": "glibc-2.11.1-0.34.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-2.11.1-0.34.1.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-2.11.1-0.34.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-32bit-2.11.1-0.34.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-devel-2.11.1-0.34.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-devel-2.11.1-0.34.1.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-devel-2.11.1-0.34.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-devel-32bit-2.11.1-0.34.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-i18ndata-2.11.1-0.34.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-i18ndata-2.11.1-0.34.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-locale-2.11.1-0.34.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-locale-2.11.1-0.34.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-locale-32bit-2.11.1-0.34.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "nscd-2.11.1-0.34.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "nscd-2.11.1-0.34.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0050.1",
+            "fixed_packages": [
+                {
+                    "full_name": "krb5-1.6.3-133.48.48.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "krb5-1.6.3-133.48.48.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "krb5-32bit-1.6.3-133.48.48.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "krb5-client-1.6.3-133.48.48.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "krb5-client-1.6.3-133.48.48.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0067.1",
+            "fixed_packages": [
+                {
+                    "full_name": "finch-2.6.6-0.11.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "finch-2.6.6-0.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpurple-2.6.6-0.11.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpurple-2.6.6-0.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpurple-lang-2.6.6-0.11.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpurple-lang-2.6.6-0.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpurple-meanwhile-2.6.6-0.11.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpurple-meanwhile-2.6.6-0.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpurple-tcl-2.6.6-0.11.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpurple-tcl-2.6.6-0.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pidgin-2.6.6-0.11.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pidgin-2.6.6-0.11.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0076.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libxml2-2.7.6-0.11.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxml2-2.7.6-0.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxml2-32bit-2.7.6-0.11.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0077.1",
+            "fixed_packages": [
+                {
+                    "full_name": "system-config-printer-1.0.8-9.16.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "system-config-printer-1.0.8-9.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "system-config-printer-lang-1.0.8-9.16.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "system-config-printer-lang-1.0.8-9.16.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0084.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libopenssl0_9_8-0.9.8j-0.26.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-0.9.8j-0.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-32bit-0.9.8j-0.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-0.9.8j-0.26.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-0.9.8j-0.26.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0086.1",
+            "fixed_packages": [
+                {
+                    "full_name": "acroread-9.4.7-0.2.2.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "acroread-cmaps-9.4.6-0.4.2.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "acroread-fonts-ja-9.4.6-0.4.2.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "acroread-fonts-ko-9.4.6-0.4.2.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "acroread-fonts-zh_CN-9.4.6-0.4.2.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "acroread-fonts-zh_TW-9.4.6-0.4.2.2.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0097.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libQtWebKit4-32bit-4.6.3-5.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQtWebKit4-4.6.3-5.12.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQtWebKit4-4.6.3-5.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqt4-32bit-4.6.3-5.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqt4-4.6.3-5.12.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqt4-4.6.3-5.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqt4-qt3support-32bit-4.6.3-5.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqt4-qt3support-4.6.3-5.12.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqt4-qt3support-4.6.3-5.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqt4-sql-32bit-4.6.3-5.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqt4-sql-4.6.3-5.12.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqt4-sql-4.6.3-5.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqt4-sql-sqlite-32bit-4.6.3-5.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqt4-sql-sqlite-4.6.3-5.12.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqt4-sql-sqlite-4.6.3-5.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqt4-x11-32bit-4.6.3-5.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqt4-x11-4.6.3-5.12.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqt4-x11-4.6.3-5.12.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0108.1",
+            "fixed_packages": [
+                {
+                    "full_name": "icu-4.0-7.26.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "icu-4.0-7.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libicu-4.0-7.26.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libicu-4.0-7.26.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0117.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libxml2-2.7.6-0.13.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxml2-2.7.6-0.13.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxml2-32bit-2.7.6-0.13.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0120.1",
+            "fixed_packages": [
+                {
+                    "full_name": "gnutls-2.4.1-24.39.33.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gnutls-2.4.1-24.39.33.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutls26-2.4.1-24.39.33.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutls26-2.4.1-24.39.33.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutls26-32bit-2.4.1-24.39.33.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0127.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kvm-0.12.5-1.20.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kvm-0.12.5-1.20.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0147.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ruby-1.8.7.p357-0.7.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby-1.8.7.p357-0.7.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0153.1",
+            "fixed_packages": [
+                {
+                    "full_name": "btrfs-kmp-default-0_2.6.32.54_0.3-0.3.73.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "btrfs-kmp-pae-0_2.6.32.54_0.3-0.3.73.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "btrfs-kmp-xen-0_2.6.32.54_0.3-0.3.73.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "hyper-v-kmp-default-0_2.6.32.54_0.3-0.18.3.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "hyper-v-kmp-pae-0_2.6.32.54_0.3-0.18.3.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-2.6.32.54-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-base-2.6.32.54-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-devel-2.6.32.54-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-2.6.32.54-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-desktop-devel-2.6.32.54-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-pae-2.6.32.54-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-pae-base-2.6.32.54-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-pae-devel-2.6.32.54-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-pae-extra-2.6.32.54-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-source-2.6.32.54-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-syms-2.6.32.54-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-trace-devel-2.6.32.54-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-xen-2.6.32.54-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-xen-base-2.6.32.54-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-xen-devel-2.6.32.54-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-xen-extra-2.6.32.54-0.3.1.i586",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0153.2",
+            "fixed_packages": [
+                {
+                    "full_name": "btrfs-kmp-default-0_2.6.32.54_0.3-0.3.73.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "btrfs-kmp-xen-0_2.6.32.54_0.3-0.3.73.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "hyper-v-kmp-default-0_2.6.32.54_0.3-0.18.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-2.6.32.54-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-base-2.6.32.54-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-devel-2.6.32.54-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-2.6.32.54-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-desktop-devel-2.6.32.54-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-source-2.6.32.54-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-syms-2.6.32.54-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-trace-devel-2.6.32.54-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-xen-2.6.32.54-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-xen-base-2.6.32.54-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-xen-devel-2.6.32.54-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-xen-extra-2.6.32.54-0.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0198.1",
+            "fixed_packages": [
+                {
+                    "full_name": "mozilla-xulrunner192-1.9.2.26-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-xulrunner192-1.9.2.26-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-xulrunner192-32bit-1.9.2.26-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-xulrunner192-gnome-1.9.2.26-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-xulrunner192-gnome-1.9.2.26-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-xulrunner192-gnome-32bit-1.9.2.26-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-xulrunner192-translations-1.9.2.26-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-xulrunner192-translations-1.9.2.26-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-xulrunner192-translations-32bit-1.9.2.26-0.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0220.1",
+            "fixed_packages": [
+                {
+                    "full_name": "MozillaFirefox-10.0-0.3.2.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-10.0-0.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-branding-SLED-7-0.6.7.7.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-branding-SLED-7-0.6.7.7.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-translations-10.0-0.3.2.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-translations-10.0-0.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "beagle-0.3.8-56.44.45.6.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "beagle-0.3.8-56.44.45.6.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "beagle-evolution-0.3.8-56.44.45.6.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "beagle-evolution-0.3.8-56.44.45.6.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "beagle-firefox-0.3.8-56.44.45.6.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "beagle-firefox-0.3.8-56.44.45.6.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "beagle-gui-0.3.8-56.44.45.6.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "beagle-gui-0.3.8-56.44.45.6.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "beagle-lang-0.3.8-56.44.45.6.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "beagle-lang-0.3.8-56.44.45.6.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "flash-player-11.1.102.55-0.13.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "flash-player-11.1.102.55-0.13.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mhtml-firefox-0.5-1.45.7.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mhtml-firefox-0.5-1.45.7.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-kde4-integration-0.6.3-5.6.5.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-kde4-integration-0.6.3-5.6.5.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0260.1",
+            "fixed_packages": [
+                {
+                    "full_name": "NetworkManager-gnome-0.7.1-5.15.11.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "NetworkManager-gnome-0.7.1-5.15.11.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0261.1",
+            "fixed_packages": [
+                {
+                    "full_name": "MozillaFirefox-10.0.1-0.4.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-10.0.1-0.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-translations-10.0.1-0.4.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-translations-10.0.1-0.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mhtml-firefox-0.5-1.47.47.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mhtml-firefox-0.5-1.47.47.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0280.1",
+            "fixed_packages": [
+                {
+                    "full_name": "flash-player-11.1.102.62-0.14.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "flash-player-11.1.102.62-0.14.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0281.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libopenssl0_9_8-0.9.8j-0.28.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-0.9.8j-0.28.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-32bit-0.9.8j-0.28.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-0.9.8j-0.28.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-0.9.8j-0.28.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0296.2",
+            "fixed_packages": [
+                {
+                    "full_name": "wireshark-1.4.11-0.2.2.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "wireshark-1.4.11-0.2.2.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0298.1",
+            "fixed_packages": [
+                {
+                    "full_name": "mozilla-xulrunner192-1.9.2.27-0.2.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-xulrunner192-1.9.2.27-0.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-xulrunner192-32bit-1.9.2.27-0.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-xulrunner192-gnome-1.9.2.27-0.2.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-xulrunner192-gnome-1.9.2.27-0.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-xulrunner192-gnome-32bit-1.9.2.27-0.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-xulrunner192-translations-1.9.2.27-0.2.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-xulrunner192-translations-1.9.2.27-0.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-xulrunner192-translations-32bit-1.9.2.27-0.2.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0303.1",
+            "fixed_packages": [
+                {
+                    "full_name": "MozillaFirefox-10.0.2-0.4.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-10.0.2-0.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-translations-10.0.2-0.4.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-translations-10.0.2-0.4.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0308.1",
+            "fixed_packages": [
+                {
+                    "full_name": "java-1_6_0-openjdk-1.6.0.0_b24.1.11.1-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-openjdk-1.6.0.0_b24.1.11.1-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-openjdk-demo-1.6.0.0_b24.1.11.1-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-openjdk-demo-1.6.0.0_b24.1.11.1-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-openjdk-devel-1.6.0.0_b24.1.11.1-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-openjdk-devel-1.6.0.0_b24.1.11.1-0.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0311.1",
+            "fixed_packages": [
+                {
+                    "full_name": "cvs-1.12.12-144.23.5.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cvs-1.12.12-144.23.5.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0318.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libpng-devel-1.2.31-5.27.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpng-devel-1.2.31-5.27.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpng12-0-1.2.31-5.27.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpng12-0-1.2.31-5.27.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpng12-0-32bit-1.2.31-5.27.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0325.1",
+            "fixed_packages": [
+                {
+                    "full_name": "puppet-2.6.12-0.12.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "puppet-2.6.12-0.12.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0326.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libvorbis-1.2.0-79.20.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvorbis-1.2.0-79.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvorbis-32bit-1.2.0-79.20.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0329.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ark-4.3.5-0.3.3.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ark-4.3.5-0.3.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kcalc-4.3.5-0.3.3.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kcalc-4.3.5-0.3.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kdessh-4.3.5-0.3.3.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kdessh-4.3.5-0.3.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kdf-4.3.5-0.3.3.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kdf-4.3.5-0.3.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kfloppy-4.3.5-0.3.3.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kfloppy-4.3.5-0.3.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kgpg-4.3.5-0.3.3.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kgpg-4.3.5-0.3.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kwalletmanager-4.3.5-0.3.3.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kwalletmanager-4.3.5-0.3.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kwikdisk-4.3.5-0.3.3.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kwikdisk-4.3.5-0.3.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "okteta-4.3.5-0.3.3.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "okteta-4.3.5-0.3.3.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0332.1",
+            "fixed_packages": [
+                {
+                    "full_name": "flash-player-11.1.102.63-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "flash-player-11.1.102.63-0.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0386.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libvirt-0.7.6-1.29.2.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-0.7.6-1.29.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-doc-0.7.6-1.29.2.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-doc-0.7.6-1.29.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-python-0.7.6-1.29.2.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-python-0.7.6-1.29.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "virt-utils-1.1.3-1.5.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "virt-utils-1.1.3-1.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-4.0.3_21548_02-0.5.2.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-4.0.3_21548_02-0.5.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-kmp-default-4.0.3_21548_02_2.6.32.54_0.3-0.5.2.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-kmp-default-4.0.3_21548_02_2.6.32.54_0.3-0.5.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-kmp-pae-4.0.3_21548_02_2.6.32.54_0.3-0.5.2.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-libs-4.0.3_21548_02-0.5.2.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-libs-4.0.3_21548_02-0.5.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-tools-4.0.3_21548_02-0.5.2.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-tools-4.0.3_21548_02-0.5.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-tools-domU-4.0.3_21548_02-0.5.2.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-tools-domU-4.0.3_21548_02-0.5.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0413.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libraptor1-1.4.18-28.23.2.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libraptor1-1.4.18-28.23.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "raptor-1.4.18-28.23.2.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "raptor-1.4.18-28.23.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0424.1",
+            "fixed_packages": [
+                {
+                    "full_name": "MozillaFirefox-10.0.3-0.7.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-10.0.3-0.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-translations-10.0.3-0.7.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-translations-10.0.3-0.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfreebl3-3.13.3-0.2.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfreebl3-3.13.3-0.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfreebl3-32bit-3.13.3-0.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nspr-32bit-4.9.0-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nspr-4.9.0-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nspr-4.9.0-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-3.13.3-0.2.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-3.13.3-0.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-32bit-3.13.3-0.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-tools-3.13.3-0.2.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-tools-3.13.3-0.2.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0437.1",
+            "fixed_packages": [
+                {
+                    "full_name": "flash-player-11.2.202.228-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "flash-player-11.2.202.228-0.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0464.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libxslt-1.1.24-19.17.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxslt-1.1.24-19.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxslt-32bit-1.1.24-19.17.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0479.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libopenssl0_9_8-0.9.8j-0.32.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-0.9.8j-0.32.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-32bit-0.9.8j-0.32.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-0.9.8j-0.32.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-0.9.8j-0.32.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0481.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libreoffice-3.4.5.5-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-3.4.5.5-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-base-3.4.5.5-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-base-3.4.5.5-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-base-drivers-postgresql-3.4.5.5-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-base-drivers-postgresql-3.4.5.5-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-base-extensions-3.4.5.5-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-base-extensions-3.4.5.5-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-calc-3.4.5.5-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-calc-3.4.5.5-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-calc-extensions-3.4.5.5-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-calc-extensions-3.4.5.5-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-draw-3.4.5.5-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-draw-3.4.5.5-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-draw-extensions-3.4.5.5-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-draw-extensions-3.4.5.5-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-filters-optional-3.4.5.5-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-filters-optional-3.4.5.5-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-gnome-3.4.5.5-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-gnome-3.4.5.5-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-help-cs-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-help-da-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-help-de-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-help-en-GB-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-help-en-US-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-help-es-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-help-fr-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-help-gu-IN-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-help-hi-IN-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-help-hu-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-help-it-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-help-ja-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-help-ko-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-help-nl-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-help-pl-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-help-pt-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-help-pt-BR-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-help-ru-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-help-sv-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-help-zh-CN-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-help-zh-TW-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-icon-themes-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-impress-3.4.5.5-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-impress-3.4.5.5-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-impress-extensions-3.4.5.5-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-impress-extensions-3.4.5.5-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-kde-3.4.5.5-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-kde-3.4.5.5-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-kde4-3.4.5.5-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-kde4-3.4.5.5-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-af-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ar-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ca-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-cs-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-da-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-de-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-en-GB-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-es-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-fi-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-fr-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-gu-IN-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-hi-IN-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-hu-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-it-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ja-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ko-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-nb-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-nl-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-nn-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-pl-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-pt-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-pt-BR-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ru-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-sk-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-sv-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-xh-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-zh-CN-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-zh-TW-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-zu-3.4.5.5-0.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-mailmerge-3.4.5.5-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-mailmerge-3.4.5.5-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-math-3.4.5.5-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-math-3.4.5.5-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-mono-3.4.5.5-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-mono-3.4.5.5-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-officebean-3.4.5.5-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-officebean-3.4.5.5-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-pyuno-3.4.5.5-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-pyuno-3.4.5.5-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-writer-3.4.5.5-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-writer-3.4.5.5-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-writer-extensions-3.4.5.5-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-writer-extensions-3.4.5.5-0.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0500.1",
+            "fixed_packages": [
+                {
+                    "full_name": "cifs-mount-3.4.3-1.38.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cifs-mount-3.4.3-1.38.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmbclient0-3.4.3-1.38.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmbclient0-3.4.3-1.38.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmbclient0-32bit-3.4.3-1.38.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtalloc1-3.4.3-1.38.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtalloc1-3.4.3-1.38.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtalloc1-32bit-3.4.3-1.38.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtdb1-3.4.3-1.38.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtdb1-3.4.3-1.38.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtdb1-32bit-3.4.3-1.38.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwbclient0-3.4.3-1.38.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwbclient0-3.4.3-1.38.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwbclient0-32bit-3.4.3-1.38.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-3.4.3-1.38.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-3.4.3-1.38.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-32bit-3.4.3-1.38.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-client-3.4.3-1.38.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-client-3.4.3-1.38.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-client-32bit-3.4.3-1.38.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-doc-3.4.3-1.38.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-krb-printing-3.4.3-1.38.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-krb-printing-3.4.3-1.38.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-winbind-3.4.3-1.38.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-winbind-3.4.3-1.38.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-winbind-32bit-3.4.3-1.38.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0516.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libtiff3-3.8.2-141.144.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtiff3-3.8.2-141.144.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtiff3-32bit-3.8.2-141.144.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0522.1",
+            "fixed_packages": [
+                {
+                    "full_name": "acroread-9.5.1-0.2.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "acroread-cmaps-9.4.6-0.4.2.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "acroread-fonts-ja-9.4.6-0.4.2.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "acroread-fonts-ko-9.4.6-0.4.2.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "acroread-fonts-zh_CN-9.4.6-0.4.2.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "acroread-fonts-zh_TW-9.4.6-0.4.2.3.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0575.1",
+            "fixed_packages": [
+                {
+                    "full_name": "cifs-mount-3.4.3-1.40.3.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cifs-mount-3.4.3-1.40.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmbclient0-3.4.3-1.40.3.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmbclient0-3.4.3-1.40.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmbclient0-32bit-3.4.3-1.40.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtalloc1-3.4.3-1.40.3.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtalloc1-3.4.3-1.40.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtalloc1-32bit-3.4.3-1.40.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtdb1-3.4.3-1.40.3.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtdb1-3.4.3-1.40.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtdb1-32bit-3.4.3-1.40.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwbclient0-3.4.3-1.40.3.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwbclient0-3.4.3-1.40.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwbclient0-32bit-3.4.3-1.40.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-3.4.3-1.40.3.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-3.4.3-1.40.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-32bit-3.4.3-1.40.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-client-3.4.3-1.40.3.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-client-3.4.3-1.40.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-client-32bit-3.4.3-1.40.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-doc-3.4.3-1.40.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-krb-printing-3.4.3-1.40.3.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-krb-printing-3.4.3-1.40.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-winbind-3.4.3-1.40.3.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-winbind-3.4.3-1.40.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-winbind-32bit-3.4.3-1.40.3.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0576.1",
+            "fixed_packages": [
+                {
+                    "full_name": "wireshark-1.4.12-0.3.2.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "wireshark-1.4.12-0.3.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0580.1",
+            "fixed_packages": [
+                {
+                    "full_name": "MozillaFirefox-10.0.4-0.3.3.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-10.0.4-0.3.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-translations-10.0.4-0.3.3.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-translations-10.0.4-0.3.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfreebl3-3.13.4-0.2.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfreebl3-3.13.4-0.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfreebl3-32bit-3.13.4-0.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-3.13.4-0.2.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-3.13.4-0.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-32bit-3.13.4-0.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-tools-3.13.4-0.2.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-tools-3.13.4-0.2.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0592.1",
+            "fixed_packages": [
+                {
+                    "full_name": "flash-player-11.2.202.235-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "flash-player-11.2.202.235-0.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0623.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libopenssl0_9_8-0.9.8j-0.36.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-0.9.8j-0.36.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-32bit-0.9.8j-0.36.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-0.9.8j-0.36.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-0.9.8j-0.36.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0624.1",
+            "fixed_packages": [
+                {
+                    "full_name": "popt-1.7-37.29.33.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "popt-1.7-37.29.33.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "popt-32bit-1.7-37.29.33.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rpm-32bit-4.4.2.3-37.29.33.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rpm-4.4.2.3-37.29.33.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rpm-4.4.2.3-37.29.33.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0626.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libxml2-2.7.6-0.15.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxml2-2.7.6-0.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxml2-32bit-2.7.6-0.15.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0640.1",
+            "fixed_packages": [
+                {
+                    "full_name": "xorg-x11-server-rdp-7.3.99-3.11.10.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-rdp-7.3.99-3.11.10.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0641.1",
+            "fixed_packages": [
+                {
+                    "full_name": "sudo-1.7.6p2-0.2.8.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sudo-1.7.6p2-0.2.8.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0642.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libpython2_6-1_0-2.6.8-0.13.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpython2_6-1_0-2.6.8-0.13.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpython2_6-1_0-32bit-2.6.8-0.13.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-2.6.8-0.13.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-2.6.8-0.13.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-base-2.6.8-0.13.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-base-2.6.8-0.13.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-base-32bit-2.6.8-0.13.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-curses-2.6.8-0.13.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-curses-2.6.8-0.13.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-devel-2.6.8-0.13.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-devel-2.6.8-0.13.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-tk-2.6.8-0.13.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-tk-2.6.8-0.13.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-xml-2.6.8-0.13.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-xml-2.6.8-0.13.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0643.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python-pam-0.5.0-3.20.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-pam-0.5.0-3.20.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0644.1",
+            "fixed_packages": [
+                {
+                    "full_name": "xorg-x11-server-dmx-7.3.99-17.11.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-dmx-7.3.99-17.11.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0678.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libopenssl0_9_8-0.9.8j-0.38.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-0.9.8j-0.38.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-32bit-0.9.8j-0.38.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-0.9.8j-0.38.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-0.9.8j-0.38.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0682.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ecryptfs-utils-32bit-61-1.33.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ecryptfs-utils-61-1.33.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ecryptfs-utils-61-1.33.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0686.1",
+            "fixed_packages": [
+                {
+                    "full_name": "strongswan-4.4.0-6.13.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "strongswan-4.4.0-6.13.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "strongswan-doc-4.4.0-6.13.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "strongswan-doc-4.4.0-6.13.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0700.1",
+            "fixed_packages": [
+                {
+                    "full_name": "postgresql-8.3.18-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "postgresql-8.3.18-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "postgresql-libs-32bit-8.3.18-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "postgresql-libs-8.3.18-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "postgresql-libs-8.3.18-0.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0703.1",
+            "fixed_packages": [
+                {
+                    "full_name": "pidgin-otr-3.2.0-1.40.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pidgin-otr-3.2.0-1.40.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0724.1",
+            "fixed_packages": [
+                {
+                    "full_name": "flash-player-11.2.202.236-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "flash-player-11.2.202.236-0.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0730.1",
+            "fixed_packages": [
+                {
+                    "full_name": "xen-4.0.3_21548_04-0.9.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-4.0.3_21548_04-0.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-kmp-default-4.0.3_21548_04_2.6.32.59_0.5-0.9.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-kmp-default-4.0.3_21548_04_2.6.32.59_0.5-0.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-kmp-pae-4.0.3_21548_04_2.6.32.59_0.5-0.9.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-libs-4.0.3_21548_04-0.9.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-libs-4.0.3_21548_04-0.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-tools-4.0.3_21548_04-0.9.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-tools-4.0.3_21548_04-0.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-tools-domU-4.0.3_21548_04-0.9.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-tools-domU-4.0.3_21548_04-0.9.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0732.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libpng-devel-1.2.31-5.29.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpng-devel-1.2.31-5.29.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpng12-0-1.2.31-5.29.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpng12-0-1.2.31-5.29.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpng12-0-32bit-1.2.31-5.29.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0741.1",
+            "fixed_packages": [
+                {
+                    "full_name": "bind-libs-32bit-9.6ESVR7P1-0.2.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-libs-9.6ESVR7P1-0.2.5.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-libs-9.6ESVR7P1-0.2.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-utils-9.6ESVR7P1-0.2.5.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-utils-9.6ESVR7P1-0.2.5.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0743.1",
+            "fixed_packages": [
+                {
+                    "full_name": "taglib-1.5-19.23.4.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "taglib-1.5-19.23.4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "taglib-32bit-1.5-19.23.4.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0744.1",
+            "fixed_packages": [
+                {
+                    "full_name": "t1lib-5.1.1-100.21.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "t1lib-5.1.1-100.21.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0746.1",
+            "fixed_packages": [
+                {
+                    "full_name": "MozillaFirefox-10.0.5-0.3.6.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-10.0.5-0.3.6.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-translations-10.0.5-0.3.6.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-translations-10.0.5-0.3.6.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfreebl3-3.13.5-0.4.2.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfreebl3-3.13.5-0.4.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfreebl3-32bit-3.13.5-0.4.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nspr-32bit-4.9.1-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nspr-4.9.1-0.5.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nspr-4.9.1-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-3.13.5-0.4.2.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-3.13.5-0.4.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-32bit-3.13.5-0.4.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-tools-3.13.5-0.4.2.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-tools-3.13.5-0.4.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0762.1",
+            "fixed_packages": [
+                {
+                    "full_name": "java-1_6_0-openjdk-1.6.0.0_b24.1.11.3-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-openjdk-1.6.0.0_b24.1.11.3-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-openjdk-demo-1.6.0.0_b24.1.11.3-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-openjdk-demo-1.6.0.0_b24.1.11.3-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-openjdk-devel-1.6.0.0_b24.1.11.3-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-openjdk-devel-1.6.0.0_b24.1.11.3-0.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0763.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ImageMagick-6.4.3.6-7.24.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ImageMagick-6.4.3.6-7.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libMagick++1-6.4.3.6-7.24.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libMagick++1-6.4.3.6-7.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libMagickCore1-32bit-6.4.3.6-7.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libMagickCore1-6.4.3.6-7.24.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libMagickCore1-6.4.3.6-7.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libMagickWand1-6.4.3.6-7.24.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libMagickWand1-6.4.3.6-7.24.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0767.1",
+            "fixed_packages": [
+                {
+                    "full_name": "dhcpcd-3.2.3-44.30.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "dhcpcd-3.2.3-44.30.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0771.1",
+            "fixed_packages": [
+                {
+                    "full_name": "puppet-2.6.12-0.14.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "puppet-2.6.12-0.14.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0773.1",
+            "fixed_packages": [
+                {
+                    "full_name": "expat-2.0.1-88.34.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "expat-2.0.1-88.34.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libexpat1-2.0.1-88.34.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libexpat1-2.0.1-88.34.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libexpat1-32bit-2.0.1-88.34.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0782.1",
+            "fixed_packages": [
+                {
+                    "full_name": "finch-2.6.6-0.15.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "finch-2.6.6-0.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpurple-2.6.6-0.15.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpurple-2.6.6-0.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpurple-lang-2.6.6-0.15.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpurple-lang-2.6.6-0.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpurple-meanwhile-2.6.6-0.15.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpurple-meanwhile-2.6.6-0.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpurple-tcl-2.6.6-0.15.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpurple-tcl-2.6.6-0.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pidgin-2.6.6-0.15.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pidgin-2.6.6-0.15.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0792.1",
+            "fixed_packages": [
+                {
+                    "full_name": "wireshark-1.4.13-0.2.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "wireshark-1.4.13-0.2.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0793.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libxml2-2.7.6-0.17.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxml2-2.7.6-0.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxml2-32bit-2.7.6-0.17.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0808.1",
+            "fixed_packages": [
+                {
+                    "full_name": "socat-1.7.0.0-1.16.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "socat-1.7.0.0-1.16.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0818.1",
+            "fixed_packages": [
+                {
+                    "full_name": "gnutls-2.4.1-24.39.39.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gnutls-2.4.1-24.39.39.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutls26-2.4.1-24.39.39.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutls26-2.4.1-24.39.39.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutls26-32bit-2.4.1-24.39.39.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0841.1",
+            "fixed_packages": [
+                {
+                    "full_name": "gdk-pixbuf-0.22.0-294.26.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gdk-pixbuf-0.22.0-294.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gdk-pixbuf-32bit-0.22.0-294.26.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0844.1",
+            "fixed_packages": [
+                {
+                    "full_name": "gtk2-2.18.9-0.20.18.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gtk2-2.18.9-0.20.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gtk2-32bit-2.18.9-0.20.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gtk2-devel-2.18.9-0.20.18.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gtk2-devel-2.18.9-0.20.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gtk2-lang-2.18.9-0.20.18.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gtk2-lang-2.18.9-0.20.18.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0858.1",
+            "fixed_packages": [
+                {
+                    "full_name": "clamav-0.97.5-0.2.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "clamav-0.97.5-0.2.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0882.1",
+            "fixed_packages": [
+                {
+                    "full_name": "boost-license-1.36.0-12.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "boost-license-1.36.0-12.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libboost_program_options1_36_0-1.36.0-12.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libboost_program_options1_36_0-1.36.0-12.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libboost_signals1_36_0-1.36.0-12.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libboost_signals1_36_0-1.36.0-12.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libboost_thread1_36_0-1.36.0-12.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libboost_thread1_36_0-1.36.0-12.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0885.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libopenssl0_9_8-0.9.8j-0.44.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-0.9.8j-0.44.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-32bit-0.9.8j-0.44.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-0.9.8j-0.44.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-0.9.8j-0.44.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0888.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libsnmp15-32bit-5.4.2.1-8.12.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsnmp15-5.4.2.1-8.12.10.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsnmp15-5.4.2.1-8.12.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "net-snmp-5.4.2.1-8.12.10.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "net-snmp-5.4.2.1-8.12.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-SNMP-5.4.2.1-8.12.10.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-SNMP-5.4.2.1-8.12.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "snmp-mibs-5.4.2.1-8.12.10.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "snmp-mibs-5.4.2.1-8.12.10.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0889.1",
+            "fixed_packages": [
+                {
+                    "full_name": "zypper-1.3.21-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "zypper-1.3.21-0.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0890.1",
+            "fixed_packages": [
+                {
+                    "full_name": "finch-2.6.6-0.17.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "finch-2.6.6-0.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpurple-2.6.6-0.17.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpurple-2.6.6-0.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpurple-lang-2.6.6-0.17.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpurple-lang-2.6.6-0.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpurple-meanwhile-2.6.6-0.17.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpurple-meanwhile-2.6.6-0.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpurple-tcl-2.6.6-0.17.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpurple-tcl-2.6.6-0.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pidgin-2.6.6-0.17.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pidgin-2.6.6-0.17.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0894.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libtiff3-3.8.2-141.146.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtiff3-3.8.2-141.146.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtiff3-32bit-3.8.2-141.146.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0896.1",
+            "fixed_packages": [
+                {
+                    "full_name": "MozillaFirefox-10.0.6-0.4.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-10.0.6-0.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-branding-SLED-7-0.6.7.70.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-branding-SLED-7-0.6.7.70.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-translations-10.0.6-0.4.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-translations-10.0.6-0.4.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0901.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libxslt-1.1.24-19.19.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxslt-1.1.24-19.19.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxslt-32bit-1.1.24-19.19.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0903.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libexif-0.6.17-2.14.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libexif-0.6.17-2.14.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libexif-32bit-0.6.17-2.14.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0904.1",
+            "fixed_packages": [
+                {
+                    "full_name": "btrfs-kmp-default-0_2.6.32.59_0.7-0.3.107.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "btrfs-kmp-default-0_2.6.32.59_0.7-0.3.107.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "btrfs-kmp-pae-0_2.6.32.59_0.7-0.3.107.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "btrfs-kmp-xen-0_2.6.32.59_0.7-0.3.107.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "btrfs-kmp-xen-0_2.6.32.59_0.7-0.3.107.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "hyper-v-kmp-default-0_2.6.32.59_0.7-0.18.20.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "hyper-v-kmp-default-0_2.6.32.59_0.7-0.18.20.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "hyper-v-kmp-pae-0_2.6.32.59_0.7-0.18.20.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-2.6.32.59-0.7.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-2.6.32.59-0.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-base-2.6.32.59-0.7.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-base-2.6.32.59-0.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-devel-2.6.32.59-0.7.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-devel-2.6.32.59-0.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-2.6.32.59-0.7.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-2.6.32.59-0.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-desktop-devel-2.6.32.59-0.7.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-desktop-devel-2.6.32.59-0.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-pae-2.6.32.59-0.7.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-pae-base-2.6.32.59-0.7.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-pae-devel-2.6.32.59-0.7.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-pae-extra-2.6.32.59-0.7.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-source-2.6.32.59-0.7.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-source-2.6.32.59-0.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-syms-2.6.32.59-0.7.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-syms-2.6.32.59-0.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-trace-devel-2.6.32.59-0.7.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-trace-devel-2.6.32.59-0.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-xen-2.6.32.59-0.7.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-xen-2.6.32.59-0.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-xen-base-2.6.32.59-0.7.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-xen-base-2.6.32.59-0.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-xen-devel-2.6.32.59-0.7.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-xen-devel-2.6.32.59-0.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-xen-extra-2.6.32.59-0.7.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-xen-extra-2.6.32.59-0.7.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0919.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libtiff3-3.8.2-141.148.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtiff3-3.8.2-141.148.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtiff3-32bit-3.8.2-141.148.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0963.1",
+            "fixed_packages": [
+                {
+                    "full_name": "gimp-2.6.2-3.34.35.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-2.6.2-3.34.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-lang-2.6.2-3.34.35.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-lang-2.6.2-3.34.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-plugins-python-2.6.2-3.34.35.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-plugins-python-2.6.2-3.34.35.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0979.1",
+            "fixed_packages": [
+                {
+                    "full_name": "icedtea-web-1.2.1-0.2.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "icedtea-web-1.2.1-0.2.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0983.1",
+            "fixed_packages": [
+                {
+                    "full_name": "puppet-2.6.17-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "puppet-2.6.17-0.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0984.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libmysqlclient15-32bit-5.0.96-0.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmysqlclient15-5.0.96-0.4.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmysqlclient15-5.0.96-0.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmysqlclient_r15-32bit-5.0.96-0.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmysqlclient_r15-5.0.96-0.4.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmysqlclient_r15-5.0.96-0.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mysql-5.0.96-0.4.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mysql-5.0.96-0.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mysql-client-5.0.96-0.4.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mysql-client-5.0.96-0.4.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0988.1",
+            "fixed_packages": [
+                {
+                    "full_name": "bash-3.2-147.12.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bash-3.2-147.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bash-doc-3.2-147.12.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bash-doc-3.2-147.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreadline5-32bit-5.2-147.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreadline5-5.2-147.12.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreadline5-5.2-147.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "readline-doc-5.2-147.12.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "readline-doc-5.2-147.12.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0989.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libpng-devel-1.2.31-5.31.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpng-devel-1.2.31-5.31.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpng12-0-1.2.31-5.31.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpng12-0-1.2.31-5.31.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpng12-0-32bit-1.2.31-5.31.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0997.1",
+            "fixed_packages": [
+                {
+                    "full_name": "jpeg-6b-879.12.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "jpeg-6b-879.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libjpeg-32bit-6.2.0-879.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libjpeg-6.2.0-879.12.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libjpeg-6.2.0-879.12.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.1001.1",
+            "fixed_packages": [
+                {
+                    "full_name": "flash-player-11.2.202.238-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "flash-player-11.2.202.238-0.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.1003.1",
+            "fixed_packages": [
+                {
+                    "full_name": "dhcp-3.1.3.ESV-0.17.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "dhcp-3.1.3.ESV-0.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "dhcp-client-3.1.3.ESV-0.17.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "dhcp-client-3.1.3.ESV-0.17.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.1021.1",
+            "fixed_packages": [
+                {
+                    "full_name": "postgresql-8.3.20-0.4.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "postgresql-8.3.20-0.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "postgresql-init-9.1-0.6.10.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.1029.1",
+            "fixed_packages": [
+                {
+                    "full_name": "gimp-2.6.2-3.34.37.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-2.6.2-3.34.37.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-lang-2.6.2-3.34.37.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-lang-2.6.2-3.34.37.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-plugins-python-2.6.2-3.34.37.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-plugins-python-2.6.2-3.34.37.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.1038.1",
+            "fixed_packages": [
+                {
+                    "full_name": "gimp-2.6.2-3.34.39.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-2.6.2-3.34.39.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-lang-2.6.2-3.34.39.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-lang-2.6.2-3.34.39.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-plugins-python-2.6.2-3.34.39.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-plugins-python-2.6.2-3.34.39.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.1044.1",
+            "fixed_packages": [
+                {
+                    "full_name": "vm-install-0.4.34-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vm-install-0.4.34-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-4.0.3_21548_08-0.7.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-4.0.3_21548_08-0.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-kmp-default-4.0.3_21548_08_2.6.32.59_0.7-0.7.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-kmp-default-4.0.3_21548_08_2.6.32.59_0.7-0.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-kmp-pae-4.0.3_21548_08_2.6.32.59_0.7-0.7.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-libs-4.0.3_21548_08-0.7.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-libs-4.0.3_21548_08-0.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-tools-4.0.3_21548_08-0.7.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-tools-4.0.3_21548_08-0.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-tools-domU-4.0.3_21548_08-0.7.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-tools-domU-4.0.3_21548_08-0.7.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.1045.1",
+            "fixed_packages": [
+                {
+                    "full_name": "openssh-5.1p1-41.55.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssh-5.1p1-41.55.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssh-askpass-5.1p1-41.55.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssh-askpass-5.1p1-41.55.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.1048.2",
+            "fixed_packages": [
+                {
+                    "full_name": "bind-libs-32bit-9.6ESVR7P2-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-libs-9.6ESVR7P2-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-libs-9.6ESVR7P2-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-utils-9.6ESVR7P2-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-utils-9.6ESVR7P2-0.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.1071.1",
+            "fixed_packages": [
+                {
+                    "full_name": "quota-3.16-50.36.36.2.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "quota-3.16-50.36.36.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.1095.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libxml2-2.7.6-0.19.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxml2-2.7.6-0.19.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxml2-32bit-2.7.6-0.19.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        }
+    ]
+}

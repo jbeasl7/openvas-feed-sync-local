@@ -1,0 +1,694 @@
+{
+    "version": "1.2",
+    "spdx-license-identifier": "GPL-2.0-only",
+    "copyright": "Copyright (C) 2008-2025 Greenbone AG",
+    "package_type": "rpm",
+    "product_name": "SUSE Linux Enterprise High Availability Extension 15-SP1",
+    "advisories": [
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.0492.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ruby2.5-rubygem-activerecord-5_1-5.1.4-150000.5.6.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-rubygem-activerecord-5_1-5.1.4-150000.5.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-rubygem-activerecord-5_1-5.1.4-150000.5.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-rubygem-activerecord-5_1-5.1.4-150000.5.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.0725.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ruby2.5-rubygem-rack-2.0.8-150000.3.15.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-rubygem-rack-2.0.8-150000.3.15.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-rubygem-rack-2.0.8-150000.3.15.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-rubygem-rack-2.0.8-150000.3.15.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.0772.1",
+            "fixed_packages": [
+                {
+                    "full_name": "drbd-9.0.16+git.ab9777df-150100.8.29.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "drbd-9.0.16+git.ab9777df-150100.8.29.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "drbd-9.0.16+git.ab9777df-150100.8.29.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "drbd-9.0.16+git.ab9777df-150100.8.29.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "drbd-debugsource-9.0.16+git.ab9777df-150100.8.29.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "drbd-debugsource-9.0.16+git.ab9777df-150100.8.29.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "drbd-debugsource-9.0.16+git.ab9777df-150100.8.29.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "drbd-debugsource-9.0.16+git.ab9777df-150100.8.29.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "drbd-kmp-default-9.0.16+git.ab9777df_k4.12.14_150100.197.134-150100.8.29.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "drbd-kmp-default-9.0.16+git.ab9777df_k4.12.14_150100.197.134-150100.8.29.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "drbd-kmp-default-9.0.16+git.ab9777df_k4.12.14_150100.197.134-150100.8.29.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "drbd-kmp-default-9.0.16+git.ab9777df_k4.12.14_150100.197.134-150100.8.29.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "drbd-kmp-default-debuginfo-9.0.16+git.ab9777df_k4.12.14_150100.197.134-150100.8.29.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "drbd-kmp-default-debuginfo-9.0.16+git.ab9777df_k4.12.14_150100.197.134-150100.8.29.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "drbd-kmp-default-debuginfo-9.0.16+git.ab9777df_k4.12.14_150100.197.134-150100.8.29.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "drbd-kmp-default-debuginfo-9.0.16+git.ab9777df_k4.12.14_150100.197.134-150100.8.29.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.1657.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ruby2.5-rubygem-loofah-2.2.2-150000.4.9.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-rubygem-loofah-2.2.2-150000.4.9.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-rubygem-loofah-2.2.2-150000.4.9.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-rubygem-loofah-2.2.2-150000.4.9.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.1683.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ctdb-4.9.5+git.554.abee30cf06-150100.3.77.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ctdb-4.9.5+git.554.abee30cf06-150100.3.77.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ctdb-4.9.5+git.554.abee30cf06-150100.3.77.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ctdb-4.9.5+git.554.abee30cf06-150100.3.77.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ctdb-debuginfo-4.9.5+git.554.abee30cf06-150100.3.77.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ctdb-debuginfo-4.9.5+git.554.abee30cf06-150100.3.77.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ctdb-debuginfo-4.9.5+git.554.abee30cf06-150100.3.77.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ctdb-debuginfo-4.9.5+git.554.abee30cf06-150100.3.77.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-debuginfo-4.9.5+git.554.abee30cf06-150100.3.77.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-debuginfo-4.9.5+git.554.abee30cf06-150100.3.77.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-debuginfo-4.9.5+git.554.abee30cf06-150100.3.77.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-debuginfo-4.9.5+git.554.abee30cf06-150100.3.77.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-debugsource-4.9.5+git.554.abee30cf06-150100.3.77.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-debugsource-4.9.5+git.554.abee30cf06-150100.3.77.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-debugsource-4.9.5+git.554.abee30cf06-150100.3.77.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-debugsource-4.9.5+git.554.abee30cf06-150100.3.77.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.1685.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ruby2.5-rubygem-rack-2.0.8-150000.3.18.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-rubygem-rack-2.0.8-150000.3.18.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-rubygem-rack-2.0.8-150000.3.18.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-rubygem-rack-2.0.8-150000.3.18.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.2059.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ruby2.5-rubygem-actionview-5_1-5.1.4-150000.3.6.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-rubygem-actionview-5_1-5.1.4-150000.3.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-rubygem-actionview-5_1-5.1.4-150000.3.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-rubygem-actionview-5_1-5.1.4-150000.3.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.3017.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ctdb-4.9.5+git.564.996810ca1e3-150100.3.82.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ctdb-4.9.5+git.564.996810ca1e3-150100.3.82.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ctdb-4.9.5+git.564.996810ca1e3-150100.3.82.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ctdb-4.9.5+git.564.996810ca1e3-150100.3.82.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ctdb-debuginfo-4.9.5+git.564.996810ca1e3-150100.3.82.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ctdb-debuginfo-4.9.5+git.564.996810ca1e3-150100.3.82.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ctdb-debuginfo-4.9.5+git.564.996810ca1e3-150100.3.82.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ctdb-debuginfo-4.9.5+git.564.996810ca1e3-150100.3.82.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-debuginfo-4.9.5+git.564.996810ca1e3-150100.3.82.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-debuginfo-4.9.5+git.564.996810ca1e3-150100.3.82.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-debuginfo-4.9.5+git.564.996810ca1e3-150100.3.82.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-debuginfo-4.9.5+git.564.996810ca1e3-150100.3.82.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-debugsource-4.9.5+git.564.996810ca1e3-150100.3.82.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-debugsource-4.9.5+git.564.996810ca1e3-150100.3.82.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-debugsource-4.9.5+git.564.996810ca1e3-150100.3.82.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-debugsource-4.9.5+git.564.996810ca1e3-150100.3.82.3.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.3229.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ruby2.5-rubygem-actionpack-5_1-5.1.4-150000.3.18.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-rubygem-actionpack-5_1-5.1.4-150000.3.18.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-rubygem-actionpack-5_1-5.1.4-150000.3.18.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-rubygem-actionpack-5_1-5.1.4-150000.3.18.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.3714.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ruby2.5-rubygem-rails-html-sanitizer-1.0.4-150000.4.6.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-rubygem-rails-html-sanitizer-1.0.4-150000.4.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-rubygem-rails-html-sanitizer-1.0.4-150000.4.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-rubygem-rails-html-sanitizer-1.0.4-150000.4.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.3728.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libqb-debugsource-1.0.3+20190326.a521604-150100.3.9.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqb-debugsource-1.0.3+20190326.a521604-150100.3.9.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqb-debugsource-1.0.3+20190326.a521604-150100.3.9.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqb-debugsource-1.0.3+20190326.a521604-150100.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqb-devel-1.0.3+20190326.a521604-150100.3.9.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqb-devel-1.0.3+20190326.a521604-150100.3.9.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqb-devel-1.0.3+20190326.a521604-150100.3.9.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqb-devel-1.0.3+20190326.a521604-150100.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqb-tests-1.0.3+20190326.a521604-150100.3.9.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqb-tests-1.0.3+20190326.a521604-150100.3.9.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqb-tests-1.0.3+20190326.a521604-150100.3.9.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqb-tests-1.0.3+20190326.a521604-150100.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqb-tests-debuginfo-1.0.3+20190326.a521604-150100.3.9.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqb-tests-debuginfo-1.0.3+20190326.a521604-150100.3.9.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqb-tests-debuginfo-1.0.3+20190326.a521604-150100.3.9.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqb-tests-debuginfo-1.0.3+20190326.a521604-150100.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqb-tools-1.0.3+20190326.a521604-150100.3.9.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqb-tools-1.0.3+20190326.a521604-150100.3.9.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqb-tools-1.0.3+20190326.a521604-150100.3.9.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqb-tools-1.0.3+20190326.a521604-150100.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqb-tools-debuginfo-1.0.3+20190326.a521604-150100.3.9.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqb-tools-debuginfo-1.0.3+20190326.a521604-150100.3.9.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqb-tools-debuginfo-1.0.3+20190326.a521604-150100.3.9.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqb-tools-debuginfo-1.0.3+20190326.a521604-150100.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqb20-1.0.3+20190326.a521604-150100.3.9.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqb20-1.0.3+20190326.a521604-150100.3.9.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqb20-1.0.3+20190326.a521604-150100.3.9.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqb20-1.0.3+20190326.a521604-150100.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqb20-debuginfo-1.0.3+20190326.a521604-150100.3.9.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqb20-debuginfo-1.0.3+20190326.a521604-150100.3.9.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqb20-debuginfo-1.0.3+20190326.a521604-150100.3.9.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqb20-debuginfo-1.0.3+20190326.a521604-150100.3.9.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.3813.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ruby2.5-rubygem-actionview-5_1-5.1.4-150000.3.9.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-rubygem-actionview-5_1-5.1.4-150000.3.9.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-rubygem-actionview-5_1-5.1.4-150000.3.9.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-rubygem-actionview-5_1-5.1.4-150000.3.9.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.3957.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ruby2.5-rubygem-puma-4.3.12-150000.3.12.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-rubygem-puma-4.3.12-150000.3.12.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-rubygem-puma-4.3.12-150000.3.12.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-rubygem-puma-4.3.12-150000.3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-rubygem-puma-debuginfo-4.3.12-150000.3.12.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-rubygem-puma-debuginfo-4.3.12-150000.3.12.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-rubygem-puma-debuginfo-4.3.12-150000.3.12.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-rubygem-puma-debuginfo-4.3.12-150000.3.12.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.4646.1",
+            "fixed_packages": [
+                {
+                    "full_name": "haproxy-2.0.31-150100.8.34.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "haproxy-2.0.31-150100.8.34.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "haproxy-2.0.31-150100.8.34.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "haproxy-2.0.31-150100.8.34.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "haproxy-debuginfo-2.0.31-150100.8.34.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "haproxy-debuginfo-2.0.31-150100.8.34.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "haproxy-debuginfo-2.0.31-150100.8.34.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "haproxy-debuginfo-2.0.31-150100.8.34.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "haproxy-debugsource-2.0.31-150100.8.34.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "haproxy-debugsource-2.0.31-150100.8.34.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "haproxy-debugsource-2.0.31-150100.8.34.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "haproxy-debugsource-2.0.31-150100.8.34.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.0076.1",
+            "fixed_packages": [
+                {
+                    "full_name": "hawk2-2.6.4+git.1702030539.5fb7d91b-150000.3.39.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "hawk2-2.6.4+git.1702030539.5fb7d91b-150000.3.39.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "hawk2-2.6.4+git.1702030539.5fb7d91b-150000.3.39.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "hawk2-2.6.4+git.1702030539.5fb7d91b-150000.3.39.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "hawk2-debuginfo-2.6.4+git.1702030539.5fb7d91b-150000.3.39.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "hawk2-debuginfo-2.6.4+git.1702030539.5fb7d91b-150000.3.39.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "hawk2-debuginfo-2.6.4+git.1702030539.5fb7d91b-150000.3.39.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "hawk2-debuginfo-2.6.4+git.1702030539.5fb7d91b-150000.3.39.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "hawk2-debugsource-2.6.4+git.1702030539.5fb7d91b-150000.3.39.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "hawk2-debugsource-2.6.4+git.1702030539.5fb7d91b-150000.3.39.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "hawk2-debugsource-2.6.4+git.1702030539.5fb7d91b-150000.3.39.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "hawk2-debugsource-2.6.4+git.1702030539.5fb7d91b-150000.3.39.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.0103.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ruby2.5-rubygem-actionpack-5_1-5.1.4-150000.3.29.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-rubygem-actionpack-5_1-5.1.4-150000.3.29.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-rubygem-actionpack-5_1-5.1.4-150000.3.29.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-rubygem-actionpack-5_1-5.1.4-150000.3.29.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.0239.1",
+            "fixed_packages": [
+                {
+                    "full_name": "rear23a-2.3.a-150000.9.9.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rear23a-2.3.a-150000.9.9.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1944 @@
+{
+    "version": "1.2",
+    "spdx-license-identifier": "GPL-2.0-only",
+    "copyright": "Copyright (C) 2008-2025 Greenbone AG",
+    "package_type": "rpm",
+    "product_name": "SUSE Linux Enterprise Server for SAP Applications 11-SP2",
+    "advisories": [
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2015.0011.2",
+            "fixed_packages": [
+                {
+                    "full_name": "bind-9.9.4P2-0.6.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-9.9.4P2-0.6.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-9.9.4P2-0.6.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-9.9.4P2-0.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-9.9.4P2-0.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-chrootenv-9.9.4P2-0.6.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-chrootenv-9.9.4P2-0.6.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-chrootenv-9.9.4P2-0.6.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-chrootenv-9.9.4P2-0.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-chrootenv-9.9.4P2-0.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-devel-9.9.6P1-0.5.5.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-devel-9.9.6P1-0.5.5.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-devel-9.9.6P1-0.5.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-doc-9.9.4P2-0.6.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-doc-9.9.4P2-0.6.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-doc-9.9.4P2-0.6.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-doc-9.9.4P2-0.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-doc-9.9.4P2-0.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-libs-32bit-9.9.4P2-0.6.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-libs-32bit-9.9.4P2-0.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-libs-32bit-9.9.4P2-0.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-libs-9.9.4P2-0.6.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-libs-9.9.4P2-0.6.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-libs-9.9.4P2-0.6.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-libs-9.9.4P2-0.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-libs-9.9.4P2-0.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-libs-x86-9.9.4P2-0.6.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-utils-9.9.4P2-0.6.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-utils-9.9.4P2-0.6.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-utils-9.9.4P2-0.6.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-utils-9.9.4P2-0.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-utils-9.9.4P2-0.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2015.0259.2",
+            "fixed_packages": [
+                {
+                    "full_name": "ntp-4.2.4p8-1.20.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntp-4.2.4p8-1.20.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntp-4.2.4p8-1.20.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntp-4.2.4p8-1.20.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntp-4.2.4p8-1.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntp-doc-4.2.4p8-1.20.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntp-doc-4.2.4p8-1.20.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntp-doc-4.2.4p8-1.20.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntp-doc-4.2.4p8-1.20.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntp-doc-4.2.4p8-1.20.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2015.0298.1",
+            "fixed_packages": [
+                {
+                    "full_name": "clamav-0.97.8-0.2.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "clamav-0.97.8-0.2.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "clamav-0.97.8-0.2.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "clamav-0.97.8-0.2.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "clamav-0.97.8-0.2.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2015.0344.1",
+            "fixed_packages": [
+                {
+                    "full_name": "java-1_7_0-ibm-1.7.0_sr6.0-0.7.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_7_0-ibm-1.7.0_sr6.0-0.7.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_7_0-ibm-1.7.0_sr6.0-0.7.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_7_0-ibm-1.7.0_sr6.0-0.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2015.0386.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ldapsmb-1.34b-12.33.39.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ldapsmb-1.34b-12.33.39.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ldapsmb-1.34b-12.33.39.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ldapsmb-1.34b-12.33.39.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ldapsmb-1.34b-12.33.39.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libldb1-3.6.3-0.33.39.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libldb1-3.6.3-0.33.39.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libldb1-3.6.3-0.33.39.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libldb1-3.6.3-0.33.39.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libldb1-3.6.3-0.33.39.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmbclient0-3.6.3-0.33.39.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmbclient0-3.6.3-0.33.39.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmbclient0-3.6.3-0.33.39.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmbclient0-3.6.3-0.33.39.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmbclient0-3.6.3-0.33.39.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmbclient0-32bit-3.6.3-0.33.39.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmbclient0-32bit-3.6.3-0.33.39.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmbclient0-32bit-3.6.3-0.33.39.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmbclient0-x86-3.6.3-0.33.39.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtalloc1-3.4.3-1.50.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtalloc1-3.4.3-1.50.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtalloc1-3.4.3-1.50.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtalloc1-3.4.3-1.50.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtalloc1-3.4.3-1.50.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtalloc1-32bit-3.4.3-1.50.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtalloc1-32bit-3.4.3-1.50.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtalloc1-32bit-3.4.3-1.50.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtalloc1-x86-3.4.3-1.50.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtalloc2-3.6.3-0.33.39.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtalloc2-3.6.3-0.33.39.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtalloc2-3.6.3-0.33.39.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtalloc2-3.6.3-0.33.39.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtalloc2-3.6.3-0.33.39.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtalloc2-32bit-3.6.3-0.33.39.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtalloc2-32bit-3.6.3-0.33.39.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtalloc2-32bit-3.6.3-0.33.39.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtalloc2-x86-3.6.3-0.33.39.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtdb1-3.6.3-0.33.39.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtdb1-3.6.3-0.33.39.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtdb1-3.6.3-0.33.39.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtdb1-3.6.3-0.33.39.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtdb1-3.6.3-0.33.39.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtdb1-32bit-3.6.3-0.33.39.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtdb1-32bit-3.6.3-0.33.39.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtdb1-32bit-3.6.3-0.33.39.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtdb1-x86-3.6.3-0.33.39.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtevent0-3.6.3-0.33.39.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtevent0-3.6.3-0.33.39.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtevent0-3.6.3-0.33.39.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtevent0-3.6.3-0.33.39.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtevent0-3.6.3-0.33.39.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtevent0-32bit-3.6.3-0.33.39.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtevent0-32bit-3.6.3-0.33.39.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtevent0-32bit-3.6.3-0.33.39.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwbclient0-3.6.3-0.33.39.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwbclient0-3.6.3-0.33.39.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwbclient0-3.6.3-0.33.39.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwbclient0-3.6.3-0.33.39.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwbclient0-3.6.3-0.33.39.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwbclient0-32bit-3.6.3-0.33.39.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwbclient0-32bit-3.6.3-0.33.39.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwbclient0-32bit-3.6.3-0.33.39.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwbclient0-x86-3.6.3-0.33.39.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-3.6.3-0.33.39.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-3.6.3-0.33.39.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-3.6.3-0.33.39.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-3.6.3-0.33.39.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-3.6.3-0.33.39.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-32bit-3.6.3-0.33.39.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-32bit-3.6.3-0.33.39.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-32bit-3.6.3-0.33.39.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-client-3.6.3-0.33.39.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-client-3.6.3-0.33.39.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-client-3.6.3-0.33.39.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-client-3.6.3-0.33.39.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-client-3.6.3-0.33.39.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-client-32bit-3.6.3-0.33.39.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-client-32bit-3.6.3-0.33.39.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-client-32bit-3.6.3-0.33.39.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-client-x86-3.6.3-0.33.39.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-doc-3.6.3-0.33.39.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-krb-printing-3.6.3-0.33.39.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-krb-printing-3.6.3-0.33.39.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-krb-printing-3.6.3-0.33.39.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-krb-printing-3.6.3-0.33.39.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-krb-printing-3.6.3-0.33.39.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-winbind-3.6.3-0.33.39.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-winbind-3.6.3-0.33.39.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-winbind-3.6.3-0.33.39.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-winbind-3.6.3-0.33.39.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-winbind-3.6.3-0.33.39.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-winbind-32bit-3.6.3-0.33.39.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-winbind-32bit-3.6.3-0.33.39.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-winbind-32bit-3.6.3-0.33.39.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-winbind-x86-3.6.3-0.33.39.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-x86-3.6.3-0.33.39.1.ia64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2015.0392.1",
+            "fixed_packages": [
+                {
+                    "full_name": "java-1_6_0-ibm-1.6.0_sr15.0-0.5.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-1.6.0_sr15.0-0.5.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-1.6.0_sr15.0-0.5.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-1.6.0_sr15.0-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2015.0447.1",
+            "fixed_packages": [
+                {
+                    "full_name": "MozillaFirefox-17.0.9esr-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-17.0.9esr-0.3.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-17.0.9esr-0.3.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-17.0.9esr-0.3.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-17.0.9esr-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-translations-17.0.9esr-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-translations-17.0.9esr-0.3.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-translations-17.0.9esr-0.3.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-translations-17.0.9esr-0.3.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-translations-17.0.9esr-0.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2015.0481.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-3.0.101-0.7.17.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-3.0.101-0.7.17.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-3.0.101-0.7.17.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-3.0.101-0.7.17.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-3.0.101-0.7.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-base-3.0.101-0.7.17.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-base-3.0.101-0.7.17.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-base-3.0.101-0.7.17.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-base-3.0.101-0.7.17.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-base-3.0.101-0.7.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-devel-3.0.101-0.7.17.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-devel-3.0.101-0.7.17.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-devel-3.0.101-0.7.17.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-devel-3.0.101-0.7.17.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-devel-3.0.101-0.7.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-man-3.0.101-0.7.17.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-ec2-3.0.101-0.7.17.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-ec2-3.0.101-0.7.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-ec2-base-3.0.101-0.7.17.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-ec2-base-3.0.101-0.7.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-ec2-devel-3.0.101-0.7.17.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-ec2-devel-3.0.101-0.7.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-pae-3.0.101-0.7.17.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-pae-base-3.0.101-0.7.17.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-pae-devel-3.0.101-0.7.17.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-ppc64-3.0.101-0.7.17.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-ppc64-base-3.0.101-0.7.17.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-ppc64-devel-3.0.101-0.7.17.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-source-3.0.101-0.7.17.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-source-3.0.101-0.7.17.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-source-3.0.101-0.7.17.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-source-3.0.101-0.7.17.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-source-3.0.101-0.7.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-syms-3.0.101-0.7.17.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-syms-3.0.101-0.7.17.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-syms-3.0.101-0.7.17.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-syms-3.0.101-0.7.17.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-syms-3.0.101-0.7.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-trace-3.0.101-0.7.17.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-trace-3.0.101-0.7.17.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-trace-3.0.101-0.7.17.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-trace-3.0.101-0.7.17.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-trace-3.0.101-0.7.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-trace-base-3.0.101-0.7.17.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-trace-base-3.0.101-0.7.17.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-trace-base-3.0.101-0.7.17.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-trace-base-3.0.101-0.7.17.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-trace-base-3.0.101-0.7.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-trace-devel-3.0.101-0.7.17.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-trace-devel-3.0.101-0.7.17.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-trace-devel-3.0.101-0.7.17.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-trace-devel-3.0.101-0.7.17.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-trace-devel-3.0.101-0.7.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-xen-3.0.101-0.7.17.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-xen-3.0.101-0.7.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-xen-base-3.0.101-0.7.17.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-xen-base-3.0.101-0.7.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-xen-devel-3.0.101-0.7.17.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-xen-devel-3.0.101-0.7.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-kmp-default-4.1.6_04_3.0.101_0.7.17-0.5.16.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-kmp-default-4.1.6_04_3.0.101_0.7.17-0.5.16.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-kmp-pae-4.1.6_04_3.0.101_0.7.17-0.5.16.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-kmp-trace-4.1.6_04_3.0.101_0.7.17-0.5.16.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-kmp-trace-4.1.6_04_3.0.101_0.7.17-0.5.16.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2015.0545.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libopenssl-devel-0.9.8j-0.66.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl-devel-0.9.8j-0.66.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl-devel-0.9.8j-0.66.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-0.9.8j-0.50.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-0.9.8j-0.50.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-0.9.8j-0.50.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-0.9.8j-0.50.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-0.9.8j-0.50.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-32bit-0.9.8j-0.50.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-32bit-0.9.8j-0.50.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-32bit-0.9.8j-0.50.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-hmac-0.9.8j-0.50.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-hmac-0.9.8j-0.50.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-hmac-0.9.8j-0.50.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-hmac-0.9.8j-0.50.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-hmac-0.9.8j-0.50.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-hmac-32bit-0.9.8j-0.50.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-hmac-32bit-0.9.8j-0.50.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-hmac-32bit-0.9.8j-0.50.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-hmac-x86-0.9.8j-0.50.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-x86-0.9.8j-0.50.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-0.9.8j-0.50.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-0.9.8j-0.50.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-0.9.8j-0.50.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-0.9.8j-0.50.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-0.9.8j-0.50.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-doc-0.9.8j-0.50.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-doc-0.9.8j-0.50.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-doc-0.9.8j-0.50.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-doc-0.9.8j-0.50.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-doc-0.9.8j-0.50.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2015.0551.1",
+            "fixed_packages": [
+                {
+                    "full_name": "glibc-2.11.3-17.45.49.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-2.11.3-17.45.49.1.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-2.11.3-17.45.49.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-2.11.3-17.45.49.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-2.11.3-17.45.49.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-2.11.3-17.45.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-32bit-2.11.3-17.45.49.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-32bit-2.11.3-17.45.49.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-32bit-2.11.3-17.45.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-devel-2.11.3-17.45.49.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-devel-2.11.3-17.45.49.1.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-devel-2.11.3-17.45.49.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-devel-2.11.3-17.45.49.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-devel-2.11.3-17.45.49.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-devel-2.11.3-17.45.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-devel-32bit-2.11.3-17.45.49.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-devel-32bit-2.11.3-17.45.49.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-devel-32bit-2.11.3-17.45.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-html-2.11.3-17.45.49.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-html-2.11.3-17.45.49.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-html-2.11.3-17.45.49.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-html-2.11.3-17.45.49.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-html-2.11.3-17.45.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-i18ndata-2.11.3-17.45.49.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-i18ndata-2.11.3-17.45.49.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-i18ndata-2.11.3-17.45.49.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-i18ndata-2.11.3-17.45.49.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-i18ndata-2.11.3-17.45.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-info-2.11.3-17.45.49.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-info-2.11.3-17.45.49.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-info-2.11.3-17.45.49.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-info-2.11.3-17.45.49.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-info-2.11.3-17.45.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-locale-2.11.3-17.45.49.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-locale-2.11.3-17.45.49.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-locale-2.11.3-17.45.49.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-locale-2.11.3-17.45.49.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-locale-2.11.3-17.45.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-locale-32bit-2.11.3-17.45.49.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-locale-32bit-2.11.3-17.45.49.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-locale-32bit-2.11.3-17.45.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-locale-x86-2.11.3-17.45.49.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-profile-2.11.3-17.45.49.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-profile-2.11.3-17.45.49.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-profile-2.11.3-17.45.49.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-profile-2.11.3-17.45.49.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-profile-2.11.3-17.45.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-profile-32bit-2.11.3-17.45.49.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-profile-32bit-2.11.3-17.45.49.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-profile-32bit-2.11.3-17.45.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-profile-x86-2.11.3-17.45.49.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-x86-2.11.3-17.45.49.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "nscd-2.11.3-17.45.49.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "nscd-2.11.3-17.45.49.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "nscd-2.11.3-17.45.49.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "nscd-2.11.3-17.45.49.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "nscd-2.11.3-17.45.49.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2015.0578.1",
+            "fixed_packages": [
+                {
+                    "full_name": "compat-openssl097g-0.9.7g-146.22.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "compat-openssl097g-32bit-0.9.7g-146.22.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2015.0943.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kvm-0.15.1-0.27.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kvm-0.15.1-0.27.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2015.0944.1",
+            "fixed_packages": [
+                {
+                    "full_name": "xen-4.1.4_02-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-devel-4.1.6_08-0.11.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-devel-4.1.6_08-0.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-doc-html-4.1.4_02-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-doc-pdf-4.1.4_02-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-kmp-default-4.1.4_02_3.0.58_0.6.6-0.5.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-kmp-default-4.1.4_02_3.0.58_0.6.6-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-kmp-pae-4.1.4_02_3.0.58_0.6.6-0.5.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-kmp-trace-4.1.4_02_3.0.58_0.6.6-0.5.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-kmp-trace-4.1.4_02_3.0.58_0.6.6-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-libs-32bit-4.1.4_02-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-libs-4.1.4_02-0.5.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-libs-4.1.4_02-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-tools-4.1.4_02-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-tools-domU-4.1.4_02-0.5.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-tools-domU-4.1.4_02-0.5.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2015.1086.1",
+            "fixed_packages": [
+                {
+                    "full_name": "java-1_6_0-ibm-1.6.0_sr15.0-0.5.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-1.6.0_sr15.0-0.5.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-1.6.0_sr15.0-0.5.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-1.6.0_sr15.0-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2015.1086.3",
+            "fixed_packages": [
+                {
+                    "full_name": "java-1_7_0-ibm-1.7.0_sr6.0-0.7.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_7_0-ibm-1.7.0_sr6.0-0.7.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_7_0-ibm-1.7.0_sr6.0-0.7.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_7_0-ibm-1.7.0_sr6.0-0.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2015.1177.2",
+            "fixed_packages": [
+                {
+                    "full_name": "libmysqlclient15-32bit-5.0.96-0.6.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmysqlclient15-32bit-5.0.96-0.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmysqlclient15-32bit-5.0.96-0.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmysqlclient15-5.0.96-0.6.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmysqlclient15-5.0.96-0.6.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmysqlclient15-5.0.96-0.6.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmysqlclient15-5.0.96-0.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmysqlclient15-5.0.96-0.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmysqlclient15-x86-5.0.96-0.6.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmysqlclient_r15-5.0.96-0.6.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmysqlclient_r15-5.0.96-0.6.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmysqlclient_r15-5.0.96-0.6.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmysqlclient_r15-5.0.96-0.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmysqlclient_r15-5.0.96-0.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mysql-5.0.96-0.6.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mysql-5.0.96-0.6.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mysql-5.0.96-0.6.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mysql-5.0.96-0.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mysql-5.0.96-0.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mysql-Max-5.0.96-0.6.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mysql-Max-5.0.96-0.6.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mysql-Max-5.0.96-0.6.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mysql-Max-5.0.96-0.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mysql-Max-5.0.96-0.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mysql-client-5.0.96-0.6.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mysql-client-5.0.96-0.6.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mysql-client-5.0.96-0.6.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mysql-client-5.0.96-0.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mysql-client-5.0.96-0.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mysql-tools-5.0.96-0.6.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mysql-tools-5.0.96-0.6.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mysql-tools-5.0.96-0.6.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mysql-tools-5.0.96-0.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mysql-tools-5.0.96-0.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2015.1183.1",
+            "fixed_packages": [
+                {
+                    "full_name": "compat-openssl097g-0.9.7g-146.22.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "compat-openssl097g-32bit-0.9.7g-146.22.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2015.1184.2",
+            "fixed_packages": [
+                {
+                    "full_name": "libopenssl-devel-0.9.8j-0.66.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl-devel-0.9.8j-0.66.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl-devel-0.9.8j-0.66.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-0.9.8j-0.50.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-0.9.8j-0.50.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-0.9.8j-0.50.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-0.9.8j-0.50.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-0.9.8j-0.50.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-32bit-0.9.8j-0.50.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-32bit-0.9.8j-0.50.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-32bit-0.9.8j-0.50.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-hmac-0.9.8j-0.50.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-hmac-0.9.8j-0.50.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-hmac-0.9.8j-0.50.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-hmac-0.9.8j-0.50.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-hmac-0.9.8j-0.50.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-hmac-32bit-0.9.8j-0.50.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-hmac-32bit-0.9.8j-0.50.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-hmac-32bit-0.9.8j-0.50.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-hmac-x86-0.9.8j-0.50.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-x86-0.9.8j-0.50.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-0.9.8j-0.50.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-0.9.8j-0.50.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-0.9.8j-0.50.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-0.9.8j-0.50.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-0.9.8j-0.50.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-doc-0.9.8j-0.50.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-doc-0.9.8j-0.50.1.ia64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-doc-0.9.8j-0.50.1.ppc64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-doc-0.9.8j-0.50.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-doc-0.9.8j-0.50.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2015.2251.1",
+            "fixed_packages": [
+                {
+                    "full_name": "compat-openssl097g-0.9.7g-146.22.36.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "compat-openssl097g-32bit-0.9.7g-146.22.36.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        }
+    ]
+}

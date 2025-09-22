@@ -1,3 +1,11 @@
 openvas-feeds/nvt-feed/*.gz filter=lfs diff=lfs merge=lfs -text
 openvas-feeds/scap-feed/*.gz filter=lfs diff=lfs merge=lfs -text
 openvas-feeds/cert-feed/*.gz filter=lfs diff=lfs merge=lfs -text
+openvas-feeds/nvt-feed/**/*.gz filter=lfs diff=lfs merge=lfs -text
+openvas-feeds/nvt-feed/**/*.json filter=lfs diff=lfs merge=lfs -text
+openvas-feeds/scap-feed/**/*.gz filter=lfs diff=lfs merge=lfs -text
+openvas-feeds/scap-feed/**/*.json filter=lfs diff=lfs merge=lfs -text
+openvas-feeds/cert-feed/**/*.gz filter=lfs diff=lfs merge=lfs -text
+openvas-feeds/cert-feed/**/*.json filter=lfs diff=lfs merge=lfs -text
+openvas-feeds/vt-feed/**/*.gz filter=lfs diff=lfs merge=lfs -text
+openvas-feeds/vt-feed/**/*.json filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,1691 @@
+{
+    "version": "1.2",
+    "spdx-license-identifier": "GPL-2.0-only",
+    "copyright": "Copyright (C) 2008-2025 Greenbone AG",
+    "package_type": "slack",
+    "product_name": "Slackware 9.1",
+    "advisories": [
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2003.273.01",
+            "fixed_packages": [
+                {
+                    "full_name": "openssl-0.9.7c-i486-1",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-solibs-0.9.7c-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2003.300.01",
+            "fixed_packages": [
+                {
+                    "full_name": "gdm-2.4.4.5-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2003.300.02",
+            "fixed_packages": [
+                {
+                    "full_name": "fetchmail-6.2.5-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2003.308.01",
+            "fixed_packages": [
+                {
+                    "full_name": "apache-1.3.29-i486-1",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mod_ssl-2.8.16_1.3.29-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2003.336.01",
+            "fixed_packages": [
+                {
+                    "full_name": "alsa-driver-0.9.8-i486-1",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "alsa-driver-xfs-0.9.8-i486-1",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "alsa-lib-0.9.8-i486-1",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "alsa-oss-0.9.8-i486-1",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "alsa-utils-0.9.8-i486-1",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-ide-2.4.23-i486-1",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-modules-2.4.23-i486-1",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-modules-xfs-2.4.23-i486-1",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-source-2.4.23-noarch-2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2003.337.01",
+            "fixed_packages": [
+                {
+                    "full_name": "rsync-2.5.7-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2003.345.01",
+            "fixed_packages": [
+                {
+                    "full_name": "cvs-1.11.10-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2003.346.01",
+            "fixed_packages": [
+                {
+                    "full_name": "lftp-2.6.10-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.006.01",
+            "fixed_packages": [
+                {
+                    "full_name": "alsa-driver-0.9.8-i486-2",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "alsa-driver-xfs-0.9.8-i486-2",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-ide-2.4.24-i486-1",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-modules-2.4.24-i486-1",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-modules-xfs-2.4.24-i486-1",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-source-2.4.24-noarch-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.014.01",
+            "fixed_packages": [
+                {
+                    "full_name": "kdepim-3.1.4-i486-2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.014.02",
+            "fixed_packages": [
+                {
+                    "full_name": "inn-2.4.1-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.026.01",
+            "fixed_packages": [
+                {
+                    "full_name": "gaim-0.75-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.043.01",
+            "fixed_packages": [
+                {
+                    "full_name": "mutt-1.4.2i-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.043.02",
+            "fixed_packages": [
+                {
+                    "full_name": "xfree86-4.3.0-i486-6",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.049.01",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-ide-2.4.24-i486-2",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-source-2.4.24-noarch-2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.049.02",
+            "fixed_packages": [
+                {
+                    "full_name": "metamail-2.7-i486-2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.077.01",
+            "fixed_packages": [
+                {
+                    "full_name": "openssl-0.9.7d-i486-1",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-solibs-0.9.7d-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.108.01",
+            "fixed_packages": [
+                {
+                    "full_name": "tcpdump-3.8.3-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.108.02",
+            "fixed_packages": [
+                {
+                    "full_name": "cvs-1.11.15-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.110.01",
+            "fixed_packages": [
+                {
+                    "full_name": "utempter-1.1.1-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.111.01",
+            "fixed_packages": [
+                {
+                    "full_name": "xine-lib-1rc3c-i686-1",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xine-ui-0.99.1-i686-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.119.01",
+            "fixed_packages": [
+                {
+                    "full_name": "alsa-driver-0.9.8-i486-3",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "hotplug-2004_01_05-noarch-1",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-headers-2.4.26-i386-1",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-ide-2.4.26-i486-2",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-modules-2.4.26-i486-1",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-source-2.4.26-noarch-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.124.01",
+            "fixed_packages": [
+                {
+                    "full_name": "rsync-2.6.2-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.124.02",
+            "fixed_packages": [
+                {
+                    "full_name": "sysklogd-1.4.1-i486-9",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.124.03",
+            "fixed_packages": [
+                {
+                    "full_name": "xine-lib-1rc4-i686-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.124.04",
+            "fixed_packages": [
+                {
+                    "full_name": "libpng-1.2.5-i486-2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.125.01",
+            "fixed_packages": [
+                {
+                    "full_name": "bin-8.5.0-i486-2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.133.01",
+            "fixed_packages": [
+                {
+                    "full_name": "apache-1.3.29-i486-2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.136.01",
+            "fixed_packages": [
+                {
+                    "full_name": "mc-4.6.0-i386-2",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mc-4.6.0-i486-2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.140.01",
+            "fixed_packages": [
+                {
+                    "full_name": "cvs-1.11.16-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.154.01",
+            "fixed_packages": [
+                {
+                    "full_name": "apache-1.3.31-i486-1",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mod_ssl-2.8.18_1.3.31-i486-1",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-4.3.6-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.154.02",
+            "fixed_packages": [
+                {
+                    "full_name": "php-4.3.6-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.161.01",
+            "fixed_packages": [
+                {
+                    "full_name": "cvs-1.11.17-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.167.01",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-ide-2.4.26-i486-3",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-source-2.4.26-noarch-2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.202.01",
+            "fixed_packages": [
+                {
+                    "full_name": "php-4.3.8-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.207.01",
+            "fixed_packages": [
+                {
+                    "full_name": "samba-2.2.10-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.207.02",
+            "fixed_packages": [
+                {
+                    "full_name": "mod_ssl-2.8.19_1.3.31-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.222.01",
+            "fixed_packages": [
+                {
+                    "full_name": "libpng-1.2.5-i486-3",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.223.01",
+            "fixed_packages": [
+                {
+                    "full_name": "mozilla-1.4.3-i486-1",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-plugins-1.4.3-noarch-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.223.02",
+            "fixed_packages": [
+                {
+                    "full_name": "imagemagick-5.5.7_25-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.223.03",
+            "fixed_packages": [
+                {
+                    "full_name": "sox-12.17.4-i486-3",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.236.01",
+            "fixed_packages": [
+                {
+                    "full_name": "qt-3.2.1-i486-2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.238.01",
+            "fixed_packages": [
+                {
+                    "full_name": "kdelibs-3.1.4-i486-2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.239.01",
+            "fixed_packages": [
+                {
+                    "full_name": "gaim-0.82-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.240.01",
+            "fixed_packages": [
+                {
+                    "full_name": "gaim-0.82.1-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.247.01",
+            "fixed_packages": [
+                {
+                    "full_name": "kdebase-3.1.4-i486-2",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kdelibs-3.1.4-i486-3",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.266.01",
+            "fixed_packages": [
+                {
+                    "full_name": "cups-1.1.21-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.278.01",
+            "fixed_packages": [
+                {
+                    "full_name": "getmail-3.2.5-noarch-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.285.01",
+            "fixed_packages": [
+                {
+                    "full_name": "rsync-2.6.3-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.296.01",
+            "fixed_packages": [
+                {
+                    "full_name": "gaim-1.0.2-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.299.01",
+            "fixed_packages": [
+                {
+                    "full_name": "apache-1.3.32-i486-1",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mod_ssl-2.8.21_1.3.32-i486-1",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-4.3.9-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.305.01",
+            "fixed_packages": [
+                {
+                    "full_name": "apache-1.3.33-i486-1",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mod_ssl-2.8.22_1.3.33-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2004.305.02",
+            "fixed_packages": [
+                {
+                    "full_name": "libtiff-3.5.7-i486-4",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2005.085.01",
+            "fixed_packages": [
+                {
+                    "full_name": "gaim-1.2.0-i486-1",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-1.4.4-i486-1",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-plugins-1.4.4-noarch-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2005.095.01",
+            "fixed_packages": [
+                {
+                    "full_name": "php-4.3.11-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2005.111.01",
+            "fixed_packages": [
+                {
+                    "full_name": "cvs-1.11.20-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2005.111.02",
+            "fixed_packages": [
+                {
+                    "full_name": "python-2.3.5-i486-1",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-demo-2.3.5-noarch-1",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-tools-2.3.5-noarch-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2005.111.03",
+            "fixed_packages": [
+                {
+                    "full_name": "gaim-1.2.1-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2005.121.01",
+            "fixed_packages": [
+                {
+                    "full_name": "infozip-5.52-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2005.133.01",
+            "fixed_packages": [
+                {
+                    "full_name": "gaim-1.3.0-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2005.162.01",
+            "fixed_packages": [
+                {
+                    "full_name": "gaim-1.3.1-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2005.172.01",
+            "fixed_packages": [
+                {
+                    "full_name": "sudo-1.6.8p9-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2005.192.01",
+            "fixed_packages": [
+                {
+                    "full_name": "php-4.3.11-i486-2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2005.192.02",
+            "fixed_packages": [
+                {
+                    "full_name": "php-4.3.11-i486-3",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2005.195.02",
+            "fixed_packages": [
+                {
+                    "full_name": "xv-3.10a-i486-4",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2005.195.10",
+            "fixed_packages": [
+                {
+                    "full_name": "tcpdump-3.9.3-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2005.203.05",
+            "fixed_packages": [
+                {
+                    "full_name": "fetchmail-6.2.5.2-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2005.210.01",
+            "fixed_packages": [
+                {
+                    "full_name": "tcpip-0.17-i486-24b",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2005.242.01",
+            "fixed_packages": [
+                {
+                    "full_name": "pcre-6.3-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2005.242.02",
+            "fixed_packages": [
+                {
+                    "full_name": "php-4.3.11-i486-4",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2005.242.03",
+            "fixed_packages": [
+                {
+                    "full_name": "gaim-1.5.0-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2005.251.02",
+            "fixed_packages": [
+                {
+                    "full_name": "mod_ssl-2.8.24_1.3.33-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2005.255.01",
+            "fixed_packages": [
+                {
+                    "full_name": "dhcpcd-1.3.22pl4-i486-2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2005.255.02",
+            "fixed_packages": [
+                {
+                    "full_name": "util-linux-2.12-i486-2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2005.283.01",
+            "fixed_packages": [
+                {
+                    "full_name": "xine-lib-1rc4-i686-2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2005.286.01",
+            "fixed_packages": [
+                {
+                    "full_name": "openssl-0.9.7d-i486-2",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-solibs-0.9.7d-i486-2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2005.310.01",
+            "fixed_packages": [
+                {
+                    "full_name": "curl-7.10.7-i486-2",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "wget-1.10.2-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2005.310.02",
+            "fixed_packages": [
+                {
+                    "full_name": "koffice-1.2.1-i486-6",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2005.310.03",
+            "fixed_packages": [
+                {
+                    "full_name": "lynx-2.8.5rel.5-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2005.310.04",
+            "fixed_packages": [
+                {
+                    "full_name": "apache-1.3.34-i486-1",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mod_ssl-2.8.25_1.3.34-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2005.310.06",
+            "fixed_packages": [
+                {
+                    "full_name": "imapd-4.64-i486-1",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pine-4.64-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2005.311.01",
+            "fixed_packages": [
+                {
+                    "full_name": "elm-2.5.8-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2006.045.01",
+            "fixed_packages": [
+                {
+                    "full_name": "fetchmail-6.3.2-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2006.045.06",
+            "fixed_packages": [
+                {
+                    "full_name": "openssh-4.3p1-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2006.045.08",
+            "fixed_packages": [
+                {
+                    "full_name": "sudo-1.6.8p12-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2006.045.09",
+            "fixed_packages": [
+                {
+                    "full_name": "xpdf-3.01-i486-3",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2006.072.02",
+            "fixed_packages": [
+                {
+                    "full_name": "gnupg-1.4.2.2-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2006.081.01",
+            "fixed_packages": [
+                {
+                    "full_name": "sendmail-8.13.6-i486-1",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sendmail-cf-8.13.6-noarch-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2006.129.01",
+            "fixed_packages": [
+                {
+                    "full_name": "apache-1.3.35-i486-1_slack9.1",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mod_ssl-2.8.26_1.3.35-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2006.130.01",
+            "fixed_packages": [
+                {
+                    "full_name": "apache-1.3.35-i486-2_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2006.155.01",
+            "fixed_packages": [
+                {
+                    "full_name": "mysql-4.0.27-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2006.166.01",
+            "fixed_packages": [
+                {
+                    "full_name": "sendmail-8.13.7-i486-1_slack9.1",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sendmail-cf-8.13.7-noarch-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2006.178.02",
+            "fixed_packages": [
+                {
+                    "full_name": "gnupg-1.4.4-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2006.207.01",
+            "fixed_packages": [
+                {
+                    "full_name": "mutt-1.4.2.2i-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2006.209.01",
+            "fixed_packages": [
+                {
+                    "full_name": "apache-1.3.37-i486-1_slack9.1",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mod_ssl-2.8.28_1.3.37-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2006.215.01",
+            "fixed_packages": [
+                {
+                    "full_name": "gnupg-1.4.5-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2006.230.01",
+            "fixed_packages": [
+                {
+                    "full_name": "libtiff-3.8.2-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2006.257.01",
+            "fixed_packages": [
+                {
+                    "full_name": "bind-9.2.6_P1-i486-2_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2006.257.02",
+            "fixed_packages": [
+                {
+                    "full_name": "openssl-0.9.7d-i486-3_slack9.1",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-solibs-0.9.7d-i486-3_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2006.262.01",
+            "fixed_packages": [
+                {
+                    "full_name": "gzip-1.3.5-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2006.272.01",
+            "fixed_packages": [
+                {
+                    "full_name": "openssl-0.9.7l-i486-1_slack9.1",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-solibs-0.9.7l-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2006.272.02",
+            "fixed_packages": [
+                {
+                    "full_name": "openssh-4.4p1-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2006.307.02",
+            "fixed_packages": [
+                {
+                    "full_name": "screen-4.0.3-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2006.310.01",
+            "fixed_packages": [
+                {
+                    "full_name": "bind-9.2.6_P2-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2006.335.01",
+            "fixed_packages": [
+                {
+                    "full_name": "tar-1.16-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2006.335.02",
+            "fixed_packages": [
+                {
+                    "full_name": "proftpd-1.3.0a-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2006.335.03",
+            "fixed_packages": [
+                {
+                    "full_name": "libpng-1.2.14-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2006.340.01",
+            "fixed_packages": [
+                {
+                    "full_name": "gnupg-1.4.6-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2006.340.0198",
+            "fixed_packages": [
+                {
+                    "full_name": "gnupg-1.4.6-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2006.357.05",
+            "fixed_packages": [
+                {
+                    "full_name": "xine-lib-1.1.3-i686-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2007.024.01",
+            "fixed_packages": [
+                {
+                    "full_name": "fetchmail-6.3.6-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2007.026.01",
+            "fixed_packages": [
+                {
+                    "full_name": "bind-9.2.8-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2007.066.01",
+            "fixed_packages": [
+                {
+                    "full_name": "gnupg-1.4.7-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2007.093.01",
+            "fixed_packages": [
+                {
+                    "full_name": "file-4.20-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2007.136.01",
+            "fixed_packages": [
+                {
+                    "full_name": "libpng-1.2.18-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2007.207.01",
+            "fixed_packages": [
+                {
+                    "full_name": "bind-9.2.8_P1-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2007.222.05",
+            "fixed_packages": [
+                {
+                    "full_name": "xpdf-3.02pl1-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2007.230.01",
+            "fixed_packages": [
+                {
+                    "full_name": "tcpdump-3.9.7-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2007.255.01",
+            "fixed_packages": [
+                {
+                    "full_name": "openssh-4.7p1-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2007.283.01",
+            "fixed_packages": [
+                {
+                    "full_name": "glibc-zoneinfo-2.3.2-noarch-3_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2007.305.01",
+            "fixed_packages": [
+                {
+                    "full_name": "cups-1.1.21-i486-2_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2007.316.01",
+            "fixed_packages": [
+                {
+                    "full_name": "xpdf-3.02pl2-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2007.325.01",
+            "fixed_packages": [
+                {
+                    "full_name": "libpng-1.2.23-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2007.335.01",
+            "fixed_packages": [
+                {
+                    "full_name": "rsync-2.6.9-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2008.045.02",
+            "fixed_packages": [
+                {
+                    "full_name": "apache-1.3.41-i486-1_slack9.1",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mod_ssl-2.8.31_1.3.41-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2008.095.01",
+            "fixed_packages": [
+                {
+                    "full_name": "openssh-5.0p1-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2008.098.01",
+            "fixed_packages": [
+                {
+                    "full_name": "m4-1.4.11-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2008.098.02",
+            "fixed_packages": [
+                {
+                    "full_name": "bzip2-1.0.5-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2008.119.01",
+            "fixed_packages": [
+                {
+                    "full_name": "libpng-1.2.27-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2008.191.02",
+            "fixed_packages": [
+                {
+                    "full_name": "bind-9.3.5_P1-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2008.210.01",
+            "fixed_packages": [
+                {
+                    "full_name": "fetchmail-6.3.8-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2009.014.02",
+            "fixed_packages": [
+                {
+                    "full_name": "bind-9.3.6_P1-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2009.014.03",
+            "fixed_packages": [
+                {
+                    "full_name": "ntp-4.2.4p6-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2009.051.01",
+            "fixed_packages": [
+                {
+                    "full_name": "libpng-1.2.35-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2009.069.01",
+            "fixed_packages": [
+                {
+                    "full_name": "curl-7.10.7-i486-3_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2009.129.01",
+            "fixed_packages": [
+                {
+                    "full_name": "xpdf-3.02pl3-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2009.154.01",
+            "fixed_packages": [
+                {
+                    "full_name": "ntp-4.2.2p3-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2009.170.01",
+            "fixed_packages": [
+                {
+                    "full_name": "libpng-1.2.37-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2009.195.01",
+            "fixed_packages": [
+                {
+                    "full_name": "dhcp-3.1.2p1-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2009.210.01",
+            "fixed_packages": [
+                {
+                    "full_name": "bind-9.4.3_P3-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2009.218.01",
+            "fixed_packages": [
+                {
+                    "full_name": "fetchmail-6.3.11-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2009.226.01",
+            "fixed_packages": [
+                {
+                    "full_name": "curl-7.10.7-i486-4_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2009.302.01",
+            "fixed_packages": [
+                {
+                    "full_name": "xpdf-3.02pl4-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2009.336.01",
+            "fixed_packages": [
+                {
+                    "full_name": "bind-9.4.3_P4-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2009.343.01",
+            "fixed_packages": [
+                {
+                    "full_name": "ntp-4.2.2p3-i486-2_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2010.110.01",
+            "fixed_packages": [
+                {
+                    "full_name": "sudo-1.7.2p6-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2010.136.01",
+            "fixed_packages": [
+                {
+                    "full_name": "fetchmail-6.3.17-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2010.176.01",
+            "fixed_packages": [
+                {
+                    "full_name": "bind-9.4.3_P5-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2010.180.01",
+            "fixed_packages": [
+                {
+                    "full_name": "libpng-1.2.44-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2010.180.02",
+            "fixed_packages": [
+                {
+                    "full_name": "libtiff-3.8.2-i486-2_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2010.257.02",
+            "fixed_packages": [
+                {
+                    "full_name": "sudo-1.7.4p4-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2010.258.03",
+            "fixed_packages": [
+                {
+                    "full_name": "sudo-1.7.4p4-i486-2_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2010.263.01",
+            "fixed_packages": [
+                {
+                    "full_name": "bzip2-1.0.6-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2010.324.01",
+            "fixed_packages": [
+                {
+                    "full_name": "xpdf-3.02pl5-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2010.350.01",
+            "fixed_packages": [
+                {
+                    "full_name": "bind-9.4_ESV_R4-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2011.041.05",
+            "fixed_packages": [
+                {
+                    "full_name": "sudo-1.7.4p6-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2011.059.01",
+            "fixed_packages": [
+                {
+                    "full_name": "samba-2.2.10-i486-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2011.097.01",
+            "fixed_packages": [
+                {
+                    "full_name": "dhcp-3.1_ESV_R1-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2011.098.01",
+            "fixed_packages": [
+                {
+                    "full_name": "libtiff-3.8.2-i486-3_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2011.147.01",
+            "fixed_packages": [
+                {
+                    "full_name": "bind-9.4_ESV_R4_P1-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2011.171.01",
+            "fixed_packages": [
+                {
+                    "full_name": "fetchmail-6.3.20-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2011.210.01",
+            "fixed_packages": [
+                {
+                    "full_name": "libpng-1.2.46-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2011.224.01",
+            "fixed_packages": [
+                {
+                    "full_name": "bind-9.4_ESV_R5-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2012.098.01",
+            "fixed_packages": [
+                {
+                    "full_name": "libtiff-3.8.2-i486-4_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2012.166.01",
+            "fixed_packages": [
+                {
+                    "full_name": "bind-9.7.6_P1-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.13.2012.206.01",
+            "fixed_packages": [
+                {
+                    "full_name": "libpng-1.2.50-i486-1_slack9.1",
+                    "specifier": ">="
+                }
+            ]
+        }
+    ]
+}

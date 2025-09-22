@@ -1,0 +1,944 @@
+{
+    "version": "1.2",
+    "spdx-license-identifier": "GPL-2.0-only",
+    "copyright": "Copyright (C) 2008-2025 Greenbone AG",
+    "package_type": "rpm",
+    "product_name": "SUSE Linux Enterprise Module for Toolchain 12",
+    "advisories": [
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2016.0963.1",
+            "fixed_packages": [
+                {
+                    "full_name": "cpp5-5.3.1+r233831-9.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cpp5-5.3.1+r233831-9.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cpp5-5.3.1+r233831-9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cpp5-debuginfo-5.3.1+r233831-9.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cpp5-debuginfo-5.3.1+r233831-9.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cpp5-debuginfo-5.3.1+r233831-9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc5-32bit-5.3.1+r233831-9.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc5-32bit-5.3.1+r233831-9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc5-32bit-debuginfo-5.3.1+r233831-9.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc5-32bit-debuginfo-5.3.1+r233831-9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc5-5.3.1+r233831-9.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc5-5.3.1+r233831-9.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc5-5.3.1+r233831-9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc5-ada-32bit-5.3.1+r233831-9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc5-ada-5.3.1+r233831-9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc5-ada-debuginfo-5.3.1+r233831-9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc5-c++-32bit-5.3.1+r233831-9.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc5-c++-32bit-5.3.1+r233831-9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc5-c++-5.3.1+r233831-9.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc5-c++-5.3.1+r233831-9.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc5-c++-5.3.1+r233831-9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc5-c++-debuginfo-5.3.1+r233831-9.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc5-c++-debuginfo-5.3.1+r233831-9.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc5-c++-debuginfo-5.3.1+r233831-9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc5-debuginfo-5.3.1+r233831-9.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc5-debuginfo-5.3.1+r233831-9.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc5-debuginfo-5.3.1+r233831-9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc5-debugsource-5.3.1+r233831-9.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc5-debugsource-5.3.1+r233831-9.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc5-debugsource-5.3.1+r233831-9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc5-fortran-32bit-5.3.1+r233831-9.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc5-fortran-32bit-5.3.1+r233831-9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc5-fortran-5.3.1+r233831-9.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc5-fortran-5.3.1+r233831-9.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc5-fortran-5.3.1+r233831-9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc5-fortran-debuginfo-5.3.1+r233831-9.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc5-fortran-debuginfo-5.3.1+r233831-9.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc5-fortran-debuginfo-5.3.1+r233831-9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc5-info-5.3.1+r233831-9.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc5-locale-5.3.1+r233831-9.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc5-locale-5.3.1+r233831-9.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc5-locale-5.3.1+r233831-9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libada5-32bit-5.3.1+r233831-9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libada5-32bit-debuginfo-5.3.1+r233831-9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libada5-5.3.1+r233831-9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libada5-debuginfo-5.3.1+r233831-9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libffi-devel-gcc5-32bit-5.3.1+r233831-9.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libffi-devel-gcc5-32bit-5.3.1+r233831-9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libffi-devel-gcc5-5.3.1+r233831-9.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libffi-devel-gcc5-5.3.1+r233831-9.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libffi-devel-gcc5-5.3.1+r233831-9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libffi-gcc5-debugsource-5.3.1+r233831-9.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libffi-gcc5-debugsource-5.3.1+r233831-9.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libffi-gcc5-debugsource-5.3.1+r233831-9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libstdc++6-devel-gcc5-32bit-5.3.1+r233831-9.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libstdc++6-devel-gcc5-32bit-5.3.1+r233831-9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libstdc++6-devel-gcc5-5.3.1+r233831-9.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libstdc++6-devel-gcc5-5.3.1+r233831-9.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libstdc++6-devel-gcc5-5.3.1+r233831-9.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.0394.1",
+            "fixed_packages": [
+                {
+                    "full_name": "cpp9-9.2.1+r275327-1.3.9.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cpp9-9.2.1+r275327-1.3.9.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cpp9-9.2.1+r275327-1.3.9.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cpp9-9.2.1+r275327-1.3.9.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cpp9-debuginfo-9.2.1+r275327-1.3.9.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cpp9-debuginfo-9.2.1+r275327-1.3.9.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cpp9-debuginfo-9.2.1+r275327-1.3.9.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cpp9-debuginfo-9.2.1+r275327-1.3.9.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-32bit-9.2.1+r275327-1.3.9.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-32bit-9.2.1+r275327-1.3.9.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-9.2.1+r275327-1.3.9.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-9.2.1+r275327-1.3.9.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-9.2.1+r275327-1.3.9.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-9.2.1+r275327-1.3.9.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-ada-32bit-9.2.1+r275327-1.3.9.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-ada-9.2.1+r275327-1.3.9.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-ada-debuginfo-9.2.1+r275327-1.3.9.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-c++-32bit-9.2.1+r275327-1.3.9.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-c++-32bit-9.2.1+r275327-1.3.9.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-c++-9.2.1+r275327-1.3.9.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-c++-9.2.1+r275327-1.3.9.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-c++-9.2.1+r275327-1.3.9.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-c++-9.2.1+r275327-1.3.9.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-c++-debuginfo-9.2.1+r275327-1.3.9.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-c++-debuginfo-9.2.1+r275327-1.3.9.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-c++-debuginfo-9.2.1+r275327-1.3.9.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-c++-debuginfo-9.2.1+r275327-1.3.9.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-debuginfo-9.2.1+r275327-1.3.9.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-debuginfo-9.2.1+r275327-1.3.9.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-debuginfo-9.2.1+r275327-1.3.9.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-debuginfo-9.2.1+r275327-1.3.9.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-debugsource-9.2.1+r275327-1.3.9.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-debugsource-9.2.1+r275327-1.3.9.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-debugsource-9.2.1+r275327-1.3.9.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-debugsource-9.2.1+r275327-1.3.9.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-fortran-32bit-9.2.1+r275327-1.3.9.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-fortran-32bit-9.2.1+r275327-1.3.9.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-fortran-9.2.1+r275327-1.3.9.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-fortran-9.2.1+r275327-1.3.9.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-fortran-9.2.1+r275327-1.3.9.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-fortran-9.2.1+r275327-1.3.9.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-fortran-debuginfo-9.2.1+r275327-1.3.9.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-fortran-debuginfo-9.2.1+r275327-1.3.9.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-fortran-debuginfo-9.2.1+r275327-1.3.9.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-fortran-debuginfo-9.2.1+r275327-1.3.9.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-go-32bit-9.2.1+r275327-1.3.9.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-go-32bit-9.2.1+r275327-1.3.9.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-go-9.2.1+r275327-1.3.9.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-go-9.2.1+r275327-1.3.9.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-go-9.2.1+r275327-1.3.9.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-go-9.2.1+r275327-1.3.9.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-go-debuginfo-9.2.1+r275327-1.3.9.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-go-debuginfo-9.2.1+r275327-1.3.9.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-go-debuginfo-9.2.1+r275327-1.3.9.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-go-debuginfo-9.2.1+r275327-1.3.9.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-info-9.2.1+r275327-1.3.9.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-locale-9.2.1+r275327-1.3.9.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-locale-9.2.1+r275327-1.3.9.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-locale-9.2.1+r275327-1.3.9.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc9-locale-9.2.1+r275327-1.3.9.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libada9-32bit-9.2.1+r275327-1.3.9.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libada9-32bit-debuginfo-9.2.1+r275327-1.3.9.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libada9-9.2.1+r275327-1.3.9.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libada9-debuginfo-9.2.1+r275327-1.3.9.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libstdc++6-devel-gcc9-32bit-9.2.1+r275327-1.3.9.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libstdc++6-devel-gcc9-32bit-9.2.1+r275327-1.3.9.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libstdc++6-devel-gcc9-9.2.1+r275327-1.3.9.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libstdc++6-devel-gcc9-9.2.1+r275327-1.3.9.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libstdc++6-devel-gcc9-9.2.1+r275327-1.3.9.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libstdc++6-devel-gcc9-9.2.1+r275327-1.3.9.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libstdc++6-pp-gcc9-32bit-9.2.1+r275327-1.3.9.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libstdc++6-pp-gcc9-32bit-9.2.1+r275327-1.3.9.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libstdc++6-pp-gcc9-9.2.1+r275327-1.3.9.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libstdc++6-pp-gcc9-9.2.1+r275327-1.3.9.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libstdc++6-pp-gcc9-9.2.1+r275327-1.3.9.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libstdc++6-pp-gcc9-9.2.1+r275327-1.3.9.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.3263.1",
+            "fixed_packages": [
+                {
+                    "full_name": "cpp10-10.2.1+git583-1.3.5.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cpp10-10.2.1+git583-1.3.5.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cpp10-10.2.1+git583-1.3.5.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cpp10-10.2.1+git583-1.3.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cpp10-debuginfo-10.2.1+git583-1.3.5.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cpp10-debuginfo-10.2.1+git583-1.3.5.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cpp10-debuginfo-10.2.1+git583-1.3.5.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cpp10-debuginfo-10.2.1+git583-1.3.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cross-nvptx-gcc10-10.2.1+git583-1.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cross-nvptx-newlib10-devel-10.2.1+git583-1.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-10.2.1+git583-1.3.5.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-10.2.1+git583-1.3.5.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-10.2.1+git583-1.3.5.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-10.2.1+git583-1.3.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-32bit-10.2.1+git583-1.3.5.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-32bit-10.2.1+git583-1.3.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-c++-10.2.1+git583-1.3.5.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-c++-10.2.1+git583-1.3.5.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-c++-10.2.1+git583-1.3.5.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-c++-10.2.1+git583-1.3.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-c++-32bit-10.2.1+git583-1.3.5.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-c++-32bit-10.2.1+git583-1.3.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-c++-debuginfo-10.2.1+git583-1.3.5.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-c++-debuginfo-10.2.1+git583-1.3.5.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-c++-debuginfo-10.2.1+git583-1.3.5.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-c++-debuginfo-10.2.1+git583-1.3.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-debuginfo-10.2.1+git583-1.3.5.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-debuginfo-10.2.1+git583-1.3.5.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-debuginfo-10.2.1+git583-1.3.5.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-debuginfo-10.2.1+git583-1.3.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-debugsource-10.2.1+git583-1.3.5.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-debugsource-10.2.1+git583-1.3.5.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-debugsource-10.2.1+git583-1.3.5.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-debugsource-10.2.1+git583-1.3.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-fortran-10.2.1+git583-1.3.5.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-fortran-10.2.1+git583-1.3.5.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-fortran-10.2.1+git583-1.3.5.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-fortran-10.2.1+git583-1.3.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-fortran-32bit-10.2.1+git583-1.3.5.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-fortran-32bit-10.2.1+git583-1.3.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-fortran-debuginfo-10.2.1+git583-1.3.5.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-fortran-debuginfo-10.2.1+git583-1.3.5.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-fortran-debuginfo-10.2.1+git583-1.3.5.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-fortran-debuginfo-10.2.1+git583-1.3.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-go-10.2.1+git583-1.3.5.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-go-10.2.1+git583-1.3.5.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-go-10.2.1+git583-1.3.5.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-go-10.2.1+git583-1.3.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-go-32bit-10.2.1+git583-1.3.5.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-go-32bit-10.2.1+git583-1.3.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-go-debuginfo-10.2.1+git583-1.3.5.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-go-debuginfo-10.2.1+git583-1.3.5.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-go-debuginfo-10.2.1+git583-1.3.5.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-go-debuginfo-10.2.1+git583-1.3.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-info-10.2.1+git583-1.3.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-locale-10.2.1+git583-1.3.5.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-locale-10.2.1+git583-1.3.5.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-locale-10.2.1+git583-1.3.5.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-locale-10.2.1+git583-1.3.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-obj-c++-10.2.1+git583-1.3.5.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-obj-c++-10.2.1+git583-1.3.5.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-obj-c++-10.2.1+git583-1.3.5.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-obj-c++-10.2.1+git583-1.3.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-obj-c++-32bit-10.2.1+git583-1.3.5.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-obj-c++-32bit-10.2.1+git583-1.3.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-obj-c++-debuginfo-10.2.1+git583-1.3.5.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-obj-c++-debuginfo-10.2.1+git583-1.3.5.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-obj-c++-debuginfo-10.2.1+git583-1.3.5.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-obj-c++-debuginfo-10.2.1+git583-1.3.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-objc-10.2.1+git583-1.3.5.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-objc-10.2.1+git583-1.3.5.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-objc-10.2.1+git583-1.3.5.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-objc-10.2.1+git583-1.3.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-objc-32bit-10.2.1+git583-1.3.5.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-objc-32bit-10.2.1+git583-1.3.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-objc-debuginfo-10.2.1+git583-1.3.5.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-objc-debuginfo-10.2.1+git583-1.3.5.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-objc-debuginfo-10.2.1+git583-1.3.5.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gcc10-objc-debuginfo-10.2.1+git583-1.3.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libstdc++6-devel-gcc10-10.2.1+git583-1.3.5.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libstdc++6-devel-gcc10-10.2.1+git583-1.3.5.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libstdc++6-devel-gcc10-10.2.1+git583-1.3.5.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libstdc++6-devel-gcc10-10.2.1+git583-1.3.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libstdc++6-devel-gcc10-32bit-10.2.1+git583-1.3.5.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libstdc++6-devel-gcc10-32bit-10.2.1+git583-1.3.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libstdc++6-locale-10.2.1+git583-1.3.5.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libstdc++6-locale-10.2.1+git583-1.3.5.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libstdc++6-locale-10.2.1+git583-1.3.5.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libstdc++6-locale-10.2.1+git583-1.3.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libstdc++6-pp-gcc10-10.2.1+git583-1.3.5.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libstdc++6-pp-gcc10-10.2.1+git583-1.3.5.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libstdc++6-pp-gcc10-10.2.1+git583-1.3.5.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libstdc++6-pp-gcc10-10.2.1+git583-1.3.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libstdc++6-pp-gcc10-32bit-10.2.1+git583-1.3.5.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libstdc++6-pp-gcc10-32bit-10.2.1+git583-1.3.5.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        }
+    ]
+}

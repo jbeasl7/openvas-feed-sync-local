@@ -1,0 +1,1009 @@
+{
+    "version": "1.2",
+    "spdx-license-identifier": "GPL-2.0-only",
+    "copyright": "Copyright (C) 2008-2025 Greenbone AG",
+    "package_type": "rpm",
+    "product_name": "SUSE Manager 1.7",
+    "advisories": [
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.1020.1",
+            "fixed_packages": [
+                {
+                    "full_name": "oracle-update-1.7-0.13.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.1244.1",
+            "fixed_packages": [
+                {
+                    "full_name": "jabberd-2.2.11-0.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "jabberd-db-2.2.11-0.10.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2013.0543.1",
+            "fixed_packages": [
+                {
+                    "full_name": "oracle-update-1.7-0.15.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2013.0810.1",
+            "fixed_packages": [
+                {
+                    "full_name": "oracle-update-1.7-0.19.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2013.0841.1",
+            "fixed_packages": [
+                {
+                    "full_name": "spacewalk-backend-1.7.38.24-0.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-app-1.7.38.24-0.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-applet-1.7.38.24-0.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-config-files-1.7.38.24-0.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-config-files-common-1.7.38.24-0.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-config-files-tool-1.7.38.24-0.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-iss-1.7.38.24-0.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-iss-export-1.7.38.24-0.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-libs-1.7.38.24-0.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-package-push-server-1.7.38.24-0.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-server-1.7.38.24-0.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-sql-1.7.38.24-0.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-sql-oracle-1.7.38.24-0.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-sql-postgresql-1.7.38.24-0.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-tools-1.7.38.24-0.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-xml-export-libs-1.7.38.24-0.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-xmlrpc-1.7.38.24-0.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-xp-1.7.38.24-0.7.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2013.1448.1",
+            "fixed_packages": [
+                {
+                    "full_name": "oracle-update-1.7-0.21.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2013.1661.1",
+            "fixed_packages": [
+                {
+                    "full_name": "spacewalk-java-1.7.54.28-0.9.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-java-config-1.7.54.28-0.9.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-java-lib-1.7.54.28-0.9.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-java-oracle-1.7.54.28-0.9.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-java-postgresql-1.7.54.28-0.9.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-taskomatic-1.7.54.28-0.9.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2014.0130.1",
+            "fixed_packages": [
+                {
+                    "full_name": "oracle-update-1.7-0.23.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2014.0222.1",
+            "fixed_packages": [
+                {
+                    "full_name": "spacewalk-backend-1.7.38.31-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-app-1.7.38.31-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-applet-1.7.38.31-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-config-files-1.7.38.31-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-config-files-common-1.7.38.31-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-config-files-tool-1.7.38.31-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-iss-1.7.38.31-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-iss-export-1.7.38.31-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-libs-1.7.38.31-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-package-push-server-1.7.38.31-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-server-1.7.38.31-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-sql-1.7.38.31-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-sql-oracle-1.7.38.31-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-sql-postgresql-1.7.38.31-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-tools-1.7.38.31-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-xml-export-libs-1.7.38.31-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-xmlrpc-1.7.38.31-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-xp-1.7.38.31-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-base-1.7.28.20-0.5.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-base-minimal-1.7.28.20-0.5.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-branding-1.7.1.11-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-certs-tools-1.7.3.11-0.5.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-grail-1.7.28.20-0.5.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-html-1.7.28.20-0.5.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-java-1.7.54.30-0.5.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-java-config-1.7.54.30-0.5.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-java-lib-1.7.54.30-0.5.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-java-oracle-1.7.54.30-0.5.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-java-postgresql-1.7.54.30-0.5.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-pxt-1.7.28.20-0.5.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-search-1.7.3.12-0.5.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-sniglets-1.7.28.20-0.5.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-taskomatic-1.7.54.30-0.5.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-utils-1.7.15.12-0.5.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-1.7.27-0.5.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-tools-1.7.27-0.5.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2014.0403.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libyaml-0-2-0.1.3-0.10.10.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2014.0444.1",
+            "fixed_packages": [
+                {
+                    "full_name": "openssl-certs-1.96-0.4.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2014.0445.1",
+            "fixed_packages": [
+                {
+                    "full_name": "gnutls-2.4.1-24.39.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutls-extra26-2.4.1-24.39.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutls26-2.4.1-24.39.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutls26-32bit-2.4.1-24.39.49.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2014.0451.1",
+            "fixed_packages": [
+                {
+                    "full_name": "java-1_6_0-ibm-1.6.0_sr15.1-0.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-devel-1.6.0_sr15.1-0.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-fonts-1.6.0_sr15.1-0.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-jdbc-1.6.0_sr15.1-0.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-plugin-1.6.0_sr15.1-0.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2014.0456.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libyaml-0-2-0.1.3-0.10.12.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2014.0630.1",
+            "fixed_packages": [
+                {
+                    "full_name": "oracle-update-1.7-0.25.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2014.0728.1",
+            "fixed_packages": [
+                {
+                    "full_name": "java-1_6_0-ibm-1.6.0_sr16.0-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-fonts-1.6.0_sr16.0-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-jdbc-1.6.0_sr16.0-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-plugin-1.6.0_sr16.0-0.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2014.0758.2",
+            "fixed_packages": [
+                {
+                    "full_name": "gnutls-2.4.1-24.39.51.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutls-extra26-2.4.1-24.39.51.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutls26-2.4.1-24.39.51.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutls26-32bit-2.4.1-24.39.51.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2014.0794.2",
+            "fixed_packages": [
+                {
+                    "full_name": "apache2-mod_wsgi-3.3-5.5.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2014.0894.1",
+            "fixed_packages": [
+                {
+                    "full_name": "openssl-certs-1.97-0.3.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2014.0902.1",
+            "fixed_packages": [
+                {
+                    "full_name": "struts-1.2.9-162.33.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2014.0993.1",
+            "fixed_packages": [
+                {
+                    "full_name": "oracle-update-1.7-0.27.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2014.1055.2",
+            "fixed_packages": [
+                {
+                    "full_name": "java-1_6_0-ibm-1.6.0_sr16.1-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-devel-1.6.0_sr16.1-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-fonts-1.6.0_sr16.1-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-jdbc-1.6.0_sr16.1-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-plugin-1.6.0_sr16.1-0.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2014.1208.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libopenssl0_9_8-0.9.8j-0.62.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-32bit-0.9.8j-0.62.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-hmac-0.9.8j-0.62.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-hmac-32bit-0.9.8j-0.62.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-0.9.8j-0.62.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-doc-0.9.8j-0.62.3.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2014.1223.1",
+            "fixed_packages": [
+                {
+                    "full_name": "bash-3.2-147.14.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bash-doc-3.2-147.14.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreadline5-32bit-5.2-147.14.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreadline5-5.2-147.14.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "readline-doc-5.2-147.14.20.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2014.1247.2",
+            "fixed_packages": [
+                {
+                    "full_name": "bash-3.2-147.14.22.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bash-doc-3.2-147.14.22.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreadline5-32bit-5.2-147.14.22.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreadline5-5.2-147.14.22.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "readline-doc-5.2-147.14.22.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2014.1339.1",
+            "fixed_packages": [
+                {
+                    "full_name": "spacewalk-java-1.7.54.33-0.5.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-java-config-1.7.54.33-0.5.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-java-lib-1.7.54.33-0.5.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-java-oracle-1.7.54.33-0.5.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-java-postgresql-1.7.54.33-0.5.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-taskomatic-1.7.54.33-0.5.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2014.1387.2",
+            "fixed_packages": [
+                {
+                    "full_name": "libopenssl0_9_8-0.9.8j-0.66.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-32bit-0.9.8j-0.66.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-hmac-0.9.8j-0.66.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-hmac-32bit-0.9.8j-0.66.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-0.9.8j-0.66.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-doc-0.9.8j-0.66.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2014.1394.1",
+            "fixed_packages": [
+                {
+                    "full_name": "spacewalk-branding-1.7.1.12-0.5.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2014.1526.2",
+            "fixed_packages": [
+                {
+                    "full_name": "java-1_6_0-ibm-1.6.0_sr16.2-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-devel-1.6.0_sr16.2-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-fonts-1.6.0_sr16.2-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-jdbc-1.6.0_sr16.2-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-plugin-1.6.0_sr16.2-0.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2014.1572.2",
+            "fixed_packages": [
+                {
+                    "full_name": "apache2-mod_wsgi-3.3-5.7.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2015.0172.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libopenssl0_9_8-0.9.8j-0.68.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-32bit-0.9.8j-0.68.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-hmac-0.9.8j-0.68.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-hmac-32bit-0.9.8j-0.68.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-0.9.8j-0.68.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-doc-0.9.8j-0.68.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2015.0343.2",
+            "fixed_packages": [
+                {
+                    "full_name": "java-1_6_0-ibm-1.6.0_sr16.3-0.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-devel-1.6.0_sr16.3-0.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-fonts-1.6.0_sr16.3-0.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-jdbc-1.6.0_sr16.3-0.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-plugin-1.6.0_sr16.3-0.4.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2015.0498.1",
+            "fixed_packages": [
+                {
+                    "full_name": "oracle-update-1.7-0.29.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2015.0545.2",
+            "fixed_packages": [
+                {
+                    "full_name": "libopenssl0_9_8-0.9.8j-0.70.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-32bit-0.9.8j-0.70.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-hmac-0.9.8j-0.70.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-hmac-32bit-0.9.8j-0.70.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-0.9.8j-0.70.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-doc-0.9.8j-0.70.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2015.0675.1",
+            "fixed_packages": [
+                {
+                    "full_name": "gnutls-2.4.1-24.39.55.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutls-extra26-2.4.1-24.39.55.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutls26-2.4.1-24.39.55.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutls26-32bit-2.4.1-24.39.55.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2015.0886.1",
+            "fixed_packages": [
+                {
+                    "full_name": "struts-1.2.9-162.37.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2015.0907.1",
+            "fixed_packages": [
+                {
+                    "full_name": "oracle-update-1.7-0.31.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2015.0928.1",
+            "fixed_packages": [
+                {
+                    "full_name": "sm-ncc-sync-data-1.7.21-0.5.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "smdba-1.5-0.6.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacecmd-1.7.7.12-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-1.7.38.34-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-app-1.7.38.34-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-applet-1.7.38.34-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-config-files-1.7.38.34-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-config-files-common-1.7.38.34-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-config-files-tool-1.7.38.34-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-iss-1.7.38.34-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-iss-export-1.7.38.34-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-libs-1.7.38.34-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-package-push-server-1.7.38.34-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-server-1.7.38.34-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-sql-1.7.38.34-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-sql-oracle-1.7.38.34-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-sql-postgresql-1.7.38.34-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-tools-1.7.38.34-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-xml-export-libs-1.7.38.34-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-xmlrpc-1.7.38.34-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-xp-1.7.38.34-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-branding-1.7.1.13-0.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-java-1.7.54.34-0.5.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-java-config-1.7.54.34-0.5.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-java-lib-1.7.54.34-0.5.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-java-oracle-1.7.54.34-0.5.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-java-postgresql-1.7.54.34-0.5.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-setup-1.7.9.12-0.5.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-taskomatic-1.7.54.34-0.5.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-1.7.30-0.5.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-schema-1.7.56.24-0.7.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-tools-1.7.30-0.5.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2015.1086.1",
+            "fixed_packages": [
+                {
+                    "full_name": "java-1_6_0-ibm-1.6.0_sr16.4-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-devel-1.6.0_sr16.4-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-fonts-1.6.0_sr16.4-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-jdbc-1.6.0_sr16.4-0.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_6_0-ibm-plugin-1.6.0_sr16.4-0.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2015.1182.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libopenssl0_9_8-0.9.8j-0.72.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-32bit-0.9.8j-0.72.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-hmac-0.9.8j-0.72.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl0_9_8-hmac-32bit-0.9.8j-0.72.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-0.9.8j-0.72.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-doc-0.9.8j-0.72.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        }
+    ]
+}

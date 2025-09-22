@@ -1,0 +1,3922 @@
+{
+    "version": "1.2",
+    "spdx-license-identifier": "GPL-2.0-only",
+    "copyright": "Copyright (C) 2008-2025 Greenbone AG",
+    "package_type": "rpm",
+    "product_name": "SUSE Linux Enterprise Module for Legacy Software 15-SP1",
+    "advisories": [
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1211.2",
+            "fixed_packages": [
+                {
+                    "full_name": "java-1_8_0-openjdk-1.8.0.212-3.19.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-1.8.0.212-3.19.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-1.8.0.212-3.19.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-1.8.0.212-3.19.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debuginfo-1.8.0.212-3.19.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debuginfo-1.8.0.212-3.19.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debuginfo-1.8.0.212-3.19.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debuginfo-1.8.0.212-3.19.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debugsource-1.8.0.212-3.19.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debugsource-1.8.0.212-3.19.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debugsource-1.8.0.212-3.19.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debugsource-1.8.0.212-3.19.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-1.8.0.212-3.19.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-1.8.0.212-3.19.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-1.8.0.212-3.19.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-1.8.0.212-3.19.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-debuginfo-1.8.0.212-3.19.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-debuginfo-1.8.0.212-3.19.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-debuginfo-1.8.0.212-3.19.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-debuginfo-1.8.0.212-3.19.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-1.8.0.212-3.19.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-1.8.0.212-3.19.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-1.8.0.212-3.19.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-1.8.0.212-3.19.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-debuginfo-1.8.0.212-3.19.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-debuginfo-1.8.0.212-3.19.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-debuginfo-1.8.0.212-3.19.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-debuginfo-1.8.0.212-3.19.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-1.8.0.212-3.19.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-1.8.0.212-3.19.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-1.8.0.212-3.19.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-1.8.0.212-3.19.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-debuginfo-1.8.0.212-3.19.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-debuginfo-1.8.0.212-3.19.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-debuginfo-1.8.0.212-3.19.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-debuginfo-1.8.0.212-3.19.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1308.2",
+            "fixed_packages": [
+                {
+                    "full_name": "java-1_8_0-ibm-1.8.0_sr5.35-3.20.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-1.8.0_sr5.35-3.20.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-1.8.0_sr5.35-3.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-alsa-1.8.0_sr5.35-3.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-devel-1.8.0_sr5.35-3.20.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-devel-1.8.0_sr5.35-3.20.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-devel-1.8.0_sr5.35-3.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-plugin-1.8.0_sr5.35-3.20.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1550.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.4.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.4.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.4.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.4.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.4.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.4.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.4.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.4.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.4.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.4.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.4.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.4.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.4.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1744.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.7.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.7.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.7.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.7.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.7.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.7.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.7.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.7.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.7.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.7.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.7.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.7.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.7.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1854.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.10.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.10.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.10.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.10.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.10.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.10.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.10.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.10.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.10.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.10.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.10.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.10.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.10.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.2021.1",
+            "fixed_packages": [
+                {
+                    "full_name": "java-1_8_0-openjdk-1.8.0.222-3.24.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-1.8.0.222-3.24.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-1.8.0.222-3.24.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-1.8.0.222-3.24.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debuginfo-1.8.0.222-3.24.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debuginfo-1.8.0.222-3.24.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debuginfo-1.8.0.222-3.24.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debuginfo-1.8.0.222-3.24.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debugsource-1.8.0.222-3.24.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debugsource-1.8.0.222-3.24.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debugsource-1.8.0.222-3.24.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debugsource-1.8.0.222-3.24.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-1.8.0.222-3.24.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-1.8.0.222-3.24.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-1.8.0.222-3.24.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-1.8.0.222-3.24.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-debuginfo-1.8.0.222-3.24.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-debuginfo-1.8.0.222-3.24.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-debuginfo-1.8.0.222-3.24.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-debuginfo-1.8.0.222-3.24.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-1.8.0.222-3.24.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-1.8.0.222-3.24.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-1.8.0.222-3.24.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-1.8.0.222-3.24.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-debuginfo-1.8.0.222-3.24.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-debuginfo-1.8.0.222-3.24.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-debuginfo-1.8.0.222-3.24.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-debuginfo-1.8.0.222-3.24.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-1.8.0.222-3.24.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-1.8.0.222-3.24.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-1.8.0.222-3.24.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-1.8.0.222-3.24.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-debuginfo-1.8.0.222-3.24.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-debuginfo-1.8.0.222-3.24.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-debuginfo-1.8.0.222-3.24.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-debuginfo-1.8.0.222-3.24.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.2073.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.15.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.15.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.15.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.15.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.15.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.15.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.15.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.15.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.15.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.15.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.15.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.15.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.15.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.2291.1",
+            "fixed_packages": [
+                {
+                    "full_name": "java-1_8_0-ibm-1.8.0_sr5.40-3.24.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-1.8.0_sr5.40-3.24.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-1.8.0_sr5.40-3.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-alsa-1.8.0_sr5.40-3.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-devel-1.8.0_sr5.40-3.24.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-devel-1.8.0_sr5.40-3.24.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-devel-1.8.0_sr5.40-3.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-plugin-1.8.0_sr5.40-3.24.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.2395.1",
+            "fixed_packages": [
+                {
+                    "full_name": "openldap2-2.4.46-9.19.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-2.4.46-9.19.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-2.4.46-9.19.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-2.4.46-9.19.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-2.4.46-9.19.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-2.4.46-9.19.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-2.4.46-9.19.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-2.4.46-9.19.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-debuginfo-2.4.46-9.19.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-debuginfo-2.4.46-9.19.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-debuginfo-2.4.46-9.19.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-debuginfo-2.4.46-9.19.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-2.4.46-9.19.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-2.4.46-9.19.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-2.4.46-9.19.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-2.4.46-9.19.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-debuginfo-2.4.46-9.19.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-debuginfo-2.4.46-9.19.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-debuginfo-2.4.46-9.19.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-debuginfo-2.4.46-9.19.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debuginfo-2.4.46-9.19.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debuginfo-2.4.46-9.19.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debuginfo-2.4.46-9.19.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debuginfo-2.4.46-9.19.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debugsource-2.4.46-9.19.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debugsource-2.4.46-9.19.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debugsource-2.4.46-9.19.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debugsource-2.4.46-9.19.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.2424.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.18.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.18.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.18.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.18.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.18.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.18.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.18.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.18.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.18.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.18.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.18.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.18.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.18.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.2561.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libopenssl-1_0_0-devel-1.0.2p-3.22.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl-1_0_0-devel-1.0.2p-3.22.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl-1_0_0-devel-1.0.2p-3.22.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl-1_0_0-devel-1.0.2p-3.22.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_0_0-1.0.2p-3.22.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_0_0-1.0.2p-3.22.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_0_0-1.0.2p-3.22.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_0_0-1.0.2p-3.22.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_0_0-debuginfo-1.0.2p-3.22.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_0_0-debuginfo-1.0.2p-3.22.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_0_0-debuginfo-1.0.2p-3.22.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_0_0-debuginfo-1.0.2p-3.22.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_0_0-1.0.2p-3.22.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_0_0-1.0.2p-3.22.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_0_0-1.0.2p-3.22.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_0_0-1.0.2p-3.22.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_0_0-debuginfo-1.0.2p-3.22.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_0_0-debuginfo-1.0.2p-3.22.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_0_0-debuginfo-1.0.2p-3.22.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_0_0-debuginfo-1.0.2p-3.22.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_0_0-debugsource-1.0.2p-3.22.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_0_0-debugsource-1.0.2p-3.22.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_0_0-debugsource-1.0.2p-3.22.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_0_0-debugsource-1.0.2p-3.22.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.2710.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.21.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.21.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.21.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.21.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.21.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.21.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.21.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.21.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.21.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.21.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.21.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.21.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.21.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.2947.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.26.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.26.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.26.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.26.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.26.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.26.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.26.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.26.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.26.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.26.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.26.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.26.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.26.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.2997.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libncurses5-32bit-6.1-5.6.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libncurses5-32bit-debuginfo-6.1-5.6.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libncurses5-6.1-5.6.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libncurses5-6.1-5.6.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libncurses5-6.1-5.6.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libncurses5-6.1-5.6.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libncurses5-debuginfo-6.1-5.6.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libncurses5-debuginfo-6.1-5.6.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libncurses5-debuginfo-6.1-5.6.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libncurses5-debuginfo-6.1-5.6.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ncurses-debugsource-6.1-5.6.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ncurses-debugsource-6.1-5.6.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ncurses-debugsource-6.1-5.6.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ncurses-debugsource-6.1-5.6.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ncurses5-devel-6.1-5.6.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ncurses5-devel-6.1-5.6.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ncurses5-devel-6.1-5.6.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ncurses5-devel-6.1-5.6.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.3238.1",
+            "fixed_packages": [
+                {
+                    "full_name": "java-1_8_0-openjdk-1.8.0.232-3.27.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-1.8.0.232-3.27.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-1.8.0.232-3.27.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-1.8.0.232-3.27.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debuginfo-1.8.0.232-3.27.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debuginfo-1.8.0.232-3.27.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debuginfo-1.8.0.232-3.27.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debuginfo-1.8.0.232-3.27.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debugsource-1.8.0.232-3.27.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debugsource-1.8.0.232-3.27.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debugsource-1.8.0.232-3.27.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debugsource-1.8.0.232-3.27.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-1.8.0.232-3.27.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-1.8.0.232-3.27.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-1.8.0.232-3.27.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-1.8.0.232-3.27.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-debuginfo-1.8.0.232-3.27.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-debuginfo-1.8.0.232-3.27.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-debuginfo-1.8.0.232-3.27.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-debuginfo-1.8.0.232-3.27.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-1.8.0.232-3.27.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-1.8.0.232-3.27.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-1.8.0.232-3.27.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-1.8.0.232-3.27.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-debuginfo-1.8.0.232-3.27.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-debuginfo-1.8.0.232-3.27.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-debuginfo-1.8.0.232-3.27.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-debuginfo-1.8.0.232-3.27.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-1.8.0.232-3.27.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-1.8.0.232-3.27.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-1.8.0.232-3.27.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-1.8.0.232-3.27.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-debuginfo-1.8.0.232-3.27.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-debuginfo-1.8.0.232-3.27.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-debuginfo-1.8.0.232-3.27.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-debuginfo-1.8.0.232-3.27.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.3317.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.29.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.29.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.29.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.29.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.29.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.29.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.29.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.29.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.29.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.29.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.29.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.29.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.29.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.29.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.29.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.29.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.0001.1",
+            "fixed_packages": [
+                {
+                    "full_name": "java-1_8_0-ibm-1.8.0_sr6.0-3.30.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-1.8.0_sr6.0-3.30.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-1.8.0_sr6.0-3.30.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-alsa-1.8.0_sr6.0-3.30.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-devel-1.8.0_sr6.0-3.30.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-devel-1.8.0_sr6.0-3.30.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-devel-1.8.0_sr6.0-3.30.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-plugin-1.8.0_sr6.0-3.30.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.0064.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libopenssl-1_0_0-devel-1.0.2p-3.25.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl-1_0_0-devel-1.0.2p-3.25.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl-1_0_0-devel-1.0.2p-3.25.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl-1_0_0-devel-1.0.2p-3.25.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_0_0-1.0.2p-3.25.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_0_0-1.0.2p-3.25.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_0_0-1.0.2p-3.25.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_0_0-1.0.2p-3.25.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_0_0-debuginfo-1.0.2p-3.25.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_0_0-debuginfo-1.0.2p-3.25.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_0_0-debuginfo-1.0.2p-3.25.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_0_0-debuginfo-1.0.2p-3.25.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_0_0-1.0.2p-3.25.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_0_0-1.0.2p-3.25.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_0_0-1.0.2p-3.25.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_0_0-1.0.2p-3.25.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_0_0-debuginfo-1.0.2p-3.25.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_0_0-debuginfo-1.0.2p-3.25.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_0_0-debuginfo-1.0.2p-3.25.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_0_0-debuginfo-1.0.2p-3.25.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_0_0-debugsource-1.0.2p-3.25.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_0_0-debugsource-1.0.2p-3.25.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_0_0-debugsource-1.0.2p-3.25.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_0_0-debugsource-1.0.2p-3.25.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.0231.1",
+            "fixed_packages": [
+                {
+                    "full_name": "java-1_8_0-openjdk-1.8.0.242-3.30.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-1.8.0.242-3.30.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-1.8.0.242-3.30.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-1.8.0.242-3.30.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debuginfo-1.8.0.242-3.30.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debuginfo-1.8.0.242-3.30.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debuginfo-1.8.0.242-3.30.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debuginfo-1.8.0.242-3.30.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debugsource-1.8.0.242-3.30.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debugsource-1.8.0.242-3.30.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debugsource-1.8.0.242-3.30.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debugsource-1.8.0.242-3.30.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-1.8.0.242-3.30.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-1.8.0.242-3.30.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-1.8.0.242-3.30.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-1.8.0.242-3.30.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-debuginfo-1.8.0.242-3.30.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-debuginfo-1.8.0.242-3.30.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-debuginfo-1.8.0.242-3.30.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-debuginfo-1.8.0.242-3.30.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-1.8.0.242-3.30.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-1.8.0.242-3.30.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-1.8.0.242-3.30.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-1.8.0.242-3.30.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-debuginfo-1.8.0.242-3.30.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-debuginfo-1.8.0.242-3.30.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-debuginfo-1.8.0.242-3.30.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-debuginfo-1.8.0.242-3.30.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-1.8.0.242-3.30.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-1.8.0.242-3.30.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-1.8.0.242-3.30.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-1.8.0.242-3.30.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-debuginfo-1.8.0.242-3.30.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-debuginfo-1.8.0.242-3.30.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-debuginfo-1.8.0.242-3.30.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-debuginfo-1.8.0.242-3.30.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.0466.1",
+            "fixed_packages": [
+                {
+                    "full_name": "java-1_8_0-ibm-1.8.0_sr6.5-3.33.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-1.8.0_sr6.5-3.33.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-1.8.0_sr6.5-3.33.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-alsa-1.8.0_sr6.5-3.33.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-devel-1.8.0_sr6.5-3.33.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-devel-1.8.0_sr6.5-3.33.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-devel-1.8.0_sr6.5-3.33.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-plugin-1.8.0_sr6.5-3.33.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.0560.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.34.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.34.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.34.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.34.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.34.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.34.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.34.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.34.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.34.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.34.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.34.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.34.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.34.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.34.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.34.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.34.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.0836.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.37.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.37.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.37.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.37.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.37.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.37.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.37.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.37.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.37.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.37.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.37.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.37.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.37.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.37.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.37.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.37.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.1146.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.40.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.40.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.40.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.40.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.40.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.40.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.40.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.40.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.40.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.40.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.40.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.40.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.40.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.40.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.40.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.40.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.1219.1",
+            "fixed_packages": [
+                {
+                    "full_name": "openldap2-2.4.46-9.28.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-2.4.46-9.28.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-2.4.46-9.28.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-2.4.46-9.28.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-2.4.46-9.28.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-2.4.46-9.28.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-2.4.46-9.28.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-2.4.46-9.28.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-debuginfo-2.4.46-9.28.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-debuginfo-2.4.46-9.28.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-debuginfo-2.4.46-9.28.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-debuginfo-2.4.46-9.28.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-2.4.46-9.28.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-2.4.46-9.28.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-2.4.46-9.28.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-2.4.46-9.28.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-debuginfo-2.4.46-9.28.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-debuginfo-2.4.46-9.28.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-debuginfo-2.4.46-9.28.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-debuginfo-2.4.46-9.28.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debuginfo-2.4.46-9.28.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debuginfo-2.4.46-9.28.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debuginfo-2.4.46-9.28.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debuginfo-2.4.46-9.28.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debugsource-2.4.46-9.28.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debugsource-2.4.46-9.28.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debugsource-2.4.46-9.28.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debugsource-2.4.46-9.28.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.1569.1",
+            "fixed_packages": [
+                {
+                    "full_name": "java-1_8_0-openjdk-1.8.0.252-3.35.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-1.8.0.252-3.35.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-1.8.0.252-3.35.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-1.8.0.252-3.35.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debuginfo-1.8.0.252-3.35.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debuginfo-1.8.0.252-3.35.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debuginfo-1.8.0.252-3.35.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debuginfo-1.8.0.252-3.35.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debugsource-1.8.0.252-3.35.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debugsource-1.8.0.252-3.35.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debugsource-1.8.0.252-3.35.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debugsource-1.8.0.252-3.35.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-1.8.0.252-3.35.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-1.8.0.252-3.35.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-1.8.0.252-3.35.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-1.8.0.252-3.35.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-debuginfo-1.8.0.252-3.35.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-debuginfo-1.8.0.252-3.35.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-debuginfo-1.8.0.252-3.35.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-debuginfo-1.8.0.252-3.35.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-1.8.0.252-3.35.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-1.8.0.252-3.35.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-1.8.0.252-3.35.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-1.8.0.252-3.35.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-debuginfo-1.8.0.252-3.35.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-debuginfo-1.8.0.252-3.35.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-debuginfo-1.8.0.252-3.35.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-debuginfo-1.8.0.252-3.35.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-1.8.0.252-3.35.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-1.8.0.252-3.35.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-1.8.0.252-3.35.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-1.8.0.252-3.35.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-debuginfo-1.8.0.252-3.35.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-debuginfo-1.8.0.252-3.35.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-debuginfo-1.8.0.252-3.35.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-debuginfo-1.8.0.252-3.35.3.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.1599.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.45.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.45.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.45.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.45.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.45.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.45.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.45.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.45.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.45.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.45.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.45.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.45.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.45.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.45.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.45.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.45.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.1684.1",
+            "fixed_packages": [
+                {
+                    "full_name": "java-1_8_0-ibm-1.8.0_sr6.10-3.38.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-1.8.0_sr6.10-3.38.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-1.8.0_sr6.10-3.38.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-alsa-1.8.0_sr6.10-3.38.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-devel-1.8.0_sr6.10-3.38.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-devel-1.8.0_sr6.10-3.38.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-devel-1.8.0_sr6.10-3.38.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-plugin-1.8.0_sr6.10-3.38.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.1823.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ntp-4.2.8p15-4.10.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntp-4.2.8p15-4.10.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntp-4.2.8p15-4.10.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntp-4.2.8p15-4.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntp-debuginfo-4.2.8p15-4.10.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntp-debuginfo-4.2.8p15-4.10.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntp-debuginfo-4.2.8p15-4.10.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntp-debuginfo-4.2.8p15-4.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntp-debugsource-4.2.8p15-4.10.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntp-debugsource-4.2.8p15-4.10.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntp-debugsource-4.2.8p15-4.10.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntp-debugsource-4.2.8p15-4.10.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.1856.1",
+            "fixed_packages": [
+                {
+                    "full_name": "openldap2-2.4.46-9.31.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-2.4.46-9.31.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-2.4.46-9.31.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-2.4.46-9.31.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-2.4.46-9.31.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-2.4.46-9.31.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-2.4.46-9.31.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-2.4.46-9.31.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-debuginfo-2.4.46-9.31.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-debuginfo-2.4.46-9.31.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-debuginfo-2.4.46-9.31.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-debuginfo-2.4.46-9.31.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-2.4.46-9.31.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-2.4.46-9.31.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-2.4.46-9.31.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-2.4.46-9.31.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-debuginfo-2.4.46-9.31.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-debuginfo-2.4.46-9.31.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-debuginfo-2.4.46-9.31.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-debuginfo-2.4.46-9.31.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debuginfo-2.4.46-9.31.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debuginfo-2.4.46-9.31.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debuginfo-2.4.46-9.31.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debuginfo-2.4.46-9.31.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debugsource-2.4.46-9.31.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debugsource-2.4.46-9.31.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debugsource-2.4.46-9.31.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debugsource-2.4.46-9.31.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.2107.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.48.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.48.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.48.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.48.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.48.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.48.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.48.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.48.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.48.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.48.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.48.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.48.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.48.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.48.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.48.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.48.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.2453.1",
+            "fixed_packages": [
+                {
+                    "full_name": "java-1_8_0-ibm-1.8.0_sr6.15-3.41.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-1.8.0_sr6.15-3.41.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-1.8.0_sr6.15-3.41.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-alsa-1.8.0_sr6.15-3.41.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-devel-1.8.0_sr6.15-3.41.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-devel-1.8.0_sr6.15-3.41.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-devel-1.8.0_sr6.15-3.41.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-plugin-1.8.0_sr6.15-3.41.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.2575.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.56.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.56.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.56.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.56.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.56.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.56.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.56.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.56.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.56.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.56.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.56.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.56.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.56.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.56.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.56.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.56.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.2581.1",
+            "fixed_packages": [
+                {
+                    "full_name": "openldap2-2.4.46-9.34.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-2.4.46-9.34.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-2.4.46-9.34.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-2.4.46-9.34.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-2.4.46-9.34.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-2.4.46-9.34.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-2.4.46-9.34.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-2.4.46-9.34.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-debuginfo-2.4.46-9.34.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-debuginfo-2.4.46-9.34.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-debuginfo-2.4.46-9.34.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-debuginfo-2.4.46-9.34.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-2.4.46-9.34.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-2.4.46-9.34.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-2.4.46-9.34.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-2.4.46-9.34.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-debuginfo-2.4.46-9.34.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-debuginfo-2.4.46-9.34.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-debuginfo-2.4.46-9.34.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-debuginfo-2.4.46-9.34.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debuginfo-2.4.46-9.34.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debuginfo-2.4.46-9.34.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debuginfo-2.4.46-9.34.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debuginfo-2.4.46-9.34.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debugsource-2.4.46-9.34.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debugsource-2.4.46-9.34.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debugsource-2.4.46-9.34.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debugsource-2.4.46-9.34.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-ppolicy-check-password-1.2-9.34.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-ppolicy-check-password-1.2-9.34.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-ppolicy-check-password-1.2-9.34.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-ppolicy-check-password-1.2-9.34.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-ppolicy-check-password-debuginfo-1.2-9.34.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-ppolicy-check-password-debuginfo-1.2-9.34.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-ppolicy-check-password-debuginfo-1.2-9.34.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-ppolicy-check-password-debuginfo-1.2-9.34.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.2712.1",
+            "fixed_packages": [
+                {
+                    "full_name": "openldap2-2.4.46-9.37.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-2.4.46-9.37.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-2.4.46-9.37.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-2.4.46-9.37.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-2.4.46-9.37.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-2.4.46-9.37.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-2.4.46-9.37.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-2.4.46-9.37.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-debuginfo-2.4.46-9.37.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-debuginfo-2.4.46-9.37.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-debuginfo-2.4.46-9.37.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-debuginfo-2.4.46-9.37.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-2.4.46-9.37.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-2.4.46-9.37.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-2.4.46-9.37.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-2.4.46-9.37.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-debuginfo-2.4.46-9.37.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-debuginfo-2.4.46-9.37.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-debuginfo-2.4.46-9.37.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-debuginfo-2.4.46-9.37.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debuginfo-2.4.46-9.37.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debuginfo-2.4.46-9.37.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debuginfo-2.4.46-9.37.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debuginfo-2.4.46-9.37.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debugsource-2.4.46-9.37.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debugsource-2.4.46-9.37.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debugsource-2.4.46-9.37.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debugsource-2.4.46-9.37.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-ppolicy-check-password-1.2-9.37.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-ppolicy-check-password-1.2-9.37.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-ppolicy-check-password-1.2-9.37.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-ppolicy-check-password-1.2-9.37.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-ppolicy-check-password-debuginfo-1.2-9.37.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-ppolicy-check-password-debuginfo-1.2-9.37.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-ppolicy-check-password-debuginfo-1.2-9.37.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-ppolicy-check-password-debuginfo-1.2-9.37.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.2905.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.61.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.61.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.61.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.61.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.61.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.61.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.61.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.61.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.61.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.61.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.61.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.61.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.61.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.61.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.61.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.61.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.2972.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.64.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.64.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.64.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.64.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.64.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.64.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.64.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.64.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.64.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.64.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.64.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.64.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.64.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.64.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.64.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.64.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.3272.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.67.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.67.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.67.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.67.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.67.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.67.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.67.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.67.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.67.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.67.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.67.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.67.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.67.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.67.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.67.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.67.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.3313.1",
+            "fixed_packages": [
+                {
+                    "full_name": "openldap2-2.4.46-9.40.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-2.4.46-9.40.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-2.4.46-9.40.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-2.4.46-9.40.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-2.4.46-9.40.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-2.4.46-9.40.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-2.4.46-9.40.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-2.4.46-9.40.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-debuginfo-2.4.46-9.40.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-debuginfo-2.4.46-9.40.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-debuginfo-2.4.46-9.40.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-meta-debuginfo-2.4.46-9.40.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-2.4.46-9.40.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-2.4.46-9.40.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-2.4.46-9.40.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-2.4.46-9.40.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-debuginfo-2.4.46-9.40.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-debuginfo-2.4.46-9.40.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-debuginfo-2.4.46-9.40.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-back-perl-debuginfo-2.4.46-9.40.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debuginfo-2.4.46-9.40.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debuginfo-2.4.46-9.40.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debuginfo-2.4.46-9.40.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debuginfo-2.4.46-9.40.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debugsource-2.4.46-9.40.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debugsource-2.4.46-9.40.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debugsource-2.4.46-9.40.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-debugsource-2.4.46-9.40.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-ppolicy-check-password-1.2-9.40.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-ppolicy-check-password-1.2-9.40.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-ppolicy-check-password-1.2-9.40.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-ppolicy-check-password-1.2-9.40.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-ppolicy-check-password-debuginfo-1.2-9.40.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-ppolicy-check-password-debuginfo-1.2-9.40.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-ppolicy-check-password-debuginfo-1.2-9.40.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openldap2-ppolicy-check-password-debuginfo-1.2-9.40.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.3460.1",
+            "fixed_packages": [
+                {
+                    "full_name": "java-1_8_0-openjdk-1.8.0.272-3.42.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-1.8.0.272-3.42.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-1.8.0.272-3.42.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-1.8.0.272-3.42.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debuginfo-1.8.0.272-3.42.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debuginfo-1.8.0.272-3.42.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debuginfo-1.8.0.272-3.42.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debuginfo-1.8.0.272-3.42.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debugsource-1.8.0.272-3.42.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debugsource-1.8.0.272-3.42.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debugsource-1.8.0.272-3.42.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debugsource-1.8.0.272-3.42.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-1.8.0.272-3.42.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-1.8.0.272-3.42.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-1.8.0.272-3.42.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-1.8.0.272-3.42.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-debuginfo-1.8.0.272-3.42.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-debuginfo-1.8.0.272-3.42.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-debuginfo-1.8.0.272-3.42.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-debuginfo-1.8.0.272-3.42.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-1.8.0.272-3.42.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-1.8.0.272-3.42.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-1.8.0.272-3.42.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-1.8.0.272-3.42.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-debuginfo-1.8.0.272-3.42.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-debuginfo-1.8.0.272-3.42.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-debuginfo-1.8.0.272-3.42.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-debuginfo-1.8.0.272-3.42.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-1.8.0.272-3.42.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-1.8.0.272-3.42.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-1.8.0.272-3.42.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-1.8.0.272-3.42.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-debuginfo-1.8.0.272-3.42.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-debuginfo-1.8.0.272-3.42.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-debuginfo-1.8.0.272-3.42.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-debuginfo-1.8.0.272-3.42.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.3507.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.72.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.72.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.72.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.72.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.72.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.72.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.72.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.72.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.72.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.72.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.72.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.72.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.72.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.72.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.72.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.72.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.3591.1",
+            "fixed_packages": [
+                {
+                    "full_name": "java-1_8_0-openjdk-1.8.0.275-3.45.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-1.8.0.275-3.45.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-1.8.0.275-3.45.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-1.8.0.275-3.45.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debuginfo-1.8.0.275-3.45.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debuginfo-1.8.0.275-3.45.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debuginfo-1.8.0.275-3.45.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debuginfo-1.8.0.275-3.45.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debugsource-1.8.0.275-3.45.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debugsource-1.8.0.275-3.45.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debugsource-1.8.0.275-3.45.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-debugsource-1.8.0.275-3.45.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-1.8.0.275-3.45.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-1.8.0.275-3.45.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-1.8.0.275-3.45.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-1.8.0.275-3.45.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-debuginfo-1.8.0.275-3.45.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-debuginfo-1.8.0.275-3.45.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-debuginfo-1.8.0.275-3.45.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-demo-debuginfo-1.8.0.275-3.45.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-1.8.0.275-3.45.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-1.8.0.275-3.45.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-1.8.0.275-3.45.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-1.8.0.275-3.45.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-debuginfo-1.8.0.275-3.45.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-debuginfo-1.8.0.275-3.45.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-debuginfo-1.8.0.275-3.45.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-devel-debuginfo-1.8.0.275-3.45.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-1.8.0.275-3.45.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-1.8.0.275-3.45.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-1.8.0.275-3.45.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-1.8.0.275-3.45.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-debuginfo-1.8.0.275-3.45.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-debuginfo-1.8.0.275-3.45.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-debuginfo-1.8.0.275-3.45.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-openjdk-headless-debuginfo-1.8.0.275-3.45.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.3718.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.75.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.75.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.75.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.75.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.75.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.75.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.75.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.75.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.75.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.75.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.75.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.75.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.75.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.75.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.75.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.75.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.3762.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libopenssl-1_0_0-devel-1.0.2p-3.34.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl-1_0_0-devel-1.0.2p-3.34.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl-1_0_0-devel-1.0.2p-3.34.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl-1_0_0-devel-1.0.2p-3.34.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_0_0-1.0.2p-3.34.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_0_0-1.0.2p-3.34.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_0_0-1.0.2p-3.34.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_0_0-1.0.2p-3.34.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_0_0-debuginfo-1.0.2p-3.34.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_0_0-debuginfo-1.0.2p-3.34.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_0_0-debuginfo-1.0.2p-3.34.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_0_0-debuginfo-1.0.2p-3.34.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_0_0-1.0.2p-3.34.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_0_0-1.0.2p-3.34.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_0_0-1.0.2p-3.34.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_0_0-1.0.2p-3.34.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_0_0-debuginfo-1.0.2p-3.34.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_0_0-debuginfo-1.0.2p-3.34.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_0_0-debuginfo-1.0.2p-3.34.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_0_0-debuginfo-1.0.2p-3.34.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_0_0-debugsource-1.0.2p-3.34.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_0_0-debugsource-1.0.2p-3.34.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_0_0-debugsource-1.0.2p-3.34.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_0_0-debugsource-1.0.2p-3.34.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.3932.1",
+            "fixed_packages": [
+                {
+                    "full_name": "java-1_8_0-ibm-1.8.0_sr6.20-3.47.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-1.8.0_sr6.20-3.47.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-1.8.0_sr6.20-3.47.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-alsa-1.8.0_sr6.20-3.47.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-devel-1.8.0_sr6.20-3.47.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-devel-1.8.0_sr6.20-3.47.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-devel-1.8.0_sr6.20-3.47.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-1_8_0-ibm-plugin-1.8.0_sr6.20-3.47.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2021.0118.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.78.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.78.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.78.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-197.78.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.78.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.78.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.78.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-197.78.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.78.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.78.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.78.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-4.12.14-197.78.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.78.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.78.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.78.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reiserfs-kmp-default-debuginfo-4.12.14-197.78.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        }
+    ]
+}

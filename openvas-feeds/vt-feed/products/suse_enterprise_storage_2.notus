@@ -1,0 +1,87 @@
+{
+    "version": "1.2",
+    "spdx-license-identifier": "GPL-2.0-only",
+    "copyright": "Copyright (C) 2008-2025 Greenbone AG",
+    "package_type": "rpm",
+    "product_name": "SUSE Enterprise Storage 2",
+    "advisories": [
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2015.2190.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ruby2.1-rubygem-rack-1_4-1.4.5-8.10.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2016.0044.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python-Django-1.6.11-3.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2016.0114.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python-requests-2.8.1-6.9.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2016.0970.1",
+            "fixed_packages": [
+                {
+                    "full_name": "salt-2014.1.10-3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-master-2014.1.10-3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-minion-2014.1.10-3.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2016.1569.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python-Pillow-2.7.0-3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-Pillow-debuginfo-2.7.0-3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-Pillow-debugsource-2.7.0-3.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2016.1895.1",
+            "fixed_packages": [
+                {
+                    "full_name": "salt-2014.1.10-6.4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-master-2014.1.10-6.4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-minion-2014.1.10-6.4.noarch",
+                    "specifier": ">="
+                }
+            ]
+        }
+    ]
+}

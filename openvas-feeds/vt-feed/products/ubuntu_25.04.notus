@@ -1,0 +1,3429 @@
+{
+    "version": "1.2",
+    "spdx-license-identifier": "GPL-2.0-only",
+    "copyright": "Copyright (C) 2008-2025 Greenbone AG",
+    "package_type": "deb",
+    "product_name": "Ubuntu 25.04",
+    "advisories": [
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7364.1",
+            "fixed_packages": [
+                {
+                    "name": "libsaml-dev",
+                    "full_version": "3.3.0-2ubuntu1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libsaml13",
+                    "full_version": "3.3.0-2ubuntu1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "opensaml-schemas",
+                    "full_version": "3.3.0-2ubuntu1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "opensaml-tools",
+                    "full_version": "3.3.0-2ubuntu1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7366.2",
+            "fixed_packages": [
+                {
+                    "name": "ruby-rack",
+                    "full_version": "2.2.7-1.1ubuntu0.25.04.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7412.2",
+            "fixed_packages": [
+                {
+                    "name": "gnupg",
+                    "full_version": "2.4.4-2ubuntu23.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "gnupg2",
+                    "full_version": "2.4.4-2ubuntu23.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "gpg",
+                    "full_version": "2.4.4-2ubuntu23.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7431.2",
+            "fixed_packages": [
+                {
+                    "name": "haproxy",
+                    "full_version": "3.0.8-1ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7434.2",
+            "fixed_packages": [
+                {
+                    "name": "perl",
+                    "full_version": "5.40.1-2ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7443.2",
+            "fixed_packages": [
+                {
+                    "name": "erlang",
+                    "full_version": "1:27.3+dfsg-1ubuntu1.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "erlang-ssh",
+                    "full_version": "1:27.3+dfsg-1ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7446.1",
+            "fixed_packages": [
+                {
+                    "name": "libapache2-mod-auth-openidc",
+                    "full_version": "2.4.16.10-1ubuntu1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7447.1",
+            "fixed_packages": [
+                {
+                    "name": "yelp",
+                    "full_version": "42.2-2ubuntu0.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "yelp-xsl",
+                    "full_version": "42.1-3ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7454.1",
+            "fixed_packages": [
+                {
+                    "name": "libarchive-tools",
+                    "full_version": "3.7.7-0ubuntu2.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libarchive13t64",
+                    "full_version": "3.7.7-0ubuntu2.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7457.1",
+            "fixed_packages": [
+                {
+                    "name": "openssh-client",
+                    "full_version": "1:9.9p1-3ubuntu3.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openssh-server",
+                    "full_version": "1:9.9p1-3ubuntu3.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7464.1",
+            "fixed_packages": [
+                {
+                    "name": "jupyter-notebook",
+                    "full_version": "6.4.13-5ubuntu0.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "python3-notebook",
+                    "full_version": "6.4.13-5ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7467.1",
+            "fixed_packages": [
+                {
+                    "name": "libxml2",
+                    "full_version": "2.12.7+dfsg+really2.9.14-0.4ubuntu0.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "python3-libxml2",
+                    "full_version": "2.12.7+dfsg+really2.9.14-0.4ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7471.1",
+            "fixed_packages": [
+                {
+                    "name": "libpoppler147",
+                    "full_version": "25.03.0-3ubuntu1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "poppler-utils",
+                    "full_version": "25.03.0-3ubuntu1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7477.1",
+            "fixed_packages": [
+                {
+                    "name": "libcares2",
+                    "full_version": "1.34.4-2.1ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7479.1",
+            "fixed_packages": [
+                {
+                    "name": "mysql-server",
+                    "full_version": "8.4.5-0ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7480.1",
+            "fixed_packages": [
+                {
+                    "name": "openjdk-8-jdk",
+                    "full_version": "8u452-ga~us1-0ubuntu1~25.04",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-8-jdk-headless",
+                    "full_version": "8u452-ga~us1-0ubuntu1~25.04",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-8-jre",
+                    "full_version": "8u452-ga~us1-0ubuntu1~25.04",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-8-jre-headless",
+                    "full_version": "8u452-ga~us1-0ubuntu1~25.04",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-8-jre-zero",
+                    "full_version": "8u452-ga~us1-0ubuntu1~25.04",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7481.1",
+            "fixed_packages": [
+                {
+                    "name": "openjdk-11-jdk",
+                    "full_version": "11.0.27+6~us1-0ubuntu1~25.04",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-11-jdk-headless",
+                    "full_version": "11.0.27+6~us1-0ubuntu1~25.04",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-11-jre",
+                    "full_version": "11.0.27+6~us1-0ubuntu1~25.04",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-11-jre-headless",
+                    "full_version": "11.0.27+6~us1-0ubuntu1~25.04",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-11-jre-zero",
+                    "full_version": "11.0.27+6~us1-0ubuntu1~25.04",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7482.1",
+            "fixed_packages": [
+                {
+                    "name": "openjdk-17-jdk",
+                    "full_version": "17.0.15+6~us1-0ubuntu1~25.04",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-17-jdk-headless",
+                    "full_version": "17.0.15+6~us1-0ubuntu1~25.04",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-17-jre",
+                    "full_version": "17.0.15+6~us1-0ubuntu1~25.04",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-17-jre-headless",
+                    "full_version": "17.0.15+6~us1-0ubuntu1~25.04",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-17-jre-zero",
+                    "full_version": "17.0.15+6~us1-0ubuntu1~25.04",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7483.1",
+            "fixed_packages": [
+                {
+                    "name": "openjdk-21-jdk",
+                    "full_version": "21.0.7+6~us1-0ubuntu1~25.04",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-21-jdk-headless",
+                    "full_version": "21.0.7+6~us1-0ubuntu1~25.04",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-21-jre",
+                    "full_version": "21.0.7+6~us1-0ubuntu1~25.04",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-21-jre-headless",
+                    "full_version": "21.0.7+6~us1-0ubuntu1~25.04",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-21-jre-zero",
+                    "full_version": "21.0.7+6~us1-0ubuntu1~25.04",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7484.1",
+            "fixed_packages": [
+                {
+                    "name": "openjdk-24-jdk",
+                    "full_version": "24.0.1+9~us1-0ubuntu1~25.04",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-24-jdk-headless",
+                    "full_version": "24.0.1+9~us1-0ubuntu1~25.04",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-24-jre",
+                    "full_version": "24.0.1+9~us1-0ubuntu1~25.04",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-24-jre-headless",
+                    "full_version": "24.0.1+9~us1-0ubuntu1~25.04",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-24-jre-zero",
+                    "full_version": "24.0.1+9~us1-0ubuntu1~25.04",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-24-jvmci-jdk",
+                    "full_version": "24.0.1+9~us1-0ubuntu1~25.04",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7485.1",
+            "fixed_packages": [
+                {
+                    "name": "libraw-bin",
+                    "full_version": "0.21.3-1ubuntu0.25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libraw23t64",
+                    "full_version": "0.21.3-1ubuntu0.25.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7486.1",
+            "fixed_packages": [
+                {
+                    "name": "libfcgi0t64",
+                    "full_version": "2.4.2-2.1ubuntu0.25.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7490.1",
+            "fixed_packages": [
+                {
+                    "name": "libsoup-2.4-1",
+                    "full_version": "2.74.3-10ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7490.2",
+            "fixed_packages": [
+                {
+                    "name": "libsoup-2.4-1",
+                    "full_version": "2.74.3-10ubuntu0.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7501.1",
+            "fixed_packages": [
+                {
+                    "name": "python3-django",
+                    "full_version": "3:4.2.18-1ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7503.1",
+            "fixed_packages": [
+                {
+                    "name": "python3-h11",
+                    "full_version": "0.14.0-1ubuntu0.25.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7505.1",
+            "fixed_packages": [
+                {
+                    "name": "libabsl20230802",
+                    "full_version": "20230802.1-4.2ubuntu0.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7507.1",
+            "fixed_packages": [
+                {
+                    "name": "ruby-rack",
+                    "full_version": "2.2.7-1.1ubuntu0.25.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7508.1",
+            "fixed_packages": [
+                {
+                    "name": "open-vm-tools",
+                    "full_version": "2:12.5.0-1ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7509.1",
+            "fixed_packages": [
+                {
+                    "name": "aspnetcore-runtime-8.0",
+                    "full_version": "8.0.16-0ubuntu1~25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "aspnetcore-runtime-9.0",
+                    "full_version": "9.0.5-0ubuntu1~25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "dotnet-host-8.0",
+                    "full_version": "8.0.16-0ubuntu1~25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "dotnet-host-9.0",
+                    "full_version": "9.0.5-0ubuntu1~25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "dotnet-hostfxr-8.0",
+                    "full_version": "8.0.16-0ubuntu1~25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "dotnet-hostfxr-9.0",
+                    "full_version": "9.0.5-0ubuntu1~25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "dotnet-runtime-8.0",
+                    "full_version": "8.0.16-0ubuntu1~25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "dotnet-runtime-9.0",
+                    "full_version": "9.0.5-0ubuntu1~25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "dotnet-sdk-8.0",
+                    "full_version": "8.0.116-0ubuntu1~25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "dotnet-sdk-9.0",
+                    "full_version": "9.0.106-0ubuntu1~25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "dotnet-sdk-aot-9.0",
+                    "full_version": "9.0.106-0ubuntu1~25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "dotnet8",
+                    "full_version": "8.0.116-8.0.16-0ubuntu1~25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "dotnet9",
+                    "full_version": "9.0.106-9.0.5-0ubuntu1~25.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7520.2",
+            "fixed_packages": [
+                {
+                    "name": "postgresql-17",
+                    "full_version": "17.5-0ubuntu0.25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "postgresql-client-17",
+                    "full_version": "17.5-0ubuntu0.25.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7525.2",
+            "fixed_packages": [
+                {
+                    "name": "libtomcat9-java",
+                    "full_version": "9.0.70-2ubuntu1.25.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7526.1",
+            "fixed_packages": [
+                {
+                    "name": "bind9",
+                    "full_version": "1:9.20.4-3ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7528.1",
+            "fixed_packages": [
+                {
+                    "name": "libsqlite3-0",
+                    "full_version": "3.46.1-3ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7530.1",
+            "fixed_packages": [
+                {
+                    "name": "libphp-adodb",
+                    "full_version": "5.22.8-0.1ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7531.1",
+            "fixed_packages": [
+                {
+                    "name": "openjdk-21-crac-jdk",
+                    "full_version": "21.0.7+6.1-0ubuntu1~25.04",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-21-crac-jdk-headless",
+                    "full_version": "21.0.7+6.1-0ubuntu1~25.04",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-21-crac-jre",
+                    "full_version": "21.0.7+6.1-0ubuntu1~25.04",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-21-crac-jre-headless",
+                    "full_version": "21.0.7+6.1-0ubuntu1~25.04",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-21-crac-jre-zero",
+                    "full_version": "21.0.7+6.1-0ubuntu1~25.04",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7532.1",
+            "fixed_packages": [
+                {
+                    "name": "libglib2.0-0t64",
+                    "full_version": "2.84.1-1ubuntu0.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libglib2.0-bin",
+                    "full_version": "2.84.1-1ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7533.1",
+            "fixed_packages": [
+                {
+                    "name": "openjdk-17-crac-jdk",
+                    "full_version": "17.0.15+6-0ubuntu1~25.04",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-17-crac-jdk-headless",
+                    "full_version": "17.0.15+6-0ubuntu1~25.04",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-17-crac-jre",
+                    "full_version": "17.0.15+6-0ubuntu1~25.04",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-17-crac-jre-headless",
+                    "full_version": "17.0.15+6-0ubuntu1~25.04",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-17-crac-jre-zero",
+                    "full_version": "17.0.15+6-0ubuntu1~25.04",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7534.1",
+            "fixed_packages": [
+                {
+                    "name": "python3-flask",
+                    "full_version": "3.1.0-2ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7535.1",
+            "fixed_packages": [
+                {
+                    "name": "intel-microcode",
+                    "full_version": "3.20250512.0ubuntu0.25.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7536.2",
+            "fixed_packages": [
+                {
+                    "name": "cifs-utils",
+                    "full_version": "2:7.2-2ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7537.1",
+            "fixed_packages": [
+                {
+                    "name": "net-tools",
+                    "full_version": "2.10-1.1ubuntu1.25.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7537.2",
+            "fixed_packages": [
+                {
+                    "name": "net-tools",
+                    "full_version": "2.10-1.1ubuntu1.25.04.4",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7538.1",
+            "fixed_packages": [
+                {
+                    "name": "ffmpeg",
+                    "full_version": "7:7.1.1-1ubuntu1.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libavcodec-extra61",
+                    "full_version": "7:7.1.1-1ubuntu1.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libavcodec61",
+                    "full_version": "7:7.1.1-1ubuntu1.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libavdevice61",
+                    "full_version": "7:7.1.1-1ubuntu1.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libavfilter-extra10",
+                    "full_version": "7:7.1.1-1ubuntu1.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libavfilter10",
+                    "full_version": "7:7.1.1-1ubuntu1.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libavformat-extra61",
+                    "full_version": "7:7.1.1-1ubuntu1.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libavformat61",
+                    "full_version": "7:7.1.1-1ubuntu1.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libavutil59",
+                    "full_version": "7:7.1.1-1ubuntu1.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libpostproc58",
+                    "full_version": "7:7.1.1-1ubuntu1.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libswresample5",
+                    "full_version": "7:7.1.1-1ubuntu1.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libswscale8",
+                    "full_version": "7:7.1.1-1ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7543.1",
+            "fixed_packages": [
+                {
+                    "name": "libsoup-2.4-1",
+                    "full_version": "2.74.3-10ubuntu0.3",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libsoup-3.0-0",
+                    "full_version": "3.6.5-1ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7544.1",
+            "fixed_packages": [
+                {
+                    "name": "python3-setuptools",
+                    "full_version": "75.8.0-1ubuntu1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7545.1",
+            "fixed_packages": [
+                {
+                    "name": "apport",
+                    "full_version": "2.32.0-0ubuntu5.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "python3-apport",
+                    "full_version": "2.32.0-0ubuntu5.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7545.2",
+            "fixed_packages": [
+                {
+                    "name": "apport",
+                    "full_version": "2.32.0-0ubuntu5.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "python3-apport",
+                    "full_version": "2.32.0-0ubuntu5.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7545.3",
+            "fixed_packages": [
+                {
+                    "name": "apport",
+                    "full_version": "2.32.0-0ubuntu5.3",
+                    "specifier": ">="
+                },
+                {
+                    "name": "python3-apport",
+                    "full_version": "2.32.0-0ubuntu5.3",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7547.1",
+            "fixed_packages": [
+                {
+                    "name": "python3-tornado",
+                    "full_version": "6.4.2-1ubuntu0.25.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7548.1",
+            "fixed_packages": [
+                {
+                    "name": "mariadb-server",
+                    "full_version": "1:11.4.7-0ubuntu0.25.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7551.1",
+            "fixed_packages": [
+                {
+                    "name": "libvpx9",
+                    "full_version": "1.15.0-2ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7555.1",
+            "fixed_packages": [
+                {
+                    "name": "python3-django",
+                    "full_version": "3:4.2.18-1ubuntu1.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7555.2",
+            "fixed_packages": [
+                {
+                    "name": "python3-django",
+                    "full_version": "3:4.2.18-1ubuntu1.3",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7556.1",
+            "fixed_packages": [
+                {
+                    "name": "libjs-bootstrap",
+                    "full_version": "3.4.1+dfsg-3+deb12u1build0.25.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7558.1",
+            "fixed_packages": [
+                {
+                    "name": "gstreamer1.0-plugins-bad",
+                    "full_version": "1.26.0-1ubuntu2.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libgstreamer-plugins-bad1.0-0",
+                    "full_version": "1.26.0-1ubuntu2.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7559.1",
+            "fixed_packages": [
+                {
+                    "name": "systemd-coredump",
+                    "full_version": "257.4-1ubuntu3.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7560.1",
+            "fixed_packages": [
+                {
+                    "name": "amd64-microcode",
+                    "full_version": "3.20250311.1ubuntu0.25.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7562.1",
+            "fixed_packages": [
+                {
+                    "name": "libtomcat9-java",
+                    "full_version": "9.0.70-2ubuntu1.25.04.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7563.1",
+            "fixed_packages": [
+                {
+                    "name": "aspnetcore-runtime-8.0",
+                    "full_version": "8.0.17-0ubuntu1~25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "aspnetcore-runtime-9.0",
+                    "full_version": "9.0.6-0ubuntu1~25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "dotnet-host-8.0",
+                    "full_version": "8.0.17-0ubuntu1~25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "dotnet-host-9.0",
+                    "full_version": "9.0.6-0ubuntu1~25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "dotnet-hostfxr-8.0",
+                    "full_version": "8.0.17-0ubuntu1~25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "dotnet-hostfxr-9.0",
+                    "full_version": "9.0.6-0ubuntu1~25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "dotnet-runtime-8.0",
+                    "full_version": "8.0.17-0ubuntu1~25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "dotnet-runtime-9.0",
+                    "full_version": "9.0.6-0ubuntu1~25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "dotnet-sdk-8.0",
+                    "full_version": "8.0.117-0ubuntu1~25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "dotnet-sdk-9.0",
+                    "full_version": "9.0.107-0ubuntu1~25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "dotnet8",
+                    "full_version": "8.0.117-8.0.17-0ubuntu1~25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "dotnet9",
+                    "full_version": "9.0.107-9.0.6-0ubuntu1~25.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7564.1",
+            "fixed_packages": [
+                {
+                    "name": "samba",
+                    "full_version": "2:4.21.4+dfsg-1ubuntu3.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7566.1",
+            "fixed_packages": [
+                {
+                    "name": "libjavascriptcoregtk-4.1-0",
+                    "full_version": "2.48.3-0ubuntu0.25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libjavascriptcoregtk-6.0-1",
+                    "full_version": "2.48.3-0ubuntu0.25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libwebkit2gtk-4.1-0",
+                    "full_version": "2.48.3-0ubuntu0.25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libwebkitgtk-6.0-4",
+                    "full_version": "2.48.3-0ubuntu0.25.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7567.1",
+            "fixed_packages": [
+                {
+                    "name": "libapache2-mod-security2",
+                    "full_version": "2.9.8-1.1ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7568.1",
+            "fixed_packages": [
+                {
+                    "name": "python3-requests",
+                    "full_version": "2.32.3+dfsg-4ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7570.1",
+            "fixed_packages": [
+                {
+                    "name": "libpython3.13",
+                    "full_version": "3.13.3-1ubuntu0.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libpython3.13-minimal",
+                    "full_version": "3.13.3-1ubuntu0.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "python3.13",
+                    "full_version": "3.13.3-1ubuntu0.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "python3.13-minimal",
+                    "full_version": "3.13.3-1ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7572.1",
+            "fixed_packages": [
+                {
+                    "name": "katex",
+                    "full_version": "0.16.10+~cs6.1.0-2ubuntu0.25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libjs-katex",
+                    "full_version": "0.16.10+~cs6.1.0-2ubuntu0.25.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7573.1",
+            "fixed_packages": [
+                {
+                    "name": "xserver-xorg-core",
+                    "full_version": "2:21.1.16-1ubuntu1.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "xwayland",
+                    "full_version": "2:24.1.6-1ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7576.1",
+            "fixed_packages": [
+                {
+                    "name": "dwarfdump",
+                    "full_version": "20210528-1ubuntu0.25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libdwarf-dev",
+                    "full_version": "20210528-1ubuntu0.25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libdwarf1",
+                    "full_version": "20210528-1ubuntu0.25.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7577.1",
+            "fixed_packages": [
+                {
+                    "name": "libblockdev3",
+                    "full_version": "3.3.0-2ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7578.1",
+            "fixed_packages": [
+                {
+                    "name": "libudisks2-0",
+                    "full_version": "2.10.1-11ubuntu2.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "udisks2",
+                    "full_version": "2.10.1-11ubuntu2.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7579.1",
+            "fixed_packages": [
+                {
+                    "name": "godot3",
+                    "full_version": "3.6+ds-2ubuntu0.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "godot3-runner",
+                    "full_version": "3.6+ds-2ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7580.1",
+            "fixed_packages": [
+                {
+                    "name": "libpam-modules",
+                    "full_version": "1.5.3-7ubuntu4.3",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7583.1",
+            "fixed_packages": [
+                {
+                    "name": "python3.13",
+                    "full_version": "3.13.3-1ubuntu0.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7584.1",
+            "fixed_packages": [
+                {
+                    "name": "roundcube",
+                    "full_version": "1.6.10+dfsg-1ubuntu0.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "roundcube-core",
+                    "full_version": "1.6.10+dfsg-1ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7594.1",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-6.14.0-1004-realtime",
+                    "full_version": "6.14.0-1004.4",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-1007-raspi",
+                    "full_version": "6.14.0-1007.7",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-1008-gcp",
+                    "full_version": "6.14.0-1008.8",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-1008-gcp-64k",
+                    "full_version": "6.14.0-1008.8",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-22-generic",
+                    "full_version": "6.14.0-22.22",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-22-generic-64k",
+                    "full_version": "6.14.0-22.22",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-gcp",
+                    "full_version": "6.14.0-1008.8",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-gcp-64k",
+                    "full_version": "6.14.0-1008.8",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-generic",
+                    "full_version": "6.14.0-22.22",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-generic-64k",
+                    "full_version": "6.14.0-22.22",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-raspi",
+                    "full_version": "6.14.0-1007.7",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-realtime",
+                    "full_version": "6.14.0-1004.4",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7594.2",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-6.14.0-1007-azure",
+                    "full_version": "6.14.0-1007.7",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-1007-azure-fde",
+                    "full_version": "6.14.0-1007.7",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-azure",
+                    "full_version": "6.14.0-1007.7",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-azure-fde",
+                    "full_version": "6.14.0-1007.7",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7594.3",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-6.14.0-1007-aws",
+                    "full_version": "6.14.0-1007.7",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-1007-aws-64k",
+                    "full_version": "6.14.0-1007.7",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-1007-oracle",
+                    "full_version": "6.14.0-1007.7",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-1007-oracle-64k",
+                    "full_version": "6.14.0-1007.7",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-aws",
+                    "full_version": "6.14.0-1007.7+1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-aws-64k",
+                    "full_version": "6.14.0-1007.7+1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-oracle",
+                    "full_version": "6.14.0-1007.7",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-oracle-64k",
+                    "full_version": "6.14.0-1007.7",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7599.1",
+            "fixed_packages": [
+                {
+                    "name": "python3-urllib3",
+                    "full_version": "2.3.0-2ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7599.2",
+            "fixed_packages": [
+                {
+                    "name": "python3-pip",
+                    "full_version": "25.0+dfsg-1ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7601.1",
+            "fixed_packages": [
+                {
+                    "name": "libarchive13t64",
+                    "full_version": "3.7.7-0ubuntu2.3",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7604.1",
+            "fixed_packages": [
+                {
+                    "name": "sudo",
+                    "full_version": "1.9.16p2-1ubuntu1.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "sudo-ldap",
+                    "full_version": "1.9.16p2-1ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7611.1",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-6.14.0-1005-realtime",
+                    "full_version": "6.14.0-1005.5",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-1008-raspi",
+                    "full_version": "6.14.0-1008.8",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-1009-gcp",
+                    "full_version": "6.14.0-1009.9",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-1009-gcp-64k",
+                    "full_version": "6.14.0-1009.9",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-23-generic",
+                    "full_version": "6.14.0-23.23",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-23-generic-64k",
+                    "full_version": "6.14.0-23.23",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-gcp",
+                    "full_version": "6.14.0-1009.9",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-gcp-6.14",
+                    "full_version": "6.14.0-1009.9",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-gcp-64k",
+                    "full_version": "6.14.0-1009.9",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-gcp-64k-6.14",
+                    "full_version": "6.14.0-1009.9",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-generic",
+                    "full_version": "6.14.0-23.23",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-generic-6.14",
+                    "full_version": "6.14.0-23.23",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-generic-64k",
+                    "full_version": "6.14.0-23.23",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-generic-64k-6.14",
+                    "full_version": "6.14.0-23.23",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-raspi",
+                    "full_version": "6.14.0-1008.8",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-raspi-6.14",
+                    "full_version": "6.14.0-1008.8",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-realtime",
+                    "full_version": "6.14.0-1005.5",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-realtime-6.14",
+                    "full_version": "6.14.0-1005.5",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-virtual",
+                    "full_version": "6.14.0-23.23",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-virtual-6.14",
+                    "full_version": "6.14.0-23.23",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7611.2",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-6.14.0-1008-azure",
+                    "full_version": "6.14.0-1008.8",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-1008-azure-fde",
+                    "full_version": "6.14.0-1008.8",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-azure",
+                    "full_version": "6.14.0-1008.8",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-azure-6.14",
+                    "full_version": "6.14.0-1008.8",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-azure-fde",
+                    "full_version": "6.14.0-1008.8",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-azure-fde-6.14",
+                    "full_version": "6.14.0-1008.8",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7611.3",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-6.14.0-1008-aws",
+                    "full_version": "6.14.0-1008.8",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-1008-aws-64k",
+                    "full_version": "6.14.0-1008.8",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-aws",
+                    "full_version": "6.14.0-1008.8",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-aws-6.14",
+                    "full_version": "6.14.0-1008.8",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-aws-64k",
+                    "full_version": "6.14.0-1008.8",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-aws-64k-6.14",
+                    "full_version": "6.14.0-1008.8",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7611.4",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-6.14.0-1008-oracle",
+                    "full_version": "6.14.0-1008.8",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-1008-oracle-64k",
+                    "full_version": "6.14.0-1008.8",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-oracle",
+                    "full_version": "6.14.0-1008.8",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-oracle-6.14",
+                    "full_version": "6.14.0-1008.8",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-oracle-64k",
+                    "full_version": "6.14.0-1008.8",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-oracle-64k-6.14",
+                    "full_version": "6.14.0-1008.8",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7612.1",
+            "fixed_packages": [
+                {
+                    "name": "python3-flask-cors",
+                    "full_version": "5.0.0-1ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7615.1",
+            "fixed_packages": [
+                {
+                    "name": "clamav",
+                    "full_version": "1.4.3+dfsg-0ubuntu0.25.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7617.1",
+            "fixed_packages": [
+                {
+                    "name": "libtpms0",
+                    "full_version": "0.9.3-0ubuntu4.25.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7619.1",
+            "fixed_packages": [
+                {
+                    "name": "libssh-4",
+                    "full_version": "0.11.1-1ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7620.1",
+            "fixed_packages": [
+                {
+                    "name": "libfile-find-rule-perl",
+                    "full_version": "0.34-3ubuntu0.25.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7623.1",
+            "fixed_packages": [
+                {
+                    "name": "ghostscript",
+                    "full_version": "10.05.0dfsg1-0ubuntu1.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libgs10",
+                    "full_version": "10.05.0dfsg1-0ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7624.1",
+            "fixed_packages": [
+                {
+                    "name": "libfreerdp3-3",
+                    "full_version": "3.14.0+dfsg-1ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7626.1",
+            "fixed_packages": [
+                {
+                    "name": "git",
+                    "full_version": "1:2.48.1-0ubuntu1.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "git-gui",
+                    "full_version": "1:2.48.1-0ubuntu1.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "gitk",
+                    "full_version": "1:2.48.1-0ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7629.1",
+            "fixed_packages": [
+                {
+                    "name": "libprotobuf-java",
+                    "full_version": "3.21.12-10ubuntu0.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "python3-protobuf",
+                    "full_version": "3.21.12-10ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7630.1",
+            "fixed_packages": [
+                {
+                    "name": "libresteasy-java",
+                    "full_version": "3.6.2-3ubuntu0.25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libresteasy3.0-java",
+                    "full_version": "3.0.26-6ubuntu0.25.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7631.1",
+            "fixed_packages": [
+                {
+                    "name": "libdjvulibre21",
+                    "full_version": "3.5.28-2ubuntu0.25.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7634.1",
+            "fixed_packages": [
+                {
+                    "name": "libc6",
+                    "full_version": "2.41-6ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7635.1",
+            "fixed_packages": [
+                {
+                    "name": "libgnutls30t64",
+                    "full_version": "3.8.9-2ubuntu3.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7639.1",
+            "fixed_packages": [
+                {
+                    "name": "apache2",
+                    "full_version": "2.4.63-1ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7641.1",
+            "fixed_packages": [
+                {
+                    "name": "bind9",
+                    "full_version": "1:9.20.4-3ubuntu1.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7643.1",
+            "fixed_packages": [
+                {
+                    "name": "libsoup-2.4-1",
+                    "full_version": "2.74.3-10ubuntu0.4",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libsoup-3.0-0",
+                    "full_version": "3.6.5-1ubuntu0.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7647.1",
+            "fixed_packages": [
+                {
+                    "name": "ledgersmb",
+                    "full_version": "1.6.33+ds-2.2ubuntu0.25.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7648.1",
+            "fixed_packages": [
+                {
+                    "name": "libapache2-mod-php8.4",
+                    "full_version": "8.4.5-1ubuntu1.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "php8.4",
+                    "full_version": "8.4.5-1ubuntu1.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "php8.4-cgi",
+                    "full_version": "8.4.5-1ubuntu1.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "php8.4-cli",
+                    "full_version": "8.4.5-1ubuntu1.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "php8.4-fpm",
+                    "full_version": "8.4.5-1ubuntu1.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "php8.4-pgsql",
+                    "full_version": "8.4.5-1ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7649.1",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-6.14.0-1006-realtime",
+                    "full_version": "6.14.0-1006.6",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-1009-raspi",
+                    "full_version": "6.14.0-1009.9",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-1011-gcp",
+                    "full_version": "6.14.0-1011.11",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-1011-gcp-64k",
+                    "full_version": "6.14.0-1011.11",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-24-generic",
+                    "full_version": "6.14.0-24.24",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-24-generic-64k",
+                    "full_version": "6.14.0-24.24",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-gcp",
+                    "full_version": "6.14.0-1011.11",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-gcp-6.14",
+                    "full_version": "6.14.0-1011.11",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-gcp-64k",
+                    "full_version": "6.14.0-1011.11",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-gcp-64k-6.14",
+                    "full_version": "6.14.0-1011.11",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-generic",
+                    "full_version": "6.14.0-24.24",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-generic-6.14",
+                    "full_version": "6.14.0-24.24",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-generic-64k",
+                    "full_version": "6.14.0-24.24",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-generic-64k-6.14",
+                    "full_version": "6.14.0-24.24",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-generic-64k-hwe-24.04",
+                    "full_version": "6.14.0-24.24",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-generic-hwe-24.04",
+                    "full_version": "6.14.0-24.24",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-oem-24.04",
+                    "full_version": "6.14.0-24.24",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-oem-24.04a",
+                    "full_version": "6.14.0-24.24",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-raspi",
+                    "full_version": "6.14.0-1009.9",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-raspi-6.14",
+                    "full_version": "6.14.0-1009.9",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-realtime",
+                    "full_version": "6.14.0-1006.6",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-realtime-6.14",
+                    "full_version": "6.14.0-1006.6",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-realtime-hwe-24.04",
+                    "full_version": "6.14.0-1006.6",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-virtual",
+                    "full_version": "6.14.0-24.24",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-virtual-6.14",
+                    "full_version": "6.14.0-24.24",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-virtual-hwe-24.04",
+                    "full_version": "6.14.0-24.24",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7649.2",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-6.14.0-1009-aws",
+                    "full_version": "6.14.0-1009.9",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-1009-aws-64k",
+                    "full_version": "6.14.0-1009.9",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-aws",
+                    "full_version": "6.14.0-1009.9",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-aws-6.14",
+                    "full_version": "6.14.0-1009.9",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-aws-64k",
+                    "full_version": "6.14.0-1009.9",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-aws-64k-6.14",
+                    "full_version": "6.14.0-1009.9",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7656.1",
+            "fixed_packages": [
+                {
+                    "name": "erlang",
+                    "full_version": "1:27.3+dfsg-1ubuntu1.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "erlang-ssh",
+                    "full_version": "1:27.3+dfsg-1ubuntu1.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7657.1",
+            "fixed_packages": [
+                {
+                    "name": "jq",
+                    "full_version": "1.7.1-3ubuntu1.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libjq1",
+                    "full_version": "1.7.1-3ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7660.1",
+            "fixed_packages": [
+                {
+                    "name": "fdkaac",
+                    "full_version": "1.0.0-1ubuntu0.25.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7662.1",
+            "fixed_packages": [
+                {
+                    "name": "libgdk-pixbuf-2.0-0",
+                    "full_version": "2.42.12+dfsg-2ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7665.1",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-6.14.0-1009-oracle",
+                    "full_version": "6.14.0-1009.9",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-1009-oracle-64k",
+                    "full_version": "6.14.0-1009.9",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-oracle",
+                    "full_version": "6.14.0-1009.9",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-oracle-6.14",
+                    "full_version": "6.14.0-1009.9",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-oracle-64k",
+                    "full_version": "6.14.0-1009.9",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-oracle-64k-6.14",
+                    "full_version": "6.14.0-1009.9",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7666.1",
+            "fixed_packages": [
+                {
+                    "name": "libunbound8",
+                    "full_version": "1.22.0-1ubuntu1.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "unbound",
+                    "full_version": "1.22.0-1ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7667.1",
+            "fixed_packages": [
+                {
+                    "name": "openjdk-8-jdk",
+                    "full_version": "8u462-ga~us1-0ubuntu2~25.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-8-jdk-headless",
+                    "full_version": "8u462-ga~us1-0ubuntu2~25.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-8-jre",
+                    "full_version": "8u462-ga~us1-0ubuntu2~25.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-8-jre-headless",
+                    "full_version": "8u462-ga~us1-0ubuntu2~25.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-8-jre-zero",
+                    "full_version": "8u462-ga~us1-0ubuntu2~25.04.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7668.1",
+            "fixed_packages": [
+                {
+                    "name": "openjdk-21-jdk",
+                    "full_version": "21.0.8+9~us1-0ubuntu1~25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-21-jdk-headless",
+                    "full_version": "21.0.8+9~us1-0ubuntu1~25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-21-jre",
+                    "full_version": "21.0.8+9~us1-0ubuntu1~25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-21-jre-headless",
+                    "full_version": "21.0.8+9~us1-0ubuntu1~25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-21-jre-zero",
+                    "full_version": "21.0.8+9~us1-0ubuntu1~25.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7669.1",
+            "fixed_packages": [
+                {
+                    "name": "openjdk-24-jdk",
+                    "full_version": "24.0.2+12~us1-0ubuntu1~25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-24-jdk-headless",
+                    "full_version": "24.0.2+12~us1-0ubuntu1~25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-24-jre",
+                    "full_version": "24.0.2+12~us1-0ubuntu1~25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-24-jre-headless",
+                    "full_version": "24.0.2+12~us1-0ubuntu1~25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-24-jre-zero",
+                    "full_version": "24.0.2+12~us1-0ubuntu1~25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-24-jvmci-jdk",
+                    "full_version": "24.0.2+12~us1-0ubuntu1~25.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7670.1",
+            "fixed_packages": [
+                {
+                    "name": "iputils-ping",
+                    "full_version": "3:20240905-1ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7672.1",
+            "fixed_packages": [
+                {
+                    "name": "openjdk-17-crac-jdk",
+                    "full_version": "17.0.16+8-0ubuntu2~25.04",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-17-crac-jdk-headless",
+                    "full_version": "17.0.16+8-0ubuntu2~25.04",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-17-crac-jre",
+                    "full_version": "17.0.16+8-0ubuntu2~25.04",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-17-crac-jre-headless",
+                    "full_version": "17.0.16+8-0ubuntu2~25.04",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-17-crac-jre-zero",
+                    "full_version": "17.0.16+8-0ubuntu2~25.04",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7673.1",
+            "fixed_packages": [
+                {
+                    "name": "openjdk-21-crac-jdk",
+                    "full_version": "21.0.8+9-0ubuntu2~25.04",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-21-crac-jdk-headless",
+                    "full_version": "21.0.8+9-0ubuntu2~25.04",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-21-crac-jre",
+                    "full_version": "21.0.8+9-0ubuntu2~25.04",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-21-crac-jre-headless",
+                    "full_version": "21.0.8+9-0ubuntu2~25.04",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-21-crac-jre-zero",
+                    "full_version": "21.0.8+9-0ubuntu2~25.04",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7674.1",
+            "fixed_packages": [
+                {
+                    "name": "openjdk-11-jdk",
+                    "full_version": "11.0.28+6-1ubuntu1~25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-11-jdk-headless",
+                    "full_version": "11.0.28+6-1ubuntu1~25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-11-jre",
+                    "full_version": "11.0.28+6-1ubuntu1~25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-11-jre-headless",
+                    "full_version": "11.0.28+6-1ubuntu1~25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-11-jre-zero",
+                    "full_version": "11.0.28+6-1ubuntu1~25.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7675.1",
+            "fixed_packages": [
+                {
+                    "name": "libpoppler147",
+                    "full_version": "25.03.0-3ubuntu1.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "poppler-utils",
+                    "full_version": "25.03.0-3ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7676.1",
+            "fixed_packages": [
+                {
+                    "name": "libsqlite3-0",
+                    "full_version": "3.46.1-3ubuntu0.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7677.1",
+            "fixed_packages": [
+                {
+                    "name": "cloud-init",
+                    "full_version": "25.1.4-0ubuntu0~25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "cloud-init-base",
+                    "full_version": "25.1.4-0ubuntu0~25.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7678.1",
+            "fixed_packages": [
+                {
+                    "name": "perl",
+                    "full_version": "5.40.1-2ubuntu0.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7681.1",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-6.14.0-1007-realtime",
+                    "full_version": "6.14.0-1007.7",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-1010-aws",
+                    "full_version": "6.14.0-1010.10",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-1010-aws-64k",
+                    "full_version": "6.14.0-1010.10",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-1010-raspi",
+                    "full_version": "6.14.0-1010.10",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-1012-gcp",
+                    "full_version": "6.14.0-1012.12",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-1012-gcp-64k",
+                    "full_version": "6.14.0-1012.12",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-27-generic",
+                    "full_version": "6.14.0-27.27",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-27-generic-64k",
+                    "full_version": "6.14.0-27.27",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-aws",
+                    "full_version": "6.14.0-1010.10",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-aws-6.14",
+                    "full_version": "6.14.0-1010.10",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-aws-64k",
+                    "full_version": "6.14.0-1010.10",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-aws-64k-6.14",
+                    "full_version": "6.14.0-1010.10",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-gcp",
+                    "full_version": "6.14.0-1012.12",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-gcp-6.14",
+                    "full_version": "6.14.0-1012.12",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-gcp-64k",
+                    "full_version": "6.14.0-1012.12",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-gcp-64k-6.14",
+                    "full_version": "6.14.0-1012.12",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-generic",
+                    "full_version": "6.14.0-27.27",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-generic-6.14",
+                    "full_version": "6.14.0-27.27",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-generic-64k",
+                    "full_version": "6.14.0-27.27",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-generic-64k-6.14",
+                    "full_version": "6.14.0-27.27",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-raspi",
+                    "full_version": "6.14.0-1010.10",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-raspi-6.14",
+                    "full_version": "6.14.0-1010.10",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-realtime",
+                    "full_version": "6.14.0-1007.7",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-realtime-6.14",
+                    "full_version": "6.14.0-1007.7",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-virtual",
+                    "full_version": "6.14.0-27.27",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-virtual-6.14",
+                    "full_version": "6.14.0-27.27",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7681.2",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-6.14.0-1010-oracle",
+                    "full_version": "6.14.0-1010.10",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-1010-oracle-64k",
+                    "full_version": "6.14.0-1010.10",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-oracle",
+                    "full_version": "6.14.0-1010.10",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-oracle-6.14",
+                    "full_version": "6.14.0-1010.10",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-oracle-64k",
+                    "full_version": "6.14.0-1010.10",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-oracle-64k-6.14",
+                    "full_version": "6.14.0-1010.10",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7690.1",
+            "fixed_packages": [
+                {
+                    "name": "openjdk-17-jdk",
+                    "full_version": "17.0.16+8~us1-0ubuntu1~25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-17-jdk-headless",
+                    "full_version": "17.0.16+8~us1-0ubuntu1~25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-17-jre",
+                    "full_version": "17.0.16+8~us1-0ubuntu1~25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-17-jre-headless",
+                    "full_version": "17.0.16+8~us1-0ubuntu1~25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-17-jre-zero",
+                    "full_version": "17.0.16+8~us1-0ubuntu1~25.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7691.1",
+            "fixed_packages": [
+                {
+                    "name": "mysql-server",
+                    "full_version": "8.4.6-0ubuntu0.25.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7692.1",
+            "fixed_packages": [
+                {
+                    "name": "request-tracker5",
+                    "full_version": "5.0.7+dfsg-2ubuntu0.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "rt5-fcgi",
+                    "full_version": "5.0.7+dfsg-2ubuntu0.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "rt5-standalone",
+                    "full_version": "5.0.7+dfsg-2ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7694.1",
+            "fixed_packages": [
+                {
+                    "name": "libxml2",
+                    "full_version": "2.12.7+dfsg+really2.9.14-0.4ubuntu0.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "python3-libxml2",
+                    "full_version": "2.12.7+dfsg+really2.9.14-0.4ubuntu0.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7697.1",
+            "fixed_packages": [
+                {
+                    "name": "aide",
+                    "full_version": "0.18.8-2ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7699.1",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-6.14.0-1010-realtime",
+                    "full_version": "6.14.0-1010.10",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-1011-aws",
+                    "full_version": "6.14.0-1011.11",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-1011-aws-64k",
+                    "full_version": "6.14.0-1011.11",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-1011-oracle",
+                    "full_version": "6.14.0-1011.11",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-1011-oracle-64k",
+                    "full_version": "6.14.0-1011.11",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-1012-raspi",
+                    "full_version": "6.14.0-1012.12",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-1014-gcp",
+                    "full_version": "6.14.0-1014.15",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-1014-gcp-64k",
+                    "full_version": "6.14.0-1014.15",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-28-generic",
+                    "full_version": "6.14.0-28.28",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-28-generic-64k",
+                    "full_version": "6.14.0-28.28",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-aws",
+                    "full_version": "6.14.0-1011.11",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-aws-6.14",
+                    "full_version": "6.14.0-1011.11",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-aws-64k",
+                    "full_version": "6.14.0-1011.11",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-aws-64k-6.14",
+                    "full_version": "6.14.0-1011.11",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-gcp",
+                    "full_version": "6.14.0-1014.15",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-gcp-6.14",
+                    "full_version": "6.14.0-1014.15",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-gcp-64k",
+                    "full_version": "6.14.0-1014.15",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-gcp-64k-6.14",
+                    "full_version": "6.14.0-1014.15",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-generic",
+                    "full_version": "6.14.0-28.28",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-generic-6.14",
+                    "full_version": "6.14.0-28.28",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-generic-64k",
+                    "full_version": "6.14.0-28.28",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-generic-64k-6.14",
+                    "full_version": "6.14.0-28.28",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-oem-24.04",
+                    "full_version": "6.14.0-28.28",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-oem-24.04a",
+                    "full_version": "6.14.0-28.28",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-oracle",
+                    "full_version": "6.14.0-1011.11",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-oracle-6.14",
+                    "full_version": "6.14.0-1011.11",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-oracle-64k",
+                    "full_version": "6.14.0-1011.11",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-oracle-64k-6.14",
+                    "full_version": "6.14.0-1011.11",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-raspi",
+                    "full_version": "6.14.0-1012.12",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-raspi-6.14",
+                    "full_version": "6.14.0-1012.12",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-realtime",
+                    "full_version": "6.14.0-1010.10",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-realtime-6.14",
+                    "full_version": "6.14.0-1010.10",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-virtual",
+                    "full_version": "6.14.0-28.28",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-virtual-6.14",
+                    "full_version": "6.14.0-28.28",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7702.1",
+            "fixed_packages": [
+                {
+                    "name": "libjavascriptcoregtk-4.1-0",
+                    "full_version": "2.48.5-0ubuntu0.25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libjavascriptcoregtk-6.0-1",
+                    "full_version": "2.48.5-0ubuntu0.25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libwebkit2gtk-4.1-0",
+                    "full_version": "2.48.5-0ubuntu0.25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libwebkitgtk-6.0-4",
+                    "full_version": "2.48.5-0ubuntu0.25.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7705.1",
+            "fixed_packages": [
+                {
+                    "name": "libtomcat10-java",
+                    "full_version": "10.1.35-1ubuntu0.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "tomcat10",
+                    "full_version": "10.1.35-1ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7707.1",
+            "fixed_packages": [
+                {
+                    "name": "libtiff-tools",
+                    "full_version": "4.5.1+git230720-4ubuntu4.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libtiff6",
+                    "full_version": "4.5.1+git230720-4ubuntu4.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7708.1",
+            "fixed_packages": [
+                {
+                    "name": "libpoppler147",
+                    "full_version": "25.03.0-3ubuntu1.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "poppler-utils",
+                    "full_version": "25.03.0-3ubuntu1.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7709.1",
+            "fixed_packages": [
+                {
+                    "name": "ruby-webrick",
+                    "full_version": "1.8.1-1ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7710.1",
+            "fixed_packages": [
+                {
+                    "name": "libpython3.13",
+                    "full_version": "3.13.3-1ubuntu0.3",
+                    "specifier": ">="
+                },
+                {
+                    "name": "python3.13",
+                    "full_version": "3.13.3-1ubuntu0.3",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7715.1",
+            "fixed_packages": [
+                {
+                    "name": "nginx",
+                    "full_version": "1.26.3-2ubuntu1.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "nginx-core",
+                    "full_version": "1.26.3-2ubuntu1.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "nginx-extras",
+                    "full_version": "1.26.3-2ubuntu1.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "nginx-full",
+                    "full_version": "1.26.3-2ubuntu1.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "nginx-light",
+                    "full_version": "1.26.3-2ubuntu1.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7716.1",
+            "fixed_packages": [
+                {
+                    "name": "gstreamer1.0-alsa",
+                    "full_version": "1.26.0-1ubuntu0.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "gstreamer1.0-gl",
+                    "full_version": "1.26.0-1ubuntu0.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "gstreamer1.0-plugins-base",
+                    "full_version": "1.26.0-1ubuntu0.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "gstreamer1.0-plugins-base-apps",
+                    "full_version": "1.26.0-1ubuntu0.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "gstreamer1.0-x",
+                    "full_version": "1.26.0-1ubuntu0.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libgstreamer-gl1.0-0",
+                    "full_version": "1.26.0-1ubuntu0.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libgstreamer-plugins-base1.0-0",
+                    "full_version": "1.26.0-1ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7717.1",
+            "fixed_packages": [
+                {
+                    "name": "gstreamer1.0-gtk3",
+                    "full_version": "1.26.0-1ubuntu2.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "gstreamer1.0-plugins-good",
+                    "full_version": "1.26.0-1ubuntu2.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "gstreamer1.0-pulseaudio",
+                    "full_version": "1.26.0-1ubuntu2.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "gstreamer1.0-qt5",
+                    "full_version": "1.26.0-1ubuntu2.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "gstreamer1.0-qt6",
+                    "full_version": "1.26.0-1ubuntu2.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libgstreamer-plugins-good1.0-0",
+                    "full_version": "1.26.0-1ubuntu2.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7721.1",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-6.14.0-1010-azure",
+                    "full_version": "6.14.0-1010.10",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-azure",
+                    "full_version": "6.14.0-1010.10",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-azure-6.14",
+                    "full_version": "6.14.0-1010.10",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7722.1",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-6.14.0-1011-realtime",
+                    "full_version": "6.14.0-1011.11",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-1012-aws",
+                    "full_version": "6.14.0-1012.12",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-1012-aws-64k",
+                    "full_version": "6.14.0-1012.12",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-1013-raspi",
+                    "full_version": "6.14.0-1013.13",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-1015-gcp",
+                    "full_version": "6.14.0-1015.16",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-1015-gcp-64k",
+                    "full_version": "6.14.0-1015.16",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-29-generic",
+                    "full_version": "6.14.0-29.29",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-29-generic-64k",
+                    "full_version": "6.14.0-29.29",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-aws",
+                    "full_version": "6.14.0-1012.12",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-aws-6.14",
+                    "full_version": "6.14.0-1012.12",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-aws-64k",
+                    "full_version": "6.14.0-1012.12",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-aws-64k-6.14",
+                    "full_version": "6.14.0-1012.12",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-gcp",
+                    "full_version": "6.14.0-1015.16",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-gcp-6.14",
+                    "full_version": "6.14.0-1015.16",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-gcp-64k",
+                    "full_version": "6.14.0-1015.16",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-gcp-64k-6.14",
+                    "full_version": "6.14.0-1015.16",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-generic",
+                    "full_version": "6.14.0-29.29",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-generic-6.14",
+                    "full_version": "6.14.0-29.29",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-generic-64k",
+                    "full_version": "6.14.0-29.29",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-generic-64k-6.14",
+                    "full_version": "6.14.0-29.29",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-raspi",
+                    "full_version": "6.14.0-1013.13",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-raspi-6.14",
+                    "full_version": "6.14.0-1013.13",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-realtime",
+                    "full_version": "6.14.0-1011.11",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-realtime-6.14",
+                    "full_version": "6.14.0-1011.11",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-virtual",
+                    "full_version": "6.14.0-29.29",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-virtual-6.14",
+                    "full_version": "6.14.0-29.29",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7722.2",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-6.14.0-1012-oracle",
+                    "full_version": "6.14.0-1012.12",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.14.0-1012-oracle-64k",
+                    "full_version": "6.14.0-1012.12",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-oracle",
+                    "full_version": "6.14.0-1012.12",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-oracle-6.14",
+                    "full_version": "6.14.0-1012.12",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-oracle-64k",
+                    "full_version": "6.14.0-1012.12",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-oracle-64k-6.14",
+                    "full_version": "6.14.0-1012.12",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7723.1",
+            "fixed_packages": [
+                {
+                    "name": "libudisks2-0",
+                    "full_version": "2.10.1-11ubuntu2.3",
+                    "specifier": ">="
+                },
+                {
+                    "name": "udisks2",
+                    "full_version": "2.10.1-11ubuntu2.3",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7734.1",
+            "fixed_packages": [
+                {
+                    "name": "libruby3.3",
+                    "full_version": "3.3.7-1ubuntu2.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "ruby3.3",
+                    "full_version": "3.3.7-1ubuntu2.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7735.1",
+            "fixed_packages": [
+                {
+                    "name": "ruby-rubygems",
+                    "full_version": "3.6.3-1ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7736.1",
+            "fixed_packages": [
+                {
+                    "name": "python3-django",
+                    "full_version": "3:4.2.18-1ubuntu1.4",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7738.1",
+            "fixed_packages": [
+                {
+                    "name": "ffmpeg",
+                    "full_version": "7:7.1.1-1ubuntu1.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libavcodec-dev",
+                    "full_version": "7:7.1.1-1ubuntu1.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7741.1",
+            "fixed_packages": [
+                {
+                    "name": "postgresql-17",
+                    "full_version": "17.6-0ubuntu0.25.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "postgresql-client-17",
+                    "full_version": "17.6-0ubuntu0.25.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7743.1",
+            "fixed_packages": [
+                {
+                    "name": "libxml2",
+                    "full_version": "2.12.7+dfsg+really2.9.14-0.4ubuntu0.3",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libxml2-dev",
+                    "full_version": "2.12.7+dfsg+really2.9.14-0.4ubuntu0.3",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libxml2-utils",
+                    "full_version": "2.12.7+dfsg+really2.9.14-0.4ubuntu0.3",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7744.1",
+            "fixed_packages": [
+                {
+                    "name": "qemu-system",
+                    "full_version": "1:9.2.1+ds-1ubuntu5.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "qemu-system-arm",
+                    "full_version": "1:9.2.1+ds-1ubuntu5.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "qemu-system-mips",
+                    "full_version": "1:9.2.1+ds-1ubuntu5.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "qemu-system-misc",
+                    "full_version": "1:9.2.1+ds-1ubuntu5.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "qemu-system-ppc",
+                    "full_version": "1:9.2.1+ds-1ubuntu5.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "qemu-system-riscv",
+                    "full_version": "1:9.2.1+ds-1ubuntu5.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "qemu-system-s390x",
+                    "full_version": "1:9.2.1+ds-1ubuntu5.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "qemu-system-sparc",
+                    "full_version": "1:9.2.1+ds-1ubuntu5.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "qemu-system-x86",
+                    "full_version": "1:9.2.1+ds-1ubuntu5.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "qemu-system-x86-xen",
+                    "full_version": "1:9.2.1+ds-1ubuntu5.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "qemu-system-xen",
+                    "full_version": "1:9.2.1+ds-1ubuntu5.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7745.1",
+            "fixed_packages": [
+                {
+                    "name": "cups",
+                    "full_version": "2.4.12-0ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7746.1",
+            "fixed_packages": [
+                {
+                    "name": "node-cipher-base",
+                    "full_version": "1.0.4-6+deb13u1ubuntu0.25.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7748.1",
+            "fixed_packages": [
+                {
+                    "name": "vim",
+                    "full_version": "2:9.1.0967-1ubuntu4.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7749.1",
+            "fixed_packages": [
+                {
+                    "name": "libcpanel-json-xs-perl",
+                    "full_version": "4.39-1ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7750.1",
+            "fixed_packages": [
+                {
+                    "name": "libjson-xs-perl",
+                    "full_version": "4.040-0ubuntu0.25.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7751.1",
+            "fixed_packages": [
+                {
+                    "name": "libsqlite3-0",
+                    "full_version": "3.46.1-3ubuntu0.3",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7753.1",
+            "fixed_packages": [
+                {
+                    "name": "python3-xmltodict",
+                    "full_version": "0.13.0-1ubuntu0.25.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2025.7757.1",
+            "fixed_packages": [
+                {
+                    "name": "libopenjp2-7",
+                    "full_version": "2.5.3-2ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        }
+    ]
+}

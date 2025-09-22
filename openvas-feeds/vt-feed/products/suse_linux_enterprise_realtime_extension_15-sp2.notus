@@ -1,0 +1,5125 @@
+{
+    "version": "1.2",
+    "spdx-license-identifier": "GPL-2.0-only",
+    "copyright": "Copyright (C) 2008-2025 Greenbone AG",
+    "package_type": "rpm",
+    "product_name": "SUSE Linux Enterprise Realtime Extension 15-SP2",
+    "advisories": [
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2021.4136.2",
+            "fixed_packages": [
+                {
+                    "full_name": "xorg-x11-server-1.20.3-22.5.42.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-debuginfo-1.20.3-22.5.42.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-debugsource-1.20.3-22.5.42.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-extra-1.20.3-22.5.42.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-extra-debuginfo-1.20.3-22.5.42.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-sdk-1.20.3-22.5.42.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0045.2",
+            "fixed_packages": [
+                {
+                    "full_name": "libvirt-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-admin-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-admin-debuginfo-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-bash-completion-6.0.0-13.24.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-client-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-client-debuginfo-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-daemon-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-daemon-config-network-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-daemon-config-nwfilter-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-daemon-debuginfo-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-daemon-driver-interface-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-daemon-driver-interface-debuginfo-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-daemon-driver-libxl-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-daemon-driver-libxl-debuginfo-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-daemon-driver-lxc-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-daemon-driver-lxc-debuginfo-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-daemon-driver-network-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-daemon-driver-network-debuginfo-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-daemon-driver-nodedev-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-daemon-driver-nodedev-debuginfo-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-daemon-driver-nwfilter-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-daemon-driver-nwfilter-debuginfo-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-daemon-driver-qemu-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-daemon-driver-qemu-debuginfo-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-daemon-driver-secret-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-daemon-driver-secret-debuginfo-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-daemon-driver-storage-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-daemon-driver-storage-core-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-daemon-driver-storage-core-debuginfo-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-daemon-driver-storage-disk-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-daemon-driver-storage-disk-debuginfo-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-daemon-driver-storage-iscsi-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-daemon-driver-storage-iscsi-debuginfo-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-daemon-driver-storage-logical-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-daemon-driver-storage-logical-debuginfo-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-daemon-driver-storage-mpath-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-daemon-driver-storage-mpath-debuginfo-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-daemon-driver-storage-rbd-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-daemon-driver-storage-rbd-debuginfo-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-daemon-driver-storage-scsi-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-daemon-driver-storage-scsi-debuginfo-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-daemon-hooks-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-daemon-lxc-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-daemon-qemu-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-daemon-xen-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-debugsource-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-devel-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-doc-6.0.0-13.24.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-libs-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-libs-debuginfo-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-lock-sanlock-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-lock-sanlock-debuginfo-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-nss-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirt-nss-debuginfo-6.0.0-13.24.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0050.2",
+            "fixed_packages": [
+                {
+                    "full_name": "libsnmp30-5.7.3-10.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsnmp30-debuginfo-5.7.3-10.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "net-snmp-5.7.3-10.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "net-snmp-debuginfo-5.7.3-10.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "net-snmp-debugsource-5.7.3-10.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "net-snmp-devel-5.7.3-10.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-SNMP-5.7.3-10.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-SNMP-debuginfo-5.7.3-10.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "snmp-mibs-5.7.3-10.9.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0052.2",
+            "fixed_packages": [
+                {
+                    "full_name": "libsndfile-debugsource-1.0.28-5.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsndfile-devel-1.0.28-5.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsndfile1-1.0.28-5.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsndfile1-debuginfo-1.0.28-5.15.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0062.2",
+            "fixed_packages": [
+                {
+                    "full_name": "libIlmImf-2_2-23-2.2.1-3.41.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libIlmImf-2_2-23-debuginfo-2.2.1-3.41.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libIlmImfUtil-2_2-23-2.2.1-3.41.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libIlmImfUtil-2_2-23-debuginfo-2.2.1-3.41.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openexr-debuginfo-2.2.1-3.41.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openexr-debugsource-2.2.1-3.41.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openexr-devel-2.2.1-3.41.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0069.2",
+            "fixed_packages": [
+                {
+                    "full_name": "libmspack-debugsource-0.6-3.14.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmspack-devel-0.6-3.14.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmspack0-0.6-3.14.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmspack0-debuginfo-0.6-3.14.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0088.2",
+            "fixed_packages": [
+                {
+                    "full_name": "ghostscript-9.52-161.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ghostscript-debuginfo-9.52-161.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ghostscript-debugsource-9.52-161.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ghostscript-devel-9.52-161.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ghostscript-x11-9.52-161.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ghostscript-x11-debuginfo-9.52-161.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0104.2",
+            "fixed_packages": [
+                {
+                    "full_name": "SDL2-debugsource-2.0.8-11.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libSDL2-2_0-0-2.0.8-11.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libSDL2-2_0-0-debuginfo-2.0.8-11.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libSDL2-devel-2.0.8-11.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0134.2",
+            "fixed_packages": [
+                {
+                    "full_name": "python-numpy-debugsource-1.17.3-10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-numpy-1.17.3-10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-numpy-debuginfo-1.17.3-10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-numpy-devel-1.17.3-10.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0135.2",
+            "fixed_packages": [
+                {
+                    "full_name": "busybox-1.34.1-4.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "busybox-static-1.34.1-4.9.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0141.2",
+            "fixed_packages": [
+                {
+                    "full_name": "permissions-20181225-23.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "permissions-debuginfo-20181225-23.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "permissions-debugsource-20181225-23.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "permissions-zypp-plugin-20181225-23.12.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rpmlint-mini-1.10-13.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rpmlint-mini-debuginfo-1.10-13.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rpmlint-mini-debugsource-1.10-13.9.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0150.2",
+            "fixed_packages": [
+                {
+                    "full_name": "aide-0.16-24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "aide-debuginfo-0.16-24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "aide-debugsource-0.16-24.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0176.2",
+            "fixed_packages": [
+                {
+                    "full_name": "libunbound2-1.6.8-10.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libunbound2-debuginfo-1.6.8-10.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "unbound-anchor-1.6.8-10.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "unbound-anchor-debuginfo-1.6.8-10.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "unbound-debuginfo-1.6.8-10.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "unbound-debugsource-1.6.8-10.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "unbound-devel-1.6.8-10.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0182.2",
+            "fixed_packages": [
+                {
+                    "full_name": "libjavascriptcoregtk-4_0-18-2.34.3-23.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libjavascriptcoregtk-4_0-18-debuginfo-2.34.3-23.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwebkit2gtk-4_0-37-2.34.3-23.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwebkit2gtk-4_0-37-debuginfo-2.34.3-23.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwebkit2gtk3-lang-2.34.3-23.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-JavaScriptCore-4_0-2.34.3-23.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-WebKit2-4_0-2.34.3-23.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-WebKit2WebExtension-4_0-2.34.3-23.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk-4_0-injected-bundles-2.34.3-23.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk-4_0-injected-bundles-debuginfo-2.34.3-23.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk3-debugsource-2.34.3-23.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk3-devel-2.34.3-23.3.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0184.2",
+            "fixed_packages": [
+                {
+                    "full_name": "json-c-debugsource-0.13-3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libjson-c-devel-0.13-3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libjson-c3-0.13-3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libjson-c3-32bit-0.13-3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libjson-c3-32bit-debuginfo-0.13-3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libjson-c3-debuginfo-0.13-3.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0210.2",
+            "fixed_packages": [
+                {
+                    "full_name": "qemu-4.2.1-11.34.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-audio-alsa-4.2.1-11.34.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-audio-alsa-debuginfo-4.2.1-11.34.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-audio-pa-4.2.1-11.34.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-audio-pa-debuginfo-4.2.1-11.34.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-block-curl-4.2.1-11.34.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-block-curl-debuginfo-4.2.1-11.34.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-block-iscsi-4.2.1-11.34.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-block-iscsi-debuginfo-4.2.1-11.34.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-block-rbd-4.2.1-11.34.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-block-rbd-debuginfo-4.2.1-11.34.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-block-ssh-4.2.1-11.34.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-block-ssh-debuginfo-4.2.1-11.34.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-debuginfo-4.2.1-11.34.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-debugsource-4.2.1-11.34.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-guest-agent-4.2.1-11.34.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-guest-agent-debuginfo-4.2.1-11.34.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-ipxe-1.0.0+-11.34.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-kvm-4.2.1-11.34.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-lang-4.2.1-11.34.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-microvm-4.2.1-11.34.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-seabios-1.12.1+-11.34.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-sgabios-8-11.34.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-tools-4.2.1-11.34.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-tools-debuginfo-4.2.1-11.34.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-ui-curses-4.2.1-11.34.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-ui-curses-debuginfo-4.2.1-11.34.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-ui-gtk-4.2.1-11.34.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-ui-gtk-debuginfo-4.2.1-11.34.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-ui-spice-app-4.2.1-11.34.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-ui-spice-app-debuginfo-4.2.1-11.34.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-vgabios-1.12.1+-11.34.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-x86-4.2.1-11.34.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-x86-debuginfo-4.2.1-11.34.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0226.1",
+            "fixed_packages": [
+                {
+                    "full_name": "log4j12-1.2.17-4.9.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "log4j12-javadoc-1.2.17-4.9.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "log4j12-manual-1.2.17-4.9.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0287.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libdcerpc-binding0-32bit-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libdcerpc-binding0-32bit-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libdcerpc-binding0-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libdcerpc-binding0-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libdcerpc-devel-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libdcerpc-samr-devel-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libdcerpc-samr0-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libdcerpc-samr0-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libdcerpc0-32bit-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libdcerpc0-32bit-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libdcerpc0-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libdcerpc0-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libndr-devel-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libndr-krb5pac-devel-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libndr-krb5pac0-32bit-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libndr-krb5pac0-32bit-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libndr-krb5pac0-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libndr-krb5pac0-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libndr-nbt-devel-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libndr-nbt0-32bit-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libndr-nbt0-32bit-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libndr-nbt0-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libndr-nbt0-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libndr-standard-devel-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libndr-standard0-32bit-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libndr-standard0-32bit-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libndr-standard0-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libndr-standard0-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libndr0-32bit-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libndr0-32bit-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libndr0-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libndr0-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnetapi-devel-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnetapi0-32bit-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnetapi0-32bit-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnetapi0-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnetapi0-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsamba-credentials-devel-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsamba-credentials0-32bit-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsamba-credentials0-32bit-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsamba-credentials0-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsamba-credentials0-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsamba-errors-devel-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsamba-errors0-32bit-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsamba-errors0-32bit-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsamba-errors0-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsamba-errors0-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsamba-hostconfig-devel-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsamba-hostconfig0-32bit-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsamba-hostconfig0-32bit-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsamba-hostconfig0-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsamba-hostconfig0-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsamba-passdb-devel-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsamba-passdb0-32bit-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsamba-passdb0-32bit-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsamba-passdb0-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsamba-passdb0-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsamba-policy-devel-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsamba-policy-python3-devel-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsamba-policy0-python3-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsamba-policy0-python3-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsamba-util-devel-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsamba-util0-32bit-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsamba-util0-32bit-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsamba-util0-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsamba-util0-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsamdb-devel-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsamdb0-32bit-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsamdb0-32bit-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsamdb0-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsamdb0-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmbclient-devel-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmbclient0-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmbclient0-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmbconf-devel-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmbconf0-32bit-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmbconf0-32bit-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmbconf0-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmbconf0-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmbldap-devel-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmbldap2-32bit-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmbldap2-32bit-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmbldap2-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmbldap2-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtevent-util-devel-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtevent-util0-32bit-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtevent-util0-32bit-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtevent-util0-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtevent-util0-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwbclient-devel-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwbclient0-32bit-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwbclient0-32bit-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwbclient0-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwbclient0-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-ceph-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-ceph-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-client-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-client-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-core-devel-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-debugsource-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-dsdb-modules-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-dsdb-modules-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-libs-32bit-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-libs-32bit-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-libs-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-libs-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-libs-python3-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-libs-python3-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-python3-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-python3-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-winbind-32bit-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-winbind-32bit-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-winbind-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-winbind-debuginfo-4.11.14+git.319.91d693db37c-4.35.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0365.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-5.3.18-24.102.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-base-5.3.18-24.102.1.9.48.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-5.3.18-24.102.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-5.3.18-24.102.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-devel-5.3.18-24.102.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-devel-debuginfo-5.3.18-24.102.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-devel-5.3.18-24.102.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-docs-5.3.18-24.102.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-macros-5.3.18-24.102.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-obs-build-5.3.18-24.102.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-obs-build-debugsource-5.3.18-24.102.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-preempt-5.3.18-24.102.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-preempt-debuginfo-5.3.18-24.102.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-preempt-debugsource-5.3.18-24.102.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-preempt-devel-5.3.18-24.102.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-preempt-devel-debuginfo-5.3.18-24.102.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-source-5.3.18-24.102.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-syms-5.3.18-24.102.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0467.1",
+            "fixed_packages": [
+                {
+                    "full_name": "xen-4.13.4_04-3.43.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-debugsource-4.13.4_04-3.43.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-devel-4.13.4_04-3.43.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-libs-4.13.4_04-3.43.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-libs-debuginfo-4.13.4_04-3.43.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-tools-4.13.4_04-3.43.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-tools-debuginfo-4.13.4_04-3.43.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-tools-domU-4.13.4_04-3.43.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-tools-domU-debuginfo-4.13.4_04-3.43.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-tools-xendomains-wait-disk-4.13.4_04-3.43.2.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0479.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libvirglrenderer0-0.6.0-4.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvirglrenderer0-debuginfo-0.6.0-4.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "virglrenderer-debuginfo-0.6.0-4.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "virglrenderer-debugsource-0.6.0-4.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "virglrenderer-devel-0.6.0-4.9.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0480.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libtiff-devel-4.0.9-45.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtiff5-32bit-4.0.9-45.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtiff5-32bit-debuginfo-4.0.9-45.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtiff5-4.0.9-45.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtiff5-debuginfo-4.0.9-45.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "tiff-debuginfo-4.0.9-45.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "tiff-debugsource-4.0.9-45.5.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0491.1",
+            "fixed_packages": [
+                {
+                    "full_name": "cargo-1.53.0-22.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cargo-debuginfo-1.53.0-22.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rls-1.53.0-22.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rls-debuginfo-1.53.0-22.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rust-1.53.0-22.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rust-analysis-1.53.0-22.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rust-debuginfo-1.53.0-22.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rust-src-1.53.0-22.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0492.1",
+            "fixed_packages": [
+                {
+                    "full_name": "strongswan-5.8.2-11.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "strongswan-debuginfo-5.8.2-11.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "strongswan-debugsource-5.8.2-11.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "strongswan-doc-5.8.2-11.24.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "strongswan-hmac-5.8.2-11.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "strongswan-ipsec-5.8.2-11.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "strongswan-ipsec-debuginfo-5.8.2-11.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "strongswan-libs0-5.8.2-11.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "strongswan-libs0-debuginfo-5.8.2-11.24.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0493.1",
+            "fixed_packages": [
+                {
+                    "full_name": "clamav-0.103.5-3.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "clamav-debuginfo-0.103.5-3.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "clamav-debugsource-0.103.5-3.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "clamav-devel-0.103.5-3.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libclamav9-0.103.5-3.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libclamav9-debuginfo-0.103.5-3.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfreshclam2-0.103.5-3.35.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfreshclam2-debuginfo-0.103.5-3.35.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0498.1",
+            "fixed_packages": [
+                {
+                    "full_name": "expat-2.2.5-3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "expat-32bit-debuginfo-2.2.5-3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "expat-debuginfo-2.2.5-3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "expat-debugsource-2.2.5-3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libexpat-devel-2.2.5-3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libexpat1-2.2.5-3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libexpat1-32bit-2.2.5-3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libexpat1-32bit-debuginfo-2.2.5-3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libexpat1-debuginfo-2.2.5-3.12.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0499.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-Twisted-19.10.0-3.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-Twisted-debuginfo-19.10.0-3.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0503.1",
+            "fixed_packages": [
+                {
+                    "full_name": "xerces-j2-2.12.0-3.3.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0525.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libpolkit0-0.116-3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpolkit0-debuginfo-0.116-3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "polkit-0.116-3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "polkit-debuginfo-0.116-3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "polkit-debugsource-0.116-3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "polkit-devel-0.116-3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "polkit-devel-debuginfo-0.116-3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-Polkit-1_0-0.116-3.9.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0540.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ImageMagick-7.0.7.34-10.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ImageMagick-config-7-SUSE-7.0.7.34-10.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ImageMagick-config-7-upstream-7.0.7.34-10.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ImageMagick-debuginfo-7.0.7.34-10.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ImageMagick-debugsource-7.0.7.34-10.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ImageMagick-devel-7.0.7.34-10.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libMagick++-7_Q16HDRI4-7.0.7.34-10.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libMagick++-7_Q16HDRI4-debuginfo-7.0.7.34-10.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libMagick++-devel-7.0.7.34-10.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libMagickCore-7_Q16HDRI6-7.0.7.34-10.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libMagickCore-7_Q16HDRI6-debuginfo-7.0.7.34-10.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libMagickWand-7_Q16HDRI6-7.0.7.34-10.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libMagickWand-7_Q16HDRI6-debuginfo-7.0.7.34-10.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-PerlMagick-7.0.7.34-10.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-PerlMagick-debuginfo-7.0.7.34-10.21.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0562.1",
+            "fixed_packages": [
+                {
+                    "full_name": "jasper-debuginfo-2.0.14-3.22.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "jasper-debugsource-2.0.14-3.22.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libjasper-devel-2.0.14-3.22.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libjasper4-2.0.14-3.22.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libjasper4-debuginfo-2.0.14-3.22.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0574.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ucode-intel-20220207-10.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0675.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ldns-debuginfo-1.7.0-4.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ldns-debugsource-1.7.0-4.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ldns-devel-1.7.0-4.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libldns2-1.7.0-4.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libldns2-debuginfo-1.7.0-4.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-DNS-LDNS-1.7.0-4.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-DNS-LDNS-debuginfo-1.7.0-4.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0696.1",
+            "fixed_packages": [
+                {
+                    "full_name": "MozillaFirefox-91.6.0-152.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-debuginfo-91.6.0-152.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-debugsource-91.6.0-152.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-devel-91.6.0-152.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-translations-common-91.6.0-152.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-translations-other-91.6.0-152.15.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0702.1",
+            "fixed_packages": [
+                {
+                    "full_name": "cyrus-sasl-2.1.26-5.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cyrus-sasl-32bit-2.1.26-5.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cyrus-sasl-32bit-debuginfo-2.1.26-5.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cyrus-sasl-crammd5-2.1.26-5.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cyrus-sasl-crammd5-32bit-2.1.26-5.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cyrus-sasl-crammd5-32bit-debuginfo-2.1.26-5.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cyrus-sasl-crammd5-debuginfo-2.1.26-5.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cyrus-sasl-debuginfo-2.1.26-5.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cyrus-sasl-debugsource-2.1.26-5.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cyrus-sasl-devel-2.1.26-5.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cyrus-sasl-digestmd5-2.1.26-5.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cyrus-sasl-digestmd5-32bit-2.1.26-5.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cyrus-sasl-digestmd5-32bit-debuginfo-2.1.26-5.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cyrus-sasl-digestmd5-debuginfo-2.1.26-5.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cyrus-sasl-gssapi-2.1.26-5.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cyrus-sasl-gssapi-32bit-2.1.26-5.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cyrus-sasl-gssapi-32bit-debuginfo-2.1.26-5.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cyrus-sasl-gssapi-debuginfo-2.1.26-5.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cyrus-sasl-otp-2.1.26-5.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cyrus-sasl-otp-debuginfo-2.1.26-5.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cyrus-sasl-plain-2.1.26-5.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cyrus-sasl-plain-32bit-2.1.26-5.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cyrus-sasl-plain-32bit-debuginfo-2.1.26-5.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cyrus-sasl-plain-debuginfo-2.1.26-5.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cyrus-sasl-saslauthd-2.1.26-5.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cyrus-sasl-saslauthd-debuginfo-2.1.26-5.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cyrus-sasl-saslauthd-debugsource-2.1.26-5.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cyrus-sasl-sqlauxprop-2.1.26-5.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cyrus-sasl-sqlauxprop-debuginfo-2.1.26-5.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsasl2-3-2.1.26-5.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsasl2-3-32bit-2.1.26-5.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsasl2-3-32bit-debuginfo-2.1.26-5.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsasl2-3-debuginfo-2.1.26-5.10.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0705.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libjavascriptcoregtk-4_0-18-2.34.6-29.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libjavascriptcoregtk-4_0-18-debuginfo-2.34.6-29.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwebkit2gtk-4_0-37-2.34.6-29.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwebkit2gtk-4_0-37-debuginfo-2.34.6-29.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwebkit2gtk3-lang-2.34.6-29.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-JavaScriptCore-4_0-2.34.6-29.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-WebKit2-4_0-2.34.6-29.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-WebKit2WebExtension-4_0-2.34.6-29.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk-4_0-injected-bundles-2.34.6-29.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk-4_0-injected-bundles-debuginfo-2.34.6-29.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk3-debugsource-2.34.6-29.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk3-devel-2.34.6-29.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0712.1",
+            "fixed_packages": [
+                {
+                    "full_name": "flatpak-1.10.7-4.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "flatpak-debuginfo-1.10.7-4.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "flatpak-debugsource-1.10.7-4.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "flatpak-devel-1.10.7-4.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "flatpak-zsh-completion-1.10.7-4.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libflatpak0-1.10.7-4.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libflatpak0-debuginfo-1.10.7-4.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "system-user-flatpak-1.10.7-4.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-Flatpak-1_0-1.10.7-4.12.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0713.1",
+            "fixed_packages": [
+                {
+                    "full_name": "expat-2.2.5-3.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "expat-32bit-debuginfo-2.2.5-3.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "expat-debuginfo-2.2.5-3.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "expat-debugsource-2.2.5-3.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libexpat-devel-2.2.5-3.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libexpat1-2.2.5-3.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libexpat1-32bit-2.2.5-3.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libexpat1-32bit-debuginfo-2.2.5-3.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libexpat1-debuginfo-2.2.5-3.15.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0716.1",
+            "fixed_packages": [
+                {
+                    "full_name": "wpa_supplicant-2.9-4.33.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "wpa_supplicant-debuginfo-2.9-4.33.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "wpa_supplicant-debugsource-2.9-4.33.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0717.1",
+            "fixed_packages": [
+                {
+                    "full_name": "gnutls-3.6.7-14.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gnutls-debuginfo-3.6.7-14.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gnutls-debugsource-3.6.7-14.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutls-devel-3.6.7-14.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutls30-3.6.7-14.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutls30-32bit-3.6.7-14.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutls30-32bit-debuginfo-3.6.7-14.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutls30-debuginfo-3.6.7-14.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutls30-hmac-3.6.7-14.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutls30-hmac-32bit-3.6.7-14.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutlsxx-devel-3.6.7-14.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutlsxx28-3.6.7-14.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutlsxx28-debuginfo-3.6.7-14.16.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0721.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-firmware-20200107-3.26.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ucode-amd-20200107-3.26.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0722.1",
+            "fixed_packages": [
+                {
+                    "full_name": "wireshark-3.6.2-3.71.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "wireshark-debuginfo-3.6.2-3.71.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "wireshark-debugsource-3.6.2-3.71.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "wireshark-devel-3.6.2-3.71.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "wireshark-ui-qt-3.6.2-3.71.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "wireshark-ui-qt-debuginfo-3.6.2-3.71.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0723.1",
+            "fixed_packages": [
+                {
+                    "full_name": "go1.17-1.17.7-1.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "go1.17-doc-1.17.7-1.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "go1.17-race-1.17.7-1.20.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0724.1",
+            "fixed_packages": [
+                {
+                    "full_name": "go1.16-1.16.14-1.43.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "go1.16-doc-1.16.14-1.43.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "go1.16-race-1.16.14-1.43.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0726.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libmariadbd-devel-10.4.24-3.25.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmariadbd19-10.4.24-3.25.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmariadbd19-debuginfo-10.4.24-3.25.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-10.4.24-3.25.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-client-10.4.24-3.25.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-client-debuginfo-10.4.24-3.25.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-debuginfo-10.4.24-3.25.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-debugsource-10.4.24-3.25.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-errormessages-10.4.24-3.25.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-tools-10.4.24-3.25.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-tools-debuginfo-10.4.24-3.25.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0735.1",
+            "fixed_packages": [
+                {
+                    "full_name": "zsh-5.6-7.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "zsh-debuginfo-5.6-7.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "zsh-debugsource-5.6-7.5.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0736.1",
+            "fixed_packages": [
+                {
+                    "full_name": "gvim-8.0.1568-5.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gvim-debuginfo-8.0.1568-5.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-8.0.1568-5.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-data-8.0.1568-5.17.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-data-common-8.0.1568-5.17.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-debuginfo-8.0.1568-5.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-debugsource-8.0.1568-5.17.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0759.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-5.3.18-24.107.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-base-5.3.18-24.107.1.9.50.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-5.3.18-24.107.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-5.3.18-24.107.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-devel-5.3.18-24.107.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-devel-debuginfo-5.3.18-24.107.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-devel-5.3.18-24.107.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-docs-5.3.18-24.107.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-macros-5.3.18-24.107.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-obs-build-5.3.18-24.107.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-obs-build-debugsource-5.3.18-24.107.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-preempt-5.3.18-24.107.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-preempt-debuginfo-5.3.18-24.107.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-preempt-debugsource-5.3.18-24.107.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-preempt-devel-5.3.18-24.107.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-preempt-devel-debuginfo-5.3.18-24.107.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-source-5.3.18-24.107.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-syms-5.3.18-24.107.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0769.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libcaca-debugsource-0.99.beta19.git20171003-11.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcaca-devel-0.99.beta19.git20171003-11.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcaca0-0.99.beta19.git20171003-11.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcaca0-debuginfo-0.99.beta19.git20171003-11.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcaca0-plugins-0.99.beta19.git20171003-11.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcaca0-plugins-debuginfo-0.99.beta19.git20171003-11.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0774.1",
+            "fixed_packages": [
+                {
+                    "full_name": "tcpdump-4.9.2-3.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "tcpdump-debuginfo-4.9.2-3.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "tcpdump-debugsource-4.9.2-3.18.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0783.1",
+            "fixed_packages": [
+                {
+                    "full_name": "MozillaFirefox-91.6.1-152.19.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-debuginfo-91.6.1-152.19.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-debugsource-91.6.1-152.19.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-devel-91.6.1-152.19.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-translations-common-91.6.1-152.19.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-translations-other-91.6.1-152.19.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0802.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python-libxml2-python-debugsource-2.9.7-3.40.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-libxml2-python-2.9.7-3.40.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-libxml2-python-debuginfo-2.9.7-3.40.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0803.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python-lxml-debuginfo-4.7.1-3.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-lxml-debugsource-4.7.1-3.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-lxml-4.7.1-3.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-lxml-debuginfo-4.7.1-3.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-lxml-devel-4.7.1-3.7.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0805.1",
+            "fixed_packages": [
+                {
+                    "full_name": "openssh-8.1p1-5.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssh-askpass-gnome-8.1p1-5.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssh-askpass-gnome-debuginfo-8.1p1-5.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssh-askpass-gnome-debugsource-8.1p1-5.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssh-debuginfo-8.1p1-5.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssh-debugsource-8.1p1-5.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssh-fips-8.1p1-5.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssh-helpers-8.1p1-5.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssh-helpers-debuginfo-8.1p1-5.21.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0815.1",
+            "fixed_packages": [
+                {
+                    "full_name": "flac-debuginfo-1.3.2-3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "flac-debugsource-1.3.2-3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "flac-devel-1.3.2-3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libFLAC++6-1.3.2-3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libFLAC++6-debuginfo-1.3.2-3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libFLAC8-1.3.2-3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libFLAC8-debuginfo-1.3.2-3.9.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0816.1",
+            "fixed_packages": [
+                {
+                    "full_name": "java-11-openjdk-11.0.14.0-3.74.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-11-openjdk-debugsource-11.0.14.0-3.74.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-11-openjdk-demo-11.0.14.0-3.74.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-11-openjdk-devel-11.0.14.0-3.74.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-11-openjdk-headless-11.0.14.0-3.74.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0817.1",
+            "fixed_packages": [
+                {
+                    "full_name": "xstream-1.4.19-3.18.2.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0821.1",
+            "fixed_packages": [
+                {
+                    "full_name": "MozillaFirefox-91.7.0-152.22.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-debuginfo-91.7.0-152.22.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-debugsource-91.7.0-152.22.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-devel-91.7.0-152.22.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-translations-common-91.7.0-152.22.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-translations-other-91.7.0-152.22.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0832.1",
+            "fixed_packages": [
+                {
+                    "full_name": "glibc-2.26-13.65.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-32bit-2.26-13.65.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-32bit-debuginfo-2.26-13.65.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-debuginfo-2.26-13.65.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-debugsource-2.26-13.65.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-devel-2.26-13.65.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-devel-32bit-2.26-13.65.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-devel-32bit-debuginfo-2.26-13.65.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-devel-debuginfo-2.26-13.65.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-devel-static-2.26-13.65.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-extra-2.26-13.65.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-extra-debuginfo-2.26-13.65.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-i18ndata-2.26-13.65.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-info-2.26-13.65.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-locale-2.26-13.65.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-locale-base-2.26-13.65.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-locale-base-32bit-2.26-13.65.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-locale-base-32bit-debuginfo-2.26-13.65.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-locale-base-debuginfo-2.26-13.65.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-profile-2.26-13.65.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-utils-2.26-13.65.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-utils-debuginfo-2.26-13.65.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-utils-src-debugsource-2.26-13.65.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "nscd-2.26-13.65.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "nscd-debuginfo-2.26-13.65.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0841.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libQt5Concurrent-devel-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5Concurrent5-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5Concurrent5-debuginfo-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5Core-devel-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5Core-private-headers-devel-5.12.7-4.17.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5Core5-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5Core5-debuginfo-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5DBus-devel-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5DBus-devel-debuginfo-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5DBus-private-headers-devel-5.12.7-4.17.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5DBus5-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5DBus5-debuginfo-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5Gui-devel-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5Gui-private-headers-devel-5.12.7-4.17.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5Gui5-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5Gui5-debuginfo-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5KmsSupport-devel-static-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5KmsSupport-private-headers-devel-5.12.7-4.17.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5Network-devel-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5Network-private-headers-devel-5.12.7-4.17.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5Network5-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5Network5-debuginfo-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5OpenGL-devel-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5OpenGL-private-headers-devel-5.12.7-4.17.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5OpenGL5-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5OpenGL5-debuginfo-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5OpenGLExtensions-devel-static-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5PlatformHeaders-devel-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5PlatformSupport-devel-static-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5PlatformSupport-private-headers-devel-5.12.7-4.17.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5PrintSupport-devel-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5PrintSupport-private-headers-devel-5.12.7-4.17.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5PrintSupport5-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5PrintSupport5-debuginfo-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5Sql-devel-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5Sql-private-headers-devel-5.12.7-4.17.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5Sql5-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5Sql5-debuginfo-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5Sql5-mysql-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5Sql5-mysql-debuginfo-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5Sql5-postgresql-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5Sql5-postgresql-debuginfo-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5Sql5-sqlite-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5Sql5-sqlite-debuginfo-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5Sql5-unixODBC-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5Sql5-unixODBC-debuginfo-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5Test-devel-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5Test-private-headers-devel-5.12.7-4.17.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5Test5-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5Test5-debuginfo-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5Widgets-devel-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5Widgets-private-headers-devel-5.12.7-4.17.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5Widgets5-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5Widgets5-debuginfo-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5Xml-devel-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5Xml5-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libQt5Xml5-debuginfo-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqt5-qtbase-common-devel-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqt5-qtbase-common-devel-debuginfo-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqt5-qtbase-debugsource-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqt5-qtbase-devel-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqt5-qtbase-platformtheme-gtk3-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqt5-qtbase-platformtheme-gtk3-debuginfo-5.12.7-4.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqt5-qtbase-private-headers-devel-5.12.7-4.17.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0844.1",
+            "fixed_packages": [
+                {
+                    "full_name": "expat-2.2.5-3.19.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "expat-32bit-debuginfo-2.2.5-3.19.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "expat-debuginfo-2.2.5-3.19.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "expat-debugsource-2.2.5-3.19.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libexpat-devel-2.2.5-3.19.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libexpat1-2.2.5-3.19.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libexpat1-32bit-2.2.5-3.19.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libexpat1-32bit-debuginfo-2.2.5-3.19.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libexpat1-debuginfo-2.2.5-3.19.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0845.1",
+            "fixed_packages": [
+                {
+                    "full_name": "augeas-1.10.1-3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "augeas-debuginfo-1.10.1-3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "augeas-debugsource-1.10.1-3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "augeas-devel-1.10.1-3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "augeas-lenses-1.10.1-3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libaugeas0-1.10.1-3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libaugeas0-debuginfo-1.10.1-3.9.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0872.1",
+            "fixed_packages": [
+                {
+                    "full_name": "stunnel-5.62-3.14.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "stunnel-debuginfo-5.62-3.14.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "stunnel-debugsource-5.62-3.14.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0915.1",
+            "fixed_packages": [
+                {
+                    "full_name": "blas-devel-3.5.0-4.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lapack-debugsource-3.5.0-4.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lapack-devel-3.5.0-4.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libblas3-3.5.0-4.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libblas3-debuginfo-3.5.0-4.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "liblapack3-3.5.0-4.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "liblapack3-debuginfo-3.5.0-4.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "liblapacke3-3.5.0-4.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "liblapacke3-debuginfo-3.5.0-4.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0944.1",
+            "fixed_packages": [
+                {
+                    "full_name": "bsdtar-3.4.2-150200.4.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bsdtar-debuginfo-3.4.2-150200.4.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libarchive-debugsource-3.4.2-150200.4.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libarchive-devel-3.4.2-150200.4.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libarchive13-3.4.2-150200.4.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libarchive13-debuginfo-3.4.2-150200.4.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0946.1",
+            "fixed_packages": [
+                {
+                    "full_name": "bind-9.16.6-150000.12.60.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-chrootenv-9.16.6-150000.12.60.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-debuginfo-9.16.6-150000.12.60.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-debugsource-9.16.6-150000.12.60.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-devel-9.16.6-150000.12.60.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-doc-9.16.6-150000.12.60.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-utils-9.16.6-150000.12.60.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-utils-debuginfo-9.16.6-150000.12.60.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libbind9-1600-9.16.6-150000.12.60.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libbind9-1600-debuginfo-9.16.6-150000.12.60.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libdns1605-9.16.6-150000.12.60.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libdns1605-debuginfo-9.16.6-150000.12.60.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libirs-devel-9.16.6-150000.12.60.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libirs1601-9.16.6-150000.12.60.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libirs1601-debuginfo-9.16.6-150000.12.60.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisc1606-9.16.6-150000.12.60.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisc1606-debuginfo-9.16.6-150000.12.60.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccc1600-9.16.6-150000.12.60.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccc1600-debuginfo-9.16.6-150000.12.60.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccfg1600-9.16.6-150000.12.60.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccfg1600-debuginfo-9.16.6-150000.12.60.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libns1604-9.16.6-150000.12.60.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libns1604-debuginfo-9.16.6-150000.12.60.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-bind-9.16.6-150000.12.60.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0954.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libwavpack1-5.4.0-4.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwavpack1-debuginfo-5.4.0-4.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "wavpack-5.4.0-4.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "wavpack-debuginfo-5.4.0-4.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "wavpack-debugsource-5.4.0-4.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "wavpack-devel-5.4.0-4.12.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1029.1",
+            "fixed_packages": [
+                {
+                    "full_name": "openvpn-2.4.3-150000.5.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openvpn-auth-pam-plugin-2.4.3-150000.5.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openvpn-auth-pam-plugin-debuginfo-2.4.3-150000.5.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openvpn-debuginfo-2.4.3-150000.5.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openvpn-debugsource-2.4.3-150000.5.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openvpn-devel-2.4.3-150000.5.10.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1031.1",
+            "fixed_packages": [
+                {
+                    "full_name": "apache2-2.4.51-150200.3.42.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "apache2-debuginfo-2.4.51-150200.3.42.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "apache2-debugsource-2.4.51-150200.3.42.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "apache2-devel-2.4.51-150200.3.42.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "apache2-doc-2.4.51-150200.3.42.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "apache2-prefork-2.4.51-150200.3.42.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "apache2-prefork-debuginfo-2.4.51-150200.3.42.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "apache2-utils-2.4.51-150200.3.42.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "apache2-utils-debuginfo-2.4.51-150200.3.42.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "apache2-worker-2.4.51-150200.3.42.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "apache2-worker-debuginfo-2.4.51-150200.3.42.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1040.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libprotobuf-lite20-3.9.2-4.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libprotobuf-lite20-debuginfo-3.9.2-4.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libprotobuf20-3.9.2-4.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libprotobuf20-debuginfo-3.9.2-4.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libprotoc20-3.9.2-4.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libprotoc20-debuginfo-3.9.2-4.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "protobuf-debugsource-3.9.2-4.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "protobuf-devel-3.9.2-4.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "protobuf-devel-debuginfo-3.9.2-4.12.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1060.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-salt-3002.2-150200.58.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-3002.2-150200.58.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-api-3002.2-150200.58.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-bash-completion-3002.2-150200.58.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-cloud-3002.2-150200.58.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-doc-3002.2-150200.58.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-fish-completion-3002.2-150200.58.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-master-3002.2-150200.58.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-minion-3002.2-150200.58.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-proxy-3002.2-150200.58.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-ssh-3002.2-150200.58.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-standalone-formulas-configuration-3002.2-150200.58.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-syndic-3002.2-150200.58.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-zsh-completion-3002.2-150200.58.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1061.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libminizip1-1.2.11-150000.3.30.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libminizip1-debuginfo-1.2.11-150000.3.30.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libz1-1.2.11-150000.3.30.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libz1-32bit-1.2.11-150000.3.30.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libz1-32bit-debuginfo-1.2.11-150000.3.30.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libz1-debuginfo-1.2.11-150000.3.30.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "minizip-devel-1.2.11-150000.3.30.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "zlib-debugsource-1.2.11-150000.3.30.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "zlib-devel-1.2.11-150000.3.30.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "zlib-devel-32bit-1.2.11-150000.3.30.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "zlib-devel-static-1.2.11-150000.3.30.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1073.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libyaml-cpp0_6-0.6.1-4.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libyaml-cpp0_6-debuginfo-0.6.1-4.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "yaml-cpp-debugsource-0.6.1-4.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "yaml-cpp-devel-0.6.1-4.5.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1091.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libpython2_7-1_0-2.7.18-150000.38.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpython2_7-1_0-debuginfo-2.7.18-150000.38.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-2.7.18-150000.38.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-base-2.7.18-150000.38.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-base-debuginfo-2.7.18-150000.38.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-base-debugsource-2.7.18-150000.38.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-debuginfo-2.7.18-150000.38.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-debugsource-2.7.18-150000.38.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-tk-2.7.18-150000.38.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-tk-debuginfo-2.7.18-150000.38.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1102.1",
+            "fixed_packages": [
+                {
+                    "full_name": "389-ds-1.4.3.29~git18.3fcd3b1bd-150200.3.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "389-ds-debuginfo-1.4.3.29~git18.3fcd3b1bd-150200.3.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "389-ds-debugsource-1.4.3.29~git18.3fcd3b1bd-150200.3.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "389-ds-devel-1.4.3.29~git18.3fcd3b1bd-150200.3.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib389-1.4.3.29~git18.3fcd3b1bd-150200.3.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsvrcore0-1.4.3.29~git18.3fcd3b1bd-150200.3.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsvrcore0-debuginfo-1.4.3.29~git18.3fcd3b1bd-150200.3.24.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1127.1",
+            "fixed_packages": [
+                {
+                    "full_name": "MozillaFirefox-91.8.0-150200.152.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-debuginfo-91.8.0-150200.152.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-debugsource-91.8.0-150200.152.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-devel-91.8.0-150200.152.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-translations-common-91.8.0-150200.152.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-translations-other-91.8.0-150200.152.26.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1148.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libexif-debugsource-0.6.22-150000.5.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libexif-devel-0.6.22-150000.5.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libexif12-0.6.22-150000.5.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libexif12-debuginfo-0.6.22-150000.5.9.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1149.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libfreebl3-3.68.3-150000.3.67.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfreebl3-32bit-3.68.3-150000.3.67.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfreebl3-32bit-debuginfo-3.68.3-150000.3.67.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfreebl3-debuginfo-3.68.3-150000.3.67.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfreebl3-hmac-3.68.3-150000.3.67.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfreebl3-hmac-32bit-3.68.3-150000.3.67.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsoftokn3-3.68.3-150000.3.67.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsoftokn3-32bit-3.68.3-150000.3.67.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsoftokn3-32bit-debuginfo-3.68.3-150000.3.67.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsoftokn3-debuginfo-3.68.3-150000.3.67.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsoftokn3-hmac-3.68.3-150000.3.67.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-3.68.3-150000.3.67.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-32bit-3.68.3-150000.3.67.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-32bit-debuginfo-3.68.3-150000.3.67.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-certs-3.68.3-150000.3.67.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-certs-32bit-3.68.3-150000.3.67.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-certs-32bit-debuginfo-3.68.3-150000.3.67.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-certs-debuginfo-3.68.3-150000.3.67.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-debuginfo-3.68.3-150000.3.67.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-debugsource-3.68.3-150000.3.67.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-devel-3.68.3-150000.3.67.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-sysinit-3.68.3-150000.3.67.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-sysinit-debuginfo-3.68.3-150000.3.67.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-tools-3.68.3-150000.3.67.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mozilla-nss-tools-debuginfo-3.68.3-150000.3.67.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1156.1",
+            "fixed_packages": [
+                {
+                    "full_name": "opensc-0.19.0-150100.3.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "opensc-debuginfo-0.19.0-150100.3.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "opensc-debugsource-0.19.0-150100.3.16.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1157.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libsolv-debuginfo-0.7.22-150200.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsolv-debugsource-0.7.22-150200.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsolv-devel-0.7.22-150200.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsolv-devel-debuginfo-0.7.22-150200.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsolv-tools-0.7.22-150200.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsolv-tools-debuginfo-0.7.22-150200.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libzypp-17.30.0-150200.36.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libzypp-debuginfo-17.30.0-150200.36.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libzypp-debugsource-17.30.0-150200.36.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libzypp-devel-17.30.0-150200.36.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-solv-0.7.22-150200.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-solv-debuginfo-0.7.22-150200.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-solv-0.7.22-150200.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-solv-debuginfo-0.7.22-150200.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby-solv-0.7.22-150200.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby-solv-debuginfo-0.7.22-150200.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "zypper-1.14.52-150200.30.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "zypper-debuginfo-1.14.52-150200.30.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "zypper-debugsource-1.14.52-150200.30.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "zypper-log-1.14.52-150200.30.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "zypper-needs-restarting-1.14.52-150200.30.2.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1158.1",
+            "fixed_packages": [
+                {
+                    "full_name": "liblzma5-32bit-5.2.3-150000.4.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "liblzma5-32bit-debuginfo-5.2.3-150000.4.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "liblzma5-5.2.3-150000.4.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "liblzma5-debuginfo-5.2.3-150000.4.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xz-5.2.3-150000.4.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xz-debuginfo-5.2.3-150000.4.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xz-debugsource-5.2.3-150000.4.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xz-devel-5.2.3-150000.4.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xz-lang-5.2.3-150000.4.7.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xz-static-devel-5.2.3-150000.4.7.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1161.1",
+            "fixed_packages": [
+                {
+                    "full_name": "subversion-1.10.6-150000.3.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "subversion-bash-completion-1.10.6-150000.3.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "subversion-debuginfo-1.10.6-150000.3.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "subversion-debugsource-1.10.6-150000.3.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "subversion-devel-1.10.6-150000.3.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "subversion-perl-1.10.6-150000.3.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "subversion-perl-debuginfo-1.10.6-150000.3.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "subversion-python-1.10.6-150000.3.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "subversion-python-debuginfo-1.10.6-150000.3.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "subversion-server-1.10.6-150000.3.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "subversion-server-debuginfo-1.10.6-150000.3.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "subversion-tools-1.10.6-150000.3.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "subversion-tools-debuginfo-1.10.6-150000.3.21.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1164.1",
+            "fixed_packages": [
+                {
+                    "full_name": "go1.16-1.16.15-150000.1.46.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "go1.16-doc-1.16.15-150000.1.46.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "go1.16-race-1.16.15-150000.1.46.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1167.1",
+            "fixed_packages": [
+                {
+                    "full_name": "go1.17-1.17.8-150000.1.25.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "go1.17-doc-1.17.8-150000.1.25.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "go1.17-race-1.17.8-150000.1.25.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1197.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-5.3.18-150200.24.112.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-base-5.3.18-150200.24.112.1.150200.9.52.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debuginfo-5.3.18-150200.24.112.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-5.3.18-150200.24.112.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-devel-5.3.18-150200.24.112.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-devel-debuginfo-5.3.18-150200.24.112.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-devel-5.3.18-150200.24.112.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-docs-5.3.18-150200.24.112.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-macros-5.3.18-150200.24.112.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-obs-build-5.3.18-150200.24.112.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-obs-build-debugsource-5.3.18-150200.24.112.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-preempt-5.3.18-150200.24.112.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-preempt-debuginfo-5.3.18-150200.24.112.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-preempt-debugsource-5.3.18-150200.24.112.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-preempt-devel-5.3.18-150200.24.112.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-preempt-devel-debuginfo-5.3.18-150200.24.112.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-source-5.3.18-150200.24.112.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-syms-5.3.18-150200.24.112.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1218.1",
+            "fixed_packages": [
+                {
+                    "full_name": "SDL2-debugsource-2.0.8-150200.11.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libSDL2-2_0-0-2.0.8-150200.11.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libSDL2-2_0-0-debuginfo-2.0.8-150200.11.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libSDL2-devel-2.0.8-150200.11.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1252.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libopenjp2-7-2.3.0-150000.3.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenjp2-7-debuginfo-2.3.0-150000.3.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openjpeg2-2.3.0-150000.3.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openjpeg2-debuginfo-2.3.0-150000.3.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openjpeg2-debugsource-2.3.0-150000.3.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openjpeg2-devel-2.3.0-150000.3.5.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1260.1",
+            "fixed_packages": [
+                {
+                    "full_name": "git-2.26.2-150000.36.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "git-arch-2.26.2-150000.36.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "git-core-2.26.2-150000.36.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "git-core-debuginfo-2.26.2-150000.36.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "git-cvs-2.26.2-150000.36.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "git-daemon-2.26.2-150000.36.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "git-daemon-debuginfo-2.26.2-150000.36.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "git-debuginfo-2.26.2-150000.36.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "git-debugsource-2.26.2-150000.36.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "git-doc-2.26.2-150000.36.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "git-email-2.26.2-150000.36.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "git-gui-2.26.2-150000.36.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "git-svn-2.26.2-150000.36.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "git-svn-debuginfo-2.26.2-150000.36.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "git-web-2.26.2-150000.36.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gitk-2.26.2-150000.36.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1265.1",
+            "fixed_packages": [
+                {
+                    "full_name": "jsoup-1.14.2-150200.3.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "jsr-305-3.0.2-150200.3.3.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1273.1",
+            "fixed_packages": [
+                {
+                    "full_name": "SDL-debugsource-1.2.15-150000.3.19.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libSDL-1_2-0-1.2.15-150000.3.19.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libSDL-1_2-0-debuginfo-1.2.15-150000.3.19.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libSDL-devel-1.2.15-150000.3.19.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1296.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libopenjpeg1-1.5.2-150000.4.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenjpeg1-debuginfo-1.5.2-150000.4.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openjpeg-debuginfo-1.5.2-150000.4.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openjpeg-debugsource-1.5.2-150000.4.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openjpeg-devel-1.5.2-150000.4.5.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1300.1",
+            "fixed_packages": [
+                {
+                    "full_name": "xen-4.13.4_08-150200.3.50.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-debugsource-4.13.4_08-150200.3.50.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-devel-4.13.4_08-150200.3.50.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-libs-4.13.4_08-150200.3.50.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-libs-debuginfo-4.13.4_08-150200.3.50.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-tools-4.13.4_08-150200.3.50.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-tools-debuginfo-4.13.4_08-150200.3.50.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-tools-domU-4.13.4_08-150200.3.50.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-tools-domU-debuginfo-4.13.4_08-150200.3.50.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xen-tools-xendomains-wait-disk-4.13.4_08-150200.3.50.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1305.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libinput-debugsource-1.10.5-150000.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libinput-devel-1.10.5-150000.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libinput-tools-1.10.5-150000.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libinput-tools-debuginfo-1.10.5-150000.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libinput-udev-1.10.5-150000.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libinput-udev-debuginfo-1.10.5-150000.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libinput10-1.10.5-150000.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libinput10-debuginfo-1.10.5-150000.3.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1307.1",
+            "fixed_packages": [
+                {
+                    "full_name": "dnsmasq-2.86-150100.7.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "dnsmasq-debuginfo-2.86-150100.7.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "dnsmasq-debugsource-2.86-150100.7.20.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1376.1",
+            "fixed_packages": [
+                {
+                    "full_name": "mutt-1.10.1-150000.3.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mutt-debuginfo-1.10.1-150000.3.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mutt-debugsource-1.10.1-150000.3.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mutt-doc-1.10.1-150000.3.23.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mutt-lang-1.10.1-150000.3.23.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1411.1",
+            "fixed_packages": [
+                {
+                    "full_name": "go1.17-1.17.9-150000.1.28.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "go1.17-doc-1.17.9-150000.1.28.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "go1.17-race-1.17.9-150000.1.28.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1418.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ant-1.10.7-150200.4.6.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ant-antlr-1.10.7-150200.4.6.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ant-apache-bcel-1.10.7-150200.4.6.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ant-apache-bsf-1.10.7-150200.4.6.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ant-apache-log4j-1.10.7-150200.4.6.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ant-apache-oro-1.10.7-150200.4.6.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ant-apache-regexp-1.10.7-150200.4.6.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ant-apache-resolver-1.10.7-150200.4.6.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ant-commons-logging-1.10.7-150200.4.6.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ant-javamail-1.10.7-150200.4.6.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ant-jdepend-1.10.7-150200.4.6.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ant-jmf-1.10.7-150200.4.6.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ant-junit-1.10.7-150200.4.6.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ant-manual-1.10.7-150200.4.6.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ant-scripts-1.10.7-150200.4.6.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ant-swing-1.10.7-150200.4.6.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1430.1",
+            "fixed_packages": [
+                {
+                    "full_name": "cifs-utils-6.9-150100.5.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cifs-utils-debuginfo-6.9-150100.5.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cifs-utils-debugsource-6.9-150100.5.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cifs-utils-devel-6.9-150100.5.15.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1431.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libjavascriptcoregtk-4_0-18-2.36.0-150200.32.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libjavascriptcoregtk-4_0-18-debuginfo-2.36.0-150200.32.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwebkit2gtk-4_0-37-2.36.0-150200.32.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwebkit2gtk-4_0-37-debuginfo-2.36.0-150200.32.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwebkit2gtk3-lang-2.36.0-150200.32.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-JavaScriptCore-4_0-2.36.0-150200.32.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-WebKit2-4_0-2.36.0-150200.32.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-WebKit2WebExtension-4_0-2.36.0-150200.32.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk-4_0-injected-bundles-2.36.0-150200.32.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk-4_0-injected-bundles-debuginfo-2.36.0-150200.32.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk3-debugsource-2.36.0-150200.32.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk3-devel-2.36.0-150200.32.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1436.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libaom-debugsource-1.0.0-150200.3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libaom0-1.0.0-150200.3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libaom0-debuginfo-1.0.0-150200.3.12.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1446.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-paramiko-2.4.2-150100.6.12.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1454.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-pip-20.0.2-150100.6.18.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1455.1",
+            "fixed_packages": [
+                {
+                    "full_name": "glib2-debugsource-2.62.6-150200.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glib2-devel-2.62.6-150200.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glib2-devel-debuginfo-2.62.6-150200.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glib2-lang-2.62.6-150200.3.9.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glib2-tools-2.62.6-150200.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glib2-tools-debuginfo-2.62.6-150200.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgio-2_0-0-2.62.6-150200.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgio-2_0-0-32bit-2.62.6-150200.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgio-2_0-0-32bit-debuginfo-2.62.6-150200.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgio-2_0-0-debuginfo-2.62.6-150200.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libglib-2_0-0-2.62.6-150200.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libglib-2_0-0-32bit-2.62.6-150200.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libglib-2_0-0-32bit-debuginfo-2.62.6-150200.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libglib-2_0-0-debuginfo-2.62.6-150200.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgmodule-2_0-0-2.62.6-150200.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgmodule-2_0-0-32bit-2.62.6-150200.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgmodule-2_0-0-32bit-debuginfo-2.62.6-150200.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgmodule-2_0-0-debuginfo-2.62.6-150200.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgobject-2_0-0-2.62.6-150200.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgobject-2_0-0-32bit-2.62.6-150200.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgobject-2_0-0-32bit-debuginfo-2.62.6-150200.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgobject-2_0-0-debuginfo-2.62.6-150200.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgthread-2_0-0-2.62.6-150200.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgthread-2_0-0-debuginfo-2.62.6-150200.3.9.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1476.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libcaca-debugsource-0.99.beta19.git20171003-150200.11.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcaca-devel-0.99.beta19.git20171003-150200.11.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcaca0-0.99.beta19.git20171003-150200.11.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcaca0-debuginfo-0.99.beta19.git20171003-150200.11.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcaca0-plugins-0.99.beta19.git20171003-150200.11.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcaca0-plugins-debuginfo-0.99.beta19.git20171003-150200.11.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1477.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-Twisted-19.10.0-150200.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-Twisted-debuginfo-19.10.0-150200.3.9.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1479.1",
+            "fixed_packages": [
+                {
+                    "full_name": "jasper-debuginfo-2.0.14-150000.3.25.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "jasper-debugsource-2.0.14-150000.3.25.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libjasper-devel-2.0.14-150000.3.25.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libjasper4-2.0.14-150000.3.25.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libjasper4-debuginfo-2.0.14-150000.3.25.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1512.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libruby2_5-2_5-2.5.9-150000.4.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libruby2_5-2_5-debuginfo-2.5.9-150000.4.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-2.5.9-150000.4.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-debuginfo-2.5.9-150000.4.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-debugsource-2.5.9-150000.4.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-devel-2.5.9-150000.4.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-devel-extra-2.5.9-150000.4.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-stdlib-2.5.9-150000.4.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-stdlib-debuginfo-2.5.9-150000.4.23.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1513.1",
+            "fixed_packages": [
+                {
+                    "full_name": "java-11-openjdk-11.0.15.0-150000.3.80.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-11-openjdk-debugsource-11.0.15.0-150000.3.80.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-11-openjdk-demo-11.0.15.0-150000.3.80.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-11-openjdk-devel-11.0.15.0-150000.3.80.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "java-11-openjdk-headless-11.0.15.0-150000.3.80.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1524.1",
+            "fixed_packages": [
+                {
+                    "full_name": "apache2-mod_auth_mellon-0.17.0-150200.5.7.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1548.1",
+            "fixed_packages": [
+                {
+                    "full_name": "tar-1.34-150000.3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "tar-debuginfo-1.34-150000.3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "tar-debugsource-1.34-150000.3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "tar-lang-1.34-150000.3.12.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "tar-rmt-1.34-150000.3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "tar-rmt-debuginfo-1.34-150000.3.12.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1565.1",
+            "fixed_packages": [
+                {
+                    "full_name": "giflib-debugsource-5.2.1-150000.4.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "giflib-devel-5.2.1-150000.4.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgif7-5.2.1-150000.4.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgif7-debuginfo-5.2.1-150000.4.8.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1579.1",
+            "fixed_packages": [
+                {
+                    "full_name": "MozillaFirefox-91.9.0-150200.152.33.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-debuginfo-91.9.0-150200.152.33.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-debugsource-91.9.0-150200.152.33.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-devel-91.9.0-150200.152.33.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-translations-common-91.9.0-150200.152.33.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaFirefox-translations-other-91.9.0-150200.152.33.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1583.1",
+            "fixed_packages": [
+                {
+                    "full_name": "rsyslog-8.2106.0-150200.4.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rsyslog-debuginfo-8.2106.0-150200.4.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rsyslog-debugsource-8.2106.0-150200.4.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rsyslog-module-gssapi-8.2106.0-150200.4.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rsyslog-module-gssapi-debuginfo-8.2106.0-150200.4.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rsyslog-module-gtls-8.2106.0-150200.4.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rsyslog-module-gtls-debuginfo-8.2106.0-150200.4.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rsyslog-module-mmnormalize-8.2106.0-150200.4.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rsyslog-module-mmnormalize-debuginfo-8.2106.0-150200.4.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rsyslog-module-mysql-8.2106.0-150200.4.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rsyslog-module-mysql-debuginfo-8.2106.0-150200.4.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rsyslog-module-pgsql-8.2106.0-150200.4.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rsyslog-module-pgsql-debuginfo-8.2106.0-150200.4.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rsyslog-module-relp-8.2106.0-150200.4.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rsyslog-module-relp-debuginfo-8.2106.0-150200.4.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rsyslog-module-snmp-8.2106.0-150200.4.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rsyslog-module-snmp-debuginfo-8.2106.0-150200.4.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rsyslog-module-udpspoof-8.2106.0-150200.4.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rsyslog-module-udpspoof-debuginfo-8.2106.0-150200.4.26.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1617.1",
+            "fixed_packages": [
+                {
+                    "full_name": "gzip-1.10-150200.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gzip-debuginfo-1.10-150200.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gzip-debugsource-1.10-150200.10.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1678.1",
+            "fixed_packages": [
+                {
+                    "full_name": "jackson-annotations-2.13.0-150200.3.6.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "jackson-core-2.13.0-150200.3.6.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "jackson-databind-2.13.0-150200.3.9.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "jackson-dataformat-cbor-2.13.0-150200.3.3.3.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1688.1",
+            "fixed_packages": [
+                {
+                    "full_name": "e2fsprogs-1.43.8-150000.4.33.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "e2fsprogs-32bit-debuginfo-1.43.8-150000.4.33.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "e2fsprogs-debuginfo-1.43.8-150000.4.33.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "e2fsprogs-debugsource-1.43.8-150000.4.33.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "e2fsprogs-devel-1.43.8-150000.4.33.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcom_err-devel-1.43.8-150000.4.33.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcom_err-devel-static-1.43.8-150000.4.33.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcom_err2-1.43.8-150000.4.33.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcom_err2-32bit-1.43.8-150000.4.33.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcom_err2-32bit-debuginfo-1.43.8-150000.4.33.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcom_err2-debuginfo-1.43.8-150000.4.33.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libext2fs-devel-1.43.8-150000.4.33.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libext2fs-devel-static-1.43.8-150000.4.33.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libext2fs2-1.43.8-150000.4.33.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libext2fs2-debuginfo-1.43.8-150000.4.33.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        }
+    ]
+}

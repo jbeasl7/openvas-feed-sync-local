@@ -1,0 +1,3674 @@
+{
+    "version": "1.2",
+    "spdx-license-identifier": "GPL-2.0-only",
+    "copyright": "Copyright (C) 2008-2025 Greenbone AG",
+    "package_type": "deb",
+    "product_name": "Debian 13",
+    "advisories": [
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.1.1.2025.5975",
+            "fixed_packages": [
+                {
+                    "name": "ata-modules-6.12.41+deb13-armmp-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "ata-modules-6.12.41+deb13-powerpc64le-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "ata-modules-6.12.41+deb13-riscv64-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "bpftool",
+                    "full_version": "7.5.0+6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "btrfs-modules-6.12.41+deb13-armmp-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "btrfs-modules-6.12.41+deb13-powerpc64le-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "btrfs-modules-6.12.41+deb13-riscv64-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "btrfs-modules-6.12.41+deb13-s390x-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "cdrom-core-modules-6.12.41+deb13-armmp-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "cdrom-core-modules-6.12.41+deb13-powerpc64le-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "cdrom-core-modules-6.12.41+deb13-riscv64-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "cdrom-core-modules-6.12.41+deb13-s390x-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "crypto-dm-modules-6.12.41+deb13-armmp-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "crypto-dm-modules-6.12.41+deb13-powerpc64le-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "crypto-dm-modules-6.12.41+deb13-riscv64-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "crypto-dm-modules-6.12.41+deb13-s390x-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "crypto-modules-6.12.41+deb13-armmp-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "crypto-modules-6.12.41+deb13-powerpc64le-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "crypto-modules-6.12.41+deb13-riscv64-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "crypto-modules-6.12.41+deb13-s390x-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "dasd-extra-modules-6.12.41+deb13-s390x-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "dasd-modules-6.12.41+deb13-s390x-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "drm-core-modules-6.12.41+deb13-armmp-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "drm-core-modules-6.12.41+deb13-powerpc64le-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "drm-core-modules-6.12.41+deb13-riscv64-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "ext4-modules-6.12.41+deb13-armmp-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "ext4-modules-6.12.41+deb13-powerpc64le-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "ext4-modules-6.12.41+deb13-riscv64-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "ext4-modules-6.12.41+deb13-s390x-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "f2fs-modules-6.12.41+deb13-armmp-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "f2fs-modules-6.12.41+deb13-powerpc64le-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "f2fs-modules-6.12.41+deb13-riscv64-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "f2fs-modules-6.12.41+deb13-s390x-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "fat-modules-6.12.41+deb13-armmp-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "fat-modules-6.12.41+deb13-powerpc64le-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "fat-modules-6.12.41+deb13-riscv64-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "fat-modules-6.12.41+deb13-s390x-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "fb-modules-6.12.41+deb13-armmp-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "fb-modules-6.12.41+deb13-powerpc64le-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "fb-modules-6.12.41+deb13-riscv64-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firewire-core-modules-6.12.41+deb13-powerpc64le-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "hyperv-daemons",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "hypervisor-modules-6.12.41+deb13-powerpc64le-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "input-modules-6.12.41+deb13-armmp-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "input-modules-6.12.41+deb13-powerpc64le-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "input-modules-6.12.41+deb13-riscv64-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "intel-sdsi",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "isofs-modules-6.12.41+deb13-armmp-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "isofs-modules-6.12.41+deb13-powerpc64le-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "isofs-modules-6.12.41+deb13-riscv64-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "isofs-modules-6.12.41+deb13-s390x-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "jfs-modules-6.12.41+deb13-armmp-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "jfs-modules-6.12.41+deb13-powerpc64le-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "jfs-modules-6.12.41+deb13-riscv64-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "kernel-image-6.12.41+deb13-armmp-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "kernel-image-6.12.41+deb13-powerpc64le-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "kernel-image-6.12.41+deb13-riscv64-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "kernel-image-6.12.41+deb13-s390x-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libcpupower-dev",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libcpupower1",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-bpf-dev",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-config-6.12",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-cpupower",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-doc",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-doc-6.12",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-headers-6.12.41+deb13-amd64",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-headers-6.12.41+deb13-arm64",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-headers-6.12.41+deb13-arm64-16k",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-headers-6.12.41+deb13-armmp",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-headers-6.12.41+deb13-armmp-lpae",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-headers-6.12.41+deb13-cloud-amd64",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-headers-6.12.41+deb13-cloud-arm64",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-headers-6.12.41+deb13-common",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-headers-6.12.41+deb13-common-rt",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-headers-6.12.41+deb13-powerpc64le",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-headers-6.12.41+deb13-powerpc64le-64k",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-headers-6.12.41+deb13-riscv64",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-headers-6.12.41+deb13-rpi",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-headers-6.12.41+deb13-rt-amd64",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-headers-6.12.41+deb13-rt-arm64",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-headers-6.12.41+deb13-rt-armmp",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-headers-6.12.41+deb13-s390x",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-headers-armmp",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-headers-armmp-lpae",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-headers-powerpc64le",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-headers-powerpc64le-64k",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-headers-riscv64",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-headers-rpi",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-headers-rt-armmp",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-headers-s390x",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.12.41+deb13-amd64-dbg",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.12.41+deb13-amd64-unsigned",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.12.41+deb13-arm64-16k-dbg",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.12.41+deb13-arm64-16k-unsigned",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.12.41+deb13-arm64-dbg",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.12.41+deb13-arm64-unsigned",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.12.41+deb13-armmp",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.12.41+deb13-armmp-dbg",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.12.41+deb13-armmp-lpae",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.12.41+deb13-armmp-lpae-dbg",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.12.41+deb13-cloud-amd64-dbg",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.12.41+deb13-cloud-amd64-unsigned",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.12.41+deb13-cloud-arm64-dbg",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.12.41+deb13-cloud-arm64-unsigned",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.12.41+deb13-powerpc64le",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.12.41+deb13-powerpc64le-64k",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.12.41+deb13-powerpc64le-64k-dbg",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.12.41+deb13-powerpc64le-dbg",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.12.41+deb13-riscv64",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.12.41+deb13-riscv64-dbg",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.12.41+deb13-rpi",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.12.41+deb13-rpi-dbg",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.12.41+deb13-rt-amd64-dbg",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.12.41+deb13-rt-amd64-unsigned",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.12.41+deb13-rt-arm64-dbg",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.12.41+deb13-rt-arm64-unsigned",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.12.41+deb13-rt-armmp",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.12.41+deb13-rt-armmp-dbg",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.12.41+deb13-s390x",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-6.12.41+deb13-s390x-dbg",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-amd64-dbg",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-amd64-signed-template",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-arm64-16k-dbg",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-arm64-dbg",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-arm64-signed-template",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-armmp",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-armmp-dbg",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-armmp-lpae",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-armmp-lpae-dbg",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-cloud-amd64-dbg",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-cloud-arm64-dbg",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-powerpc64le",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-powerpc64le-64k",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-powerpc64le-64k-dbg",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-powerpc64le-dbg",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-riscv64",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-riscv64-dbg",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-rpi",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-rpi-dbg",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-rt-amd64-dbg",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-rt-arm64-dbg",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-rt-armmp",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-rt-armmp-dbg",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-s390x",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-s390x-dbg",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-kbuild-6.12.41+deb13",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-libc-dev",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-perf",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-source",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-source-6.12",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-support-6.12.41+deb13",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "loop-modules-6.12.41+deb13-armmp-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "loop-modules-6.12.41+deb13-powerpc64le-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "loop-modules-6.12.41+deb13-riscv64-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "loop-modules-6.12.41+deb13-s390x-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "md-modules-6.12.41+deb13-armmp-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "md-modules-6.12.41+deb13-powerpc64le-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "md-modules-6.12.41+deb13-riscv64-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "md-modules-6.12.41+deb13-s390x-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "mmc-core-modules-6.12.41+deb13-riscv64-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "mmc-modules-6.12.41+deb13-armmp-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "mmc-modules-6.12.41+deb13-riscv64-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "mtd-core-modules-6.12.41+deb13-powerpc64le-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "mtd-core-modules-6.12.41+deb13-s390x-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "mtd-modules-6.12.41+deb13-armmp-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "mtd-modules-6.12.41+deb13-riscv64-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "multipath-modules-6.12.41+deb13-armmp-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "multipath-modules-6.12.41+deb13-powerpc64le-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "multipath-modules-6.12.41+deb13-riscv64-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "multipath-modules-6.12.41+deb13-s390x-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "nbd-modules-6.12.41+deb13-armmp-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "nbd-modules-6.12.41+deb13-powerpc64le-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "nbd-modules-6.12.41+deb13-riscv64-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "nbd-modules-6.12.41+deb13-s390x-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "nic-modules-6.12.41+deb13-armmp-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "nic-modules-6.12.41+deb13-powerpc64le-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "nic-modules-6.12.41+deb13-riscv64-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "nic-modules-6.12.41+deb13-s390x-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "nic-shared-modules-6.12.41+deb13-armmp-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "nic-shared-modules-6.12.41+deb13-powerpc64le-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "nic-shared-modules-6.12.41+deb13-riscv64-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "nic-usb-modules-6.12.41+deb13-armmp-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "nic-usb-modules-6.12.41+deb13-powerpc64le-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "nic-usb-modules-6.12.41+deb13-riscv64-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "nic-wireless-modules-6.12.41+deb13-armmp-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "nic-wireless-modules-6.12.41+deb13-powerpc64le-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "nic-wireless-modules-6.12.41+deb13-riscv64-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "pata-modules-6.12.41+deb13-armmp-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "pata-modules-6.12.41+deb13-riscv64-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "ppp-modules-6.12.41+deb13-armmp-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "ppp-modules-6.12.41+deb13-powerpc64le-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "ppp-modules-6.12.41+deb13-riscv64-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "rtla",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "sata-modules-6.12.41+deb13-armmp-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "sata-modules-6.12.41+deb13-powerpc64le-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "sata-modules-6.12.41+deb13-riscv64-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "scsi-core-modules-6.12.41+deb13-armmp-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "scsi-core-modules-6.12.41+deb13-powerpc64le-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "scsi-core-modules-6.12.41+deb13-riscv64-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "scsi-core-modules-6.12.41+deb13-s390x-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "scsi-modules-6.12.41+deb13-armmp-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "scsi-modules-6.12.41+deb13-powerpc64le-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "scsi-modules-6.12.41+deb13-riscv64-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "scsi-modules-6.12.41+deb13-s390x-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "scsi-nic-modules-6.12.41+deb13-armmp-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "scsi-nic-modules-6.12.41+deb13-powerpc64le-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "scsi-nic-modules-6.12.41+deb13-riscv64-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "serial-modules-6.12.41+deb13-powerpc64le-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "sound-modules-6.12.41+deb13-armmp-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "speakup-modules-6.12.41+deb13-armmp-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "squashfs-modules-6.12.41+deb13-armmp-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "squashfs-modules-6.12.41+deb13-powerpc64le-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "squashfs-modules-6.12.41+deb13-riscv64-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "udf-modules-6.12.41+deb13-armmp-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "udf-modules-6.12.41+deb13-powerpc64le-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "udf-modules-6.12.41+deb13-riscv64-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "udf-modules-6.12.41+deb13-s390x-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "uinput-modules-6.12.41+deb13-armmp-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "uinput-modules-6.12.41+deb13-powerpc64le-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "usb-modules-6.12.41+deb13-armmp-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "usb-modules-6.12.41+deb13-powerpc64le-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "usb-modules-6.12.41+deb13-riscv64-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "usb-serial-modules-6.12.41+deb13-armmp-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "usb-serial-modules-6.12.41+deb13-powerpc64le-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "usb-serial-modules-6.12.41+deb13-riscv64-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "usb-storage-modules-6.12.41+deb13-armmp-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "usb-storage-modules-6.12.41+deb13-powerpc64le-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "usb-storage-modules-6.12.41+deb13-riscv64-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "usbip",
+                    "full_version": "2.0+6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "xfs-modules-6.12.41+deb13-powerpc64le-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "xfs-modules-6.12.41+deb13-riscv64-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "xfs-modules-6.12.41+deb13-s390x-di",
+                    "full_version": "6.12.41-1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.1.1.2025.5976",
+            "fixed_packages": [
+                {
+                    "name": "chromium",
+                    "full_version": "139.0.7258.127-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "chromium-common",
+                    "full_version": "139.0.7258.127-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "chromium-driver",
+                    "full_version": "139.0.7258.127-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "chromium-headless-shell",
+                    "full_version": "139.0.7258.127-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "chromium-l10n",
+                    "full_version": "139.0.7258.127-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "chromium-sandbox",
+                    "full_version": "139.0.7258.127-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "chromium-shell",
+                    "full_version": "139.0.7258.127-1~deb13u1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.1.1.2025.5977",
+            "fixed_packages": [
+                {
+                    "name": "aide",
+                    "full_version": "0.19.1-2+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "aide-common",
+                    "full_version": "0.19.1-2+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "aide-dynamic",
+                    "full_version": "0.19.1-2+deb13u1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.1.1.2025.5978",
+            "fixed_packages": [
+                {
+                    "name": "gir1.2-javascriptcoregtk-4.1",
+                    "full_version": "2.48.5-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "gir1.2-javascriptcoregtk-6.0",
+                    "full_version": "2.48.5-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "gir1.2-webkit-6.0",
+                    "full_version": "2.48.5-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "gir1.2-webkit2-4.1",
+                    "full_version": "2.48.5-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libjavascriptcoregtk-4.0-bin",
+                    "full_version": "2.48.5-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libjavascriptcoregtk-4.1-0",
+                    "full_version": "2.48.5-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libjavascriptcoregtk-4.1-dev",
+                    "full_version": "2.48.5-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libjavascriptcoregtk-6.0-1",
+                    "full_version": "2.48.5-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libjavascriptcoregtk-6.0-dev",
+                    "full_version": "2.48.5-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libjavascriptcoregtk-bin",
+                    "full_version": "2.48.5-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libwebkit2gtk-4.0-doc",
+                    "full_version": "2.48.5-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libwebkit2gtk-4.1-0",
+                    "full_version": "2.48.5-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libwebkit2gtk-4.1-dev",
+                    "full_version": "2.48.5-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libwebkitgtk-6.0-4",
+                    "full_version": "2.48.5-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libwebkitgtk-6.0-dev",
+                    "full_version": "2.48.5-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libwebkitgtk-doc",
+                    "full_version": "2.48.5-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "webkit2gtk-driver",
+                    "full_version": "2.48.5-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "webkitgtk-webdriver",
+                    "full_version": "2.48.5-1~deb13u1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.1.1.2025.5979",
+            "fixed_packages": [
+                {
+                    "name": "libxslt1-dev",
+                    "full_version": "1.1.35-1.2+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libxslt1.1",
+                    "full_version": "1.1.35-1.2+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "xsltproc",
+                    "full_version": "1.1.35-1.2+deb13u1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.1.1.2025.5980",
+            "fixed_packages": [
+                {
+                    "name": "firefox-esr",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-ach",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-af",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-all",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-an",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-ar",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-ast",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-az",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-be",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-bg",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-bn",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-br",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-bs",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-ca",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-ca-valencia",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-cak",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-cs",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-cy",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-da",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-de",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-dsb",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-el",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-en-ca",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-en-gb",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-eo",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-es-ar",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-es-cl",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-es-es",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-es-mx",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-et",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-eu",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-fa",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-ff",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-fi",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-fr",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-fur",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-fy-nl",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-ga-ie",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-gd",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-gl",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-gn",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-gu-in",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-he",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-hi-in",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-hr",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-hsb",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-hu",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-hy-am",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-ia",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-id",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-is",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-it",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-ja",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-ka",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-kab",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-kk",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-km",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-kn",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-ko",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-lij",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-lt",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-lv",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-mk",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-mr",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-ms",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-my",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-nb-no",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-ne-np",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-nl",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-nn-no",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-oc",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-pa-in",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-pl",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-pt-br",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-pt-pt",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-rm",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-ro",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-ru",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-sat",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-sc",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-sco",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-si",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-sk",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-skr",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-sl",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-son",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-sq",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-sr",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-sv-se",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-szl",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-ta",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-te",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-tg",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-th",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-tl",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-tr",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-trs",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-uk",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-ur",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-uz",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-vi",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-xh",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-zh-cn",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-zh-tw",
+                    "full_version": "128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.1.1.2025.5981",
+            "fixed_packages": [
+                {
+                    "name": "chromium",
+                    "full_version": "139.0.7258.138-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "chromium-common",
+                    "full_version": "139.0.7258.138-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "chromium-driver",
+                    "full_version": "139.0.7258.138-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "chromium-headless-shell",
+                    "full_version": "139.0.7258.138-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "chromium-l10n",
+                    "full_version": "139.0.7258.138-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "chromium-sandbox",
+                    "full_version": "139.0.7258.138-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "chromium-shell",
+                    "full_version": "139.0.7258.138-1~deb13u1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.1.1.2025.5983",
+            "fixed_packages": [
+                {
+                    "name": "qemu-block-extra",
+                    "full_version": "1:10.0.2+ds-2+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "qemu-guest-agent",
+                    "full_version": "1:10.0.2+ds-2+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "qemu-system",
+                    "full_version": "1:10.0.2+ds-2+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "qemu-system-arm",
+                    "full_version": "1:10.0.2+ds-2+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "qemu-system-common",
+                    "full_version": "1:10.0.2+ds-2+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "qemu-system-data",
+                    "full_version": "1:10.0.2+ds-2+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "qemu-system-gui",
+                    "full_version": "1:10.0.2+ds-2+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "qemu-system-mips",
+                    "full_version": "1:10.0.2+ds-2+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "qemu-system-misc",
+                    "full_version": "1:10.0.2+ds-2+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "qemu-system-modules-opengl",
+                    "full_version": "1:10.0.2+ds-2+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "qemu-system-modules-spice",
+                    "full_version": "1:10.0.2+ds-2+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "qemu-system-ppc",
+                    "full_version": "1:10.0.2+ds-2+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "qemu-system-riscv",
+                    "full_version": "1:10.0.2+ds-2+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "qemu-system-s390x",
+                    "full_version": "1:10.0.2+ds-2+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "qemu-system-sparc",
+                    "full_version": "1:10.0.2+ds-2+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "qemu-system-x86",
+                    "full_version": "1:10.0.2+ds-2+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "qemu-system-xen",
+                    "full_version": "1:10.0.2+ds-2+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "qemu-user",
+                    "full_version": "1:10.0.2+ds-2+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "qemu-user-binfmt",
+                    "full_version": "1:10.0.2+ds-2+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "qemu-user-static",
+                    "full_version": "1:10.0.2+ds-2+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "qemu-utils",
+                    "full_version": "1:10.0.2+ds-2+deb13u1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.1.1.2025.5984",
+            "fixed_packages": [
+                {
+                    "name": "thunderbird",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-af",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-all",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-ar",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-ast",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-be",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-bg",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-br",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-ca",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-cak",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-cs",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-cy",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-da",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-de",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-dsb",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-el",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-en-ca",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-en-gb",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-es-ar",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-es-es",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-es-mx",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-et",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-eu",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-fi",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-fr",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-fy-nl",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-ga-ie",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-gd",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-gl",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-he",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-hr",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-hsb",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-hu",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-hy-am",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-id",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-is",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-it",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-ja",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-ka",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-kab",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-kk",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-ko",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-lt",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-lv",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-ms",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-nb-no",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-nl",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-nn-no",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-pa-in",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-pl",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-pt-br",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-pt-pt",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-rm",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-ro",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-ru",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-sk",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-sl",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-sq",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-sr",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-sv-se",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-th",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-tr",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-uk",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-uz",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-vi",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-zh-cn",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-l10n-zh-tw",
+                    "full_version": "1:128.14.0esr-1~deb13u1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.1.1.2025.5986",
+            "fixed_packages": [
+                {
+                    "name": "node-cipher-base",
+                    "full_version": "1.0.4-6+deb13u1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.1.1.2025.5988",
+            "fixed_packages": [
+                {
+                    "name": "chromium",
+                    "full_version": "139.0.7258.154-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "chromium-common",
+                    "full_version": "139.0.7258.154-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "chromium-driver",
+                    "full_version": "139.0.7258.154-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "chromium-headless-shell",
+                    "full_version": "139.0.7258.154-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "chromium-l10n",
+                    "full_version": "139.0.7258.154-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "chromium-sandbox",
+                    "full_version": "139.0.7258.154-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "chromium-shell",
+                    "full_version": "139.0.7258.154-1~deb13u1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.1.1.2025.5989",
+            "fixed_packages": [
+                {
+                    "name": "gir1.2-udisks-2.0",
+                    "full_version": "2.10.1-12.1+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libudisks2-0",
+                    "full_version": "2.10.1-12.1+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libudisks2-dev",
+                    "full_version": "2.10.1-12.1+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "udisks2",
+                    "full_version": "2.10.1-12.1+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "udisks2-btrfs",
+                    "full_version": "2.10.1-12.1+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "udisks2-doc",
+                    "full_version": "2.10.1-12.1+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "udisks2-lvm2",
+                    "full_version": "2.10.1-12.1+deb13u1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.1.1.2025.5990",
+            "fixed_packages": [
+                {
+                    "name": "libxml2",
+                    "full_version": "2.12.7+dfsg+really2.9.14-2.1+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libxml2-dev",
+                    "full_version": "2.12.7+dfsg+really2.9.14-2.1+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libxml2-doc",
+                    "full_version": "2.12.7+dfsg+really2.9.14-2.1+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libxml2-utils",
+                    "full_version": "2.12.7+dfsg+really2.9.14-2.1+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "python3-libxml2",
+                    "full_version": "2.12.7+dfsg+really2.9.14-2.1+deb13u1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.1.1.2025.5992",
+            "fixed_packages": [
+                {
+                    "name": "firebird-dev",
+                    "full_version": "4.0.5.3140.ds6-17+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firebird-utils",
+                    "full_version": "4.0.5.3140.ds6-17+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firebird4.0-common",
+                    "full_version": "4.0.5.3140.ds6-17+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firebird4.0-common-doc",
+                    "full_version": "4.0.5.3140.ds6-17+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firebird4.0-doc",
+                    "full_version": "4.0.5.3140.ds6-17+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firebird4.0-examples",
+                    "full_version": "4.0.5.3140.ds6-17+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firebird4.0-server",
+                    "full_version": "4.0.5.3140.ds6-17+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firebird4.0-server-core",
+                    "full_version": "4.0.5.3140.ds6-17+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firebird4.0-utils",
+                    "full_version": "4.0.5.3140.ds6-17+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libfbclient2",
+                    "full_version": "4.0.5.3140.ds6-17+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libib-util",
+                    "full_version": "4.0.5.3140.ds6-17+deb13u1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.1.1.2025.5993",
+            "fixed_packages": [
+                {
+                    "name": "chromium",
+                    "full_version": "140.0.7339.80-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "chromium-common",
+                    "full_version": "140.0.7339.80-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "chromium-driver",
+                    "full_version": "140.0.7339.80-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "chromium-headless-shell",
+                    "full_version": "140.0.7339.80-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "chromium-l10n",
+                    "full_version": "140.0.7339.80-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "chromium-sandbox",
+                    "full_version": "140.0.7339.80-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "chromium-shell",
+                    "full_version": "140.0.7339.80-1~deb13u1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.1.1.2025.5994",
+            "fixed_packages": [
+                {
+                    "name": "libapache2-mod-shib",
+                    "full_version": "3.5.0+dfsg-2+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libshibsp-dev",
+                    "full_version": "3.5.0+dfsg-2+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libshibsp-doc",
+                    "full_version": "3.5.0+dfsg-2+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libshibsp-plugins",
+                    "full_version": "3.5.0+dfsg-2+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libshibsp12",
+                    "full_version": "3.5.0+dfsg-2+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "shibboleth-sp-common",
+                    "full_version": "3.5.0+dfsg-2+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "shibboleth-sp-utils",
+                    "full_version": "3.5.0+dfsg-2+deb13u1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.1.1.2025.5995",
+            "fixed_packages": [
+                {
+                    "name": "libhsqldb1.8.0-java",
+                    "full_version": "1.8.0.10+dfsg-12.1+deb13u1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.1.1.2025.5996",
+            "fixed_packages": [
+                {
+                    "name": "chromium",
+                    "full_version": "140.0.7339.127-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "chromium-common",
+                    "full_version": "140.0.7339.127-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "chromium-driver",
+                    "full_version": "140.0.7339.127-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "chromium-headless-shell",
+                    "full_version": "140.0.7339.127-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "chromium-l10n",
+                    "full_version": "140.0.7339.127-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "chromium-sandbox",
+                    "full_version": "140.0.7339.127-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "chromium-shell",
+                    "full_version": "140.0.7339.127-1~deb13u1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.1.1.2025.5997",
+            "fixed_packages": [
+                {
+                    "name": "imagemagick",
+                    "full_version": "8:7.1.1.43+dfsg1-1+deb13u2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "imagemagick-7-common",
+                    "full_version": "8:7.1.1.43+dfsg1-1+deb13u2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "imagemagick-7-doc",
+                    "full_version": "8:7.1.1.43+dfsg1-1+deb13u2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "imagemagick-7.q16",
+                    "full_version": "8:7.1.1.43+dfsg1-1+deb13u2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "imagemagick-7.q16hdri",
+                    "full_version": "8:7.1.1.43+dfsg1-1+deb13u2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libimage-magick-perl",
+                    "full_version": "8:7.1.1.43+dfsg1-1+deb13u2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libimage-magick-q16-perl",
+                    "full_version": "8:7.1.1.43+dfsg1-1+deb13u2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libimage-magick-q16hdri-perl",
+                    "full_version": "8:7.1.1.43+dfsg1-1+deb13u2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libmagick++-7-headers",
+                    "full_version": "8:7.1.1.43+dfsg1-1+deb13u2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libmagick++-7.q16-5",
+                    "full_version": "8:7.1.1.43+dfsg1-1+deb13u2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libmagick++-7.q16-dev",
+                    "full_version": "8:7.1.1.43+dfsg1-1+deb13u2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libmagick++-7.q16hdri-5",
+                    "full_version": "8:7.1.1.43+dfsg1-1+deb13u2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libmagick++-7.q16hdri-dev",
+                    "full_version": "8:7.1.1.43+dfsg1-1+deb13u2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libmagick++-dev",
+                    "full_version": "8:7.1.1.43+dfsg1-1+deb13u2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libmagickcore-7-arch-config",
+                    "full_version": "8:7.1.1.43+dfsg1-1+deb13u2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libmagickcore-7-headers",
+                    "full_version": "8:7.1.1.43+dfsg1-1+deb13u2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libmagickcore-7.q16-10",
+                    "full_version": "8:7.1.1.43+dfsg1-1+deb13u2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libmagickcore-7.q16-10-extra",
+                    "full_version": "8:7.1.1.43+dfsg1-1+deb13u2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libmagickcore-7.q16-dev",
+                    "full_version": "8:7.1.1.43+dfsg1-1+deb13u2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libmagickcore-7.q16hdri-10",
+                    "full_version": "8:7.1.1.43+dfsg1-1+deb13u2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libmagickcore-7.q16hdri-10-extra",
+                    "full_version": "8:7.1.1.43+dfsg1-1+deb13u2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libmagickcore-7.q16hdri-dev",
+                    "full_version": "8:7.1.1.43+dfsg1-1+deb13u2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libmagickcore-dev",
+                    "full_version": "8:7.1.1.43+dfsg1-1+deb13u2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libmagickwand-7-headers",
+                    "full_version": "8:7.1.1.43+dfsg1-1+deb13u2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libmagickwand-7.q16-10",
+                    "full_version": "8:7.1.1.43+dfsg1-1+deb13u2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libmagickwand-7.q16-dev",
+                    "full_version": "8:7.1.1.43+dfsg1-1+deb13u2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libmagickwand-7.q16hdri-10",
+                    "full_version": "8:7.1.1.43+dfsg1-1+deb13u2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libmagickwand-7.q16hdri-dev",
+                    "full_version": "8:7.1.1.43+dfsg1-1+deb13u2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libmagickwand-dev",
+                    "full_version": "8:7.1.1.43+dfsg1-1+deb13u2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "perlmagick",
+                    "full_version": "8:7.1.1.43+dfsg1-1+deb13u2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.1.1.2025.5998",
+            "fixed_packages": [
+                {
+                    "name": "cups",
+                    "full_version": "2.4.10-3+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "cups-bsd",
+                    "full_version": "2.4.10-3+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "cups-client",
+                    "full_version": "2.4.10-3+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "cups-common",
+                    "full_version": "2.4.10-3+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "cups-core-drivers",
+                    "full_version": "2.4.10-3+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "cups-daemon",
+                    "full_version": "2.4.10-3+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "cups-ipp-utils",
+                    "full_version": "2.4.10-3+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "cups-ppdc",
+                    "full_version": "2.4.10-3+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "cups-server-common",
+                    "full_version": "2.4.10-3+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libcups2-dev",
+                    "full_version": "2.4.10-3+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libcups2t64",
+                    "full_version": "2.4.10-3+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libcupsimage2-dev",
+                    "full_version": "2.4.10-3+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libcupsimage2t64",
+                    "full_version": "2.4.10-3+deb13u1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.1.1.2025.5999",
+            "fixed_packages": [
+                {
+                    "name": "libjson-xs-perl",
+                    "full_version": "4.040-1~deb13u1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.1.1.2025.6000",
+            "fixed_packages": [
+                {
+                    "name": "libcpanel-json-xs-perl",
+                    "full_version": "4.39-2~deb13u1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.1.1.2025.6001",
+            "fixed_packages": [
+                {
+                    "name": "libcjson-dev",
+                    "full_version": "1.7.18-3.1+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libcjson1",
+                    "full_version": "1.7.18-3.1+deb13u1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.1.1.2025.6002",
+            "fixed_packages": [
+                {
+                    "name": "node-sha.js",
+                    "full_version": "2.4.11+~2.4.0-2+deb13u1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.1.1.2025.6003",
+            "fixed_packages": [
+                {
+                    "name": "firefox-esr",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-ach",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-af",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-all",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-an",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-ar",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-ast",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-az",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-be",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-bg",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-bn",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-br",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-bs",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-ca",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-ca-valencia",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-cak",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-cs",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-cy",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-da",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-de",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-dsb",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-el",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-en-ca",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-en-gb",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-eo",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-es-ar",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-es-cl",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-es-es",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-es-mx",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-et",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-eu",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-fa",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-ff",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-fi",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-fr",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-fur",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-fy-nl",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-ga-ie",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-gd",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-gl",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-gn",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-gu-in",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-he",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-hi-in",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-hr",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-hsb",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-hu",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-hy-am",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-ia",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-id",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-is",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-it",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-ja",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-ka",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-kab",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-kk",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-km",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-kn",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-ko",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-lij",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-lt",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-lv",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-mk",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-mr",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-ms",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-my",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-nb-no",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-ne-np",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-nl",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-nn-no",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-oc",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-pa-in",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-pl",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-pt-br",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-pt-pt",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-rm",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-ro",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-ru",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-sat",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-sc",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-sco",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-si",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-sk",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-skr",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-sl",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-son",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-sq",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-sr",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-sv-se",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-szl",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-ta",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-te",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-tg",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-th",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-tl",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-tr",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-trs",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-uk",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-ur",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-uz",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-vi",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-xh",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-zh-cn",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-esr-l10n-zh-tw",
+                    "full_version": "140.3.0esr-1~deb13u1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.1.1.2025.6004",
+            "fixed_packages": [
+                {
+                    "name": "chromium",
+                    "full_version": "140.0.7339.185-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "chromium-common",
+                    "full_version": "140.0.7339.185-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "chromium-driver",
+                    "full_version": "140.0.7339.185-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "chromium-headless-shell",
+                    "full_version": "140.0.7339.185-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "chromium-l10n",
+                    "full_version": "140.0.7339.185-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "chromium-sandbox",
+                    "full_version": "140.0.7339.185-1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "chromium-shell",
+                    "full_version": "140.0.7339.185-1~deb13u1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.1.1.2025.6005",
+            "fixed_packages": [
+                {
+                    "name": "jetty9",
+                    "full_version": "9.4.57-1.1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libjetty9-extra-java",
+                    "full_version": "9.4.57-1.1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libjetty9-java",
+                    "full_version": "9.4.57-1.1~deb13u1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.1.1.2025.6006",
+            "fixed_packages": [
+                {
+                    "name": "jetty12",
+                    "full_version": "12.0.17-3.1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libjetty12-extra-java",
+                    "full_version": "12.0.17-3.1~deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libjetty12-java",
+                    "full_version": "12.0.17-3.1~deb13u1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.1.1.2025.6007",
+            "fixed_packages": [
+                {
+                    "name": "ffmpeg",
+                    "full_version": "7:7.1.2-0+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "ffmpeg-doc",
+                    "full_version": "7:7.1.2-0+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libavcodec-dev",
+                    "full_version": "7:7.1.2-0+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libavcodec-extra",
+                    "full_version": "7:7.1.2-0+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libavcodec-extra61",
+                    "full_version": "7:7.1.2-0+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libavcodec61",
+                    "full_version": "7:7.1.2-0+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libavdevice-dev",
+                    "full_version": "7:7.1.2-0+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libavdevice61",
+                    "full_version": "7:7.1.2-0+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libavfilter-dev",
+                    "full_version": "7:7.1.2-0+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libavfilter-extra",
+                    "full_version": "7:7.1.2-0+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libavfilter-extra10",
+                    "full_version": "7:7.1.2-0+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libavfilter10",
+                    "full_version": "7:7.1.2-0+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libavformat-dev",
+                    "full_version": "7:7.1.2-0+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libavformat-extra",
+                    "full_version": "7:7.1.2-0+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libavformat-extra61",
+                    "full_version": "7:7.1.2-0+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libavformat61",
+                    "full_version": "7:7.1.2-0+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libavutil-dev",
+                    "full_version": "7:7.1.2-0+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libavutil59",
+                    "full_version": "7:7.1.2-0+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libpostproc-dev",
+                    "full_version": "7:7.1.2-0+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libpostproc58",
+                    "full_version": "7:7.1.2-0+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libswresample-dev",
+                    "full_version": "7:7.1.2-0+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libswresample5",
+                    "full_version": "7:7.1.2-0+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libswscale-dev",
+                    "full_version": "7:7.1.2-0+deb13u1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libswscale8",
+                    "full_version": "7:7.1.2-0+deb13u1",
+                    "specifier": ">="
+                }
+            ]
+        }
+    ]
+}

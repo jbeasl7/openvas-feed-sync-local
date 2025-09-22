@@ -1,0 +1,26 @@
+{
+    "version": "1.2",
+    "spdx-license-identifier": "GPL-2.0-only",
+    "copyright": "Copyright (C) 2008-2025 Greenbone AG",
+    "package_type": "rpm",
+    "product_name": "SUSE Studio Extension for System z 1.3",
+    "advisories": [
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2014.0254.1",
+            "fixed_packages": [
+                {
+                    "full_name": "susestudio-common-1.3.6-0.17.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susestudio-runner-1.3.6-0.17.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susestudio-ui-server-1.3.6-0.17.2.s390x",
+                    "specifier": ">="
+                }
+            ]
+        }
+    ]
+}

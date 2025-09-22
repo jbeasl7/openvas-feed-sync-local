@@ -1,0 +1,1928 @@
+{
+    "version": "1.2",
+    "spdx-license-identifier": "GPL-2.0-only",
+    "copyright": "Copyright (C) 2008-2025 Greenbone AG",
+    "package_type": "rpm",
+    "product_name": "SUSE Linux Enterprise Live Patching 15-SP6",
+    "advisories": [
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.2761.1",
+            "fixed_packages": [
+                {
+                    "full_name": "openssl-3-livepatches-0.1-150600.13.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-3-livepatches-debuginfo-0.1-150600.13.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-3-livepatches-debugsource-0.1-150600.13.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.2874.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-2-150600.4.4.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-2-150600.4.4.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-2-150600.4.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-debuginfo-2-150600.4.4.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-debuginfo-2-150600.4.4.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-debuginfo-2-150600.4.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_0-debugsource-2-150600.4.4.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_0-debugsource-2-150600.4.4.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_0-debugsource-2-150600.4.4.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.2973.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_5-rt-1-150600.1.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_5-rt-debuginfo-1-150600.1.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6-RT_Update_1-debugsource-1-150600.1.5.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.3032.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-3-150600.4.7.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-3-150600.4.7.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-3-150600.4.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-debuginfo-3-150600.4.7.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-debuginfo-3-150600.4.7.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-debuginfo-3-150600.4.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_0-debugsource-3-150600.4.7.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_0-debugsource-3-150600.4.7.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_0-debugsource-3-150600.4.7.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.3060.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_8-rt-2-150600.3.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_8-rt-debuginfo-2-150600.3.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6-RT_Update_0-debugsource-2-150600.3.3.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.3195.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_8-rt-1-150600.1.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_8-rt-debuginfo-1-150600.1.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6-RT_Update_2-debugsource-1-150600.1.3.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.3321.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_8-rt-3-150600.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_8-rt-debuginfo-3-150600.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6-RT_Update_0-debugsource-3-150600.3.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.3322.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_5-rt-2-150600.1.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_5-rt-debuginfo-2-150600.1.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6-RT_Update_1-debugsource-2-150600.1.8.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.3338.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_11-rt-1-150600.1.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_11-rt-debuginfo-1-150600.1.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6-RT_Update_3-debugsource-1-150600.1.3.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.3370.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-4-150600.1.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-4-150600.1.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-4-150600.1.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-debuginfo-4-150600.1.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-debuginfo-4-150600.1.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-debuginfo-4-150600.1.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_0-debugsource-4-150600.1.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_0-debugsource-4-150600.1.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_0-debugsource-4-150600.1.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.3387.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_17-default-2-150600.13.6.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_17-default-2-150600.13.6.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_17-default-2-150600.13.6.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_17-default-debuginfo-2-150600.13.6.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_17-default-debuginfo-2-150600.13.6.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_17-default-debuginfo-2-150600.13.6.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_3-debugsource-2-150600.13.6.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_3-debugsource-2-150600.13.6.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_3-debugsource-2-150600.13.6.3.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.3398.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_14-default-2-150600.13.6.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_14-default-2-150600.13.6.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_14-default-2-150600.13.6.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_14-default-debuginfo-2-150600.13.6.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_14-default-debuginfo-2-150600.13.6.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_14-default-debuginfo-2-150600.13.6.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_2-debugsource-2-150600.13.6.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_2-debugsource-2-150600.13.6.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_2-debugsource-2-150600.13.6.3.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.3468.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_7-default-2-150600.2.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_7-default-2-150600.2.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_7-default-2-150600.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_7-default-debuginfo-2-150600.2.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_7-default-debuginfo-2-150600.2.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_7-default-debuginfo-2-150600.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_1-debugsource-2-150600.2.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_1-debugsource-2-150600.2.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_1-debugsource-2-150600.2.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.3564.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_14-rt-1-150600.1.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_14-rt-debuginfo-1-150600.1.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6-RT_Update_4-debugsource-1-150600.1.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.3626.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_5-rt-3-150600.1.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_5-rt-debuginfo-3-150600.1.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6-RT_Update_1-debugsource-3-150600.1.8.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.3628.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_8-rt-4-150600.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_8-rt-debuginfo-4-150600.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6-RT_Update_0-debugsource-4-150600.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.3666.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-5-150600.1.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-5-150600.1.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-5-150600.1.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-debuginfo-5-150600.1.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-debuginfo-5-150600.1.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-debuginfo-5-150600.1.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_0-debugsource-5-150600.1.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_0-debugsource-5-150600.1.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_0-debugsource-5-150600.1.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.3680.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_7-default-3-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_7-default-3-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_7-default-3-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_7-default-debuginfo-3-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_7-default-debuginfo-3-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_7-default-debuginfo-3-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_1-debugsource-3-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_1-debugsource-3-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_1-debugsource-3-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.3708.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_14-default-3-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_14-default-3-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_14-default-3-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_14-default-debuginfo-3-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_14-default-debuginfo-3-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_14-default-debuginfo-3-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_17-default-3-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_17-default-3-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_17-default-3-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_17-default-debuginfo-3-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_17-default-debuginfo-3-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_17-default-debuginfo-3-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_2-debugsource-3-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_2-debugsource-3-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_2-debugsource-3-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_3-debugsource-3-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_3-debugsource-3-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_3-debugsource-3-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.3764.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_11-rt-2-150600.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_11-rt-debuginfo-2-150600.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6-RT_Update_3-debugsource-2-150600.2.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.3775.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_8-rt-2-150600.1.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_8-rt-debuginfo-2-150600.1.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6-RT_Update_2-debugsource-2-150600.1.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.3834.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_8-rt-5-150600.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_8-rt-debuginfo-5-150600.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6-RT_Update_0-debugsource-5-150600.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.3835.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_5-rt-4-150600.1.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_5-rt-debuginfo-4-150600.1.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6-RT_Update_1-debugsource-4-150600.1.8.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.3880.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-6-150600.4.10.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-6-150600.4.10.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-6-150600.4.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-debuginfo-6-150600.4.10.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-debuginfo-6-150600.4.10.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-debuginfo-6-150600.4.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_0-debugsource-6-150600.4.10.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_0-debugsource-6-150600.4.10.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_0-debugsource-6-150600.4.10.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.3881.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_7-default-4-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_7-default-4-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_7-default-4-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_7-default-debuginfo-4-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_7-default-debuginfo-4-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_7-default-debuginfo-4-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_1-debugsource-4-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_1-debugsource-4-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_1-debugsource-4-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.3882.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_14-default-4-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_14-default-4-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_14-default-4-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_14-default-debuginfo-4-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_14-default-debuginfo-4-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_14-default-debuginfo-4-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_2-debugsource-4-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_2-debugsource-4-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_2-debugsource-4-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.3884.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_17-default-4-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_17-default-4-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_17-default-4-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_17-default-debuginfo-4-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_17-default-debuginfo-4-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_17-default-debuginfo-4-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_3-debugsource-4-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_3-debugsource-4-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_3-debugsource-4-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.3885.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_22-default-2-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_22-default-2-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_22-default-2-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_22-default-debuginfo-2-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_22-default-debuginfo-2-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_22-default-debuginfo-2-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_4-debugsource-2-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_4-debugsource-2-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_4-debugsource-2-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.3986.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_17-rt-1-150600.1.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_17-rt-debuginfo-1-150600.1.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6-RT_Update_5-debugsource-1-150600.1.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.4129.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_8-rt-6-150600.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_8-rt-debuginfo-6-150600.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6-RT_Update_0-debugsource-6-150600.3.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.4139.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_5-rt-5-150600.1.8.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_5-rt-debuginfo-5-150600.1.8.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6-RT_Update_1-debugsource-5-150600.1.8.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.4208.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_7-default-5-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_7-default-5-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_7-default-5-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_7-default-debuginfo-5-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_7-default-debuginfo-5-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_7-default-debuginfo-5-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_1-debugsource-5-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_1-debugsource-5-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_1-debugsource-5-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.4209.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_14-default-5-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_14-default-5-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_14-default-5-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_14-default-debuginfo-5-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_14-default-debuginfo-5-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_14-default-debuginfo-5-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_2-debugsource-5-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_2-debugsource-5-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_2-debugsource-5-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.4210.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_17-default-5-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_17-default-5-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_17-default-5-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_17-default-debuginfo-5-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_17-default-debuginfo-5-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_17-default-debuginfo-5-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_3-debugsource-5-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_3-debugsource-5-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_3-debugsource-5-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.4217.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-7-150600.4.13.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-7-150600.4.13.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-7-150600.4.13.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-debuginfo-7-150600.4.13.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-debuginfo-7-150600.4.13.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-debuginfo-7-150600.4.13.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_0-debugsource-7-150600.4.13.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_0-debugsource-7-150600.4.13.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_0-debugsource-7-150600.4.13.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.4314.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_20-rt-1-150600.1.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_20-rt-debuginfo-1-150600.1.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6-RT_Update_6-debugsource-1-150600.1.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2025.0083.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_11-rt-3-150600.1.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_11-rt-debuginfo-3-150600.1.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_14-rt-2-150600.1.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_14-rt-debuginfo-2-150600.1.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_17-rt-2-150600.1.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_17-rt-debuginfo-2-150600.1.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_8-rt-7-150600.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_8-rt-debuginfo-7-150600.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6-RT_Update_0-debugsource-7-150600.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6-RT_Update_3-debugsource-3-150600.1.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6-RT_Update_4-debugsource-2-150600.1.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6-RT_Update_5-debugsource-2-150600.1.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2025.0084.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_5-rt-6-150600.1.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_5-rt-debuginfo-6-150600.1.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6-RT_Update_1-debugsource-6-150600.1.8.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2025.0085.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_8-rt-3-150600.1.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_8-rt-debuginfo-3-150600.1.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6-RT_Update_2-debugsource-3-150600.1.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2025.0153.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_23-rt-1-150600.1.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_23-rt-debuginfo-1-150600.1.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6-RT_Update_7-debugsource-1-150600.1.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2025.0168.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_17-default-6-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_17-default-6-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_17-default-6-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_17-default-debuginfo-6-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_17-default-debuginfo-6-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_17-default-debuginfo-6-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_3-debugsource-6-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_3-debugsource-6-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_3-debugsource-6-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2025.0173.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-8-150600.4.16.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-8-150600.4.16.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-8-150600.4.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-debuginfo-8-150600.4.16.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-debuginfo-8-150600.4.16.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-debuginfo-8-150600.4.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_0-debugsource-8-150600.4.16.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_0-debugsource-8-150600.4.16.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_0-debugsource-8-150600.4.16.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2025.0179.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_22-default-3-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_22-default-3-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_22-default-3-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_22-default-debuginfo-3-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_22-default-debuginfo-3-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_22-default-debuginfo-3-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_4-debugsource-3-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_4-debugsource-3-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_4-debugsource-3-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2025.0184.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_25-default-2-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_25-default-2-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_25-default-2-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_25-default-debuginfo-2-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_25-default-debuginfo-2-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_25-default-debuginfo-2-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_5-debugsource-2-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_5-debugsource-2-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_5-debugsource-2-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2025.0187.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_7-default-6-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_7-default-6-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_7-default-6-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_7-default-debuginfo-6-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_7-default-debuginfo-6-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_7-default-debuginfo-6-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_1-debugsource-6-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_1-debugsource-6-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_1-debugsource-6-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2025.0188.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_14-default-6-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_14-default-6-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_14-default-6-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_14-default-debuginfo-6-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_14-default-debuginfo-6-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_14-default-debuginfo-6-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_2-debugsource-6-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_2-debugsource-6-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_2-debugsource-6-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2025.0255.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_7-default-7-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_7-default-7-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_7-default-7-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_7-default-debuginfo-7-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_7-default-debuginfo-7-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_7-default-debuginfo-7-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_1-debugsource-7-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_1-debugsource-7-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_1-debugsource-7-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2025.0262.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_14-default-7-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_14-default-7-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_14-default-7-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_14-default-debuginfo-7-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_14-default-debuginfo-7-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_14-default-debuginfo-7-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_2-debugsource-7-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_2-debugsource-7-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_2-debugsource-7-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2025.0263.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-9-150600.4.19.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-9-150600.4.19.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-9-150600.4.19.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-debuginfo-9-150600.4.19.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-debuginfo-9-150600.4.19.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-debuginfo-9-150600.4.19.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_0-debugsource-9-150600.4.19.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_0-debugsource-9-150600.4.19.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_0-debugsource-9-150600.4.19.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2025.0265.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_17-default-7-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_17-default-7-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_17-default-7-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_17-default-debuginfo-7-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_17-default-debuginfo-7-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_17-default-debuginfo-7-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_3-debugsource-7-150600.13.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_3-debugsource-7-150600.13.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_3-debugsource-7-150600.13.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2025.0268.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_8-rt-8-150600.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_8-rt-debuginfo-8-150600.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6-RT_Update_0-debugsource-8-150600.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2025.0269.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_5-rt-7-150600.1.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_5-rt-debuginfo-7-150600.1.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6-RT_Update_1-debugsource-7-150600.1.8.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2025.0410.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_11-rt-4-150600.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_11-rt-debuginfo-4-150600.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_14-rt-3-150600.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_14-rt-debuginfo-3-150600.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_5-rt-8-150600.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_5-rt-debuginfo-8-150600.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_8-rt-9-150600.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_8-rt-debuginfo-9-150600.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6-RT_Update_0-debugsource-9-150600.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6-RT_Update_1-debugsource-8-150600.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6-RT_Update_3-debugsource-4-150600.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6-RT_Update_4-debugsource-3-150600.2.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2025.0426.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_8-rt-4-150600.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_10_8-rt-debuginfo-4-150600.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6-RT_Update_2-debugsource-4-150600.2.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2025.0476.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-10-150600.4.22.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-10-150600.4.22.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-10-150600.4.22.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-debuginfo-10-150600.4.22.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-debuginfo-10-150600.4.22.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_21-default-debuginfo-10-150600.4.22.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_14-default-8-150600.2.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_14-default-8-150600.2.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_14-default-8-150600.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_14-default-debuginfo-8-150600.2.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_14-default-debuginfo-8-150600.2.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_14-default-debuginfo-8-150600.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_17-default-8-150600.2.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_17-default-8-150600.2.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_17-default-8-150600.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_17-default-debuginfo-8-150600.2.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_17-default-debuginfo-8-150600.2.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_17-default-debuginfo-8-150600.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_22-default-4-150600.2.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_22-default-4-150600.2.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_22-default-4-150600.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_22-default-debuginfo-4-150600.2.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_22-default-debuginfo-4-150600.2.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_22-default-debuginfo-4-150600.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_25-default-3-150600.2.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_25-default-3-150600.2.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_25-default-3-150600.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_25-default-debuginfo-3-150600.2.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_25-default-debuginfo-3-150600.2.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_25-default-debuginfo-3-150600.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_7-default-8-150600.2.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_7-default-8-150600.2.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_7-default-8-150600.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_7-default-debuginfo-8-150600.2.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_7-default-debuginfo-8-150600.2.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-6_4_0-150600_23_7-default-debuginfo-8-150600.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_0-debugsource-10-150600.4.22.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_0-debugsource-10-150600.4.22.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_0-debugsource-10-150600.4.22.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_1-debugsource-8-150600.2.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_1-debugsource-8-150600.2.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_1-debugsource-8-150600.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_2-debugsource-8-150600.2.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_2-debugsource-8-150600.2.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_2-debugsource-8-150600.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_3-debugsource-8-150600.2.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_3-debugsource-8-150600.2.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_3-debugsource-8-150600.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_4-debugsource-4-150600.2.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_4-debugsource-4-150600.2.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_4-debugsource-4-150600.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_5-debugsource-3-150600.2.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_5-debugsource-3-150600.2.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-livepatch-SLE15-SP6_Update_5-debugsource-3-150600.2.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        }
+    ]
+}

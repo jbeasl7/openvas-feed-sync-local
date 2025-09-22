@@ -1,0 +1,993 @@
+{
+    "version": "1.2",
+    "spdx-license-identifier": "GPL-2.0-only",
+    "copyright": "Copyright (C) 2008-2025 Greenbone AG",
+    "package_type": "rpm",
+    "product_name": "openSUSE Leap 15.4",
+    "advisories": [
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.18.1.2024.0001.1",
+            "fixed_packages": [
+                {
+                    "full_name": "opera-106.0.4998.19-lp154.2.68.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.18.1.2024.0005.1",
+            "fixed_packages": [
+                {
+                    "full_name": "putty-0.80-bp154.2.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "putty-0.80-bp154.2.3.1.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "putty-0.80-bp154.2.3.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "putty-0.80-bp154.2.3.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "putty-0.80-bp154.2.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.18.2.2024.0004.1",
+            "fixed_packages": [
+                {
+                    "full_name": "WebKitGTK-4.0-lang-2.42.4-150400.4.70.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "WebKitGTK-4.1-lang-2.42.4-150400.4.70.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "WebKitGTK-6.0-lang-2.42.4-150400.4.70.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libjavascriptcoregtk-4_0-18-2.42.4-150400.4.70.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libjavascriptcoregtk-4_0-18-2.42.4-150400.4.70.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libjavascriptcoregtk-4_0-18-2.42.4-150400.4.70.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libjavascriptcoregtk-4_0-18-2.42.4-150400.4.70.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libjavascriptcoregtk-4_0-18-32bit-2.42.4-150400.4.70.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libjavascriptcoregtk-4_1-0-2.42.4-150400.4.70.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libjavascriptcoregtk-4_1-0-2.42.4-150400.4.70.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libjavascriptcoregtk-4_1-0-2.42.4-150400.4.70.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libjavascriptcoregtk-4_1-0-2.42.4-150400.4.70.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libjavascriptcoregtk-4_1-0-32bit-2.42.4-150400.4.70.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libjavascriptcoregtk-6_0-1-2.42.4-150400.4.70.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libjavascriptcoregtk-6_0-1-2.42.4-150400.4.70.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libjavascriptcoregtk-6_0-1-2.42.4-150400.4.70.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libjavascriptcoregtk-6_0-1-2.42.4-150400.4.70.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwebkit2gtk-4_0-37-2.42.4-150400.4.70.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwebkit2gtk-4_0-37-2.42.4-150400.4.70.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwebkit2gtk-4_0-37-2.42.4-150400.4.70.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwebkit2gtk-4_0-37-2.42.4-150400.4.70.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwebkit2gtk-4_0-37-32bit-2.42.4-150400.4.70.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwebkit2gtk-4_1-0-2.42.4-150400.4.70.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwebkit2gtk-4_1-0-2.42.4-150400.4.70.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwebkit2gtk-4_1-0-2.42.4-150400.4.70.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwebkit2gtk-4_1-0-2.42.4-150400.4.70.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwebkit2gtk-4_1-0-32bit-2.42.4-150400.4.70.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwebkitgtk-6_0-4-2.42.4-150400.4.70.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwebkitgtk-6_0-4-2.42.4-150400.4.70.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwebkitgtk-6_0-4-2.42.4-150400.4.70.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwebkitgtk-6_0-4-2.42.4-150400.4.70.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-JavaScriptCore-4_0-2.42.4-150400.4.70.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-JavaScriptCore-4_0-2.42.4-150400.4.70.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-JavaScriptCore-4_0-2.42.4-150400.4.70.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-JavaScriptCore-4_0-2.42.4-150400.4.70.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-JavaScriptCore-4_1-2.42.4-150400.4.70.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-JavaScriptCore-4_1-2.42.4-150400.4.70.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-JavaScriptCore-4_1-2.42.4-150400.4.70.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-JavaScriptCore-4_1-2.42.4-150400.4.70.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-JavaScriptCore-6_0-2.42.4-150400.4.70.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-JavaScriptCore-6_0-2.42.4-150400.4.70.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-JavaScriptCore-6_0-2.42.4-150400.4.70.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-JavaScriptCore-6_0-2.42.4-150400.4.70.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-WebKit-6_0-2.42.4-150400.4.70.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-WebKit-6_0-2.42.4-150400.4.70.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-WebKit-6_0-2.42.4-150400.4.70.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-WebKit-6_0-2.42.4-150400.4.70.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-WebKit2-4_0-2.42.4-150400.4.70.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-WebKit2-4_0-2.42.4-150400.4.70.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-WebKit2-4_0-2.42.4-150400.4.70.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-WebKit2-4_0-2.42.4-150400.4.70.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-WebKit2-4_1-2.42.4-150400.4.70.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-WebKit2-4_1-2.42.4-150400.4.70.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-WebKit2-4_1-2.42.4-150400.4.70.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-WebKit2-4_1-2.42.4-150400.4.70.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-WebKit2WebExtension-4_0-2.42.4-150400.4.70.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-WebKit2WebExtension-4_0-2.42.4-150400.4.70.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-WebKit2WebExtension-4_0-2.42.4-150400.4.70.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-WebKit2WebExtension-4_0-2.42.4-150400.4.70.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-WebKit2WebExtension-4_1-2.42.4-150400.4.70.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-WebKit2WebExtension-4_1-2.42.4-150400.4.70.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-WebKit2WebExtension-4_1-2.42.4-150400.4.70.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-WebKit2WebExtension-4_1-2.42.4-150400.4.70.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-WebKitWebProcessExtension-6_0-2.42.4-150400.4.70.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-WebKitWebProcessExtension-6_0-2.42.4-150400.4.70.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-WebKitWebProcessExtension-6_0-2.42.4-150400.4.70.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-WebKitWebProcessExtension-6_0-2.42.4-150400.4.70.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit-jsc-4-2.42.4-150400.4.70.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit-jsc-4-2.42.4-150400.4.70.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit-jsc-4-2.42.4-150400.4.70.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit-jsc-4-2.42.4-150400.4.70.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit-jsc-4.1-2.42.4-150400.4.70.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit-jsc-4.1-2.42.4-150400.4.70.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit-jsc-4.1-2.42.4-150400.4.70.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit-jsc-4.1-2.42.4-150400.4.70.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit-jsc-6.0-2.42.4-150400.4.70.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit-jsc-6.0-2.42.4-150400.4.70.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit-jsc-6.0-2.42.4-150400.4.70.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit-jsc-6.0-2.42.4-150400.4.70.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk-4_0-injected-bundles-2.42.4-150400.4.70.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk-4_0-injected-bundles-2.42.4-150400.4.70.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk-4_0-injected-bundles-2.42.4-150400.4.70.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk-4_0-injected-bundles-2.42.4-150400.4.70.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk-4_1-injected-bundles-2.42.4-150400.4.70.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk-4_1-injected-bundles-2.42.4-150400.4.70.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk-4_1-injected-bundles-2.42.4-150400.4.70.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk-4_1-injected-bundles-2.42.4-150400.4.70.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk3-devel-2.42.4-150400.4.70.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk3-devel-2.42.4-150400.4.70.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk3-devel-2.42.4-150400.4.70.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk3-devel-2.42.4-150400.4.70.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk3-minibrowser-2.42.4-150400.4.70.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk3-minibrowser-2.42.4-150400.4.70.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk3-minibrowser-2.42.4-150400.4.70.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk3-minibrowser-2.42.4-150400.4.70.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk3-soup2-devel-2.42.4-150400.4.70.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk3-soup2-devel-2.42.4-150400.4.70.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk3-soup2-devel-2.42.4-150400.4.70.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk3-soup2-devel-2.42.4-150400.4.70.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk3-soup2-minibrowser-2.42.4-150400.4.70.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk3-soup2-minibrowser-2.42.4-150400.4.70.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk3-soup2-minibrowser-2.42.4-150400.4.70.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk3-soup2-minibrowser-2.42.4-150400.4.70.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk4-devel-2.42.4-150400.4.70.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk4-devel-2.42.4-150400.4.70.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk4-devel-2.42.4-150400.4.70.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk4-devel-2.42.4-150400.4.70.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk4-minibrowser-2.42.4-150400.4.70.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk4-minibrowser-2.42.4-150400.4.70.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk4-minibrowser-2.42.4-150400.4.70.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkit2gtk4-minibrowser-2.42.4-150400.4.70.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkitgtk-6_0-injected-bundles-2.42.4-150400.4.70.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkitgtk-6_0-injected-bundles-2.42.4-150400.4.70.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkitgtk-6_0-injected-bundles-2.42.4-150400.4.70.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "webkitgtk-6_0-injected-bundles-2.42.4-150400.4.70.3.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.18.2.2024.0006.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libssh2-1-1.11.0-150000.4.22.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libssh2-1-1.11.0-150000.4.22.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libssh2-1-1.11.0-150000.4.22.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libssh2-1-1.11.0-150000.4.22.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libssh2-1-32bit-1.11.0-150000.4.22.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libssh2-devel-1.11.0-150000.4.22.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libssh2-devel-1.11.0-150000.4.22.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libssh2-devel-1.11.0-150000.4.22.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libssh2-devel-1.11.0-150000.4.22.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.18.2.2024.0010.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libpolkit0-0.116-150200.3.12.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpolkit0-0.116-150200.3.12.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpolkit0-0.116-150200.3.12.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpolkit0-0.116-150200.3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpolkit0-32bit-0.116-150200.3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "polkit-0.116-150200.3.12.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "polkit-0.116-150200.3.12.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "polkit-0.116-150200.3.12.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "polkit-0.116-150200.3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "polkit-devel-0.116-150200.3.12.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "polkit-devel-0.116-150200.3.12.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "polkit-devel-0.116-150200.3.12.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "polkit-devel-0.116-150200.3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "polkit-doc-0.116-150200.3.12.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-Polkit-1_0-0.116-150200.3.12.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-Polkit-1_0-0.116-150200.3.12.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-Polkit-1_0-0.116-150200.3.12.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-Polkit-1_0-0.116-150200.3.12.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.18.2.2024.0012.1",
+            "fixed_packages": [
+                {
+                    "full_name": "postfix-3.5.9-150300.5.15.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "postfix-3.5.9-150300.5.15.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "postfix-3.5.9-150300.5.15.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "postfix-3.5.9-150300.5.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "postfix-bdb-3.5.9-150300.5.15.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "postfix-bdb-3.5.9-150300.5.15.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "postfix-bdb-3.5.9-150300.5.15.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "postfix-bdb-3.5.9-150300.5.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "postfix-bdb-lmdb-3.5.9-150300.5.15.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "postfix-bdb-lmdb-3.5.9-150300.5.15.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "postfix-bdb-lmdb-3.5.9-150300.5.15.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "postfix-bdb-lmdb-3.5.9-150300.5.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "postfix-devel-3.5.9-150300.5.15.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "postfix-devel-3.5.9-150300.5.15.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "postfix-devel-3.5.9-150300.5.15.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "postfix-devel-3.5.9-150300.5.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "postfix-doc-3.5.9-150300.5.15.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "postfix-ldap-3.5.9-150300.5.15.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "postfix-ldap-3.5.9-150300.5.15.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "postfix-ldap-3.5.9-150300.5.15.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "postfix-ldap-3.5.9-150300.5.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "postfix-mysql-3.5.9-150300.5.15.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "postfix-mysql-3.5.9-150300.5.15.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "postfix-mysql-3.5.9-150300.5.15.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "postfix-mysql-3.5.9-150300.5.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "postfix-postgresql-3.5.9-150300.5.15.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "postfix-postgresql-3.5.9-150300.5.15.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "postfix-postgresql-3.5.9-150300.5.15.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "postfix-postgresql-3.5.9-150300.5.15.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.18.2.2024.0030.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libcryptopp-devel-8.6.0-150400.3.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcryptopp-devel-8.6.0-150400.3.3.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcryptopp-devel-8.6.0-150400.3.3.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcryptopp-devel-8.6.0-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcryptopp8_6_0-32bit-8.6.0-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcryptopp8_6_0-8.6.0-150400.3.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcryptopp8_6_0-8.6.0-150400.3.3.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcryptopp8_6_0-8.6.0-150400.3.3.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcryptopp8_6_0-8.6.0-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.18.2.2024.0057.1",
+            "fixed_packages": [
+                {
+                    "full_name": "eclipse-jgit-5.11.0-150200.3.15.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "jgit-5.11.0-150200.3.15.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "jgit-javadoc-5.11.0-150200.3.15.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "jsch-0.2.9-150200.11.10.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "jsch-demo-0.2.9-150200.11.10.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "jsch-javadoc-0.2.9-150200.11.10.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.18.2.2024.0070.1",
+            "fixed_packages": [
+                {
+                    "full_name": "tar-1.34-150000.3.34.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "tar-1.34-150000.3.34.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "tar-1.34-150000.3.34.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "tar-1.34-150000.3.34.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "tar-backup-scripts-1.34-150000.3.34.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "tar-doc-1.34-150000.3.34.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "tar-lang-1.34-150000.3.34.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "tar-rmt-1.34-150000.3.34.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "tar-rmt-1.34-150000.3.34.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "tar-rmt-1.34-150000.3.34.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "tar-rmt-1.34-150000.3.34.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "tar-tests-1.34-150000.3.34.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "tar-tests-1.34-150000.3.34.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "tar-tests-1.34-150000.3.34.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "tar-tests-1.34-150000.3.34.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.18.2.2024.0076.1",
+            "fixed_packages": [
+                {
+                    "full_name": "hawk2-2.6.4+git.1702030539.5fb7d91b-150000.3.39.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "hawk2-2.6.4+git.1702030539.5fb7d91b-150000.3.39.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "hawk2-2.6.4+git.1702030539.5fb7d91b-150000.3.39.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "hawk2-2.6.4+git.1702030539.5fb7d91b-150000.3.39.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.18.2.2024.0103.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ruby2.5-rubygem-actionpack-5_1-5.1.4-150000.3.29.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-rubygem-actionpack-5_1-5.1.4-150000.3.29.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-rubygem-actionpack-5_1-5.1.4-150000.3.29.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-rubygem-actionpack-5_1-5.1.4-150000.3.29.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-rubygem-actionpack-doc-5_1-5.1.4-150000.3.29.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-rubygem-actionpack-doc-5_1-5.1.4-150000.3.29.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-rubygem-actionpack-doc-5_1-5.1.4-150000.3.29.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby2.5-rubygem-actionpack-doc-5_1-5.1.4-150000.3.29.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.18.2.2024.0128.1",
+            "fixed_packages": [
+                {
+                    "full_name": "cloud-init-23.3-150100.8.71.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cloud-init-23.3-150100.8.71.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cloud-init-23.3-150100.8.71.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cloud-init-23.3-150100.8.71.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cloud-init-config-suse-23.3-150100.8.71.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cloud-init-config-suse-23.3-150100.8.71.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cloud-init-config-suse-23.3-150100.8.71.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cloud-init-config-suse-23.3-150100.8.71.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cloud-init-doc-23.3-150100.8.71.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cloud-init-doc-23.3-150100.8.71.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cloud-init-doc-23.3-150100.8.71.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cloud-init-doc-23.3-150100.8.71.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,95 @@
+{
+    "version": "1.2",
+    "spdx-license-identifier": "GPL-2.0-only",
+    "copyright": "Copyright (C) 2008-2025 Greenbone AG",
+    "package_type": "rpm",
+    "product_name": "SUSE Manager Client Tools for Debian 10",
+    "advisories": [
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.3129.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-looseversion-1.0.2-2.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-common-3006.0+ds-1+2.83.2.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-minion-3006.0+ds-1+2.83.2.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacecmd-4.3.22-2.51.2.all",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.3132.1",
+            "fixed_packages": [
+                {
+                    "full_name": "venv-salt-minion-3006.0-2.33.1.amd64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.3871.1",
+            "fixed_packages": [
+                {
+                    "full_name": "venv-salt-minion-3006.0-2.40.1.amd64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.3880.1",
+            "fixed_packages": [
+                {
+                    "full_name": "salt-common-3006.0+ds-1+2.88.1.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-minion-3006.0+ds-1+2.88.1.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "scap-security-guide-debian-0.1.69-2.35.1.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacecmd-4.3.23-2.54.1.all",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.4742.1",
+            "fixed_packages": [
+                {
+                    "full_name": "salt-common-3006.0+ds-1+2.94.1.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-minion-3006.0+ds-1+2.94.1.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacecmd-4.3.25-2.60.1.all",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.4752.1",
+            "fixed_packages": [
+                {
+                    "full_name": "venv-salt-minion-3006.0-2.46.4.amd64",
+                    "specifier": ">="
+                }
+            ]
+        }
+    ]
+}

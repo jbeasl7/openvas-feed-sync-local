@@ -1,0 +1,1545 @@
+{
+    "version": "1.2",
+    "spdx-license-identifier": "GPL-2.0-only",
+    "copyright": "Copyright (C) 2008-2025 Greenbone AG",
+    "package_type": "rpm",
+    "product_name": "SUSE Linux Enterprise Module for HPC 15",
+    "advisories": [
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.1925.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libpmi0-17.11.7-6.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpmi0-17.11.7-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpmi0-debuginfo-17.11.7-6.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpmi0-debuginfo-17.11.7-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libslurm32-17.11.7-6.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libslurm32-17.11.7-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libslurm32-debuginfo-17.11.7-6.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libslurm32-debuginfo-17.11.7-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-slurm-17.11.7-6.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-slurm-17.11.7-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-slurm-debuginfo-17.11.7-6.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-slurm-debuginfo-17.11.7-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-17.11.7-6.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-17.11.7-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-auth-none-17.11.7-6.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-auth-none-17.11.7-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-auth-none-debuginfo-17.11.7-6.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-auth-none-debuginfo-17.11.7-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-config-17.11.7-6.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-config-17.11.7-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-debuginfo-17.11.7-6.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-debuginfo-17.11.7-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-debugsource-17.11.7-6.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-debugsource-17.11.7-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-devel-17.11.7-6.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-devel-17.11.7-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-doc-17.11.7-6.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-doc-17.11.7-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-lua-17.11.7-6.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-lua-17.11.7-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-lua-debuginfo-17.11.7-6.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-lua-debuginfo-17.11.7-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-munge-17.11.7-6.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-munge-17.11.7-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-munge-debuginfo-17.11.7-6.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-munge-debuginfo-17.11.7-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-node-17.11.7-6.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-node-17.11.7-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-node-debuginfo-17.11.7-6.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-node-debuginfo-17.11.7-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-pam_slurm-17.11.7-6.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-pam_slurm-17.11.7-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-pam_slurm-debuginfo-17.11.7-6.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-pam_slurm-debuginfo-17.11.7-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-plugins-17.11.7-6.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-plugins-17.11.7-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-plugins-debuginfo-17.11.7-6.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-plugins-debuginfo-17.11.7-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-slurmdbd-17.11.7-6.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-slurmdbd-17.11.7-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-slurmdbd-debuginfo-17.11.7-6.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-slurmdbd-debuginfo-17.11.7-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-sql-17.11.7-6.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-sql-17.11.7-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-sql-debuginfo-17.11.7-6.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-sql-debuginfo-17.11.7-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-torque-17.11.7-6.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-torque-17.11.7-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-torque-debuginfo-17.11.7-6.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-torque-debuginfo-17.11.7-6.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0418.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python-numpy_1_14_0-gnu-hpc-debuginfo-1.14.0-4.5.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-numpy_1_14_0-gnu-hpc-debuginfo-1.14.0-4.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-numpy_1_14_0-gnu-hpc-debugsource-1.14.0-4.5.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-numpy_1_14_0-gnu-hpc-debugsource-1.14.0-4.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python2-numpy-gnu-hpc-1.14.0-4.5.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python2-numpy-gnu-hpc-1.14.0-4.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python2-numpy-gnu-hpc-devel-1.14.0-4.5.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python2-numpy-gnu-hpc-devel-1.14.0-4.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python2-numpy_1_14_0-gnu-hpc-1.14.0-4.5.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python2-numpy_1_14_0-gnu-hpc-1.14.0-4.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python2-numpy_1_14_0-gnu-hpc-debuginfo-1.14.0-4.5.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python2-numpy_1_14_0-gnu-hpc-debuginfo-1.14.0-4.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python2-numpy_1_14_0-gnu-hpc-devel-1.14.0-4.5.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python2-numpy_1_14_0-gnu-hpc-devel-1.14.0-4.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-numpy-gnu-hpc-1.14.0-4.5.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-numpy-gnu-hpc-1.14.0-4.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-numpy-gnu-hpc-devel-1.14.0-4.5.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-numpy-gnu-hpc-devel-1.14.0-4.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-numpy_1_14_0-gnu-hpc-1.14.0-4.5.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-numpy_1_14_0-gnu-hpc-1.14.0-4.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-numpy_1_14_0-gnu-hpc-debuginfo-1.14.0-4.5.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-numpy_1_14_0-gnu-hpc-debuginfo-1.14.0-4.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-numpy_1_14_0-gnu-hpc-devel-1.14.0-4.5.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-numpy_1_14_0-gnu-hpc-devel-1.14.0-4.5.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0960.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libpmi0-17.11.13-6.15.17.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpmi0-17.11.13-6.15.17.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpmi0-debuginfo-17.11.13-6.15.17.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpmi0-debuginfo-17.11.13-6.15.17.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libslurm32-17.11.13-6.15.17.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libslurm32-17.11.13-6.15.17.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libslurm32-debuginfo-17.11.13-6.15.17.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libslurm32-debuginfo-17.11.13-6.15.17.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-slurm-17.11.13-6.15.17.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-slurm-17.11.13-6.15.17.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-slurm-debuginfo-17.11.13-6.15.17.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-slurm-debuginfo-17.11.13-6.15.17.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-17.11.13-6.15.17.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-17.11.13-6.15.17.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-auth-none-17.11.13-6.15.17.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-auth-none-17.11.13-6.15.17.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-auth-none-debuginfo-17.11.13-6.15.17.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-auth-none-debuginfo-17.11.13-6.15.17.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-config-17.11.13-6.15.17.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-config-17.11.13-6.15.17.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-debuginfo-17.11.13-6.15.17.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-debuginfo-17.11.13-6.15.17.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-debugsource-17.11.13-6.15.17.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-debugsource-17.11.13-6.15.17.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-devel-17.11.13-6.15.17.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-devel-17.11.13-6.15.17.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-doc-17.11.13-6.15.17.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-doc-17.11.13-6.15.17.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-lua-17.11.13-6.15.17.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-lua-17.11.13-6.15.17.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-lua-debuginfo-17.11.13-6.15.17.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-lua-debuginfo-17.11.13-6.15.17.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-munge-17.11.13-6.15.17.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-munge-17.11.13-6.15.17.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-munge-debuginfo-17.11.13-6.15.17.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-munge-debuginfo-17.11.13-6.15.17.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-node-17.11.13-6.15.17.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-node-17.11.13-6.15.17.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-node-debuginfo-17.11.13-6.15.17.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-node-debuginfo-17.11.13-6.15.17.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-pam_slurm-17.11.13-6.15.17.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-pam_slurm-17.11.13-6.15.17.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-pam_slurm-debuginfo-17.11.13-6.15.17.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-pam_slurm-debuginfo-17.11.13-6.15.17.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-plugins-17.11.13-6.15.17.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-plugins-17.11.13-6.15.17.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-plugins-debuginfo-17.11.13-6.15.17.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-plugins-debuginfo-17.11.13-6.15.17.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-slurmdbd-17.11.13-6.15.17.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-slurmdbd-17.11.13-6.15.17.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-slurmdbd-debuginfo-17.11.13-6.15.17.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-slurmdbd-debuginfo-17.11.13-6.15.17.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-sql-17.11.13-6.15.17.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-sql-17.11.13-6.15.17.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-sql-debuginfo-17.11.13-6.15.17.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-sql-debuginfo-17.11.13-6.15.17.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-torque-17.11.13-6.15.17.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-torque-17.11.13-6.15.17.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-torque-debuginfo-17.11.13-6.15.17.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-torque-debuginfo-17.11.13-6.15.17.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.2462.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python2-numpy-gnu-hpc-1.16.1-4.8.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python2-numpy-gnu-hpc-1.16.1-4.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python2-numpy-gnu-hpc-devel-1.16.1-4.8.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python2-numpy-gnu-hpc-devel-1.16.1-4.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-numpy-gnu-hpc-1.16.1-4.8.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-numpy-gnu-hpc-1.16.1-4.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-numpy-gnu-hpc-devel-1.16.1-4.8.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-numpy-gnu-hpc-devel-1.16.1-4.8.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.2989.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libpmi0-17.11.13-6.18.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpmi0-17.11.13-6.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpmi0-debuginfo-17.11.13-6.18.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpmi0-debuginfo-17.11.13-6.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libslurm32-17.11.13-6.18.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libslurm32-17.11.13-6.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libslurm32-debuginfo-17.11.13-6.18.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libslurm32-debuginfo-17.11.13-6.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-slurm-17.11.13-6.18.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-slurm-17.11.13-6.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-slurm-debuginfo-17.11.13-6.18.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-slurm-debuginfo-17.11.13-6.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-17.11.13-6.18.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-17.11.13-6.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-auth-none-17.11.13-6.18.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-auth-none-17.11.13-6.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-auth-none-debuginfo-17.11.13-6.18.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-auth-none-debuginfo-17.11.13-6.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-config-17.11.13-6.18.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-config-17.11.13-6.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-debuginfo-17.11.13-6.18.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-debuginfo-17.11.13-6.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-debugsource-17.11.13-6.18.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-debugsource-17.11.13-6.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-devel-17.11.13-6.18.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-devel-17.11.13-6.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-doc-17.11.13-6.18.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-doc-17.11.13-6.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-lua-17.11.13-6.18.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-lua-17.11.13-6.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-lua-debuginfo-17.11.13-6.18.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-lua-debuginfo-17.11.13-6.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-munge-17.11.13-6.18.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-munge-17.11.13-6.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-munge-debuginfo-17.11.13-6.18.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-munge-debuginfo-17.11.13-6.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-node-17.11.13-6.18.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-node-17.11.13-6.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-node-debuginfo-17.11.13-6.18.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-node-debuginfo-17.11.13-6.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-pam_slurm-17.11.13-6.18.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-pam_slurm-17.11.13-6.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-pam_slurm-debuginfo-17.11.13-6.18.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-pam_slurm-debuginfo-17.11.13-6.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-plugins-17.11.13-6.18.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-plugins-17.11.13-6.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-plugins-debuginfo-17.11.13-6.18.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-plugins-debuginfo-17.11.13-6.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-slurmdbd-17.11.13-6.18.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-slurmdbd-17.11.13-6.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-slurmdbd-debuginfo-17.11.13-6.18.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-slurmdbd-debuginfo-17.11.13-6.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-sql-17.11.13-6.18.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-sql-17.11.13-6.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-sql-debuginfo-17.11.13-6.18.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-sql-debuginfo-17.11.13-6.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-torque-17.11.13-6.18.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-torque-17.11.13-6.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-torque-debuginfo-17.11.13-6.18.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-torque-debuginfo-17.11.13-6.18.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.3190.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libmunge2-0.5.13-4.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmunge2-0.5.13-4.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmunge2-debuginfo-0.5.13-4.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmunge2-debuginfo-0.5.13-4.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "munge-0.5.13-4.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "munge-0.5.13-4.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "munge-debuginfo-0.5.13-4.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "munge-debuginfo-0.5.13-4.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "munge-debugsource-0.5.13-4.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "munge-debugsource-0.5.13-4.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "munge-devel-0.5.13-4.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "munge-devel-0.5.13-4.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.0228.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libpmi0-17.11.13-6.23.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpmi0-17.11.13-6.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpmi0-debuginfo-17.11.13-6.23.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpmi0-debuginfo-17.11.13-6.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libslurm32-17.11.13-6.23.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libslurm32-17.11.13-6.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libslurm32-debuginfo-17.11.13-6.23.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libslurm32-debuginfo-17.11.13-6.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-slurm-17.11.13-6.23.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-slurm-17.11.13-6.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-slurm-debuginfo-17.11.13-6.23.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-slurm-debuginfo-17.11.13-6.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-17.11.13-6.23.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-17.11.13-6.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-auth-none-17.11.13-6.23.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-auth-none-17.11.13-6.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-auth-none-debuginfo-17.11.13-6.23.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-auth-none-debuginfo-17.11.13-6.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-config-17.11.13-6.23.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-config-17.11.13-6.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-debuginfo-17.11.13-6.23.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-debuginfo-17.11.13-6.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-debugsource-17.11.13-6.23.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-debugsource-17.11.13-6.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-devel-17.11.13-6.23.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-devel-17.11.13-6.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-doc-17.11.13-6.23.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-doc-17.11.13-6.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-lua-17.11.13-6.23.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-lua-17.11.13-6.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-lua-debuginfo-17.11.13-6.23.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-lua-debuginfo-17.11.13-6.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-munge-17.11.13-6.23.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-munge-17.11.13-6.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-munge-debuginfo-17.11.13-6.23.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-munge-debuginfo-17.11.13-6.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-node-17.11.13-6.23.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-node-17.11.13-6.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-node-debuginfo-17.11.13-6.23.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-node-debuginfo-17.11.13-6.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-pam_slurm-17.11.13-6.23.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-pam_slurm-17.11.13-6.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-pam_slurm-debuginfo-17.11.13-6.23.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-pam_slurm-debuginfo-17.11.13-6.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-plugins-17.11.13-6.23.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-plugins-17.11.13-6.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-plugins-debuginfo-17.11.13-6.23.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-plugins-debuginfo-17.11.13-6.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-slurmdbd-17.11.13-6.23.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-slurmdbd-17.11.13-6.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-slurmdbd-debuginfo-17.11.13-6.23.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-slurmdbd-debuginfo-17.11.13-6.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-sql-17.11.13-6.23.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-sql-17.11.13-6.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-sql-debuginfo-17.11.13-6.23.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-sql-debuginfo-17.11.13-6.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-torque-17.11.13-6.23.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-torque-17.11.13-6.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-torque-debuginfo-17.11.13-6.23.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm-torque-debuginfo-17.11.13-6.23.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.0443.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libpmi0_18_08-18.08.9-1.5.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpmi0_18_08-18.08.9-1.5.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpmi0_18_08-debuginfo-18.08.9-1.5.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpmi0_18_08-debuginfo-18.08.9-1.5.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libslurm33-18.08.9-1.5.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libslurm33-18.08.9-1.5.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libslurm33-debuginfo-18.08.9-1.5.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libslurm33-debuginfo-18.08.9-1.5.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pdsh-2.33-7.6.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pdsh-2.33-7.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pdsh-debuginfo-2.33-7.6.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pdsh-debuginfo-2.33-7.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pdsh-debugsource-2.33-7.6.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pdsh-debugsource-2.33-7.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pdsh-dshgroup-2.33-7.6.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pdsh-dshgroup-2.33-7.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pdsh-dshgroup-debuginfo-2.33-7.6.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pdsh-dshgroup-debuginfo-2.33-7.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pdsh-genders-2.33-7.6.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pdsh-genders-2.33-7.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pdsh-genders-debuginfo-2.33-7.6.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pdsh-genders-debuginfo-2.33-7.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pdsh-machines-2.33-7.6.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pdsh-machines-2.33-7.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pdsh-machines-debuginfo-2.33-7.6.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pdsh-machines-debuginfo-2.33-7.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pdsh-netgroup-2.33-7.6.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pdsh-netgroup-2.33-7.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pdsh-netgroup-debuginfo-2.33-7.6.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pdsh-netgroup-debuginfo-2.33-7.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pdsh-slurm-2.33-7.6.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pdsh-slurm-2.33-7.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pdsh-slurm-debuginfo-2.33-7.6.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pdsh-slurm-debuginfo-2.33-7.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pdsh-slurm_18_08-2.33-7.6.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pdsh-slurm_18_08-2.33-7.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pdsh-slurm_18_08-debuginfo-2.33-7.6.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pdsh-slurm_18_08-debuginfo-2.33-7.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-slurm_18_08-18.08.9-1.5.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-slurm_18_08-18.08.9-1.5.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-slurm_18_08-debuginfo-18.08.9-1.5.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-slurm_18_08-debuginfo-18.08.9-1.5.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-18.08.9-1.5.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-18.08.9-1.5.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-auth-none-18.08.9-1.5.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-auth-none-18.08.9-1.5.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-auth-none-debuginfo-18.08.9-1.5.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-auth-none-debuginfo-18.08.9-1.5.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-config-18.08.9-1.5.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-config-18.08.9-1.5.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-debuginfo-18.08.9-1.5.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-debuginfo-18.08.9-1.5.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-debugsource-18.08.9-1.5.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-debugsource-18.08.9-1.5.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-devel-18.08.9-1.5.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-devel-18.08.9-1.5.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-doc-18.08.9-1.5.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-doc-18.08.9-1.5.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-lua-18.08.9-1.5.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-lua-18.08.9-1.5.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-lua-debuginfo-18.08.9-1.5.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-lua-debuginfo-18.08.9-1.5.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-munge-18.08.9-1.5.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-munge-18.08.9-1.5.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-munge-debuginfo-18.08.9-1.5.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-munge-debuginfo-18.08.9-1.5.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-node-18.08.9-1.5.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-node-18.08.9-1.5.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-node-debuginfo-18.08.9-1.5.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-node-debuginfo-18.08.9-1.5.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-pam_slurm-18.08.9-1.5.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-pam_slurm-18.08.9-1.5.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-pam_slurm-debuginfo-18.08.9-1.5.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-pam_slurm-debuginfo-18.08.9-1.5.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-plugins-18.08.9-1.5.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-plugins-18.08.9-1.5.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-plugins-debuginfo-18.08.9-1.5.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-plugins-debuginfo-18.08.9-1.5.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-slurmdbd-18.08.9-1.5.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-slurmdbd-18.08.9-1.5.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-slurmdbd-debuginfo-18.08.9-1.5.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-slurmdbd-debuginfo-18.08.9-1.5.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-sql-18.08.9-1.5.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-sql-18.08.9-1.5.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-sql-debuginfo-18.08.9-1.5.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-sql-debuginfo-18.08.9-1.5.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-torque-18.08.9-1.5.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-torque-18.08.9-1.5.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-torque-debuginfo-18.08.9-1.5.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "slurm_18_08-torque-debuginfo-18.08.9-1.5.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        }
+    ]
+}

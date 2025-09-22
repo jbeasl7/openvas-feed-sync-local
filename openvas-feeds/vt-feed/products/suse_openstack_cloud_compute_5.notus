@@ -1,0 +1,345 @@
+{
+    "version": "1.2",
+    "spdx-license-identifier": "GPL-2.0-only",
+    "copyright": "Copyright (C) 2008-2025 Greenbone AG",
+    "package_type": "rpm",
+    "product_name": "SUSE OpenStack Cloud Compute 5",
+    "advisories": [
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2015.0925.2",
+            "fixed_packages": [
+                {
+                    "full_name": "python-PyYAML-3.10-15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-PyYAML-debuginfo-3.10-15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-PyYAML-debugsource-3.10-15.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2015.0979.2",
+            "fixed_packages": [
+                {
+                    "full_name": "dnsmasq-debuginfo-2.71-4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "dnsmasq-debugsource-2.71-4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "dnsmasq-utils-2.71-4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "dnsmasq-utils-debuginfo-2.71-4.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2015.1208.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python-keystoneclient-1.0.0-16.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-keystoneclient-doc-1.0.0-16.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2015.1298.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python-setuptools-1.1.7-7.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2015.1336.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python-Jinja2-2.7.3-4.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2015.1545.1",
+            "fixed_packages": [
+                {
+                    "full_name": "conntrack-tools-1.4.2-5.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "conntrack-tools-debuginfo-1.4.2-5.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "conntrack-tools-debugsource-1.4.2-5.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnetfilter_cthelper-debugsource-1.0.0-7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnetfilter_cthelper0-1.0.0-7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnetfilter_cthelper0-debuginfo-1.0.0-7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnetfilter_cttimeout-debugsource-1.0.0-9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnetfilter_cttimeout1-1.0.0-9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnetfilter_cttimeout1-debuginfo-1.0.0-9.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2015.1602.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python-glanceclient-0.15.0-3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-keystoneclient-1.0.0-19.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-keystoneclient-doc-1.0.0-19.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-keystonemiddleware-1.2.0-4.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-novaclient-2.20.0-6.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-novaclient-doc-2.20.0-6.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-swiftclient-2.3.1-3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-swiftclient-doc-2.3.1-3.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2015.1663.1",
+            "fixed_packages": [
+                {
+                    "full_name": "haproxy-1.5.4-2.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "haproxy-debuginfo-1.5.4-2.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "haproxy-debugsource-1.5.4-2.4.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2015.1666.1",
+            "fixed_packages": [
+                {
+                    "full_name": "openstack-ceilometer-2014.2.4.dev18-3.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openstack-ceilometer-agent-compute-2014.2.4.dev18-3.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openstack-neutron-2014.2.4~a0~dev78-7.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openstack-neutron-dhcp-agent-2014.2.4~a0~dev78-7.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openstack-neutron-ha-tool-2014.2.4~a0~dev78-7.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openstack-neutron-l3-agent-2014.2.4~a0~dev78-7.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openstack-neutron-lbaas-agent-2014.2.4~a0~dev78-7.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openstack-neutron-linuxbridge-agent-2014.2.4~a0~dev78-7.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openstack-neutron-metadata-agent-2014.2.4~a0~dev78-7.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openstack-neutron-metering-agent-2014.2.4~a0~dev78-7.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openstack-neutron-openvswitch-agent-2014.2.4~a0~dev78-7.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openstack-neutron-vpn-agent-2014.2.4~a0~dev78-7.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openstack-nova-2014.2.4~a0~dev61-6.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openstack-nova-compute-2014.2.4~a0~dev61-6.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openstack-suse-sudo-2014.2-5.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-ceilometer-2014.2.4.dev18-3.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-neutron-2014.2.4~a0~dev78-7.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-nova-2014.2.4~a0~dev61-6.2.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2015.2220.1",
+            "fixed_packages": [
+                {
+                    "full_name": "openstack-neutron-2014.2.4~a0~dev103-10.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openstack-neutron-dhcp-agent-2014.2.4~a0~dev103-10.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openstack-neutron-ha-tool-2014.2.4~a0~dev103-10.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openstack-neutron-l3-agent-2014.2.4~a0~dev103-10.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openstack-neutron-lbaas-agent-2014.2.4~a0~dev103-10.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openstack-neutron-linuxbridge-agent-2014.2.4~a0~dev103-10.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openstack-neutron-metadata-agent-2014.2.4~a0~dev103-10.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openstack-neutron-metering-agent-2014.2.4~a0~dev103-10.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openstack-neutron-openvswitch-agent-2014.2.4~a0~dev103-10.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openstack-neutron-vpn-agent-2014.2.4~a0~dev103-10.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openstack-nova-2014.2.4~a0~dev80-14.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openstack-nova-compute-2014.2.4~a0~dev80-14.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-neutron-2014.2.4~a0~dev103-10.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-nova-2014.2.4~a0~dev80-14.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-python-memcached-1.54-2.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2016.0114.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python-requests-2.8.1-6.9.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2016.3257.1",
+            "fixed_packages": [
+                {
+                    "full_name": "dnsmasq-debuginfo-2.71-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "dnsmasq-debugsource-2.71-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "dnsmasq-utils-2.71-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "dnsmasq-utils-debuginfo-2.71-6.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        }
+    ]
+}

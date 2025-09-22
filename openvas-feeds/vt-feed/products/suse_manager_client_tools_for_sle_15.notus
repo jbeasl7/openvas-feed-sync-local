@@ -1,0 +1,1219 @@
+{
+    "version": "1.2",
+    "spdx-license-identifier": "GPL-2.0-only",
+    "copyright": "Copyright (C) 2008-2025 Greenbone AG",
+    "package_type": "rpm",
+    "product_name": "SUSE Manager Client Tools for SLE 15",
+    "advisories": [
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.0812.1",
+            "fixed_packages": [
+                {
+                    "full_name": "dracut-saltboot-0.1.1674034019.a93ff61-150000.1.47.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-8.5.20-150000.1.42.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-8.5.20-150000.1.42.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-8.5.20-150000.1.42.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-8.5.20-150000.1.42.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-debuginfo-8.5.20-150000.1.42.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-debuginfo-8.5.20-150000.1.42.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-debuginfo-8.5.20-150000.1.42.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-debuginfo-8.5.20-150000.1.42.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-spacewalk-check-4.3.15-150000.3.77.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-spacewalk-client-setup-4.3.15-150000.3.77.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-spacewalk-client-tools-4.3.15-150000.3.77.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacecmd-4.3.19-150000.3.95.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-check-4.3.15-150000.3.77.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-client-setup-4.3.15-150000.3.77.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-client-tools-4.3.15-150000.3.77.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "supportutils-plugin-salt-1.2.2-150000.3.13.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "uyuni-proxy-systemd-services-4.3.8-150000.1.12.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.1857.1",
+            "fixed_packages": [
+                {
+                    "full_name": "firewalld-prometheus-config-0.1-150000.3.44.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firewalld-prometheus-config-0.1-150000.3.44.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firewalld-prometheus-config-0.1-150000.3.44.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firewalld-prometheus-config-0.1-150000.3.44.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-prometheus-prometheus-2.32.1-150000.3.44.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-prometheus-prometheus-2.32.1-150000.3.44.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-prometheus-prometheus-2.32.1-150000.3.44.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-prometheus-prometheus-2.32.1-150000.3.44.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.1903.1",
+            "fixed_packages": [
+                {
+                    "full_name": "grafana-8.5.22-150000.1.45.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-8.5.22-150000.1.45.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-8.5.22-150000.1.45.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-8.5.22-150000.1.45.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-debuginfo-8.5.22-150000.1.45.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-debuginfo-8.5.22-150000.1.45.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-debuginfo-8.5.22-150000.1.45.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-debuginfo-8.5.22-150000.1.45.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.2182.1",
+            "fixed_packages": [
+                {
+                    "full_name": "firewalld-prometheus-config-0.1-150000.3.47.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firewalld-prometheus-config-0.1-150000.3.47.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firewalld-prometheus-config-0.1-150000.3.47.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firewalld-prometheus-config-0.1-150000.3.47.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-prometheus-prometheus-2.37.6-150000.3.47.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-prometheus-prometheus-2.37.6-150000.3.47.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-prometheus-prometheus-2.37.6-150000.3.47.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-prometheus-prometheus-2.37.6-150000.3.47.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "prometheus-blackbox_exporter-0.19.0-150000.1.17.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "prometheus-blackbox_exporter-0.19.0-150000.1.17.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "prometheus-blackbox_exporter-0.19.0-150000.1.17.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "prometheus-blackbox_exporter-0.19.0-150000.1.17.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "prometheus-postgres_exporter-0.10.1-150000.1.11.4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "prometheus-postgres_exporter-0.10.1-150000.1.11.4.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "prometheus-postgres_exporter-0.10.1-150000.1.11.4.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "prometheus-postgres_exporter-0.10.1-150000.1.11.4.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.2187.1",
+            "fixed_packages": [
+                {
+                    "full_name": "golang-github-prometheus-alertmanager-0.23.0-150100.4.13.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-prometheus-alertmanager-0.23.0-150100.4.13.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-prometheus-alertmanager-0.23.0-150100.4.13.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-prometheus-alertmanager-0.23.0-150100.4.13.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.2578.1",
+            "fixed_packages": [
+                {
+                    "full_name": "dracut-saltboot-0.1.1681904360.84ef141-150000.1.50.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-9.5.1-150000.1.48.5.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-9.5.1-150000.1.48.5.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-9.5.1-150000.1.48.5.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-9.5.1-150000.1.48.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-debuginfo-9.5.1-150000.1.48.5.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-debuginfo-9.5.1-150000.1.48.5.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-debuginfo-9.5.1-150000.1.48.5.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-debuginfo-9.5.1-150000.1.48.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgr-daemon-4.3.7-150000.1.41.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-uyuni-common-libs-4.3.8-150000.1.33.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-uyuni-common-libs-4.3.8-150000.1.33.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-uyuni-common-libs-4.3.8-150000.1.33.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-uyuni-common-libs-4.3.8-150000.1.33.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-zypp-plugin-spacewalk-1.0.14-150000.3.35.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacecmd-4.3.21-150000.3.98.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "zypp-plugin-spacewalk-1.0.14-150000.3.35.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.2915.1",
+            "fixed_packages": [
+                {
+                    "full_name": "grafana-9.5.5-150000.1.51.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-9.5.5-150000.1.51.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-9.5.5-150000.1.51.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-9.5.5-150000.1.51.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-debuginfo-9.5.5-150000.1.51.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-debuginfo-9.5.5-150000.1.51.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-debuginfo-9.5.5-150000.1.51.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-debuginfo-9.5.5-150000.1.51.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.3142.1",
+            "fixed_packages": [
+                {
+                    "full_name": "venv-salt-minion-3006.0-150000.3.35.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "venv-salt-minion-3006.0-150000.3.35.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "venv-salt-minion-3006.0-150000.3.35.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "venv-salt-minion-3006.0-150000.3.35.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.3144.1",
+            "fixed_packages": [
+                {
+                    "full_name": "prometheus-blackbox_exporter-0.24.0-150000.1.20.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "prometheus-blackbox_exporter-0.24.0-150000.1.20.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "prometheus-blackbox_exporter-0.24.0-150000.1.20.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "prometheus-blackbox_exporter-0.24.0-150000.1.20.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacecmd-4.3.22-150000.3.101.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "system-user-prometheus-1.0.0-150000.10.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.3868.1",
+            "fixed_packages": [
+                {
+                    "full_name": "firewalld-prometheus-config-0.1-150000.3.50.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firewalld-prometheus-config-0.1-150000.3.50.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firewalld-prometheus-config-0.1-150000.3.50.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firewalld-prometheus-config-0.1-150000.3.50.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-QubitProducts-exporter_exporter-0.4.0-150000.1.18.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-QubitProducts-exporter_exporter-0.4.0-150000.1.18.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-QubitProducts-exporter_exporter-0.4.0-150000.1.18.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-QubitProducts-exporter_exporter-0.4.0-150000.1.18.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-lusitaniae-apache_exporter-1.0.0-150000.1.17.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-lusitaniae-apache_exporter-1.0.0-150000.1.17.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-lusitaniae-apache_exporter-1.0.0-150000.1.17.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-lusitaniae-apache_exporter-1.0.0-150000.1.17.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-lusitaniae-apache_exporter-debuginfo-1.0.0-150000.1.17.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-lusitaniae-apache_exporter-debuginfo-1.0.0-150000.1.17.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-lusitaniae-apache_exporter-debuginfo-1.0.0-150000.1.17.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-lusitaniae-apache_exporter-debuginfo-1.0.0-150000.1.17.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-prometheus-prometheus-2.45.0-150000.3.50.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-prometheus-prometheus-2.45.0-150000.3.50.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-prometheus-prometheus-2.45.0-150000.3.50.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-prometheus-prometheus-2.45.0-150000.3.50.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-9.5.5-150000.1.54.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-9.5.5-150000.1.54.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-9.5.5-150000.1.54.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-9.5.5-150000.1.54.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-debuginfo-9.5.5-150000.1.54.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-debuginfo-9.5.5-150000.1.54.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-debuginfo-9.5.5-150000.1.54.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-debuginfo-9.5.5-150000.1.54.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "prometheus-blackbox_exporter-0.24.0-150000.1.23.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "prometheus-blackbox_exporter-0.24.0-150000.1.23.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "prometheus-blackbox_exporter-0.24.0-150000.1.23.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "prometheus-blackbox_exporter-0.24.0-150000.1.23.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "prometheus-postgres_exporter-0.10.1-150000.1.14.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "prometheus-postgres_exporter-0.10.1-150000.1.14.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "prometheus-postgres_exporter-0.10.1-150000.1.14.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "prometheus-postgres_exporter-0.10.1-150000.1.14.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-pyvmomi-6.7.3-150000.1.6.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-uyuni-common-libs-4.3.9-150000.1.36.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-uyuni-common-libs-4.3.9-150000.1.36.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-uyuni-common-libs-4.3.9-150000.1.36.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-uyuni-common-libs-4.3.9-150000.1.36.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacecmd-4.3.23-150000.3.104.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "supportutils-plugin-susemanager-client-4.3.3-150000.3.21.2.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.3877.1",
+            "fixed_packages": [
+                {
+                    "full_name": "venv-salt-minion-3006.0-150000.3.42.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "venv-salt-minion-3006.0-150000.3.42.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "venv-salt-minion-3006.0-150000.3.42.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "venv-salt-minion-3006.0-150000.3.42.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.3888.1",
+            "fixed_packages": [
+                {
+                    "full_name": "golang-github-prometheus-alertmanager-0.23.0-150100.4.16.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-prometheus-alertmanager-0.23.0-150100.4.16.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-prometheus-alertmanager-0.23.0-150100.4.16.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-prometheus-alertmanager-0.23.0-150100.4.16.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.4749.1",
+            "fixed_packages": [
+                {
+                    "full_name": "venv-salt-minion-3006.0-150000.3.48.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "venv-salt-minion-3006.0-150000.3.48.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "venv-salt-minion-3006.0-150000.3.48.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "venv-salt-minion-3006.0-150000.3.48.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.0487.1",
+            "fixed_packages": [
+                {
+                    "full_name": "firewalld-prometheus-config-0.1-150000.3.53.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firewalld-prometheus-config-0.1-150000.3.53.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firewalld-prometheus-config-0.1-150000.3.53.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firewalld-prometheus-config-0.1-150000.3.53.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-lusitaniae-apache_exporter-1.0.0-150000.1.20.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-lusitaniae-apache_exporter-1.0.0-150000.1.20.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-lusitaniae-apache_exporter-1.0.0-150000.1.20.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-lusitaniae-apache_exporter-1.0.0-150000.1.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-lusitaniae-apache_exporter-debuginfo-1.0.0-150000.1.20.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-lusitaniae-apache_exporter-debuginfo-1.0.0-150000.1.20.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-lusitaniae-apache_exporter-debuginfo-1.0.0-150000.1.20.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-lusitaniae-apache_exporter-debuginfo-1.0.0-150000.1.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-prometheus-prometheus-2.45.0-150000.3.53.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-prometheus-prometheus-2.45.0-150000.3.53.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-prometheus-prometheus-2.45.0-150000.3.53.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-prometheus-prometheus-2.45.0-150000.3.53.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-9.5.8-150000.1.60.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-9.5.8-150000.1.60.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-9.5.8-150000.1.60.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-9.5.8-150000.1.60.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-debuginfo-9.5.8-150000.1.60.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-debuginfo-9.5.8-150000.1.60.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-debuginfo-9.5.8-150000.1.60.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-debuginfo-9.5.8-150000.1.60.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgr-daemon-4.3.8-150000.1.44.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "prometheus-postgres_exporter-0.10.1-150000.1.17.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "prometheus-postgres_exporter-0.10.1-150000.1.17.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "prometheus-postgres_exporter-0.10.1-150000.1.17.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "prometheus-postgres_exporter-0.10.1-150000.1.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-spacewalk-check-4.3.18-150000.3.86.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-spacewalk-client-setup-4.3.18-150000.3.86.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-spacewalk-client-tools-4.3.18-150000.3.86.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacecmd-4.3.26-150000.3.113.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-check-4.3.18-150000.3.86.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-client-setup-4.3.18-150000.3.86.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-client-tools-4.3.18-150000.3.86.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "uyuni-proxy-systemd-services-4.3.10-150000.1.15.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.0512.1",
+            "fixed_packages": [
+                {
+                    "full_name": "golang-github-prometheus-alertmanager-0.26.0-150100.4.19.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-prometheus-alertmanager-0.26.0-150100.4.19.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-prometheus-alertmanager-0.26.0-150100.4.19.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-prometheus-alertmanager-0.26.0-150100.4.19.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.1509.1",
+            "fixed_packages": [
+                {
+                    "full_name": "POS_Image-Graphical7-0.1.1710765237.46af599-150000.1.21.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "POS_Image-JeOS7-0.1.1710765237.46af599-150000.1.21.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ansible-2.9.27-150000.1.17.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ansible-doc-2.9.27-150000.1.17.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "dracut-saltboot-0.1.1710765237.46af599-150000.1.53.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-9.5.18-150000.1.63.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-9.5.18-150000.1.63.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-9.5.18-150000.1.63.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-9.5.18-150000.1.63.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-debuginfo-9.5.18-150000.1.63.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-debuginfo-9.5.18-150000.1.63.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-debuginfo-9.5.18-150000.1.63.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-debuginfo-9.5.18-150000.1.63.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgr-daemon-4.3.9-150000.1.47.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-spacewalk-check-4.3.19-150000.3.89.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-spacewalk-client-setup-4.3.19-150000.3.89.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-spacewalk-client-tools-4.3.19-150000.3.89.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-spacewalk-koan-4.3.6-150000.3.33.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-uyuni-common-libs-4.3.10-150000.1.39.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-uyuni-common-libs-4.3.10-150000.1.39.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-uyuni-common-libs-4.3.10-150000.1.39.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-uyuni-common-libs-4.3.10-150000.1.39.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacecmd-4.3.27-150000.3.116.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-check-4.3.19-150000.3.89.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-client-setup-4.3.19-150000.3.89.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-client-tools-4.3.19-150000.3.89.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-koan-4.3.6-150000.3.33.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "uyuni-proxy-systemd-services-4.3.12-150000.1.21.2.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.1518.1",
+            "fixed_packages": [
+                {
+                    "full_name": "venv-salt-minion-3006.0-150000.3.54.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "venv-salt-minion-3006.0-150000.3.54.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "venv-salt-minion-3006.0-150000.3.54.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "venv-salt-minion-3006.0-150000.3.54.3.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.2182.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-docker-2.6.1-150000.4.3.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.3267.1",
+            "fixed_packages": [
+                {
+                    "full_name": "firewalld-prometheus-config-0.1-150000.3.56.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firewalld-prometheus-config-0.1-150000.3.56.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firewalld-prometheus-config-0.1-150000.3.56.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firewalld-prometheus-config-0.1-150000.3.56.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-prometheus-prometheus-2.45.6-150000.3.56.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-prometheus-prometheus-2.45.6-150000.3.56.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-prometheus-prometheus-2.45.6-150000.3.56.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-prometheus-prometheus-2.45.6-150000.3.56.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgrctl-0.1.21-150000.1.8.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgrctl-0.1.21-150000.1.8.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgrctl-0.1.21-150000.1.8.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgrctl-0.1.21-150000.1.8.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgrctl-bash-completion-0.1.21-150000.1.8.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgrctl-debuginfo-0.1.21-150000.1.8.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgrctl-debuginfo-0.1.21-150000.1.8.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgrctl-debuginfo-0.1.21-150000.1.8.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgrctl-debuginfo-0.1.21-150000.1.8.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgrctl-lang-0.1.21-150000.1.8.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgrctl-zsh-completion-0.1.21-150000.1.8.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-rhnlib-5.0.4-150000.3.46.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacecmd-5.0.9-150000.3.124.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.4006.1",
+            "fixed_packages": [
+                {
+                    "full_name": "uyuni-proxy-systemd-services-4.3.14-150000.1.27.4.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.4011.1",
+            "fixed_packages": [
+                {
+                    "full_name": "golang-github-lusitaniae-apache_exporter-1.0.8-150000.1.23.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-lusitaniae-apache_exporter-1.0.8-150000.1.23.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-lusitaniae-apache_exporter-1.0.8-150000.1.23.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-lusitaniae-apache_exporter-1.0.8-150000.1.23.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-lusitaniae-apache_exporter-debuginfo-1.0.8-150000.1.23.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-lusitaniae-apache_exporter-debuginfo-1.0.8-150000.1.23.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-lusitaniae-apache_exporter-debuginfo-1.0.8-150000.1.23.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-lusitaniae-apache_exporter-debuginfo-1.0.8-150000.1.23.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgr-daemon-4.3.11-150000.1.53.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgrctl-0.1.23-150000.1.13.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgrctl-0.1.23-150000.1.13.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgrctl-0.1.23-150000.1.13.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgrctl-0.1.23-150000.1.13.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgrctl-bash-completion-0.1.23-150000.1.13.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgrctl-debuginfo-0.1.23-150000.1.13.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgrctl-debuginfo-0.1.23-150000.1.13.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgrctl-debuginfo-0.1.23-150000.1.13.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgrctl-debuginfo-0.1.23-150000.1.13.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgrctl-lang-0.1.23-150000.1.13.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgrctl-zsh-completion-0.1.23-150000.1.13.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-spacewalk-check-4.3.21-150000.3.97.4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-spacewalk-client-setup-4.3.21-150000.3.97.4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-spacewalk-client-tools-4.3.21-150000.3.97.4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-uyuni-common-libs-5.0.5-150000.1.45.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-uyuni-common-libs-5.0.5-150000.1.45.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-uyuni-common-libs-5.0.5-150000.1.45.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-uyuni-common-libs-5.0.5-150000.1.45.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacecmd-5.0.10-150000.3.127.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-check-4.3.21-150000.3.97.4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-client-setup-4.3.21-150000.3.97.4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-client-tools-4.3.21-150000.3.97.4.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.4021.1",
+            "fixed_packages": [
+                {
+                    "full_name": "venv-salt-minion-3006.0-150000.3.67.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "venv-salt-minion-3006.0-150000.3.67.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "venv-salt-minion-3006.0-150000.3.67.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "venv-salt-minion-3006.0-150000.3.67.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        }
+    ]
+}

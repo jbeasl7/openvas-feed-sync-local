@@ -1,0 +1,4834 @@
+{
+    "version": "1.2",
+    "spdx-license-identifier": "GPL-2.0-only",
+    "copyright": "Copyright (C) 2008-2025 Greenbone AG",
+    "package_type": "deb",
+    "product_name": "Ubuntu 11.04",
+    "advisories": [
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1121.1",
+            "fixed_packages": [
+                {
+                    "name": "firefox",
+                    "full_version": "4.0.1+build1+nobinonly-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1122.2",
+            "fixed_packages": [
+                {
+                    "name": "thunderbird",
+                    "full_version": "3.1.10+build1+nobinonly-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1122.3",
+            "fixed_packages": [
+                {
+                    "name": "thunderbird-globalmenu",
+                    "full_version": "3.1.10+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1126.1",
+            "fixed_packages": [
+                {
+                    "name": "libapache2-mod-php5",
+                    "full_version": "5.3.5-1ubuntu7.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "php-pear",
+                    "full_version": "5.3.5-1ubuntu7.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "php5",
+                    "full_version": "5.3.5-1ubuntu7.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "php5-cgi",
+                    "full_version": "5.3.5-1ubuntu7.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "php5-cli",
+                    "full_version": "5.3.5-1ubuntu7.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "php5-common",
+                    "full_version": "5.3.5-1ubuntu7.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "php5-curl",
+                    "full_version": "5.3.5-1ubuntu7.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "php5-dev",
+                    "full_version": "5.3.5-1ubuntu7.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "php5-gd",
+                    "full_version": "5.3.5-1ubuntu7.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "php5-intl",
+                    "full_version": "5.3.5-1ubuntu7.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1126.2",
+            "fixed_packages": [
+                {
+                    "name": "libapache2-mod-php5",
+                    "full_version": "5.3.5-1ubuntu7.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "php-pear",
+                    "full_version": "5.3.5-1ubuntu7.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "php5",
+                    "full_version": "5.3.5-1ubuntu7.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "php5-cgi",
+                    "full_version": "5.3.5-1ubuntu7.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "php5-cli",
+                    "full_version": "5.3.5-1ubuntu7.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "php5-common",
+                    "full_version": "5.3.5-1ubuntu7.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1127.1",
+            "fixed_packages": [
+                {
+                    "name": "usb-creator-common",
+                    "full_version": "0.2.28.3",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1128.1",
+            "fixed_packages": [
+                {
+                    "name": "vino",
+                    "full_version": "2.32.1-0ubuntu2.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1129.1",
+            "fixed_packages": [
+                {
+                    "name": "perl",
+                    "full_version": "5.10.1-17ubuntu4.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1130.1",
+            "fixed_packages": [
+                {
+                    "name": "exim4-daemon-custom",
+                    "full_version": "4.74-1ubuntu1.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "exim4-daemon-heavy",
+                    "full_version": "4.74-1ubuntu1.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "exim4-daemon-light",
+                    "full_version": "4.74-1ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1131.1",
+            "fixed_packages": [
+                {
+                    "name": "postfix",
+                    "full_version": "2.8.2-1ubuntu2.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1132.1",
+            "fixed_packages": [
+                {
+                    "name": "apturl-common",
+                    "full_version": "0.4.2ubuntu5.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1134.1",
+            "fixed_packages": [
+                {
+                    "name": "libapr1",
+                    "full_version": "1.4.2-7ubuntu2.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1135.1",
+            "fixed_packages": [
+                {
+                    "name": "exim4-daemon-custom",
+                    "full_version": "4.74-1ubuntu1.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "exim4-daemon-heavy",
+                    "full_version": "4.74-1ubuntu1.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "exim4-daemon-light",
+                    "full_version": "4.74-1ubuntu1.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1136.1",
+            "fixed_packages": [
+                {
+                    "name": "rdesktop",
+                    "full_version": "1.6.0-3ubuntu4.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1137.1",
+            "fixed_packages": [
+                {
+                    "name": "eucalyptus-cloud",
+                    "full_version": "2.0.1+bzr1256-0ubuntu4.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "librampart0",
+                    "full_version": "1.3.0-1ubuntu2.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1139.1",
+            "fixed_packages": [
+                {
+                    "name": "libdns69",
+                    "full_version": "1:9.7.3.dfsg-1ubuntu2.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1140.1",
+            "fixed_packages": [
+                {
+                    "name": "libpam-modules",
+                    "full_version": "1.1.2-2ubuntu8.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1140.2",
+            "fixed_packages": [
+                {
+                    "name": "libpam-modules",
+                    "full_version": "1.1.2-2ubuntu8.3",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libpam0g",
+                    "full_version": "1.1.2-2ubuntu8.3",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1142.1",
+            "fixed_packages": [
+                {
+                    "name": "gdm",
+                    "full_version": "2.32.1-0ubuntu3.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1143.1",
+            "fixed_packages": [
+                {
+                    "name": "dovecot-common",
+                    "full_version": "1:1.2.15-3ubuntu2.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1144.1",
+            "fixed_packages": [
+                {
+                    "name": "libapache2-svn",
+                    "full_version": "1.6.12dfsg-4ubuntu2.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1145.1",
+            "fixed_packages": [
+                {
+                    "name": "qemu-kvm",
+                    "full_version": "0.14.0+noroms-0ubuntu4.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1147.1",
+            "fixed_packages": [
+                {
+                    "name": "gimp",
+                    "full_version": "2.6.11-1ubuntu6.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1148.1",
+            "fixed_packages": [
+                {
+                    "name": "libmodplug1",
+                    "full_version": "1:0.8.8.1-2ubuntu0.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1150.1",
+            "fixed_packages": [
+                {
+                    "name": "thunderbird",
+                    "full_version": "3.1.11+build2+nobinonly-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1151.1",
+            "fixed_packages": [
+                {
+                    "name": "nagios3-cgi",
+                    "full_version": "3.2.3-1ubuntu1.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1152.1",
+            "fixed_packages": [
+                {
+                    "name": "libvirt-bin",
+                    "full_version": "0.8.8-1ubuntu6.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libvirt0",
+                    "full_version": "0.8.8-1ubuntu6.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1153.1",
+            "fixed_packages": [
+                {
+                    "name": "libxml2",
+                    "full_version": "2.7.8.dfsg-2ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1154.1",
+            "fixed_packages": [
+                {
+                    "name": "openjdk-6-jre",
+                    "full_version": "6b22-1.10.2-0ubuntu1~11.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-6-jre-headless",
+                    "full_version": "6b22-1.10.2-0ubuntu1~11.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-6-jre-lib",
+                    "full_version": "6b22-1.10.2-0ubuntu1~11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1156.1",
+            "fixed_packages": [
+                {
+                    "name": "tgt",
+                    "full_version": "1:1.0.13-0ubuntu2.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1157.1",
+            "fixed_packages": [
+                {
+                    "name": "firefox",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1157.2",
+            "fixed_packages": [
+                {
+                    "name": "xul-ext-mozvoikko",
+                    "full_version": "1.9.0~svn20101114r3591-0ubuntu3.11.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "xul-ext-ubufox",
+                    "full_version": "0.9.1-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "xul-ext-webfav",
+                    "full_version": "1.17-0ubuntu5.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1157.3",
+            "fixed_packages": [
+                {
+                    "name": "firefox-locale-af",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-ar",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-as",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-ast",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-be",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-bg",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-bn",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-br",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-bs",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-ca",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-cs",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-cy",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-da",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-de",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-el",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-en",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-eo",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-es",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-et",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-eu",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-fa",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-fi",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-fr",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-fy",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-ga",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-gd",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-gl",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-gu",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-he",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-hi",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-hr",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-hu",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-hy",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-id",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-is",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-it",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-ja",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-ka",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-kk",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-kn",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-ko",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-ku",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-lg",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-lt",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-lv",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-mai",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-mk",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-ml",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-mr",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-nb",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-nl",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-nn",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-nso",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-oc",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-or",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-pa",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-pl",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-pt",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-ro",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-ru",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-si",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-sk",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-sl",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-sq",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-sr",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-sv",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-ta",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-te",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-th",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-tr",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-uk",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-vi",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-zh-hans",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-zh-hant",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "firefox-locale-zu",
+                    "full_version": "5.0+build1+nobinonly-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1158.1",
+            "fixed_packages": [
+                {
+                    "name": "libcurl3",
+                    "full_version": "7.21.3-1ubuntu1.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libcurl3-gnutls",
+                    "full_version": "7.21.3-1ubuntu1.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libcurl3-nss",
+                    "full_version": "7.21.3-1ubuntu1.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1163.1",
+            "fixed_packages": [
+                {
+                    "name": "libdns69",
+                    "full_version": "1:9.7.3.dfsg-1ubuntu2.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1165.1",
+            "fixed_packages": [
+                {
+                    "name": "qemu-kvm",
+                    "full_version": "0.14.0+noroms-0ubuntu4.3",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1167.1",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-2.6.38-10-generic",
+                    "full_version": "2.6.38-10.46",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-10-generic-pae",
+                    "full_version": "2.6.38-10.46",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-10-omap",
+                    "full_version": "2.6.38-10.46",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-10-powerpc",
+                    "full_version": "2.6.38-10.46",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-10-powerpc-smp",
+                    "full_version": "2.6.38-10.46",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-10-powerpc64-smp",
+                    "full_version": "2.6.38-10.46",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-10-server",
+                    "full_version": "2.6.38-10.46",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-10-versatile",
+                    "full_version": "2.6.38-10.46",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-10-virtual",
+                    "full_version": "2.6.38-10.46",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1169.1",
+            "fixed_packages": [
+                {
+                    "name": "apt",
+                    "full_version": "0.8.13.2ubuntu4.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1171.1",
+            "fixed_packages": [
+                {
+                    "name": "likewise-open",
+                    "full_version": "6.0.0.53010-4ubuntu5.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1172.1",
+            "fixed_packages": [
+                {
+                    "name": "logrotate",
+                    "full_version": "3.7.8-6ubuntu3.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1173.1",
+            "fixed_packages": [
+                {
+                    "name": "libfreetype6",
+                    "full_version": "2.4.4-1ubuntu2.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1174.1",
+            "fixed_packages": [
+                {
+                    "name": "libsndfile1",
+                    "full_version": "1.0.23-1ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1175.1",
+            "fixed_packages": [
+                {
+                    "name": "libpng12-0",
+                    "full_version": "1.2.44-1ubuntu3.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1176.1",
+            "fixed_packages": [
+                {
+                    "name": "dbus",
+                    "full_version": "1.4.6-1ubuntu6.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1177.1",
+            "fixed_packages": [
+                {
+                    "name": "qemu-kvm",
+                    "full_version": "0.14.0+noroms-0ubuntu4.4",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1178.1",
+            "fixed_packages": [
+                {
+                    "name": "icedtea-netx",
+                    "full_version": "1.1.1-0ubuntu1~11.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "icedtea-plugin",
+                    "full_version": "1.1.1-0ubuntu1~11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1179.1",
+            "fixed_packages": [
+                {
+                    "name": "libclamav6",
+                    "full_version": "0.97+dfsg-2ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1180.1",
+            "fixed_packages": [
+                {
+                    "name": "libvirt-bin",
+                    "full_version": "0.8.8-1ubuntu6.5",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1181.1",
+            "fixed_packages": [
+                {
+                    "name": "libsoup2.4-1",
+                    "full_version": "2.34.0-0ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1182.1",
+            "fixed_packages": [
+                {
+                    "name": "swat",
+                    "full_version": "2:3.5.8~dfsg-1ubuntu2.3",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1185.1",
+            "fixed_packages": [
+                {
+                    "name": "thunderbird",
+                    "full_version": "3.1.12+build1+nobinonly-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1188.1",
+            "fixed_packages": [
+                {
+                    "name": "ecryptfs-utils",
+                    "full_version": "87-0ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1190.1",
+            "fixed_packages": [
+                {
+                    "name": "isc-dhcp-server",
+                    "full_version": "4.1.1-P1-15ubuntu9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1191.1",
+            "fixed_packages": [
+                {
+                    "name": "libxfont1",
+                    "full_version": "1:1.4.3-2ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1192.1",
+            "fixed_packages": [
+                {
+                    "name": "firefox",
+                    "full_version": "6.0+build1+nobinonly-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1192.2",
+            "fixed_packages": [
+                {
+                    "name": "xul-ext-mozvoikko",
+                    "full_version": "1.9.0~svn20101114r3591-0ubuntu3.11.04.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1192.3",
+            "fixed_packages": [
+                {
+                    "name": "libvoikko1",
+                    "full_version": "3.1-1ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1193.1",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-2.6.38-11-generic",
+                    "full_version": "2.6.38-11.48",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-11-generic-pae",
+                    "full_version": "2.6.38-11.48",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-11-omap",
+                    "full_version": "2.6.38-11.48",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-11-powerpc",
+                    "full_version": "2.6.38-11.48",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-11-powerpc-smp",
+                    "full_version": "2.6.38-11.48",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-11-powerpc64-smp",
+                    "full_version": "2.6.38-11.48",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-11-server",
+                    "full_version": "2.6.38-11.48",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-11-versatile",
+                    "full_version": "2.6.38-11.48",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-11-virtual",
+                    "full_version": "2.6.38-11.48",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1194.1",
+            "fixed_packages": [
+                {
+                    "name": "foomatic-filters",
+                    "full_version": "4.0.7-0ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1196.1",
+            "fixed_packages": [
+                {
+                    "name": "ecryptfs-utils",
+                    "full_version": "87-0ubuntu1.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1197.1",
+            "fixed_packages": [
+                {
+                    "name": "firefox",
+                    "full_version": "6.0.1+build1+nobinonly-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1197.2",
+            "fixed_packages": [
+                {
+                    "name": "thunderbird",
+                    "full_version": "3.1.13+build1+nobinonly-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1197.3",
+            "fixed_packages": [
+                {
+                    "name": "firefox",
+                    "full_version": "6.0.2+build2+nobinonly-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1197.4",
+            "fixed_packages": [
+                {
+                    "name": "libnss3",
+                    "full_version": "3.12.9+ckbi-1.82-0ubuntu2.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1197.5",
+            "fixed_packages": [
+                {
+                    "name": "ca-certificates",
+                    "full_version": "20090814+nmu2ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1197.6",
+            "fixed_packages": [
+                {
+                    "name": "libqt4-network",
+                    "full_version": "4:4.7.2-0ubuntu6.3",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1199.1",
+            "fixed_packages": [
+                {
+                    "name": "apache2.2-bin",
+                    "full_version": "2.2.17-1ubuntu1.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1200.1",
+            "fixed_packages": [
+                {
+                    "name": "quassel-core",
+                    "full_version": "0.7.2-0ubuntu2.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1206.1",
+            "fixed_packages": [
+                {
+                    "name": "librsvg2-2",
+                    "full_version": "2.32.1-0ubuntu3.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "librsvg2-bin",
+                    "full_version": "2.32.1-0ubuntu3.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "librsvg2-common",
+                    "full_version": "2.32.1-0ubuntu3.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "librsvg2-dev",
+                    "full_version": "2.32.1-0ubuntu3.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1207.1",
+            "fixed_packages": [
+                {
+                    "name": "libcupsimage2",
+                    "full_version": "1.4.6-5ubuntu1.4",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1209.2",
+            "fixed_packages": [
+                {
+                    "name": "libavcodec52",
+                    "full_version": "4:0.6.2-1ubuntu1.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libavformat52",
+                    "full_version": "4:0.6.2-1ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1211.1",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-2.6.38-11-generic",
+                    "full_version": "2.6.38-11.50",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-11-generic-pae",
+                    "full_version": "2.6.38-11.50",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-11-omap",
+                    "full_version": "2.6.38-11.50",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-11-powerpc",
+                    "full_version": "2.6.38-11.50",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-11-powerpc-smp",
+                    "full_version": "2.6.38-11.50",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-11-powerpc64-smp",
+                    "full_version": "2.6.38-11.50",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-11-server",
+                    "full_version": "2.6.38-11.50",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-11-versatile",
+                    "full_version": "2.6.38-11.50",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-11-virtual",
+                    "full_version": "2.6.38-11.50",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1212.1",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-2.6.38-1209-omap4",
+                    "full_version": "2.6.38-1209.15",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1213.1",
+            "fixed_packages": [
+                {
+                    "name": "thunderbird",
+                    "full_version": "3.1.15+build1+nobinonly-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1214.1",
+            "fixed_packages": [
+                {
+                    "name": "gimp",
+                    "full_version": "2.6.11-1ubuntu6.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1215.1",
+            "fixed_packages": [
+                {
+                    "name": "apt",
+                    "full_version": "0.8.13.2ubuntu4.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1217.1",
+            "fixed_packages": [
+                {
+                    "name": "puppet-common",
+                    "full_version": "2.6.4-2ubuntu2.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1221.1",
+            "fixed_packages": [
+                {
+                    "name": "mutt",
+                    "full_version": "1.5.21-2ubuntu3.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "mutt-patched",
+                    "full_version": "1.5.21-2ubuntu3.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1222.1",
+            "fixed_packages": [
+                {
+                    "name": "firefox",
+                    "full_version": "7.0.1+build1+nobinonly-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1222.2",
+            "fixed_packages": [
+                {
+                    "name": "xul-ext-mozvoikko",
+                    "full_version": "1.10.0-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "xul-ext-ubufox",
+                    "full_version": "0.9.2-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "xul-ext-webfav",
+                    "full_version": "1.17-0ubuntu5.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1223.1",
+            "fixed_packages": [
+                {
+                    "name": "puppet-common",
+                    "full_version": "2.6.4-2ubuntu2.3",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1224.1",
+            "fixed_packages": [
+                {
+                    "name": "rsyslog",
+                    "full_version": "4.6.4-2ubuntu4.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1226.2",
+            "fixed_packages": [
+                {
+                    "name": "smbfs",
+                    "full_version": "2:4.5-2ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1228.1",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-2.6.38-1209-omap4",
+                    "full_version": "2.6.38-1209.16",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1229.1",
+            "fixed_packages": [
+                {
+                    "name": "postgresql-8.4",
+                    "full_version": "8.4.9-0ubuntu0.11.04",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1230.1",
+            "fixed_packages": [
+                {
+                    "name": "quassel-core",
+                    "full_version": "0.7.2-0ubuntu2.3",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1231.1",
+            "fixed_packages": [
+                {
+                    "name": "libapache2-mod-php5",
+                    "full_version": "5.3.5-1ubuntu7.3",
+                    "specifier": ">="
+                },
+                {
+                    "name": "php5-cgi",
+                    "full_version": "5.3.5-1ubuntu7.3",
+                    "specifier": ">="
+                },
+                {
+                    "name": "php5-cli",
+                    "full_version": "5.3.5-1ubuntu7.3",
+                    "specifier": ">="
+                },
+                {
+                    "name": "php5-common",
+                    "full_version": "5.3.5-1ubuntu7.3",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1232.1",
+            "fixed_packages": [
+                {
+                    "name": "xserver-xorg-core",
+                    "full_version": "2:1.10.1-1ubuntu1.3",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1233.1",
+            "fixed_packages": [
+                {
+                    "name": "krb5-kdc",
+                    "full_version": "1.8.3+dfsg-5ubuntu2.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "krb5-kdc-ldap",
+                    "full_version": "1.8.3+dfsg-5ubuntu2.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1234.1",
+            "fixed_packages": [
+                {
+                    "name": "acpid",
+                    "full_version": "1:2.0.7-1ubuntu2.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1237.1",
+            "fixed_packages": [
+                {
+                    "name": "libpam-modules",
+                    "full_version": "1.1.2-2ubuntu8.4",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1238.1",
+            "fixed_packages": [
+                {
+                    "name": "puppet-common",
+                    "full_version": "2.6.4-2ubuntu2.5",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1238.2",
+            "fixed_packages": [
+                {
+                    "name": "puppet-common",
+                    "full_version": "2.6.4-2ubuntu2.6",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1246.1",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-2.6.38-12-generic",
+                    "full_version": "2.6.38-12.51",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-12-generic-pae",
+                    "full_version": "2.6.38-12.51",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-12-omap",
+                    "full_version": "2.6.38-12.51",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-12-powerpc",
+                    "full_version": "2.6.38-12.51",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-12-powerpc-smp",
+                    "full_version": "2.6.38-12.51",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-12-powerpc64-smp",
+                    "full_version": "2.6.38-12.51",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-12-server",
+                    "full_version": "2.6.38-12.51",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-12-versatile",
+                    "full_version": "2.6.38-12.51",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-12-virtual",
+                    "full_version": "2.6.38-12.51",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1248.1",
+            "fixed_packages": [
+                {
+                    "name": "libkio5",
+                    "full_version": "4:4.6.5-0ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1249.1",
+            "fixed_packages": [
+                {
+                    "name": "backuppc",
+                    "full_version": "3.2.0-3ubuntu4.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1250.1",
+            "fixed_packages": [
+                {
+                    "name": "empathy",
+                    "full_version": "2.34.0-0ubuntu3.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1252.1",
+            "fixed_packages": [
+                {
+                    "name": "libtomcat6-java",
+                    "full_version": "6.0.28-10ubuntu2.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1254.1",
+            "fixed_packages": [
+                {
+                    "name": "thunderbird",
+                    "full_version": "3.1.16+build2+nobinonly-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1255.1",
+            "fixed_packages": [
+                {
+                    "name": "libmodplug1",
+                    "full_version": "1:0.8.8.1-2ubuntu0.3",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1257.1",
+            "fixed_packages": [
+                {
+                    "name": "radvd",
+                    "full_version": "1:1.7-1ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1258.1",
+            "fixed_packages": [
+                {
+                    "name": "libclamav6",
+                    "full_version": "0.97.3+dfsg-1ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1259.1",
+            "fixed_packages": [
+                {
+                    "name": "apache2-mpm-itk",
+                    "full_version": "2.2.17-1ubuntu1.4",
+                    "specifier": ">="
+                },
+                {
+                    "name": "apache2.2-bin",
+                    "full_version": "2.2.17-1ubuntu1.4",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1261.1",
+            "fixed_packages": [
+                {
+                    "name": "quagga",
+                    "full_version": "0.99.17-4ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1263.1",
+            "fixed_packages": [
+                {
+                    "name": "icedtea-6-jre-cacao",
+                    "full_version": "6b22-1.10.4-0ubuntu1~11.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "icedtea-6-jre-jamvm",
+                    "full_version": "6b22-1.10.4-0ubuntu1~11.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "icedtea-netx",
+                    "full_version": "1.1.1-0ubuntu1~11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "icedtea-plugin",
+                    "full_version": "1.1.1-0ubuntu1~11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-6-jre",
+                    "full_version": "6b22-1.10.4-0ubuntu1~11.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-6-jre-headless",
+                    "full_version": "6b22-1.10.4-0ubuntu1~11.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-6-jre-lib",
+                    "full_version": "6b22-1.10.4-0ubuntu1~11.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-6-jre-zero",
+                    "full_version": "6b22-1.10.4-0ubuntu1~11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1264.1",
+            "fixed_packages": [
+                {
+                    "name": "libdns69",
+                    "full_version": "1:9.7.3.dfsg-1ubuntu2.3",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1265.1",
+            "fixed_packages": [
+                {
+                    "name": "python-cupshelpers",
+                    "full_version": "1.3.1+20110222-0ubuntu16.5",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1266.1",
+            "fixed_packages": [
+                {
+                    "name": "slapd",
+                    "full_version": "2.4.23-6ubuntu6.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1267.1",
+            "fixed_packages": [
+                {
+                    "name": "libfreetype6",
+                    "full_version": "2.4.4-1ubuntu2.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1270.1",
+            "fixed_packages": [
+                {
+                    "name": "software-center",
+                    "full_version": "4.0.5ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1273.1",
+            "fixed_packages": [
+                {
+                    "name": "pidgin",
+                    "full_version": "1:2.7.11-1ubuntu2.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1276.1",
+            "fixed_packages": [
+                {
+                    "name": "ark",
+                    "full_version": "4:4.6.5-0ubuntu1.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1277.1",
+            "fixed_packages": [
+                {
+                    "name": "firefox",
+                    "full_version": "8.0+build1-0ubuntu0.11.04.3",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1277.2",
+            "fixed_packages": [
+                {
+                    "name": "xul-ext-mozvoikko",
+                    "full_version": "1.10.0-0ubuntu0.11.04.3",
+                    "specifier": ">="
+                },
+                {
+                    "name": "xul-ext-ubufox",
+                    "full_version": "0.9.2-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1281.1",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-2.6.38-1209-omap4",
+                    "full_version": "2.6.38-1209.17",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1283.1",
+            "fixed_packages": [
+                {
+                    "name": "apt",
+                    "full_version": "0.8.13.2ubuntu4.3",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1284.1",
+            "fixed_packages": [
+                {
+                    "name": "update-manager",
+                    "full_version": "1:0.150.5.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "update-notifier",
+                    "full_version": "0.111ubuntu2.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1285.1",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-2.6.38-13-generic",
+                    "full_version": "2.6.38-13.52",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-generic-pae",
+                    "full_version": "2.6.38-13.52",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-omap",
+                    "full_version": "2.6.38-13.52",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-powerpc",
+                    "full_version": "2.6.38-13.52",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-powerpc-smp",
+                    "full_version": "2.6.38-13.52",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-powerpc64-smp",
+                    "full_version": "2.6.38-13.52",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-server",
+                    "full_version": "2.6.38-13.52",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-versatile",
+                    "full_version": "2.6.38-13.52",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-virtual",
+                    "full_version": "2.6.38-13.52",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1288.1",
+            "fixed_packages": [
+                {
+                    "name": "vsftpd",
+                    "full_version": "2.3.2-3ubuntu4.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1296.1",
+            "fixed_packages": [
+                {
+                    "name": "acpid",
+                    "full_version": "1:2.0.7-1ubuntu2.4",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1297.1",
+            "fixed_packages": [
+                {
+                    "name": "python-django",
+                    "full_version": "1.2.5-1ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1298.1",
+            "fixed_packages": [
+                {
+                    "name": "libcommons-daemon-java",
+                    "full_version": "1.0.4-1ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1304.1",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-2.6.38-1209-omap4",
+                    "full_version": "2.6.38-1209.18",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1307.1",
+            "fixed_packages": [
+                {
+                    "name": "php5-cgi",
+                    "full_version": "5.3.5-1ubuntu7.4",
+                    "specifier": ">="
+                },
+                {
+                    "name": "php5-cli",
+                    "full_version": "5.3.5-1ubuntu7.4",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1308.1",
+            "fixed_packages": [
+                {
+                    "name": "bzip2",
+                    "full_version": "1.0.5-6ubuntu1.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1309.1",
+            "fixed_packages": [
+                {
+                    "name": "isc-dhcp-server",
+                    "full_version": "4.1.1-P1-15ubuntu9.3",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1310.1",
+            "fixed_packages": [
+                {
+                    "name": "libarchive1",
+                    "full_version": "2.8.4-1ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1312.1",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-2.6.38-13-generic",
+                    "full_version": "2.6.38-13.53",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-generic-pae",
+                    "full_version": "2.6.38-13.53",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-omap",
+                    "full_version": "2.6.38-13.53",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-powerpc",
+                    "full_version": "2.6.38-13.53",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-powerpc-smp",
+                    "full_version": "2.6.38-13.53",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-powerpc64-smp",
+                    "full_version": "2.6.38-13.53",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-server",
+                    "full_version": "2.6.38-13.53",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-versatile",
+                    "full_version": "2.6.38-13.53",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-virtual",
+                    "full_version": "2.6.38-13.53",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1314.1",
+            "fixed_packages": [
+                {
+                    "name": "python3.1-minimal",
+                    "full_version": "3.1.3-1ubuntu1.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "python3.2-minimal",
+                    "full_version": "3.2-1ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1315.1",
+            "fixed_packages": [
+                {
+                    "name": "libjasper1",
+                    "full_version": "1.900.1-7ubuntu2.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2011.1316.1",
+            "fixed_packages": [
+                {
+                    "name": "libt1-5",
+                    "full_version": "5.1.2-3ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1197.7",
+            "fixed_packages": [
+                {
+                    "name": "ca-certificates-java",
+                    "full_version": "20100412ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1263.2",
+            "fixed_packages": [
+                {
+                    "name": "icedtea-6-jre-cacao",
+                    "full_version": "6b22-1.10.4-0ubuntu1~11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "icedtea-6-jre-jamvm",
+                    "full_version": "6b22-1.10.4-0ubuntu1~11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-6-jre",
+                    "full_version": "6b22-1.10.4-0ubuntu1~11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-6-jre-headless",
+                    "full_version": "6b22-1.10.4-0ubuntu1~11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-6-jre-lib",
+                    "full_version": "6b22-1.10.4-0ubuntu1~11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-6-jre-zero",
+                    "full_version": "6b22-1.10.4-0ubuntu1~11.04.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1284.2",
+            "fixed_packages": [
+                {
+                    "name": "update-manager-core",
+                    "full_version": "1:0.150.5.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1306.1",
+            "fixed_packages": [
+                {
+                    "name": "firefox",
+                    "full_version": "9.0.1+build1-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1306.2",
+            "fixed_packages": [
+                {
+                    "name": "xul-ext-mozvoikko",
+                    "full_version": "1.10.0-0ubuntu0.11.04.4",
+                    "specifier": ">="
+                },
+                {
+                    "name": "xul-ext-ubufox",
+                    "full_version": "0.9.3-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1319.1",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-2.6.38-1209-omap4",
+                    "full_version": "2.6.38-1209.19",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1329.1",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-2.6.38-1209-omap4",
+                    "full_version": "2.6.38-1209.20",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1333.1",
+            "fixed_packages": [
+                {
+                    "name": "libavcodec52",
+                    "full_version": "4:0.6.4-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libavformat52",
+                    "full_version": "4:0.6.4-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1334.1",
+            "fixed_packages": [
+                {
+                    "name": "libxml2",
+                    "full_version": "2.7.8.dfsg-2ubuntu0.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1335.1",
+            "fixed_packages": [
+                {
+                    "name": "libt1-5",
+                    "full_version": "5.1.2-3ubuntu0.11.04.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1338.1",
+            "fixed_packages": [
+                {
+                    "name": "rsyslog",
+                    "full_version": "4.6.4-2ubuntu4.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1339.1",
+            "fixed_packages": [
+                {
+                    "name": "qemu-kvm",
+                    "full_version": "0.14.0+noroms-0ubuntu4.5",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1345.1",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-2.6.38-13-generic",
+                    "full_version": "2.6.38-13.54",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-generic-pae",
+                    "full_version": "2.6.38-13.54",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-omap",
+                    "full_version": "2.6.38-13.54",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-powerpc",
+                    "full_version": "2.6.38-13.54",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-powerpc-smp",
+                    "full_version": "2.6.38-13.54",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-powerpc64-smp",
+                    "full_version": "2.6.38-13.54",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-server",
+                    "full_version": "2.6.38-13.54",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-versatile",
+                    "full_version": "2.6.38-13.54",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-virtual",
+                    "full_version": "2.6.38-13.54",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1346.1",
+            "fixed_packages": [
+                {
+                    "name": "libcurl3",
+                    "full_version": "7.21.3-1ubuntu1.5",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libcurl3-gnutls",
+                    "full_version": "7.21.3-1ubuntu1.5",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libcurl3-nss",
+                    "full_version": "7.21.3-1ubuntu1.5",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1347.1",
+            "fixed_packages": [
+                {
+                    "name": "libevdocument3",
+                    "full_version": "2.32.0-0ubuntu12.4",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1348.1",
+            "fixed_packages": [
+                {
+                    "name": "libicu44",
+                    "full_version": "4.4.2-2ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1349.1",
+            "fixed_packages": [
+                {
+                    "name": "xserver-xorg",
+                    "full_version": "1:7.6+4ubuntu3.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1350.1",
+            "fixed_packages": [
+                {
+                    "name": "thunderbird",
+                    "full_version": "3.1.18+build2+nobinonly-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1352.1",
+            "fixed_packages": [
+                {
+                    "name": "python-software-properties",
+                    "full_version": "0.80.9.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1354.1",
+            "fixed_packages": [
+                {
+                    "name": "libusbmuxd1",
+                    "full_version": "1.0.7-1ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1355.1",
+            "fixed_packages": [
+                {
+                    "name": "firefox",
+                    "full_version": "10.0+build1-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1355.2",
+            "fixed_packages": [
+                {
+                    "name": "xul-ext-mozvoikko",
+                    "full_version": "2.0.1-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1356.1",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-2.6.38-1209-omap4",
+                    "full_version": "2.6.38-1209.21",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1357.1",
+            "fixed_packages": [
+                {
+                    "name": "libssl0.9.8",
+                    "full_version": "0.9.8o-5ubuntu1.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openssl",
+                    "full_version": "0.9.8o-5ubuntu1.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1358.1",
+            "fixed_packages": [
+                {
+                    "name": "libapache2-mod-php5",
+                    "full_version": "5.3.5-1ubuntu7.6",
+                    "specifier": ">="
+                },
+                {
+                    "name": "php5",
+                    "full_version": "5.3.5-1ubuntu7.6",
+                    "specifier": ">="
+                },
+                {
+                    "name": "php5-cgi",
+                    "full_version": "5.3.5-1ubuntu7.6",
+                    "specifier": ">="
+                },
+                {
+                    "name": "php5-cli",
+                    "full_version": "5.3.5-1ubuntu7.6",
+                    "specifier": ">="
+                },
+                {
+                    "name": "php5-common",
+                    "full_version": "5.3.5-1ubuntu7.6",
+                    "specifier": ">="
+                },
+                {
+                    "name": "php5-xsl",
+                    "full_version": "5.3.5-1ubuntu7.6",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1358.2",
+            "fixed_packages": [
+                {
+                    "name": "libapache2-mod-php5",
+                    "full_version": "5.3.5-1ubuntu7.7",
+                    "specifier": ">="
+                },
+                {
+                    "name": "php5",
+                    "full_version": "5.3.5-1ubuntu7.7",
+                    "specifier": ">="
+                },
+                {
+                    "name": "php5-cgi",
+                    "full_version": "5.3.5-1ubuntu7.7",
+                    "specifier": ">="
+                },
+                {
+                    "name": "php5-cli",
+                    "full_version": "5.3.5-1ubuntu7.7",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1359.1",
+            "fixed_packages": [
+                {
+                    "name": "libtomcat6-java",
+                    "full_version": "6.0.28-10ubuntu2.3",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1360.1",
+            "fixed_packages": [
+                {
+                    "name": "firefox",
+                    "full_version": "10.0.1+build1-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1362.1",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-2.6.38-13-generic",
+                    "full_version": "2.6.38-13.55",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-generic-pae",
+                    "full_version": "2.6.38-13.55",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-omap",
+                    "full_version": "2.6.38-13.55",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-powerpc",
+                    "full_version": "2.6.38-13.55",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-powerpc-smp",
+                    "full_version": "2.6.38-13.55",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-powerpc64-smp",
+                    "full_version": "2.6.38-13.55",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-server",
+                    "full_version": "2.6.38-13.55",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-versatile",
+                    "full_version": "2.6.38-13.55",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-virtual",
+                    "full_version": "2.6.38-13.55",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1365.1",
+            "fixed_packages": [
+                {
+                    "name": "puppet-common",
+                    "full_version": "2.6.4-2ubuntu2.7",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1366.1",
+            "fixed_packages": [
+                {
+                    "name": "devscripts",
+                    "full_version": "2.10.69ubuntu2.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1367.1",
+            "fixed_packages": [
+                {
+                    "name": "libpng12-0",
+                    "full_version": "1.2.44-1ubuntu3.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1367.2",
+            "fixed_packages": [
+                {
+                    "name": "firefox",
+                    "full_version": "10.0.2+build1-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1367.3",
+            "fixed_packages": [
+                {
+                    "name": "thunderbird",
+                    "full_version": "3.1.19+build1+nobinonly-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1368.1",
+            "fixed_packages": [
+                {
+                    "name": "apache2.2-common",
+                    "full_version": "2.2.17-1ubuntu1.5",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1370.1",
+            "fixed_packages": [
+                {
+                    "name": "libvorbis0a",
+                    "full_version": "1.3.2-1ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1371.1",
+            "fixed_packages": [
+                {
+                    "name": "cvs",
+                    "full_version": "1:1.12.13-12ubuntu1.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1372.1",
+            "fixed_packages": [
+                {
+                    "name": "puppet-common",
+                    "full_version": "2.6.4-2ubuntu2.8",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1373.1",
+            "fixed_packages": [
+                {
+                    "name": "icedtea-6-jre-cacao",
+                    "full_version": "6b22-1.10.6-0ubuntu1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "icedtea-6-jre-jamvm",
+                    "full_version": "6b22-1.10.6-0ubuntu1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-6-jre",
+                    "full_version": "6b22-1.10.6-0ubuntu1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-6-jre-headless",
+                    "full_version": "6b22-1.10.6-0ubuntu1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-6-jre-lib",
+                    "full_version": "6b22-1.10.6-0ubuntu1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-6-jre-zero",
+                    "full_version": "6b22-1.10.6-0ubuntu1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1373.2",
+            "fixed_packages": [
+                {
+                    "name": "icedtea-6-jre-cacao",
+                    "full_version": "6b18-1.8.13-0ubuntu1~11.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "icedtea-6-jre-jamvm",
+                    "full_version": "6b18-1.8.13-0ubuntu1~11.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-6-jre",
+                    "full_version": "6b18-1.8.13-0ubuntu1~11.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-6-jre-headless",
+                    "full_version": "6b18-1.8.13-0ubuntu1~11.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-6-jre-zero",
+                    "full_version": "6b18-1.8.13-0ubuntu1~11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1375.1",
+            "fixed_packages": [
+                {
+                    "name": "python-httplib2",
+                    "full_version": "0.7.2-1ubuntu2~0.11.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "python3-httplib2",
+                    "full_version": "0.7.2-1ubuntu2~0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1376.1",
+            "fixed_packages": [
+                {
+                    "name": "libxml2",
+                    "full_version": "2.7.8.dfsg-2ubuntu0.3",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1377.1",
+            "fixed_packages": [
+                {
+                    "name": "libruby1.8",
+                    "full_version": "1.8.7.302-2ubuntu0.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "ruby1.8",
+                    "full_version": "1.8.7.302-2ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1378.1",
+            "fixed_packages": [
+                {
+                    "name": "postgresql-8.4",
+                    "full_version": "8.4.11-0ubuntu0.11.04",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1380.1",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-2.6.38-13-generic",
+                    "full_version": "2.6.38-13.56",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-generic-pae",
+                    "full_version": "2.6.38-13.56",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-omap",
+                    "full_version": "2.6.38-13.56",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-powerpc",
+                    "full_version": "2.6.38-13.56",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-powerpc-smp",
+                    "full_version": "2.6.38-13.56",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-powerpc64-smp",
+                    "full_version": "2.6.38-13.56",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-server",
+                    "full_version": "2.6.38-13.56",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-versatile",
+                    "full_version": "2.6.38-13.56",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-virtual",
+                    "full_version": "2.6.38-13.56",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1383.1",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-2.6.38-1209-omap4",
+                    "full_version": "2.6.38-1209.22",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1385.1",
+            "fixed_packages": [
+                {
+                    "name": "apt",
+                    "full_version": "0.8.13.2ubuntu4.4",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1395.1",
+            "fixed_packages": [
+                {
+                    "name": "python-pam",
+                    "full_version": "0.4.2-12.2ubuntu2.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1396.1",
+            "fixed_packages": [
+                {
+                    "name": "libc6",
+                    "full_version": "2.13-0ubuntu13.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1397.1",
+            "fixed_packages": [
+                {
+                    "name": "mysql-server-5.1",
+                    "full_version": "5.1.61-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1398.1",
+            "fixed_packages": [
+                {
+                    "name": "ldm",
+                    "full_version": "2:2.2.1-0ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1399.1",
+            "fixed_packages": [
+                {
+                    "name": "gdm-guest-session",
+                    "full_version": "0.24ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1400.1",
+            "fixed_packages": [
+                {
+                    "name": "firefox",
+                    "full_version": "11.0+build1-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1400.2",
+            "fixed_packages": [
+                {
+                    "name": "xul-ext-ubufox",
+                    "full_version": "0.9.4-0ubuntu1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1400.5",
+            "fixed_packages": [
+                {
+                    "name": "gsettings-desktop-schemas",
+                    "full_version": "3.0.0-0ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1401.2",
+            "fixed_packages": [
+                {
+                    "name": "thunderbird",
+                    "full_version": "3.1.20+build1+nobinonly-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1402.1",
+            "fixed_packages": [
+                {
+                    "name": "libpng12-0",
+                    "full_version": "1.2.44-1ubuntu3.3",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1403.1",
+            "fixed_packages": [
+                {
+                    "name": "libfreetype6",
+                    "full_version": "2.4.4-1ubuntu2.3",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1406.1",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-2.6.38-13-generic",
+                    "full_version": "2.6.38-13.57",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-generic-pae",
+                    "full_version": "2.6.38-13.57",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-omap",
+                    "full_version": "2.6.38-13.57",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-powerpc",
+                    "full_version": "2.6.38-13.57",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-powerpc-smp",
+                    "full_version": "2.6.38-13.57",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-powerpc64-smp",
+                    "full_version": "2.6.38-13.57",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-server",
+                    "full_version": "2.6.38-13.57",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-versatile",
+                    "full_version": "2.6.38-13.57",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-13-virtual",
+                    "full_version": "2.6.38-13.57",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1414.1",
+            "fixed_packages": [
+                {
+                    "name": "python-aptdaemon",
+                    "full_version": "0.41+bzr661-0ubuntu0.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1416.1",
+            "fixed_packages": [
+                {
+                    "name": "libtiff4",
+                    "full_version": "3.9.4-5ubuntu6.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1417.1",
+            "fixed_packages": [
+                {
+                    "name": "libpng12-0",
+                    "full_version": "1.2.44-1ubuntu3.4",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1418.1",
+            "fixed_packages": [
+                {
+                    "name": "libgnutls26",
+                    "full_version": "2.8.6-1ubuntu2.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1419.1",
+            "fixed_packages": [
+                {
+                    "name": "puppet-common",
+                    "full_version": "2.6.4-2ubuntu2.9",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1420.1",
+            "fixed_packages": [
+                {
+                    "name": "nvidia-173",
+                    "full_version": "173.14.30-0ubuntu1.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "nvidia-current",
+                    "full_version": "270.41.06-0ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1422.1",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-2.6.38-14-generic",
+                    "full_version": "2.6.38-14.58",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-14-generic-pae",
+                    "full_version": "2.6.38-14.58",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-14-omap",
+                    "full_version": "2.6.38-14.58",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-14-powerpc",
+                    "full_version": "2.6.38-14.58",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-14-powerpc-smp",
+                    "full_version": "2.6.38-14.58",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-14-powerpc64-smp",
+                    "full_version": "2.6.38-14.58",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-14-server",
+                    "full_version": "2.6.38-14.58",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-14-versatile",
+                    "full_version": "2.6.38-14.58",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-14-virtual",
+                    "full_version": "2.6.38-14.58",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1423.1",
+            "fixed_packages": [
+                {
+                    "name": "samba",
+                    "full_version": "2:3.5.8~dfsg-1ubuntu2.4",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1424.1",
+            "fixed_packages": [
+                {
+                    "name": "libssl0.9.8",
+                    "full_version": "0.9.8o-5ubuntu1.4",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1427.1",
+            "fixed_packages": [
+                {
+                    "name": "mysql-server-5.1",
+                    "full_version": "5.1.62-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1428.1",
+            "fixed_packages": [
+                {
+                    "name": "libssl0.9.8",
+                    "full_version": "0.9.8o-5ubuntu1.5",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1429.1",
+            "fixed_packages": [
+                {
+                    "name": "libjetty-java",
+                    "full_version": "6.1.24-6ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1430.1",
+            "fixed_packages": [
+                {
+                    "name": "firefox",
+                    "full_version": "12.0+build1-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1430.2",
+            "fixed_packages": [
+                {
+                    "name": "xul-ext-ubufox",
+                    "full_version": "0.9.5-0ubuntu1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1430.3",
+            "fixed_packages": [
+                {
+                    "name": "thunderbird",
+                    "full_version": "12.0.1+build1-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1430.4",
+            "fixed_packages": [
+                {
+                    "name": "apparmor",
+                    "full_version": "2.6.1-0ubuntu3.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1432.1",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-2.6.38-15-generic",
+                    "full_version": "2.6.38-15.59",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-15-generic-pae",
+                    "full_version": "2.6.38-15.59",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-15-omap",
+                    "full_version": "2.6.38-15.59",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-15-powerpc",
+                    "full_version": "2.6.38-15.59",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-15-powerpc-smp",
+                    "full_version": "2.6.38-15.59",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-15-powerpc64-smp",
+                    "full_version": "2.6.38-15.59",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-15-server",
+                    "full_version": "2.6.38-15.59",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-15-versatile",
+                    "full_version": "2.6.38-15.59",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-15-virtual",
+                    "full_version": "2.6.38-15.59",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1434.1",
+            "fixed_packages": [
+                {
+                    "name": "samba",
+                    "full_version": "2:3.5.8~dfsg-1ubuntu2.5",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1435.1",
+            "fixed_packages": [
+                {
+                    "name": "imagemagick",
+                    "full_version": "7:6.6.2.6-1ubuntu4.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libmagick++3",
+                    "full_version": "7:6.6.2.6-1ubuntu4.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1436.1",
+            "fixed_packages": [
+                {
+                    "name": "libtasn1-3",
+                    "full_version": "2.7-1ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1437.1",
+            "fixed_packages": [
+                {
+                    "name": "php5-cgi",
+                    "full_version": "5.3.5-1ubuntu7.8",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1441.1",
+            "fixed_packages": [
+                {
+                    "name": "quagga",
+                    "full_version": "0.99.20.1-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1442.1",
+            "fixed_packages": [
+                {
+                    "name": "sudo",
+                    "full_version": "1.7.4p4-5ubuntu7.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "sudo-ldap",
+                    "full_version": "1.7.4p4-5ubuntu7.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1443.1",
+            "fixed_packages": [
+                {
+                    "name": "update-manager-core",
+                    "full_version": "1:0.150.5.3",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1443.2",
+            "fixed_packages": [
+                {
+                    "name": "update-manager-core",
+                    "full_version": "1:0.150.5.4",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1444.1",
+            "fixed_packages": [
+                {
+                    "name": "backuppc",
+                    "full_version": "3.2.0-3ubuntu4.3",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1447.1",
+            "fixed_packages": [
+                {
+                    "name": "libxml2",
+                    "full_version": "2.7.8.dfsg-2ubuntu0.4",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1450.1",
+            "fixed_packages": [
+                {
+                    "name": "libsnmp15",
+                    "full_version": "5.4.3~dfsg-2ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1451.1",
+            "fixed_packages": [
+                {
+                    "name": "libssl0.9.8",
+                    "full_version": "0.9.8o-5ubuntu1.7",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openssl",
+                    "full_version": "0.9.8o-5ubuntu1.7",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1456.1",
+            "fixed_packages": [
+                {
+                    "name": "nut",
+                    "full_version": "2.6.0-1ubuntu3.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1457.1",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-2.6.38-15-generic",
+                    "full_version": "2.6.38-15.60",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-15-generic-pae",
+                    "full_version": "2.6.38-15.60",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-15-omap",
+                    "full_version": "2.6.38-15.60",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-15-powerpc",
+                    "full_version": "2.6.38-15.60",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-15-powerpc-smp",
+                    "full_version": "2.6.38-15.60",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-15-powerpc64-smp",
+                    "full_version": "2.6.38-15.60",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-15-server",
+                    "full_version": "2.6.38-15.60",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-15-versatile",
+                    "full_version": "2.6.38-15.60",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-15-virtual",
+                    "full_version": "2.6.38-15.60",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1458.1",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-2.6.38-1209-omap4",
+                    "full_version": "2.6.38-1209.24",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1461.1",
+            "fixed_packages": [
+                {
+                    "name": "postgresql-8.4",
+                    "full_version": "8.4.12-0ubuntu11.04",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1462.1",
+            "fixed_packages": [
+                {
+                    "name": "libdns69",
+                    "full_version": "1:9.7.3.dfsg-1ubuntu2.4",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1463.1",
+            "fixed_packages": [
+                {
+                    "name": "firefox",
+                    "full_version": "13.0+build1-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1463.2",
+            "fixed_packages": [
+                {
+                    "name": "unity-2d-panel",
+                    "full_version": "3.8.4.1-0ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1463.3",
+            "fixed_packages": [
+                {
+                    "name": "firefox",
+                    "full_version": "13.0.1+build1-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1463.5",
+            "fixed_packages": [
+                {
+                    "name": "unity-2d-launcher",
+                    "full_version": "3.8.4.1-0ubuntu1.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1463.6",
+            "fixed_packages": [
+                {
+                    "name": "thunderbird",
+                    "full_version": "13.0.1+build1-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1464.1",
+            "fixed_packages": [
+                {
+                    "name": "ubuntu-sso-client",
+                    "full_version": "1.2.1-0ubuntu2.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1465.1",
+            "fixed_packages": [
+                {
+                    "name": "python-ubuntuone-client",
+                    "full_version": "1.6.2-0ubuntu2.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1465.2",
+            "fixed_packages": [
+                {
+                    "name": "python-ubuntuone-storageprotocol",
+                    "full_version": "1.6.1-0ubuntu1.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1467.1",
+            "fixed_packages": [
+                {
+                    "name": "mysql-server-5.1",
+                    "full_version": "5.1.63-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1475.1",
+            "fixed_packages": [
+                {
+                    "name": "apt",
+                    "full_version": "0.8.13.2ubuntu4.5",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1477.1",
+            "fixed_packages": [
+                {
+                    "name": "apt",
+                    "full_version": "0.8.13.2ubuntu4.6",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1478.1",
+            "fixed_packages": [
+                {
+                    "name": "libavcodec52",
+                    "full_version": "4:0.6.6-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libavformat52",
+                    "full_version": "4:0.6.6-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1480.1",
+            "fixed_packages": [
+                {
+                    "name": "libraptor1",
+                    "full_version": "1.4.21-2ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1481.1",
+            "fixed_packages": [
+                {
+                    "name": "php5",
+                    "full_version": "5.3.5-1ubuntu7.10",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1482.1",
+            "fixed_packages": [
+                {
+                    "name": "clamav",
+                    "full_version": "0.97.5+dfsg-1ubuntu0.11.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "clamav-daemon",
+                    "full_version": "0.97.5+dfsg-1ubuntu0.11.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libclamav6",
+                    "full_version": "0.97.5+dfsg-1ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1482.2",
+            "fixed_packages": [
+                {
+                    "name": "clamav",
+                    "full_version": "0.97.5+dfsg-1ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "clamav-daemon",
+                    "full_version": "0.97.5+dfsg-1ubuntu0.11.04.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libclamav6",
+                    "full_version": "0.97.5+dfsg-1ubuntu0.11.04.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1482.3",
+            "fixed_packages": [
+                {
+                    "name": "clamav",
+                    "full_version": "0.97.5+dfsg-1ubuntu0.11.04.3",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libclamav6",
+                    "full_version": "0.97.5+dfsg-1ubuntu0.11.04.3",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1483.1",
+            "fixed_packages": [
+                {
+                    "name": "network-manager",
+                    "full_version": "0.8.4~git.20110319t175609.d14809b-0ubuntu3.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1483.2",
+            "fixed_packages": [
+                {
+                    "name": "network-manager-gnome",
+                    "full_version": "0.8.4~git.20110318t152954.9c4c9a0-0ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1484.1",
+            "fixed_packages": [
+                {
+                    "name": "python-crypto",
+                    "full_version": "2.1.0-2ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1488.1",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-2.6.38-15-generic",
+                    "full_version": "2.6.38-15.61",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-15-generic-pae",
+                    "full_version": "2.6.38-15.61",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-15-omap",
+                    "full_version": "2.6.38-15.61",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-15-powerpc",
+                    "full_version": "2.6.38-15.61",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-15-powerpc-smp",
+                    "full_version": "2.6.38-15.61",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-15-powerpc64-smp",
+                    "full_version": "2.6.38-15.61",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-15-server",
+                    "full_version": "2.6.38-15.61",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-15-versatile",
+                    "full_version": "2.6.38-15.61",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-15-virtual",
+                    "full_version": "2.6.38-15.61",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1495.1",
+            "fixed_packages": [
+                {
+                    "name": "libreoffice-core",
+                    "full_version": "1:3.3.4-0ubuntu1.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libreoffice-l10n-common",
+                    "full_version": "1:3.3.3-1ubuntu1.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1498.1",
+            "fixed_packages": [
+                {
+                    "name": "libtiff-tools",
+                    "full_version": "3.9.4-5ubuntu6.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libtiff4",
+                    "full_version": "3.9.4-5ubuntu6.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1500.1",
+            "fixed_packages": [
+                {
+                    "name": "finch",
+                    "full_version": "1:2.7.11-1ubuntu2.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libpurple0",
+                    "full_version": "1:2.7.11-1ubuntu2.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "pidgin",
+                    "full_version": "1:2.7.11-1ubuntu2.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1504.1",
+            "fixed_packages": [
+                {
+                    "name": "libqt4-network",
+                    "full_version": "4:4.7.2-0ubuntu6.4",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libqtgui4",
+                    "full_version": "4:4.7.2-0ubuntu6.4",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1505.1",
+            "fixed_packages": [
+                {
+                    "name": "icedtea-6-plugin",
+                    "full_version": "1.2-2ubuntu0.11.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-6-jre",
+                    "full_version": "6b24-1.11.3-1ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1505.2",
+            "fixed_packages": [
+                {
+                    "name": "icedtea-6-plugin",
+                    "full_version": "1.2-2ubuntu0.11.04.3",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1506.1",
+            "fixed_packages": [
+                {
+                    "name": "puppet-common",
+                    "full_version": "2.6.4-2ubuntu2.10",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1509.1",
+            "fixed_packages": [
+                {
+                    "name": "firefox",
+                    "full_version": "14.0.1+build1-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1509.2",
+            "fixed_packages": [
+                {
+                    "name": "ubufox",
+                    "full_version": "2.1.1-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "xul-ext-ubufox",
+                    "full_version": "2.1.1-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1510.1",
+            "fixed_packages": [
+                {
+                    "name": "thunderbird",
+                    "full_version": "14.0+build1-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1511.1",
+            "fixed_packages": [
+                {
+                    "name": "libtiff-tools",
+                    "full_version": "3.9.4-5ubuntu6.3",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1513.1",
+            "fixed_packages": [
+                {
+                    "name": "libexif12",
+                    "full_version": "0.6.20-0ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1517.1",
+            "fixed_packages": [
+                {
+                    "name": "libmono-system-web1.0-cil",
+                    "full_version": "2.6.7-5ubuntu3.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libmono-system-web2.0-cil",
+                    "full_version": "2.6.7-5ubuntu3.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1518.1",
+            "fixed_packages": [
+                {
+                    "name": "libdns69",
+                    "full_version": "1:9.7.3.dfsg-1ubuntu2.5",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1519.1",
+            "fixed_packages": [
+                {
+                    "name": "isc-dhcp-server",
+                    "full_version": "4.1.1-P1-15ubuntu9.4",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1520.1",
+            "fixed_packages": [
+                {
+                    "name": "krb5-admin-server",
+                    "full_version": "1.8.3+dfsg-5ubuntu2.3",
+                    "specifier": ">="
+                },
+                {
+                    "name": "krb5-kdc",
+                    "full_version": "1.8.3+dfsg-5ubuntu2.3",
+                    "specifier": ">="
+                },
+                {
+                    "name": "krb5-kdc-ldap",
+                    "full_version": "1.8.3+dfsg-5ubuntu2.3",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1521.1",
+            "fixed_packages": [
+                {
+                    "name": "icedtea-6-plugin",
+                    "full_version": "1.2-2ubuntu0.11.04.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1522.1",
+            "fixed_packages": [
+                {
+                    "name": "qemu-kvm",
+                    "full_version": "0.14.0+noroms-0ubuntu4.6",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1523.1",
+            "fixed_packages": [
+                {
+                    "name": "nvidia-173",
+                    "full_version": "173.14.30-0ubuntu1.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "nvidia-current",
+                    "full_version": "270.41.06-0ubuntu1.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1526.1",
+            "fixed_packages": [
+                {
+                    "name": "koffice",
+                    "full_version": "1:2.3.3-0ubuntu4.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1527.1",
+            "fixed_packages": [
+                {
+                    "name": "lib64expat1",
+                    "full_version": "2.0.1-7ubuntu3.11.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libexpat1",
+                    "full_version": "2.0.1-7ubuntu3.11.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libexpat1-udeb",
+                    "full_version": "2.0.1-7ubuntu3.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1527.2",
+            "fixed_packages": [
+                {
+                    "name": "libxmlrpc-core-c3-0",
+                    "full_version": "1.16.32-0ubuntu3.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1530.1",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-2.6.38-1209-omap4",
+                    "full_version": "2.6.38-1209.25",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1531.1",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-2.6.38-15-generic",
+                    "full_version": "2.6.38-15.65",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-15-generic-pae",
+                    "full_version": "2.6.38-15.65",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-15-omap",
+                    "full_version": "2.6.38-15.65",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-15-powerpc",
+                    "full_version": "2.6.38-15.65",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-15-powerpc-smp",
+                    "full_version": "2.6.38-15.65",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-15-powerpc64-smp",
+                    "full_version": "2.6.38-15.65",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-15-server",
+                    "full_version": "2.6.38-15.65",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-15-versatile",
+                    "full_version": "2.6.38-15.65",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-15-virtual",
+                    "full_version": "2.6.38-15.65",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1536.1",
+            "fixed_packages": [
+                {
+                    "name": "libreoffice-core",
+                    "full_version": "1:3.3.4-0ubuntu1.4",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1540.1",
+            "fixed_packages": [
+                {
+                    "name": "libnss3-1d",
+                    "full_version": "3.12.9+ckbi-1.82-0ubuntu2.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1541.1",
+            "fixed_packages": [
+                {
+                    "name": "libotr2",
+                    "full_version": "3.2.0-2ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1542.1",
+            "fixed_packages": [
+                {
+                    "name": "postgresql-8.4",
+                    "full_version": "8.4.13-0ubuntu11.04",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1543.1",
+            "fixed_packages": [
+                {
+                    "name": "libconfig-inifiles-perl",
+                    "full_version": "2.58-1ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1544.1",
+            "fixed_packages": [
+                {
+                    "name": "imagemagick",
+                    "full_version": "7:6.6.2.6-1ubuntu4.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libmagick++3",
+                    "full_version": "7:6.6.2.6-1ubuntu4.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1546.1",
+            "fixed_packages": [
+                {
+                    "name": "libgc1c2",
+                    "full_version": "1:6.8-1.2ubuntu3.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1547.1",
+            "fixed_packages": [
+                {
+                    "name": "libgdata11",
+                    "full_version": "0.8.0-0ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1548.1",
+            "fixed_packages": [
+                {
+                    "name": "firefox",
+                    "full_version": "15.0+build1-0ubuntu0.11.04.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1548.2",
+            "fixed_packages": [
+                {
+                    "name": "firefox",
+                    "full_version": "15.0.1+build1-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1551.1",
+            "fixed_packages": [
+                {
+                    "name": "thunderbird",
+                    "full_version": "15.0+build1-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1551.2",
+            "fixed_packages": [
+                {
+                    "name": "thunderbird",
+                    "full_version": "15.0.1+build1-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "thunderbird-globalmenu",
+                    "full_version": "15.0.1+build1-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1553.1",
+            "fixed_packages": [
+                {
+                    "name": "icedtea-6-jre-cacao",
+                    "full_version": "6b24-1.11.4-1ubuntu0.11.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "icedtea-6-jre-jamvm",
+                    "full_version": "6b24-1.11.4-1ubuntu0.11.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-6-jre",
+                    "full_version": "6b24-1.11.4-1ubuntu0.11.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-6-jre-headless",
+                    "full_version": "6b24-1.11.4-1ubuntu0.11.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-6-jre-lib",
+                    "full_version": "6b24-1.11.4-1ubuntu0.11.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-6-jre-zero",
+                    "full_version": "6b24-1.11.4-1ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1557.1",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-2.6.38-15-generic",
+                    "full_version": "2.6.38-15.66",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-15-generic-pae",
+                    "full_version": "2.6.38-15.66",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-15-omap",
+                    "full_version": "2.6.38-15.66",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-15-powerpc",
+                    "full_version": "2.6.38-15.66",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-15-powerpc-smp",
+                    "full_version": "2.6.38-15.66",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-15-powerpc64-smp",
+                    "full_version": "2.6.38-15.66",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-15-server",
+                    "full_version": "2.6.38-15.66",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-15-versatile",
+                    "full_version": "2.6.38-15.66",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-15-virtual",
+                    "full_version": "2.6.38-15.66",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1559.1",
+            "fixed_packages": [
+                {
+                    "name": "gimp",
+                    "full_version": "2.6.11-1ubuntu6.3",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1560.1",
+            "fixed_packages": [
+                {
+                    "name": "python-django",
+                    "full_version": "1.2.5-1ubuntu1.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1566.1",
+            "fixed_packages": [
+                {
+                    "name": "libdns69",
+                    "full_version": "1:9.7.3.dfsg-1ubuntu2.6",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1567.1",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-2.6.38-16-generic",
+                    "full_version": "2.6.38-16.67",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-16-generic-pae",
+                    "full_version": "2.6.38-16.67",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-16-omap",
+                    "full_version": "2.6.38-16.67",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-16-powerpc",
+                    "full_version": "2.6.38-16.67",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-16-powerpc-smp",
+                    "full_version": "2.6.38-16.67",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-16-powerpc64-smp",
+                    "full_version": "2.6.38-16.67",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-16-server",
+                    "full_version": "2.6.38-16.67",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-16-versatile",
+                    "full_version": "2.6.38-16.67",
+                    "specifier": ">="
+                },
+                {
+                    "name": "linux-image-2.6.38-16-virtual",
+                    "full_version": "2.6.38-16.67",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1569.1",
+            "fixed_packages": [
+                {
+                    "name": "php5",
+                    "full_version": "5.3.5-1ubuntu7.11",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1570.1",
+            "fixed_packages": [
+                {
+                    "name": "gnupg",
+                    "full_version": "1.4.11-3ubuntu1.11.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "gnupg2",
+                    "full_version": "2.0.14-2ubuntu1.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1571.1",
+            "fixed_packages": [
+                {
+                    "name": "isc-dhcp-client",
+                    "full_version": "4.1.1-P1-15ubuntu9.6",
+                    "specifier": ">="
+                },
+                {
+                    "name": "isc-dhcp-server",
+                    "full_version": "4.1.1-P1-15ubuntu9.6",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1576.1",
+            "fixed_packages": [
+                {
+                    "name": "dbus",
+                    "full_version": "1.4.6-1ubuntu6.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libdbus-1-3",
+                    "full_version": "1.4.6-1ubuntu6.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1576.2",
+            "fixed_packages": [
+                {
+                    "name": "dbus",
+                    "full_version": "1.4.6-1ubuntu6.4",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libdbus-1-3",
+                    "full_version": "1.4.6-1ubuntu6.4",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1577.1",
+            "fixed_packages": [
+                {
+                    "name": "linux-image-2.6.38-1209-omap4",
+                    "full_version": "2.6.38-1209.26",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1585.1",
+            "fixed_packages": [
+                {
+                    "name": "freeradius",
+                    "full_version": "2.1.10+dfsg-2ubuntu2.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1587.1",
+            "fixed_packages": [
+                {
+                    "name": "libxml2",
+                    "full_version": "2.7.8.dfsg-2ubuntu0.5",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1588.1",
+            "fixed_packages": [
+                {
+                    "name": "python-software-properties",
+                    "full_version": "0.80.9.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1589.1",
+            "fixed_packages": [
+                {
+                    "name": "libc6",
+                    "full_version": "2.13-0ubuntu13.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1590.1",
+            "fixed_packages": [
+                {
+                    "name": "qemu-kvm",
+                    "full_version": "0.14.0+noroms-0ubuntu4.7",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1592.1",
+            "fixed_packages": [
+                {
+                    "name": "python2.7",
+                    "full_version": "2.7.1-5ubuntu2.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "python2.7-minimal",
+                    "full_version": "2.7.1-5ubuntu2.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1593.1",
+            "fixed_packages": [
+                {
+                    "name": "devscripts",
+                    "full_version": "2.10.69ubuntu2.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1595.1",
+            "fixed_packages": [
+                {
+                    "name": "libxslt1.1",
+                    "full_version": "1.1.26-6ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1596.1",
+            "fixed_packages": [
+                {
+                    "name": "python2.6",
+                    "full_version": "2.6.6-6ubuntu7.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "python2.6-minimal",
+                    "full_version": "2.6.6-6ubuntu7.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1600.1",
+            "fixed_packages": [
+                {
+                    "name": "firefox",
+                    "full_version": "16.0+build1-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1601.1",
+            "fixed_packages": [
+                {
+                    "name": "bind9",
+                    "full_version": "1:9.7.3.dfsg-1ubuntu2.7",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1603.1",
+            "fixed_packages": [
+                {
+                    "name": "libruby1.8",
+                    "full_version": "1.8.7.302-2ubuntu0.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1604.1",
+            "fixed_packages": [
+                {
+                    "name": "python-moinmoin",
+                    "full_version": "1.9.3-1ubuntu1.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1605.1",
+            "fixed_packages": [
+                {
+                    "name": "quagga",
+                    "full_version": "0.99.20.1-0ubuntu0.11.04.3",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1608.1",
+            "fixed_packages": [
+                {
+                    "name": "firefox",
+                    "full_version": "16.0.1+build1-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1611.1",
+            "fixed_packages": [
+                {
+                    "name": "thunderbird",
+                    "full_version": "16.0.1+build1-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1612.1",
+            "fixed_packages": [
+                {
+                    "name": "libgssglue1",
+                    "full_version": "0.1-4ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1615.1",
+            "fixed_packages": [
+                {
+                    "name": "python3.2",
+                    "full_version": "3.2-1ubuntu1.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "python3.2-minimal",
+                    "full_version": "3.2-1ubuntu1.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1616.1",
+            "fixed_packages": [
+                {
+                    "name": "python3.1",
+                    "full_version": "3.1.3-1ubuntu1.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "python3.1-minimal",
+                    "full_version": "3.1.3-1ubuntu1.2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1618.1",
+            "fixed_packages": [
+                {
+                    "name": "exim4-daemon-custom",
+                    "full_version": "4.74-1ubuntu1.3",
+                    "specifier": ">="
+                },
+                {
+                    "name": "exim4-daemon-heavy",
+                    "full_version": "4.74-1ubuntu1.3",
+                    "specifier": ">="
+                },
+                {
+                    "name": "exim4-daemon-light",
+                    "full_version": "4.74-1ubuntu1.3",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1619.1",
+            "fixed_packages": [
+                {
+                    "name": "icedtea-6-jre-cacao",
+                    "full_version": "6b24-1.11.5-0ubuntu1~11.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "icedtea-6-jre-jamvm",
+                    "full_version": "6b24-1.11.5-0ubuntu1~11.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-6-jre",
+                    "full_version": "6b24-1.11.5-0ubuntu1~11.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-6-jre-headless",
+                    "full_version": "6b24-1.11.5-0ubuntu1~11.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-6-jre-lib",
+                    "full_version": "6b24-1.11.5-0ubuntu1~11.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openjdk-6-jre-zero",
+                    "full_version": "6b24-1.11.5-0ubuntu1~11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2012.1620.1",
+            "fixed_packages": [
+                {
+                    "name": "firefox",
+                    "full_version": "16.0.2+build1-0ubuntu0.11.04.1",
+                    "specifier": ">="
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1382 @@
+{
+    "version": "1.2",
+    "spdx-license-identifier": "GPL-2.0-only",
+    "copyright": "Copyright (C) 2008-2025 Greenbone AG",
+    "package_type": "rpm",
+    "product_name": "SUSE Linux Enterprise Module for SUSE Manager Server 4.3",
+    "advisories": [
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1040.3",
+            "fixed_packages": [
+                {
+                    "full_name": "protobuf-debugsource-3.9.2-4.12.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "protobuf-debugsource-3.9.2-4.12.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "protobuf-debugsource-3.9.2-4.12.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "protobuf-debugsource-3.9.2-4.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "protobuf-java-3.9.2-4.12.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "protobuf-java-3.9.2-4.12.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "protobuf-java-3.9.2-4.12.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "protobuf-java-3.9.2-4.12.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1678.1",
+            "fixed_packages": [
+                {
+                    "full_name": "jackson-annotations-2.13.0-150200.3.6.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "jackson-core-2.13.0-150200.3.6.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "jackson-databind-2.13.0-150200.3.9.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.2044.1",
+            "fixed_packages": [
+                {
+                    "full_name": "google-gson-2.8.9-150200.3.6.3.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.3172.1",
+            "fixed_packages": [
+                {
+                    "full_name": "venv-salt-minion-3004-150000.3.11.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "venv-salt-minion-3004-150000.3.11.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "venv-salt-minion-3004-150000.3.11.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "venv-salt-minion-3004-150000.3.11.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.3178.1",
+            "fixed_packages": [
+                {
+                    "full_name": "golang-github-QubitProducts-exporter_exporter-0.4.0-150000.1.15.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-QubitProducts-exporter_exporter-0.4.0-150000.1.15.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-QubitProducts-exporter_exporter-0.4.0-150000.1.15.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-QubitProducts-exporter_exporter-0.4.0-150000.1.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-hwdata-2.3.5-150000.3.9.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.3194.1",
+            "fixed_packages": [
+                {
+                    "full_name": "apache-commons-csv-1.2-150400.3.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "apache-commons-math3-3.2-150400.3.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "drools-7.17.0-150400.3.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "image-sync-formula-0.1.1658330139.861779d-150400.3.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "inter-server-sync-0.2.3-150400.3.3.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "inter-server-sync-0.2.3-150400.3.3.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "inter-server-sync-0.2.3-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "inter-server-sync-debuginfo-0.2.3-150400.3.3.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "inter-server-sync-debuginfo-0.2.3-150400.3.3.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "inter-server-sync-debuginfo-0.2.3-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "jakarta-commons-validator-1.1.4-21.150400.21.3.4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "jose4j-0.5.1-150400.3.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kie-api-7.17.0-150400.3.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mvel2-2.2.6.Final-150400.3.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "optaplanner-7.17.0-150400.3.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-spacewalk-certs-tools-4.3.14-150400.3.3.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-spacewalk-client-tools-4.3.11-150400.3.3.4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-susemanager-retail-1.0.1658330139.861779d-150400.3.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-urlgrabber-4.1.0-150400.3.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-uyuni-common-libs-4.3.5-150400.3.3.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-uyuni-common-libs-4.3.5-150400.3.3.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-uyuni-common-libs-4.3.5-150400.3.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reprepro-5.3.0-150400.3.3.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reprepro-5.3.0-150400.3.3.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reprepro-5.3.0-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reprepro-debuginfo-5.3.0-150400.3.3.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reprepro-debuginfo-5.3.0-150400.3.3.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reprepro-debuginfo-5.3.0-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reprepro-debugsource-5.3.0-150400.3.3.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reprepro-debugsource-5.3.0-150400.3.3.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reprepro-debugsource-5.3.0-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-netapi-client-0.20.0-150400.3.3.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "smdba-1.7.10-0.150400.4.3.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "smdba-1.7.10-0.150400.4.3.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "smdba-1.7.10-0.150400.4.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacecmd-4.3.14-150400.3.3.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-4.3.15-150400.3.3.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-app-4.3.15-150400.3.3.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-applet-4.3.15-150400.3.3.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-config-files-4.3.15-150400.3.3.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-config-files-common-4.3.15-150400.3.3.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-config-files-tool-4.3.15-150400.3.3.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-iss-4.3.15-150400.3.3.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-iss-export-4.3.15-150400.3.3.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-package-push-server-4.3.15-150400.3.3.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-server-4.3.15-150400.3.3.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-sql-4.3.15-150400.3.3.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-sql-postgresql-4.3.15-150400.3.3.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-tools-4.3.15-150400.3.3.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-xml-export-libs-4.3.15-150400.3.3.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-xmlrpc-4.3.15-150400.3.3.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-base-4.3.23-150400.3.3.4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-base-minimal-4.3.23-150400.3.3.4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-base-minimal-config-4.3.23-150400.3.3.4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-certs-tools-4.3.14-150400.3.3.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-client-tools-4.3.11-150400.3.3.4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-common-4.3.5-150400.3.3.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-config-4.3.9-150400.3.3.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-html-4.3.23-150400.3.3.4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-java-4.3.35-150400.3.3.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-java-config-4.3.35-150400.3.3.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-java-lib-4.3.35-150400.3.3.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-java-postgresql-4.3.35-150400.3.3.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-postgresql-4.3.5-150400.3.3.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-search-4.3.6-150400.3.3.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-setup-4.3.10-150400.3.3.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-taskomatic-4.3.35-150400.3.3.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-utils-4.3.13-150400.3.3.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-utils-extras-4.3.13-150400.3.3.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "subscription-matcher-0.29-150400.3.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-4.3.18-150400.3.3.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-4.3.18-150400.3.3.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-4.3.18-150400.3.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-build-keys-15.4.3-150400.3.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-build-keys-web-15.4.3-150400.3.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-docs_en-4.3-150400.9.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-docs_en-pdf-4.3-150400.9.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-retail-tools-1.0.1658330139.861779d-150400.3.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-schema-4.3.13-150400.3.3.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-schema-utility-4.3.13-150400.3.3.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-sls-4.3.24-150400.3.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-tools-4.3.18-150400.3.3.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-tools-4.3.18-150400.3.3.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-tools-4.3.18-150400.3.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "uyuni-config-modules-4.3.24-150400.3.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "virtual-host-gatherer-1.0.23-150400.3.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "virtual-host-gatherer-Kubernetes-1.0.23-150400.3.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "virtual-host-gatherer-Nutanix-1.0.23-150400.3.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "virtual-host-gatherer-VMware-1.0.23-150400.3.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "virtual-host-gatherer-libcloud-1.0.23-150400.3.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "woodstox-4.4.2-150400.3.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xmlpull-api-1.1.3.1-150400.3.3.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.3397.1",
+            "fixed_packages": [
+                {
+                    "full_name": "snakeyaml-1.31-150200.3.8.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.3494.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libgit2-28-0.28.4-150200.3.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgit2-28-0.28.4-150200.3.3.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgit2-28-0.28.4-150200.3.3.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgit2-28-0.28.4-150200.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgit2-28-debuginfo-0.28.4-150200.3.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgit2-28-debuginfo-0.28.4-150200.3.3.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgit2-28-debuginfo-0.28.4-150200.3.3.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgit2-28-debuginfo-0.28.4-150200.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgit2-debugsource-0.28.4-150200.3.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgit2-debugsource-0.28.4-150200.3.3.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgit2-debugsource-0.28.4-150200.3.3.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgit2-debugsource-0.28.4-150200.3.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.3563.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libgsasl-debugsource-1.8.0-150400.3.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgsasl-debugsource-1.8.0-150400.3.3.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgsasl-debugsource-1.8.0-150400.3.3.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgsasl-debugsource-1.8.0-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgsasl-lang-1.8.0-150400.3.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgsasl7-1.8.0-150400.3.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgsasl7-1.8.0-150400.3.3.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgsasl7-1.8.0-150400.3.3.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgsasl7-1.8.0-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgsasl7-debuginfo-1.8.0-150400.3.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgsasl7-debuginfo-1.8.0-150400.3.3.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgsasl7-debuginfo-1.8.0-150400.3.3.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgsasl7-debuginfo-1.8.0-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.3750.1",
+            "fixed_packages": [
+                {
+                    "full_name": "cobbler-3.3.3-150400.5.7.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "drools-7.17.0-150400.3.6.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "image-sync-formula-0.1.1661440542.6cbe0da-150400.3.6.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "inter-server-sync-0.2.3-150400.3.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "inter-server-sync-0.2.3-150400.3.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "inter-server-sync-0.2.3-150400.3.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "inter-server-sync-debuginfo-0.2.3-150400.3.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "inter-server-sync-debuginfo-0.2.3-150400.3.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "inter-server-sync-debuginfo-0.2.3-150400.3.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "locale-formula-0.3-150400.3.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-magic-5.32-150000.7.16.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-magic-5.32-150000.7.16.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-magic-5.32-150000.7.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-schema-0.6.7-150400.10.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-spacewalk-certs-tools-4.3.15-150400.3.6.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-spacewalk-client-tools-4.3.12-150400.3.6.6.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-urlgrabber-4.1.0-150400.3.6.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-uyuni-common-libs-4.3.6-150400.3.6.4.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-uyuni-common-libs-4.3.6-150400.3.6.4.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-uyuni-common-libs-4.3.6-150400.3.6.4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reprepro-5.4.0-150400.3.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reprepro-5.4.0-150400.3.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reprepro-5.4.0-150400.3.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reprepro-debuginfo-5.4.0-150400.3.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reprepro-debuginfo-5.4.0-150400.3.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reprepro-debuginfo-5.4.0-150400.3.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reprepro-debugsource-5.4.0-150400.3.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reprepro-debugsource-5.4.0-150400.3.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "reprepro-debugsource-5.4.0-150400.3.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "saltboot-formula-0.1.1661440542.6cbe0da-150400.3.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacecmd-4.3.15-150400.3.6.4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-admin-4.3.10-150400.3.3.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-4.3.16-150400.3.6.8.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-app-4.3.16-150400.3.6.8.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-applet-4.3.16-150400.3.6.8.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-config-files-4.3.16-150400.3.6.8.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-config-files-common-4.3.16-150400.3.6.8.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-config-files-tool-4.3.16-150400.3.6.8.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-iss-4.3.16-150400.3.6.8.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-iss-export-4.3.16-150400.3.6.8.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-package-push-server-4.3.16-150400.3.6.8.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-server-4.3.16-150400.3.6.8.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-sql-4.3.16-150400.3.6.8.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-sql-postgresql-4.3.16-150400.3.6.8.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-tools-4.3.16-150400.3.6.8.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-xml-export-libs-4.3.16-150400.3.6.8.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-xmlrpc-4.3.16-150400.3.6.8.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-base-4.3.24-150400.3.6.4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-base-minimal-4.3.24-150400.3.6.4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-base-minimal-config-4.3.24-150400.3.6.4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-certs-tools-4.3.15-150400.3.6.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-client-tools-4.3.12-150400.3.6.6.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-html-4.3.24-150400.3.6.4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-java-4.3.38-150400.3.8.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-java-config-4.3.38-150400.3.8.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-java-lib-4.3.38-150400.3.8.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-java-postgresql-4.3.38-150400.3.8.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-search-4.3.7-150400.3.6.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-setup-4.3.12-150400.3.8.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-taskomatic-4.3.38-150400.3.8.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-utils-4.3.14-150400.3.6.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-utils-extras-4.3.14-150400.3.6.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "subscription-matcher-0.29-150400.3.7.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-4.3.19-150400.3.6.4.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-4.3.19-150400.3.6.4.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-4.3.19-150400.3.6.4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-build-keys-15.4.3-150400.3.6.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-build-keys-web-15.4.3-150400.3.6.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-docs_en-4.3-150400.9.6.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-docs_en-pdf-4.3-150400.9.6.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-schema-4.3.14-150400.3.6.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-schema-utility-4.3.14-150400.3.6.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-sls-4.3.25-150400.3.6.4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-sync-data-4.3.9-150400.3.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-tftpsync-4.3.2-150400.3.3.4.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-tftpsync-4.3.2-150400.3.3.4.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-tftpsync-4.3.2-150400.3.3.4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-tools-4.3.19-150400.3.6.4.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-tools-4.3.19-150400.3.6.4.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-tools-4.3.19-150400.3.6.4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "uyuni-config-modules-4.3.25-150400.3.6.4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "uyuni-reportdb-schema-4.3.6-150400.3.3.6.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.3751.1",
+            "fixed_packages": [
+                {
+                    "full_name": "golang-github-lusitaniae-apache_exporter-0.11.0-150000.1.12.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-lusitaniae-apache_exporter-0.11.0-150000.1.12.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-lusitaniae-apache_exporter-0.11.0-150000.1.12.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-lusitaniae-apache_exporter-0.11.0-150000.1.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-lusitaniae-apache_exporter-debuginfo-0.11.0-150000.1.12.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-lusitaniae-apache_exporter-debuginfo-0.11.0-150000.1.12.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-lusitaniae-apache_exporter-debuginfo-0.11.0-150000.1.12.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-lusitaniae-apache_exporter-debuginfo-0.11.0-150000.1.12.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.3760.1",
+            "fixed_packages": [
+                {
+                    "full_name": "netty-4.1.44.Final-150400.3.3.2.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.3880.1",
+            "fixed_packages": [
+                {
+                    "full_name": "spacewalk-java-4.3.39-150400.3.11.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-java-config-4.3.39-150400.3.11.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-java-lib-4.3.39-150400.3.11.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-java-postgresql-4.3.39-150400.3.11.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-taskomatic-4.3.39-150400.3.11.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.3922.1",
+            "fixed_packages": [
+                {
+                    "full_name": "protobuf-debugsource-3.9.2-150200.4.19.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "protobuf-debugsource-3.9.2-150200.4.19.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "protobuf-debugsource-3.9.2-150200.4.19.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "protobuf-debugsource-3.9.2-150200.4.19.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "protobuf-java-3.9.2-150200.4.19.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "protobuf-java-3.9.2-150200.4.19.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "protobuf-java-3.9.2-150200.4.19.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "protobuf-java-3.9.2-150200.4.19.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.3995.1",
+            "fixed_packages": [
+                {
+                    "full_name": "jackson-databind-2.13.4.2-150200.3.12.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.0009.1",
+            "fixed_packages": [
+                {
+                    "full_name": "saphanabootstrap-formula-0.13.1+git.1667812208.4db963e-150200.3.15.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.0345.1",
+            "fixed_packages": [
+                {
+                    "full_name": "cobbler-3.3.3-150400.5.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "drools-7.17.0-150400.3.9.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grafana-formula-0.8.0-150400.3.6.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "image-sync-formula-0.1.1673279145.e7616bd-150400.3.9.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "inter-server-sync-0.2.6-150400.3.12.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "inter-server-sync-0.2.6-150400.3.12.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "inter-server-sync-0.2.6-150400.3.12.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "inter-server-sync-debuginfo-0.2.6-150400.3.12.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "inter-server-sync-debuginfo-0.2.6-150400.3.12.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "inter-server-sync-debuginfo-0.2.6-150400.3.12.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgr-osa-dispatcher-4.3.7-150400.3.3.4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgr-push-4.3.5-150400.3.3.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-mgr-osa-common-4.3.7-150400.3.3.4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-mgr-osa-dispatcher-4.3.7-150400.3.3.4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-mgr-push-4.3.5-150400.3.3.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-rhnlib-4.3.5-150400.3.3.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-spacewalk-certs-tools-4.3.17-150400.3.12.4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-spacewalk-client-tools-4.3.14-150400.3.12.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-uyuni-common-libs-4.3.7-150400.3.9.4.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-uyuni-common-libs-4.3.7-150400.3.9.4.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-uyuni-common-libs-4.3.7-150400.3.9.4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "saltboot-formula-0.1.1673279145.e7616bd-150400.3.6.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacecmd-4.3.18-150400.3.12.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-4.3.18-150400.3.12.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-app-4.3.18-150400.3.12.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-applet-4.3.18-150400.3.12.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-config-files-4.3.18-150400.3.12.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-config-files-common-4.3.18-150400.3.12.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-config-files-tool-4.3.18-150400.3.12.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-iss-4.3.18-150400.3.12.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-iss-export-4.3.18-150400.3.12.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-package-push-server-4.3.18-150400.3.12.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-server-4.3.18-150400.3.12.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-sql-4.3.18-150400.3.12.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-sql-postgresql-4.3.18-150400.3.12.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-tools-4.3.18-150400.3.12.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-xml-export-libs-4.3.18-150400.3.12.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-xmlrpc-4.3.18-150400.3.12.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-base-4.3.27-150400.3.12.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-base-minimal-4.3.27-150400.3.12.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-base-minimal-config-4.3.27-150400.3.12.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-certs-tools-4.3.17-150400.3.12.4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-client-tools-4.3.14-150400.3.12.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-html-4.3.27-150400.3.12.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-java-4.3.46-150400.3.28.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-java-config-4.3.46-150400.3.28.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-java-lib-4.3.46-150400.3.28.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-java-postgresql-4.3.46-150400.3.28.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-search-4.3.8-150400.3.9.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-taskomatic-4.3.46-150400.3.28.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-utils-4.3.16-150400.3.12.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-utils-extras-4.3.16-150400.3.12.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "supportutils-plugin-susemanager-4.3.6-150400.3.6.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-4.3.23-150400.3.16.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-4.3.23-150400.3.16.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-4.3.23-150400.3.16.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-build-keys-15.4.7-150400.3.12.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-build-keys-web-15.4.7-150400.3.12.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-docs_en-4.3-150400.9.19.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-docs_en-pdf-4.3-150400.9.19.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-schema-4.3.16-150400.3.12.4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-schema-utility-4.3.16-150400.3.12.4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-sls-4.3.29-150400.3.16.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-sync-data-4.3.12-150400.3.11.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-tftpsync-4.3.3-150400.3.6.5.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-tftpsync-4.3.3-150400.3.6.5.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-tftpsync-4.3.3-150400.3.6.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-tools-4.3.23-150400.3.16.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-tools-4.3.23-150400.3.16.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-tools-4.3.23-150400.3.16.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "uyuni-config-modules-4.3.29-150400.3.16.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "uyuni-setup-reportdb-4.3.6-150400.3.3.4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "virtual-host-gatherer-1.0.24-150400.3.6.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "virtual-host-gatherer-Kubernetes-1.0.24-150400.3.6.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "virtual-host-gatherer-Nutanix-1.0.24-150400.3.6.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "virtual-host-gatherer-VMware-1.0.24-150400.3.6.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "virtual-host-gatherer-libcloud-1.0.24-150400.3.6.3.noarch",
+                    "specifier": ">="
+                }
+            ]
+        }
+    ]
+}

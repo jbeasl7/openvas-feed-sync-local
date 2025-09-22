@@ -1,0 +1,420 @@
+{
+    "version": "1.2",
+    "spdx-license-identifier": "GPL-2.0-only",
+    "copyright": "Copyright (C) 2008-2025 Greenbone AG",
+    "package_type": "rpm",
+    "product_name": "SUSE Linux Enterprise Module for SUSE Manager Proxy 4.3",
+    "advisories": [
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1435.1",
+            "fixed_packages": [
+                {
+                    "full_name": "golang-github-prometheus-prometheus-2.32.1-150100.4.9.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-prometheus-prometheus-2.32.1-150100.4.9.2.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-prometheus-prometheus-2.32.1-150100.4.9.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-prometheus-prometheus-2.32.1-150100.4.9.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.2035.1",
+            "fixed_packages": [
+                {
+                    "full_name": "grub2-arm64-efi-2.06-150400.11.5.2.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.2139.1",
+            "fixed_packages": [
+                {
+                    "full_name": "golang-github-prometheus-alertmanager-0.23.0-150100.4.7.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-prometheus-alertmanager-0.23.0-150100.4.7.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-prometheus-alertmanager-0.23.0-150100.4.7.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-prometheus-alertmanager-0.23.0-150100.4.7.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.3172.1",
+            "fixed_packages": [
+                {
+                    "full_name": "venv-salt-minion-3004-150000.3.11.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "venv-salt-minion-3004-150000.3.11.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "venv-salt-minion-3004-150000.3.11.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "venv-salt-minion-3004-150000.3.11.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.3178.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ansible-2.9.27-150000.1.14.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ansible-doc-2.9.27-150000.1.14.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-QubitProducts-exporter_exporter-0.4.0-150000.1.15.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-QubitProducts-exporter_exporter-0.4.0-150000.1.15.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-QubitProducts-exporter_exporter-0.4.0-150000.1.15.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-QubitProducts-exporter_exporter-0.4.0-150000.1.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "prometheus-blackbox_exporter-0.19.0-150000.1.11.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "prometheus-blackbox_exporter-0.19.0-150000.1.11.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "prometheus-blackbox_exporter-0.19.0-150000.1.11.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "prometheus-blackbox_exporter-0.19.0-150000.1.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-hwdata-2.3.5-150000.3.9.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-zypp-plugin-spacewalk-1.0.13-150000.3.32.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "zypp-plugin-spacewalk-1.0.13-150000.3.32.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.3563.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libgsasl-debugsource-1.8.0-150400.3.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgsasl-debugsource-1.8.0-150400.3.3.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgsasl-debugsource-1.8.0-150400.3.3.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgsasl-debugsource-1.8.0-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgsasl-lang-1.8.0-150400.3.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgsasl7-1.8.0-150400.3.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgsasl7-1.8.0-150400.3.3.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgsasl7-1.8.0-150400.3.3.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgsasl7-1.8.0-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgsasl7-debuginfo-1.8.0-150400.3.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgsasl7-debuginfo-1.8.0-150400.3.3.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgsasl7-debuginfo-1.8.0-150400.3.3.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgsasl7-debuginfo-1.8.0-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.3750.1",
+            "fixed_packages": [
+                {
+                    "full_name": "mgr-daemon-4.3.6-150400.3.6.4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-spacewalk-certs-tools-4.3.15-150400.3.6.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-spacewalk-check-4.3.12-150400.3.6.6.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-spacewalk-client-setup-4.3.12-150400.3.6.6.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-spacewalk-client-tools-4.3.12-150400.3.6.6.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-uyuni-common-libs-4.3.6-150400.3.6.4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacecmd-4.3.15-150400.3.6.4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-4.3.16-150400.3.6.8.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-base-minimal-4.3.24-150400.3.6.4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-base-minimal-config-4.3.24-150400.3.6.4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-certs-tools-4.3.15-150400.3.6.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-check-4.3.12-150400.3.6.6.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-client-setup-4.3.12-150400.3.6.6.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-client-tools-4.3.12-150400.3.6.6.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-build-keys-15.4.3-150400.3.6.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-build-keys-web-15.4.3-150400.3.6.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "susemanager-tftpsync-recv-4.3.7-150400.3.3.3.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.3751.1",
+            "fixed_packages": [
+                {
+                    "full_name": "golang-github-lusitaniae-apache_exporter-0.11.0-150000.1.12.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-lusitaniae-apache_exporter-0.11.0-150000.1.12.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-lusitaniae-apache_exporter-0.11.0-150000.1.12.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-lusitaniae-apache_exporter-0.11.0-150000.1.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-lusitaniae-apache_exporter-debuginfo-0.11.0-150000.1.12.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-lusitaniae-apache_exporter-debuginfo-0.11.0-150000.1.12.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-lusitaniae-apache_exporter-debuginfo-0.11.0-150000.1.12.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-lusitaniae-apache_exporter-debuginfo-0.11.0-150000.1.12.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.4141.1",
+            "fixed_packages": [
+                {
+                    "full_name": "grub2-arm64-efi-2.06-150400.11.17.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.4437.1",
+            "fixed_packages": [
+                {
+                    "full_name": "golang-github-boynux-squid_exporter-1.6-150000.1.9.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-boynux-squid_exporter-1.6-150000.1.9.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-boynux-squid_exporter-1.6-150000.1.9.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-boynux-squid_exporter-1.6-150000.1.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-boynux-squid_exporter-debuginfo-1.6-150000.1.9.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-boynux-squid_exporter-debuginfo-1.6-150000.1.9.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-boynux-squid_exporter-debuginfo-1.6-150000.1.9.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-boynux-squid_exporter-debuginfo-1.6-150000.1.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "prometheus-blackbox_exporter-0.19.0-150000.1.14.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "prometheus-blackbox_exporter-0.19.0-150000.1.14.3.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "prometheus-blackbox_exporter-0.19.0-150000.1.14.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "prometheus-blackbox_exporter-0.19.0-150000.1.14.3.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.4488.1",
+            "fixed_packages": [
+                {
+                    "full_name": "apache2-mod_wsgi-python3-4.5.18-150000.4.6.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "apache2-mod_wsgi-python3-4.5.18-150000.4.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "apache2-mod_wsgi-python3-4.5.18-150000.4.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "apache2-mod_wsgi-python3-4.5.18-150000.4.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "apache2-mod_wsgi-python3-debuginfo-4.5.18-150000.4.6.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "apache2-mod_wsgi-python3-debuginfo-4.5.18-150000.4.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "apache2-mod_wsgi-python3-debuginfo-4.5.18-150000.4.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "apache2-mod_wsgi-python3-debuginfo-4.5.18-150000.4.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "apache2-mod_wsgi-python3-debugsource-4.5.18-150000.4.6.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "apache2-mod_wsgi-python3-debugsource-4.5.18-150000.4.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "apache2-mod_wsgi-python3-debugsource-4.5.18-150000.4.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "apache2-mod_wsgi-python3-debugsource-4.5.18-150000.4.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        }
+    ]
+}

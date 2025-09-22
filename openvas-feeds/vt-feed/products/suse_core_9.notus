@@ -1,0 +1,858 @@
+{
+    "version": "1.2",
+    "spdx-license-identifier": "GPL-2.0-only",
+    "copyright": "Copyright (C) 2008-2025 Greenbone AG",
+    "package_type": "rpm",
+    "product_name": "SUSE CORE 9",
+    "advisories": [
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0056.1",
+            "fixed_packages": [
+                {
+                    "full_name": "heimdal-0.6.1rc3-55.29.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "heimdal-0.6.1rc3-55.29.s390",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "heimdal-0.6.1rc3-55.29.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "heimdal-0.6.1rc3-55.29.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "heimdal-devel-0.6.1rc3-55.29.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "heimdal-devel-0.6.1rc3-55.29.s390",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "heimdal-devel-0.6.1rc3-55.29.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "heimdal-devel-0.6.1rc3-55.29.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "heimdal-devel-32bit-9-201112301024.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "heimdal-devel-32bit-9-201112301034.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "heimdal-lib-0.6.1rc3-55.29.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "heimdal-lib-0.6.1rc3-55.29.s390",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "heimdal-lib-0.6.1rc3-55.29.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "heimdal-lib-0.6.1rc3-55.29.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "heimdal-lib-32bit-9-201112301024.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "heimdal-lib-32bit-9-201112301034.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "heimdal-tools-0.6.1rc3-55.29.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "heimdal-tools-0.6.1rc3-55.29.s390",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "heimdal-tools-0.6.1rc3-55.29.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "heimdal-tools-0.6.1rc3-55.29.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0338.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libsmbclient-3.0.26a-0.21.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmbclient-3.0.26a-0.21.s390",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmbclient-3.0.26a-0.21.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmbclient-3.0.26a-0.21.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmbclient-32bit-9-201202240204.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmbclient-32bit-9-201202240207.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmbclient-devel-3.0.26a-0.21.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmbclient-devel-3.0.26a-0.21.s390",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmbclient-devel-3.0.26a-0.21.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmbclient-devel-3.0.26a-0.21.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-3.0.26a-0.21.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-3.0.26a-0.21.s390",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-3.0.26a-0.21.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-3.0.26a-0.21.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-32bit-9-201202240204.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-32bit-9-201202240207.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-client-3.0.26a-0.21.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-client-3.0.26a-0.21.s390",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-client-3.0.26a-0.21.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-client-3.0.26a-0.21.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-client-32bit-9-201202240204.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-client-32bit-9-201202240207.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-doc-3.0.26a-0.21.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-doc-3.0.26a-0.21.s390",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-doc-3.0.26a-0.21.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-doc-3.0.26a-0.21.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-pdb-3.0.26a-0.21.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-pdb-3.0.26a-0.21.s390",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-pdb-3.0.26a-0.21.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-pdb-3.0.26a-0.21.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-python-3.0.26a-0.21.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-python-3.0.26a-0.21.s390",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-python-3.0.26a-0.21.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-python-3.0.26a-0.21.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-vscan-0.3.6b-0.49.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-vscan-0.3.6b-0.49.s390",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-vscan-0.3.6b-0.49.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-vscan-0.3.6b-0.49.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-winbind-3.0.26a-0.21.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-winbind-3.0.26a-0.21.s390",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-winbind-3.0.26a-0.21.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-winbind-3.0.26a-0.21.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-winbind-32bit-9-201202240204.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "samba-winbind-32bit-9-201202240207.s390x",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0521.1",
+            "fixed_packages": [
+                {
+                    "full_name": "freetype2-2.1.7-53.27.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freetype2-2.1.7-53.27.s390",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freetype2-2.1.7-53.27.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freetype2-2.1.7-53.27.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freetype2-32bit-9-201203291610.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freetype2-32bit-9-201203291618.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freetype2-devel-2.1.7-53.27.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freetype2-devel-2.1.7-53.27.s390",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freetype2-devel-2.1.7-53.27.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freetype2-devel-2.1.7-53.27.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freetype2-devel-32bit-9-201203291610.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freetype2-devel-32bit-9-201203291618.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ft2demos-2.1.7-88.18.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ft2demos-2.1.7-88.18.s390",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ft2demos-2.1.7-88.18.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ft2demos-2.1.7-88.18.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0741.6",
+            "fixed_packages": [
+                {
+                    "full_name": "bind-9.3.4-4.16.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-9.3.4-4.16.s390",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-9.3.4-4.16.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-9.3.4-4.16.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-devel-9.3.4-4.16.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-devel-9.3.4-4.16.s390",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-devel-9.3.4-4.16.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-devel-9.3.4-4.16.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-utils-32bit-9-201207061338.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-utils-32bit-9-201207061342.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-utils-9.3.4-4.16.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-utils-9.3.4-4.16.s390",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-utils-9.3.4-4.16.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-utils-9.3.4-4.16.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.1390.3",
+            "fixed_packages": [
+                {
+                    "full_name": "bind-9.3.4-4.18.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-9.3.4-4.18.s390",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-9.3.4-4.18.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-9.3.4-4.18.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-devel-9.3.4-4.18.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-devel-9.3.4-4.18.s390",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-devel-9.3.4-4.18.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-devel-9.3.4-4.18.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-utils-32bit-9-201210261342.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-utils-32bit-9-201210261352.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-utils-9.3.4-4.18.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-utils-9.3.4-4.18.s390",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-utils-9.3.4-4.18.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-utils-9.3.4-4.18.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2013.0440.5",
+            "fixed_packages": [
+                {
+                    "full_name": "IBMJava5-JRE-1.5.0_sr16.0-0.4.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "IBMJava5-JRE-1.5.0_sr16.0-0.4.s390",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "IBMJava5-JRE-1.5.0_sr16.0-0.4.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "IBMJava5-JRE-1.5.0_sr16.0-0.4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "IBMJava5-SDK-1.5.0_sr16.0-0.4.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "IBMJava5-SDK-1.5.0_sr16.0-0.4.s390",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "IBMJava5-SDK-1.5.0_sr16.0-0.4.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "IBMJava5-SDK-1.5.0_sr16.0-0.4.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2013.0478.1",
+            "fixed_packages": [
+                {
+                    "full_name": "IBMJava2-JRE-1.4.2_sr13.15-0.4.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "IBMJava2-JRE-1.4.2_sr13.15-0.4.s390",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "IBMJava2-JRE-1.4.2_sr13.15-0.4.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "IBMJava2-JRE-1.4.2_sr13.15-0.4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "IBMJava2-SDK-1.4.2_sr13.15-0.4.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "IBMJava2-SDK-1.4.2_sr13.15-0.4.s390",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "IBMJava2-SDK-1.4.2_sr13.15-0.4.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "IBMJava2-SDK-1.4.2_sr13.15-0.4.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2013.1293.1",
+            "fixed_packages": [
+                {
+                    "full_name": "IBMJava2-JRE-1.4.2_sr13.18-0.4.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "IBMJava2-JRE-1.4.2_sr13.18-0.4.s390",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "IBMJava2-JRE-1.4.2_sr13.18-0.4.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "IBMJava2-JRE-1.4.2_sr13.18-0.4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "IBMJava2-SDK-1.4.2_sr13.18-0.4.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "IBMJava2-SDK-1.4.2_sr13.18-0.4.s390",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "IBMJava2-SDK-1.4.2_sr13.18-0.4.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "IBMJava2-SDK-1.4.2_sr13.18-0.4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "IBMJava5-JRE-1.5.0_sr16.3-0.4.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "IBMJava5-JRE-1.5.0_sr16.3-0.4.s390",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "IBMJava5-JRE-1.5.0_sr16.3-0.4.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "IBMJava5-JRE-1.5.0_sr16.3-0.4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "IBMJava5-SDK-1.5.0_sr16.3-0.4.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "IBMJava5-SDK-1.5.0_sr16.3-0.4.s390",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "IBMJava5-SDK-1.5.0_sr16.3-0.4.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "IBMJava5-SDK-1.5.0_sr16.3-0.4.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2013.1386.1",
+            "fixed_packages": [
+                {
+                    "full_name": "openssl-0.9.7d-15.48.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-0.9.7d-15.48.s390",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-0.9.7d-15.48.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-0.9.7d-15.48.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-32bit-9-201308121627.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-32bit-9-201308121642.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-devel-0.9.7d-15.48.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-devel-0.9.7d-15.48.s390",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-devel-0.9.7d-15.48.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-devel-0.9.7d-15.48.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-devel-32bit-9-201308121627.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-devel-32bit-9-201308121642.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-doc-0.9.7d-15.48.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-doc-0.9.7d-15.48.s390",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-doc-0.9.7d-15.48.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-doc-0.9.7d-15.48.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2014.0266.1",
+            "fixed_packages": [
+                {
+                    "full_name": "IBMJava5-JRE-1.5.0_sr16.5-0.4.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "IBMJava5-JRE-1.5.0_sr16.5-0.4.s390",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "IBMJava5-JRE-1.5.0_sr16.5-0.4.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "IBMJava5-JRE-1.5.0_sr16.5-0.4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "IBMJava5-SDK-1.5.0_sr16.5-0.4.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "IBMJava5-SDK-1.5.0_sr16.5-0.4.s390",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "IBMJava5-SDK-1.5.0_sr16.5-0.4.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "IBMJava5-SDK-1.5.0_sr16.5-0.4.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2014.0324.1",
+            "fixed_packages": [
+                {
+                    "full_name": "gnutls-1.0.8-26.30.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gnutls-1.0.8-26.30.s390",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gnutls-1.0.8-26.30.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gnutls-1.0.8-26.30.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gnutls-devel-1.0.8-26.30.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gnutls-devel-1.0.8-26.30.s390",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gnutls-devel-1.0.8-26.30.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gnutls-devel-1.0.8-26.30.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2014.0768.1",
+            "fixed_packages": [
+                {
+                    "full_name": "openssl-0.9.7d-15.50.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-0.9.7d-15.50.s390",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-0.9.7d-15.50.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-0.9.7d-15.50.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-32bit-9-201406041231.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-32bit-9-201406060130.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-devel-0.9.7d-15.50.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-devel-0.9.7d-15.50.s390",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-devel-0.9.7d-15.50.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-devel-0.9.7d-15.50.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-devel-32bit-9-201406041231.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-devel-32bit-9-201406060130.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-doc-0.9.7d-15.50.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-doc-0.9.7d-15.50.s390",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-doc-0.9.7d-15.50.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-doc-0.9.7d-15.50.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2014.0800.1",
+            "fixed_packages": [
+                {
+                    "full_name": "gnutls-1.0.8-26.32.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gnutls-1.0.8-26.32.s390",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gnutls-1.0.8-26.32.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gnutls-1.0.8-26.32.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gnutls-devel-1.0.8-26.32.i586",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gnutls-devel-1.0.8-26.32.s390",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gnutls-devel-1.0.8-26.32.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gnutls-devel-1.0.8-26.32.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        }
+    ]
+}

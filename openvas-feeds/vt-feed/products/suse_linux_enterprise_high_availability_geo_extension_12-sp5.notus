@@ -1,0 +1,38 @@
+{
+    "version": "1.2",
+    "spdx-license-identifier": "GPL-2.0-only",
+    "copyright": "Copyright (C) 2008-2025 Greenbone AG",
+    "package_type": "rpm",
+    "product_name": "SUSE Linux Enterprise High Availability GEO Extension 12-SP5",
+    "advisories": [
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.2251.1",
+            "fixed_packages": [
+                {
+                    "full_name": "booth-1.0-42.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "booth-1.0-42.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "booth-debuginfo-1.0-42.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "booth-debuginfo-1.0-42.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "booth-debugsource-1.0-42.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "booth-debugsource-1.0-42.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        }
+    ]
+}

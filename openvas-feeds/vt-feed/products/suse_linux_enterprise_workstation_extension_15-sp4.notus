@@ -1,0 +1,3731 @@
+{
+    "version": "1.2",
+    "spdx-license-identifier": "GPL-2.0-only",
+    "copyright": "Copyright (C) 2008-2025 Greenbone AG",
+    "package_type": "rpm",
+    "product_name": "SUSE Linux Enterprise Workstation Extension 15-SP4",
+    "advisories": [
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0492.1",
+            "fixed_packages": [
+                {
+                    "full_name": "strongswan-debuginfo-5.8.2-11.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "strongswan-debugsource-5.8.2-11.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "strongswan-nm-5.8.2-11.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "strongswan-nm-debuginfo-5.8.2-11.24.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.0906.1",
+            "fixed_packages": [
+                {
+                    "full_name": "MozillaThunderbird-91.7.0-150200.8.62.7.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debuginfo-91.7.0-150200.8.62.7.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debugsource-91.7.0-150200.8.62.7.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-common-91.7.0-150200.8.62.7.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-other-91.7.0-150200.8.62.7.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1176.1",
+            "fixed_packages": [
+                {
+                    "full_name": "MozillaThunderbird-91.8.0-150200.8.65.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debuginfo-91.8.0-150200.8.65.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debugsource-91.8.0-150200.8.65.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-common-91.8.0-150200.8.65.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-other-91.8.0-150200.8.65.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1259.1",
+            "fixed_packages": [
+                {
+                    "full_name": "icedtea-web-1.7.2-150100.7.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1516.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libwmf-0_2-7-0.2.12-150000.4.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwmf-0_2-7-debuginfo-0.2.12-150000.4.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwmf-debugsource-0.2.12-150000.4.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwmf-devel-0.2.12-150000.4.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwmf-gnome-0.2.12-150000.4.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwmf-gnome-debuginfo-0.2.12-150000.4.4.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1693.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libpurple-2.14.8-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpurple-branding-upstream-2.14.8-150400.3.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpurple-client0-2.14.8-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpurple-client0-debuginfo-2.14.8-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpurple-debuginfo-2.14.8-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpurple-devel-2.14.8-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpurple-lang-2.14.8-150400.3.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpurple-plugin-sametime-2.14.8-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpurple-plugin-sametime-debuginfo-2.14.8-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpurple0-2.14.8-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpurple0-debuginfo-2.14.8-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pidgin-2.14.8-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pidgin-debuginfo-2.14.8-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pidgin-debugsource-2.14.8-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pidgin-devel-2.14.8-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1719.1",
+            "fixed_packages": [
+                {
+                    "full_name": "MozillaThunderbird-91.9.0-150200.8.68.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debuginfo-91.9.0-150200.8.68.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debugsource-91.9.0-150200.8.68.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-common-91.9.0-150200.8.68.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-other-91.9.0-150200.8.68.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.2062.1",
+            "fixed_packages": [
+                {
+                    "full_name": "MozillaThunderbird-91.10.0-150200.8.73.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debuginfo-91.10.0-150200.8.73.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debugsource-91.10.0-150200.8.73.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-common-91.10.0-150200.8.73.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-other-91.10.0-150200.8.73.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.2320.1",
+            "fixed_packages": [
+                {
+                    "full_name": "MozillaThunderbird-91.11.0-150200.8.76.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debuginfo-91.11.0-150200.8.76.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debugsource-91.11.0-150200.8.76.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-common-91.11.0-150200.8.76.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-other-91.11.0-150200.8.76.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.2354.1",
+            "fixed_packages": [
+                {
+                    "full_name": "freerdp-2.4.0-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freerdp-debuginfo-2.4.0-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freerdp-debugsource-2.4.0-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freerdp-devel-2.4.0-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freerdp-proxy-2.4.0-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freerdp-proxy-debuginfo-2.4.0-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfreerdp2-2.4.0-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfreerdp2-debuginfo-2.4.0-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwinpr2-2.4.0-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwinpr2-debuginfo-2.4.0-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "winpr2-devel-2.4.0-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.2375.1",
+            "fixed_packages": [
+                {
+                    "full_name": "xorg-x11-server-debuginfo-1.20.3-150200.22.5.55.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-debugsource-1.20.3-150200.22.5.55.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-wayland-1.20.3-150200.22.5.55.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-wayland-debuginfo-1.20.3-150200.22.5.55.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.2520.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-debuginfo-5.14.21-150400.24.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-5.14.21-150400.24.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-5.14.21-150400.24.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-debuginfo-5.14.21-150400.24.11.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.2619.1",
+            "fixed_packages": [
+                {
+                    "full_name": "gimp-2.10.30-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-debuginfo-2.10.30-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-debugsource-2.10.30-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-devel-2.10.30-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-devel-debuginfo-2.10.30-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-lang-2.10.30-150400.3.3.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgimp-2_0-0-2.10.30-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgimp-2_0-0-debuginfo-2.10.30-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgimpui-2_0-0-2.10.30-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgimpui-2_0-0-debuginfo-2.10.30-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.2748.1",
+            "fixed_packages": [
+                {
+                    "full_name": "MozillaThunderbird-91.12.0-150200.8.79.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debuginfo-91.12.0-150200.8.79.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debugsource-91.12.0-150200.8.79.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-common-91.12.0-150200.8.79.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-other-91.12.0-150200.8.79.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.2803.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-debuginfo-5.14.21-150400.24.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-5.14.21-150400.24.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-5.14.21-150400.24.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-debuginfo-5.14.21-150400.24.18.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.2835.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libntfs-3g-devel-2022.5.17-150000.3.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libntfs-3g87-2022.5.17-150000.3.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libntfs-3g87-debuginfo-2022.5.17-150000.3.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntfs-3g-2022.5.17-150000.3.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntfs-3g-debuginfo-2022.5.17-150000.3.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntfs-3g_ntfsprogs-debuginfo-2022.5.17-150000.3.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntfs-3g_ntfsprogs-debugsource-2022.5.17-150000.3.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntfsprogs-2022.5.17-150000.3.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntfsprogs-debuginfo-2022.5.17-150000.3.11.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.2993.1",
+            "fixed_packages": [
+                {
+                    "full_name": "freerdp-2.4.0-150400.3.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freerdp-debuginfo-2.4.0-150400.3.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freerdp-debugsource-2.4.0-150400.3.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freerdp-devel-2.4.0-150400.3.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freerdp-proxy-2.4.0-150400.3.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freerdp-proxy-debuginfo-2.4.0-150400.3.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfreerdp2-2.4.0-150400.3.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfreerdp2-debuginfo-2.4.0-150400.3.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwinpr2-2.4.0-150400.3.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwinpr2-debuginfo-2.4.0-150400.3.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "winpr2-devel-2.4.0-150400.3.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.3106.1",
+            "fixed_packages": [
+                {
+                    "full_name": "gimp-2.10.30-150400.3.6.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-debuginfo-2.10.30-150400.3.6.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-debugsource-2.10.30-150400.3.6.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-devel-2.10.30-150400.3.6.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-devel-debuginfo-2.10.30-150400.3.6.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-lang-2.10.30-150400.3.6.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgimp-2_0-0-2.10.30-150400.3.6.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgimp-2_0-0-debuginfo-2.10.30-150400.3.6.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgimpui-2_0-0-2.10.30-150400.3.6.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgimpui-2_0-0-debuginfo-2.10.30-150400.3.6.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.3247.1",
+            "fixed_packages": [
+                {
+                    "full_name": "bluez-cups-5.62-150400.4.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bluez-cups-debuginfo-5.62-150400.4.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bluez-debuginfo-5.62-150400.4.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bluez-debugsource-5.62-150400.4.5.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.3281.1",
+            "fixed_packages": [
+                {
+                    "full_name": "MozillaThunderbird-102.2.2-150200.8.82.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debuginfo-102.2.2-150200.8.82.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debugsource-102.2.2-150200.8.82.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-common-102.2.2-150200.8.82.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-other-102.2.2-150200.8.82.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.3293.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-debuginfo-5.14.21-150400.24.21.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-5.14.21-150400.24.21.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-5.14.21-150400.24.21.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-debuginfo-5.14.21-150400.24.21.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.3496.1",
+            "fixed_packages": [
+                {
+                    "full_name": "colord-1.4.5-150400.4.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "colord-debuginfo-1.4.5-150400.4.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "colord-debugsource-1.4.5-150400.4.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "colord-lang-1.4.5-150400.4.3.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.3540.1",
+            "fixed_packages": [
+                {
+                    "full_name": "LibVNCServer-debugsource-0.9.13-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvncclient1-0.9.13-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvncclient1-debuginfo-0.9.13-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvncserver1-0.9.13-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvncserver1-debuginfo-0.9.13-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.3650.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libreoffice-7.3.6.2-150300.14.22.24.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-base-7.3.6.2-150300.14.22.24.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-base-debuginfo-7.3.6.2-150300.14.22.24.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-base-drivers-postgresql-7.3.6.2-150300.14.22.24.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-base-drivers-postgresql-debuginfo-7.3.6.2-150300.14.22.24.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-branding-upstream-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-calc-7.3.6.2-150300.14.22.24.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-calc-debuginfo-7.3.6.2-150300.14.22.24.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-calc-extensions-7.3.6.2-150300.14.22.24.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-debuginfo-7.3.6.2-150300.14.22.24.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-debugsource-7.3.6.2-150300.14.22.24.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-draw-7.3.6.2-150300.14.22.24.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-draw-debuginfo-7.3.6.2-150300.14.22.24.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-filters-optional-7.3.6.2-150300.14.22.24.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-gnome-7.3.6.2-150300.14.22.24.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-gnome-debuginfo-7.3.6.2-150300.14.22.24.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-gtk3-7.3.6.2-150300.14.22.24.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-gtk3-debuginfo-7.3.6.2-150300.14.22.24.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-icon-themes-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-impress-7.3.6.2-150300.14.22.24.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-impress-debuginfo-7.3.6.2-150300.14.22.24.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-af-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ar-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-as-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-bg-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-bn-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-br-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ca-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ckb-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-cs-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-cy-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-da-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-de-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-dz-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-el-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-en-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-eo-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-es-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-et-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-eu-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-fa-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-fi-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-fr-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-fur-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ga-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-gl-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-gu-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-he-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-hi-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-hr-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-hu-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-it-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ja-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-kk-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-kn-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ko-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-lt-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-lv-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-mai-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ml-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-mr-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-nb-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-nl-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-nn-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-nr-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-nso-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-or-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-pa-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-pl-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-pt_BR-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-pt_PT-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ro-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ru-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-si-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-sk-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-sl-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-sr-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ss-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-st-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-sv-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ta-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-te-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-th-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-tn-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-tr-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ts-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-uk-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ve-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-xh-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-zh_CN-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-zh_TW-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-zu-7.3.6.2-150300.14.22.24.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-mailmerge-7.3.6.2-150300.14.22.24.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-math-7.3.6.2-150300.14.22.24.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-math-debuginfo-7.3.6.2-150300.14.22.24.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-officebean-7.3.6.2-150300.14.22.24.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-officebean-debuginfo-7.3.6.2-150300.14.22.24.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-pyuno-7.3.6.2-150300.14.22.24.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-pyuno-debuginfo-7.3.6.2-150300.14.22.24.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-writer-7.3.6.2-150300.14.22.24.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-writer-debuginfo-7.3.6.2-150300.14.22.24.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-writer-extensions-7.3.6.2-150300.14.22.24.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreofficekit-7.3.6.2-150300.14.22.24.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.3800.1",
+            "fixed_packages": [
+                {
+                    "full_name": "MozillaThunderbird-102.4.0-150200.8.85.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debuginfo-102.4.0-150200.8.85.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debugsource-102.4.0-150200.8.85.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-common-102.4.0-150200.8.85.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-other-102.4.0-150200.8.85.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.3844.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-debuginfo-5.14.21-150400.24.28.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-5.14.21-150400.24.28.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-5.14.21-150400.24.28.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-debuginfo-5.14.21-150400.24.28.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.3857.1",
+            "fixed_packages": [
+                {
+                    "full_name": "xorg-x11-server-debuginfo-1.20.3-150200.22.5.58.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-debugsource-1.20.3-150200.22.5.58.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-wayland-1.20.3-150200.22.5.58.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-wayland-debuginfo-1.20.3-150200.22.5.58.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.3866.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libntfs-3g-devel-2022.5.17-150000.3.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libntfs-3g87-2022.5.17-150000.3.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libntfs-3g87-debuginfo-2022.5.17-150000.3.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntfs-3g-2022.5.17-150000.3.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntfs-3g-debuginfo-2022.5.17-150000.3.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntfs-3g_ntfsprogs-debuginfo-2022.5.17-150000.3.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntfs-3g_ntfsprogs-debugsource-2022.5.17-150000.3.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntfsprogs-2022.5.17-150000.3.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntfsprogs-debuginfo-2022.5.17-150000.3.16.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.3941.1",
+            "fixed_packages": [
+                {
+                    "full_name": "xwayland-21.1.4-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xwayland-debuginfo-21.1.4-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xwayland-debugsource-21.1.4-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.3983.1",
+            "fixed_packages": [
+                {
+                    "full_name": "freerdp-2.4.0-150400.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freerdp-debuginfo-2.4.0-150400.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freerdp-debugsource-2.4.0-150400.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freerdp-devel-2.4.0-150400.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freerdp-proxy-2.4.0-150400.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freerdp-proxy-debuginfo-2.4.0-150400.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfreerdp2-2.4.0-150400.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfreerdp2-debuginfo-2.4.0-150400.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwinpr2-2.4.0-150400.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwinpr2-debuginfo-2.4.0-150400.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "winpr2-devel-2.4.0-150400.3.9.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.4072.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-debuginfo-5.14.21-150400.24.33.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-5.14.21-150400.24.33.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-5.14.21-150400.24.33.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-debuginfo-5.14.21-150400.24.33.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.4085.1",
+            "fixed_packages": [
+                {
+                    "full_name": "MozillaThunderbird-102.5.0-150200.8.90.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debuginfo-102.5.0-150200.8.90.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debugsource-102.5.0-150200.8.90.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-common-102.5.0-150200.8.90.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-other-102.5.0-150200.8.90.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.4194.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ffmpeg-4-debuginfo-4.4-150400.3.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ffmpeg-4-debugsource-4.4-150400.3.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavformat58_76-4.4-150400.3.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavformat58_76-debuginfo-4.4-150400.3.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libswscale5_9-4.4-150400.3.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libswscale5_9-debuginfo-4.4-150400.3.5.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.4197.1",
+            "fixed_packages": [
+                {
+                    "full_name": "strongswan-debuginfo-5.8.2-150400.19.3.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "strongswan-debugsource-5.8.2-150400.19.3.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "strongswan-nm-5.8.2-150400.19.3.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "strongswan-nm-debuginfo-5.8.2-150400.19.3.3.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.4224.1",
+            "fixed_packages": [
+                {
+                    "full_name": "freerdp-2.4.0-150400.3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freerdp-debuginfo-2.4.0-150400.3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freerdp-debugsource-2.4.0-150400.3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freerdp-devel-2.4.0-150400.3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freerdp-proxy-2.4.0-150400.3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freerdp-proxy-debuginfo-2.4.0-150400.3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfreerdp2-2.4.0-150400.3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfreerdp2-debuginfo-2.4.0-150400.3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwinpr2-2.4.0-150400.3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwinpr2-debuginfo-2.4.0-150400.3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "winpr2-devel-2.4.0-150400.3.12.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.4334.1",
+            "fixed_packages": [
+                {
+                    "full_name": "MozillaThunderbird-102.5.1-150200.8.93.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debuginfo-102.5.1-150200.8.93.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debugsource-102.5.1-150200.8.93.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-common-102.5.1-150200.8.93.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-other-102.5.1-150200.8.93.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.4480.1",
+            "fixed_packages": [
+                {
+                    "full_name": "xorg-x11-server-debuginfo-1.20.3-150200.22.5.63.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-debugsource-1.20.3-150200.22.5.63.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-wayland-1.20.3-150200.22.5.63.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-wayland-debuginfo-1.20.3-150200.22.5.63.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.4487.1",
+            "fixed_packages": [
+                {
+                    "full_name": "xwayland-21.1.4-150400.3.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xwayland-debuginfo-21.1.4-150400.3.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xwayland-debugsource-21.1.4-150400.3.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.4579.1",
+            "fixed_packages": [
+                {
+                    "full_name": "MozillaThunderbird-102.6.0-150200.8.96.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debuginfo-102.6.0-150200.8.96.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debugsource-102.6.0-150200.8.96.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-common-102.6.0-150200.8.96.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-other-102.6.0-150200.8.96.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.4585.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-debuginfo-5.14.21-150400.24.38.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-5.14.21-150400.24.38.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-5.14.21-150400.24.38.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-debuginfo-5.14.21-150400.24.38.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.4636.1",
+            "fixed_packages": [
+                {
+                    "full_name": "MozillaThunderbird-102.6.1-150200.8.99.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debuginfo-102.6.1-150200.8.99.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debugsource-102.6.1-150200.8.99.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-common-102.6.1-150200.8.99.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-other-102.6.1-150200.8.99.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.0007.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ffmpeg-debuginfo-3.4.2-150200.11.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ffmpeg-debugsource-3.4.2-150200.11.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavcodec-devel-3.4.2-150200.11.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavformat-devel-3.4.2-150200.11.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavformat57-3.4.2-150200.11.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavformat57-debuginfo-3.4.2-150200.11.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavresample-devel-3.4.2-150200.11.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavresample3-3.4.2-150200.11.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavresample3-debuginfo-3.4.2-150200.11.20.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.0008.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ffmpeg-4-debuginfo-4.4-150400.3.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ffmpeg-4-debugsource-4.4-150400.3.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavformat58_76-4.4-150400.3.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavformat58_76-debuginfo-4.4-150400.3.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libswscale5_9-4.4-150400.3.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libswscale5_9-debuginfo-4.4-150400.3.8.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.0149.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-debuginfo-5.14.21-150400.24.41.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-5.14.21-150400.24.41.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-5.14.21-150400.24.41.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-debuginfo-5.14.21-150400.24.41.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.0167.1",
+            "fixed_packages": [
+                {
+                    "full_name": "bluez-cups-5.62-150400.4.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bluez-cups-debuginfo-5.62-150400.4.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bluez-debuginfo-5.62-150400.4.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bluez-debugsource-5.62-150400.4.8.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.0171.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libXpm-debugsource-3.5.12-150000.3.7.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libXpm-tools-3.5.12-150000.3.7.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libXpm-tools-debuginfo-3.5.12-150000.3.7.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.0172.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ffmpeg-4-debuginfo-4.4-150400.3.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ffmpeg-4-debugsource-4.4-150400.3.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavformat58_76-4.4-150400.3.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavformat58_76-debuginfo-4.4-150400.3.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libswscale5_9-4.4-150400.3.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libswscale5_9-debuginfo-4.4-150400.3.11.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.0206.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ffmpeg-debuginfo-3.4.2-150200.11.25.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ffmpeg-debugsource-3.4.2-150200.11.25.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavcodec-devel-3.4.2-150200.11.25.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavformat-devel-3.4.2-150200.11.25.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavformat57-3.4.2-150200.11.25.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavformat57-debuginfo-3.4.2-150200.11.25.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavresample-devel-3.4.2-150200.11.25.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavresample3-3.4.2-150200.11.25.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavresample3-debuginfo-3.4.2-150200.11.25.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.0285.1",
+            "fixed_packages": [
+                {
+                    "full_name": "xorg-x11-server-debuginfo-1.20.3-150200.22.5.66.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-debugsource-1.20.3-150200.22.5.66.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-wayland-1.20.3-150200.22.5.66.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-wayland-debuginfo-1.20.3-150200.22.5.66.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.0289.1",
+            "fixed_packages": [
+                {
+                    "full_name": "xwayland-21.1.4-150400.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xwayland-debuginfo-21.1.4-150400.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xwayland-debugsource-21.1.4-150400.3.9.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.0329.1",
+            "fixed_packages": [
+                {
+                    "full_name": "MozillaThunderbird-102.7.1-150200.8.102.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debuginfo-102.7.1-150200.8.102.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debugsource-102.7.1-150200.8.102.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-common-102.7.1-150200.8.102.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-other-102.7.1-150200.8.102.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.0399.1",
+            "fixed_packages": [
+                {
+                    "full_name": "freerdp-2.4.0-150400.3.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freerdp-debuginfo-2.4.0-150400.3.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freerdp-debugsource-2.4.0-150400.3.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freerdp-devel-2.4.0-150400.3.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freerdp-proxy-2.4.0-150400.3.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freerdp-proxy-debuginfo-2.4.0-150400.3.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfreerdp2-2.4.0-150400.3.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfreerdp2-debuginfo-2.4.0-150400.3.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwinpr2-2.4.0-150400.3.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwinpr2-debuginfo-2.4.0-150400.3.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "winpr2-devel-2.4.0-150400.3.18.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.0433.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-debuginfo-5.14.21-150400.24.46.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-5.14.21-150400.24.46.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-5.14.21-150400.24.46.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-debuginfo-5.14.21-150400.24.46.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.0511.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libraw-debuginfo-0.18.9-150000.3.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libraw-debugsource-0.18.9-150000.3.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libraw16-0.18.9-150000.3.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libraw16-debuginfo-0.18.9-150000.3.17.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.0512.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libraw-debugsource-0.20.2-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libraw-devel-0.20.2-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.0599.1",
+            "fixed_packages": [
+                {
+                    "full_name": "MozillaThunderbird-102.8.0-150200.8.105.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debuginfo-102.8.0-150200.8.105.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debugsource-102.8.0-150200.8.105.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-common-102.8.0-150200.8.105.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-other-102.8.0-150200.8.105.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.0654.1",
+            "fixed_packages": [
+                {
+                    "full_name": "xwayland-21.1.4-150400.3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xwayland-debuginfo-21.1.4-150400.3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xwayland-debugsource-21.1.4-150400.3.12.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.0683.1",
+            "fixed_packages": [
+                {
+                    "full_name": "xorg-x11-server-debuginfo-1.20.3-150200.22.5.69.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-debugsource-1.20.3-150200.22.5.69.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-wayland-1.20.3-150200.22.5.69.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-wayland-debuginfo-1.20.3-150200.22.5.69.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.1678.1",
+            "fixed_packages": [
+                {
+                    "full_name": "xorg-x11-server-debuginfo-1.20.3-150200.22.5.72.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-debugsource-1.20.3-150200.22.5.72.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-wayland-1.20.3-150200.22.5.72.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-wayland-debuginfo-1.20.3-150200.22.5.72.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.1716.1",
+            "fixed_packages": [
+                {
+                    "full_name": "xwayland-21.1.4-150400.3.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xwayland-debuginfo-21.1.4-150400.3.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xwayland-debugsource-21.1.4-150400.3.15.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.1736.1",
+            "fixed_packages": [
+                {
+                    "full_name": "MozillaThunderbird-102.9.1-150200.8.110.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debuginfo-102.9.1-150200.8.110.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debugsource-102.9.1-150200.8.110.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-common-102.9.1-150200.8.110.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-other-102.9.1-150200.8.110.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.2064.1",
+            "fixed_packages": [
+                {
+                    "full_name": "MozillaThunderbird-102.10.1-150200.8.113.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debuginfo-102.10.1-150200.8.113.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debugsource-102.10.1-150200.8.113.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-common-102.10.1-150200.8.113.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-other-102.10.1-150200.8.113.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.2087.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ffmpeg-4-debuginfo-4.4-150400.3.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ffmpeg-4-debugsource-4.4-150400.3.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavformat58_76-4.4-150400.3.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavformat58_76-debuginfo-4.4-150400.3.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libswscale5_9-4.4-150400.3.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libswscale5_9-debuginfo-4.4-150400.3.15.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.2108.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ffmpeg-debuginfo-3.4.2-150200.11.28.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ffmpeg-debugsource-3.4.2-150200.11.28.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavcodec-devel-3.4.2-150200.11.28.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavformat-devel-3.4.2-150200.11.28.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavformat57-3.4.2-150200.11.28.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavformat57-debuginfo-3.4.2-150200.11.28.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavresample-devel-3.4.2-150200.11.28.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavresample3-3.4.2-150200.11.28.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavresample3-debuginfo-3.4.2-150200.11.28.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.2194.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libraw-debugsource-0.20.2-150400.3.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libraw-devel-0.20.2-150400.3.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.2195.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libraw-debuginfo-0.18.9-150000.3.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libraw-debugsource-0.18.9-150000.3.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libraw16-0.18.9-150000.3.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libraw16-debuginfo-0.18.9-150000.3.20.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.2211.1",
+            "fixed_packages": [
+                {
+                    "full_name": "MozillaThunderbird-102.11.0-150200.8.116.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debuginfo-102.11.0-150200.8.116.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debugsource-102.11.0-150200.8.116.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-common-102.11.0-150200.8.116.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-other-102.11.0-150200.8.116.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.2490.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libwebp-debugsource-0.5.0-150000.3.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwebp6-0.5.0-150000.3.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwebp6-debuginfo-0.5.0-150000.3.11.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.2605.1",
+            "fixed_packages": [
+                {
+                    "full_name": "bluez-cups-5.62-150400.4.13.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bluez-cups-debuginfo-5.62-150400.4.13.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bluez-debuginfo-5.62-150400.4.13.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bluez-debugsource-5.62-150400.4.13.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.2612.1",
+            "fixed_packages": [
+                {
+                    "full_name": "MozillaThunderbird-102.12.0-150200.8.121.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debuginfo-102.12.0-150200.8.121.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debugsource-102.12.0-150200.8.121.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-common-102.12.0-150200.8.121.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-other-102.12.0-150200.8.121.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.2760.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libluajit-5_1-2-2.1.0~beta3+git.1624618403.e9577376-150400.4.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libluajit-5_1-2-debuginfo-2.1.0~beta3+git.1624618403.e9577376-150400.4.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "luajit-debuginfo-2.1.0~beta3+git.1624618403.e9577376-150400.4.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "luajit-debugsource-2.1.0~beta3+git.1624618403.e9577376-150400.4.2.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.3059.1",
+            "fixed_packages": [
+                {
+                    "full_name": "MozillaThunderbird-115.0.1-150200.8.124.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debuginfo-115.0.1-150200.8.124.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debugsource-115.0.1-150200.8.124.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-common-115.0.1-150200.8.124.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-other-115.0.1-150200.8.124.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.3226.1",
+            "fixed_packages": [
+                {
+                    "full_name": "gstreamer-plugins-ugly-1.20.1-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gstreamer-plugins-ugly-debuginfo-1.20.1-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gstreamer-plugins-ugly-debugsource-1.20.1-150400.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gstreamer-plugins-ugly-lang-1.20.1-150400.3.3.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.3228.1",
+            "fixed_packages": [
+                {
+                    "full_name": "MozillaThunderbird-115.1.0-150200.8.127.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debuginfo-115.1.0-150200.8.127.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debugsource-115.1.0-150200.8.127.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-common-115.1.0-150200.8.127.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-other-115.1.0-150200.8.127.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.3238.1",
+            "fixed_packages": [
+                {
+                    "full_name": "bluez-cups-5.62-150400.4.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bluez-cups-debuginfo-5.62-150400.4.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bluez-debuginfo-5.62-150400.4.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bluez-debugsource-5.62-150400.4.16.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.3527.1",
+            "fixed_packages": [
+                {
+                    "full_name": "gsl-debuginfo-2.4-150100.9.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gsl-debugsource-2.4-150100.9.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgsl23-2.4-150100.9.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgsl23-debuginfo-2.4-150100.9.4.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.3664.1",
+            "fixed_packages": [
+                {
+                    "full_name": "MozillaThunderbird-115.2.2-150200.8.130.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debuginfo-115.2.2-150200.8.130.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debugsource-115.2.2-150200.8.130.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-common-115.2.2-150200.8.130.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-other-115.2.2-150200.8.130.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.3818.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ffmpeg-debuginfo-3.4.2-150200.11.31.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ffmpeg-debugsource-3.4.2-150200.11.31.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavcodec-devel-3.4.2-150200.11.31.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavformat-devel-3.4.2-150200.11.31.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavformat57-3.4.2-150200.11.31.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavformat57-debuginfo-3.4.2-150200.11.31.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavresample-devel-3.4.2-150200.11.31.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavresample3-3.4.2-150200.11.31.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavresample3-debuginfo-3.4.2-150200.11.31.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.3829.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libwebp-debugsource-0.5.0-150000.3.14.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwebp6-0.5.0-150000.3.14.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwebp6-debuginfo-0.5.0-150000.3.14.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.3965.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libXpm-debugsource-3.5.12-150000.3.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libXpm-tools-3.5.12-150000.3.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libXpm-tools-debuginfo-3.5.12-150000.3.10.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.3966.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libraw-debuginfo-0.18.9-150000.3.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libraw-debugsource-0.18.9-150000.3.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libraw16-0.18.9-150000.3.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libraw16-debuginfo-0.18.9-150000.3.23.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.3968.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libraw-debugsource-0.20.2-150400.3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libraw-devel-0.20.2-150400.3.9.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.4016.1",
+            "fixed_packages": [
+                {
+                    "full_name": "MozillaThunderbird-115.3.1-150200.8.133.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debuginfo-115.3.1-150200.8.133.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debugsource-115.3.1-150200.8.133.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-common-115.3.1-150200.8.133.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-other-115.3.1-150200.8.133.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.4090.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libcue-debugsource-2.1.0-150000.3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcue-devel-2.1.0-150000.3.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.4293.1",
+            "fixed_packages": [
+                {
+                    "full_name": "xwayland-21.1.4-150400.3.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xwayland-debuginfo-21.1.4-150400.3.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xwayland-debugsource-21.1.4-150400.3.20.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.4302.1",
+            "fixed_packages": [
+                {
+                    "full_name": "MozillaThunderbird-115.4.1-150200.8.136.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debuginfo-115.4.1-150200.8.136.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debugsource-115.4.1-150200.8.136.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-common-115.4.1-150200.8.136.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-other-115.4.1-150200.8.136.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.4338.1",
+            "fixed_packages": [
+                {
+                    "full_name": "xorg-x11-server-debuginfo-1.20.3-150200.22.5.79.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-debugsource-1.20.3-150200.22.5.79.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-wayland-1.20.3-150200.22.5.79.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-wayland-debuginfo-1.20.3-150200.22.5.79.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.4496.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libixion-0_18-0-0.18.1-150400.14.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libixion-0_18-0-debuginfo-0.18.1-150400.14.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libixion-debuginfo-0.18.1-150400.14.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libixion-debugsource-0.18.1-150400.14.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "liborcus-0_18-0-0.18.1-150400.13.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "liborcus-0_18-0-debuginfo-0.18.1-150400.13.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "liborcus-debuginfo-0.18.1-150400.13.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "liborcus-debugsource-0.18.1-150400.13.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "liborcus-devel-0.18.1-150400.13.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-7.6.2.1-150400.17.17.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-base-7.6.2.1-150400.17.17.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-base-debuginfo-7.6.2.1-150400.17.17.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-base-drivers-postgresql-7.6.2.1-150400.17.17.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-base-drivers-postgresql-debuginfo-7.6.2.1-150400.17.17.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-branding-upstream-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-calc-7.6.2.1-150400.17.17.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-calc-debuginfo-7.6.2.1-150400.17.17.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-calc-extensions-7.6.2.1-150400.17.17.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-debuginfo-7.6.2.1-150400.17.17.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-debugsource-7.6.2.1-150400.17.17.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-draw-7.6.2.1-150400.17.17.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-draw-debuginfo-7.6.2.1-150400.17.17.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-filters-optional-7.6.2.1-150400.17.17.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-gnome-7.6.2.1-150400.17.17.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-gnome-debuginfo-7.6.2.1-150400.17.17.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-gtk3-7.6.2.1-150400.17.17.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-gtk3-debuginfo-7.6.2.1-150400.17.17.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-icon-themes-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-impress-7.6.2.1-150400.17.17.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-impress-debuginfo-7.6.2.1-150400.17.17.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-af-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ar-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-as-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-bg-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-bn-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-br-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ca-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ckb-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-cs-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-cy-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-da-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-de-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-dz-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-el-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-en-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-eo-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-es-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-et-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-eu-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-fa-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-fi-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-fr-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-fur-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ga-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-gl-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-gu-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-he-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-hi-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-hr-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-hu-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-it-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ja-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-kk-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-kn-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ko-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-lt-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-lv-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-mai-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ml-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-mr-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-nb-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-nl-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-nn-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-nr-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-nso-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-or-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-pa-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-pl-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-pt_BR-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-pt_PT-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ro-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ru-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-si-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-sk-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-sl-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-sr-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ss-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-st-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-sv-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ta-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-te-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-th-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-tn-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-tr-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ts-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-uk-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ve-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-xh-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-zh_CN-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-zh_TW-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-zu-7.6.2.1-150400.17.17.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-mailmerge-7.6.2.1-150400.17.17.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-math-7.6.2.1-150400.17.17.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-math-debuginfo-7.6.2.1-150400.17.17.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-officebean-7.6.2.1-150400.17.17.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-officebean-debuginfo-7.6.2.1-150400.17.17.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-pyuno-7.6.2.1-150400.17.17.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-pyuno-debuginfo-7.6.2.1-150400.17.17.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-writer-7.6.2.1-150400.17.17.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-writer-debuginfo-7.6.2.1-150400.17.17.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-writer-extensions-7.6.2.1-150400.17.17.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreofficekit-7.6.2.1-150400.17.17.3.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.4514.1",
+            "fixed_packages": [
+                {
+                    "full_name": "strongswan-debuginfo-5.9.11-150400.19.17.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "strongswan-debugsource-5.9.11-150400.19.17.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "strongswan-nm-5.9.11-150400.19.17.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "strongswan-nm-debuginfo-5.9.11-150400.19.17.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.4588.1",
+            "fixed_packages": [
+                {
+                    "full_name": "MozillaThunderbird-115.5.0-150200.8.139.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debuginfo-115.5.0-150200.8.139.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-debugsource-115.5.0-150200.8.139.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-common-115.5.0-150200.8.139.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "MozillaThunderbird-translations-other-115.5.0-150200.8.139.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.4692.1",
+            "fixed_packages": [
+                {
+                    "full_name": "gimp-2.10.30-150400.3.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-debuginfo-2.10.30-150400.3.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-debugsource-2.10.30-150400.3.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-devel-2.10.30-150400.3.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-devel-debuginfo-2.10.30-150400.3.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-lang-2.10.30-150400.3.11.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgimp-2_0-0-2.10.30-150400.3.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgimp-2_0-0-debuginfo-2.10.30-150400.3.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgimpui-2_0-0-2.10.30-150400.3.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgimpui-2_0-0-debuginfo-2.10.30-150400.3.11.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.4789.1",
+            "fixed_packages": [
+                {
+                    "full_name": "xorg-x11-server-debuginfo-1.20.3-150200.22.5.82.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-debugsource-1.20.3-150200.22.5.82.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-wayland-1.20.3-150200.22.5.82.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-wayland-debuginfo-1.20.3-150200.22.5.82.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.4792.1",
+            "fixed_packages": [
+                {
+                    "full_name": "xwayland-21.1.4-150400.3.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xwayland-debuginfo-21.1.4-150400.3.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xwayland-debugsource-21.1.4-150400.3.23.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.4868.1",
+            "fixed_packages": [
+                {
+                    "full_name": "tracker-miners-lang-3.2.2-150400.3.7.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.4893.1",
+            "fixed_packages": [
+                {
+                    "full_name": "freerdp-2.4.0-150400.3.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freerdp-debuginfo-2.4.0-150400.3.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freerdp-debugsource-2.4.0-150400.3.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freerdp-devel-2.4.0-150400.3.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freerdp-proxy-2.4.0-150400.3.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freerdp-proxy-debuginfo-2.4.0-150400.3.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfreerdp2-2.4.0-150400.3.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfreerdp2-debuginfo-2.4.0-150400.3.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwinpr2-2.4.0-150400.3.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwinpr2-debuginfo-2.4.0-150400.3.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "winpr2-devel-2.4.0-150400.3.23.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.4926.1",
+            "fixed_packages": [
+                {
+                    "full_name": "xwayland-21.1.4-150400.3.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xwayland-debuginfo-21.1.4-150400.3.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xwayland-debugsource-21.1.4-150400.3.26.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.4932.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libreoffice-7.6.2.1-150400.17.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-base-7.6.2.1-150400.17.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-base-debuginfo-7.6.2.1-150400.17.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-base-drivers-postgresql-7.6.2.1-150400.17.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-base-drivers-postgresql-debuginfo-7.6.2.1-150400.17.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-branding-upstream-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-calc-7.6.2.1-150400.17.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-calc-debuginfo-7.6.2.1-150400.17.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-calc-extensions-7.6.2.1-150400.17.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-debuginfo-7.6.2.1-150400.17.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-debugsource-7.6.2.1-150400.17.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-draw-7.6.2.1-150400.17.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-draw-debuginfo-7.6.2.1-150400.17.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-filters-optional-7.6.2.1-150400.17.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-gnome-7.6.2.1-150400.17.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-gnome-debuginfo-7.6.2.1-150400.17.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-gtk3-7.6.2.1-150400.17.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-gtk3-debuginfo-7.6.2.1-150400.17.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-icon-themes-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-impress-7.6.2.1-150400.17.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-impress-debuginfo-7.6.2.1-150400.17.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-af-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ar-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-as-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-bg-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-bn-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-br-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ca-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ckb-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-cs-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-cy-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-da-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-de-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-dz-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-el-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-en-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-eo-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-es-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-et-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-eu-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-fa-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-fi-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-fr-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-fur-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ga-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-gl-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-gu-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-he-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-hi-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-hr-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-hu-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-it-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ja-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-kk-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-kn-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ko-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-lt-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-lv-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-mai-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ml-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-mr-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-nb-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-nl-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-nn-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-nr-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-nso-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-or-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-pa-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-pl-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-pt_BR-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-pt_PT-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ro-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ru-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-si-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-sk-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-sl-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-sr-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ss-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-st-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-sv-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ta-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-te-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-th-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-tn-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-tr-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ts-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-uk-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ve-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-xh-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-zh_CN-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-zh_TW-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-zu-7.6.2.1-150400.17.20.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-mailmerge-7.6.2.1-150400.17.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-math-7.6.2.1-150400.17.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-math-debuginfo-7.6.2.1-150400.17.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-officebean-7.6.2.1-150400.17.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-officebean-debuginfo-7.6.2.1-150400.17.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-pyuno-7.6.2.1-150400.17.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-pyuno-debuginfo-7.6.2.1-150400.17.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-writer-7.6.2.1-150400.17.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-writer-debuginfo-7.6.2.1-150400.17.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-writer-extensions-7.6.2.1-150400.17.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreofficekit-7.6.2.1-150400.17.20.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.4934.1",
+            "fixed_packages": [
+                {
+                    "full_name": "xorg-x11-server-debuginfo-1.20.3-150200.22.5.85.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-debugsource-1.20.3-150200.22.5.85.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-wayland-1.20.3-150200.22.5.85.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-wayland-debuginfo-1.20.3-150200.22.5.85.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        }
+    ]
+}

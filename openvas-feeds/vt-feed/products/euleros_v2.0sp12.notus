@@ -1,0 +1,3561 @@
+{
+    "version": "1.2",
+    "spdx-license-identifier": "GPL-2.0-only",
+    "copyright": "Copyright (C) 2008-2025 Greenbone AG",
+    "package_type": "rpm",
+    "product_name": "EulerOS V2.0SP12",
+    "advisories": [
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.1736",
+            "fixed_packages": [
+                {
+                    "full_name": "bind-9.16.23-15.h9.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-chroot-9.16.23-15.h9.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-dnssec-doc-9.16.23-15.h9.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-dnssec-utils-9.16.23-15.h9.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-libs-9.16.23-15.h9.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-license-9.16.23-15.h9.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-pkcs11-9.16.23-15.h9.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-pkcs11-libs-9.16.23-15.h9.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-pkcs11-utils-9.16.23-15.h9.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-utils-9.16.23-15.h9.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-bind-9.16.23-15.h9.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.1737",
+            "fixed_packages": [
+                {
+                    "full_name": "curl-7.79.1-14.h25.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcurl-7.79.1-14.h25.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.1738",
+            "fixed_packages": [
+                {
+                    "full_name": "docker-engine-18.09.0-400.h28.50.48.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "docker-engine-selinux-18.09.0-400.h28.50.48.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.1739",
+            "fixed_packages": [
+                {
+                    "full_name": "docker-runc-1.1.3-9.h21.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.1740",
+            "fixed_packages": [
+                {
+                    "full_name": "gnutls-3.7.2-6.h9.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gnutls-utils-3.7.2-6.h9.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.1741",
+            "fixed_packages": [
+                {
+                    "full_name": "bpftool-5.10.0-136.12.0.86.h1526.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-5.10.0-136.12.0.86.h1526.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-abi-stablelists-5.10.0-136.12.0.86.h1526.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-5.10.0-136.12.0.86.h1526.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-libs-5.10.0-136.12.0.86.h1526.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-perf-5.10.0-136.12.0.86.h1526.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.1742",
+            "fixed_packages": [
+                {
+                    "full_name": "libssh2-1.10.0-3.h6.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.1743",
+            "fixed_packages": [
+                {
+                    "full_name": "libuv-1.42.0-5.h3.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.1744",
+            "fixed_packages": [
+                {
+                    "full_name": "libxml2-2.9.14-4.h16.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-libxml2-2.9.14-4.h16.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.1745",
+            "fixed_packages": [
+                {
+                    "full_name": "ncurses-6.3-5.h7.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ncurses-base-6.3-5.h7.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ncurses-libs-6.3-5.h7.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.1746",
+            "fixed_packages": [
+                {
+                    "full_name": "openssl-1.1.1m-15.h32.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-libs-1.1.1m-15.h32.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-perl-1.1.1m-15.h32.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.1747",
+            "fixed_packages": [
+                {
+                    "full_name": "pam-1.5.2-4.h2.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.1748",
+            "fixed_packages": [
+                {
+                    "full_name": "proftpd-1.3.7c-4.h7.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.1749",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-jinja2-3.0.3-2.h1.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.1750",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-paramiko-2.11.0-2.h3.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.1751",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-pillow-9.0.1-3.h4.eulerosv2r12.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.1752",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-pycryptodome-3.11.0-2.h3.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.1753",
+            "fixed_packages": [
+                {
+                    "full_name": "shim-15.6-7.h10.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "shim-aa64-storage-15.6-7.h10.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.1754",
+            "fixed_packages": [
+                {
+                    "full_name": "sqlite-3.37.2-5.h5.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.1755",
+            "fixed_packages": [
+                {
+                    "full_name": "sudo-1.9.8p2-7.h9.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.1756",
+            "fixed_packages": [
+                {
+                    "full_name": "systemd-249-43.h34.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-container-249-43.h34.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-libs-249-43.h34.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-networkd-249-43.h34.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-nspawn-249-43.h34.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-pam-249-43.h34.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-resolved-249-43.h34.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-timesyncd-249-43.h34.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-udev-249-43.h34.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-udev-compat-249-43.h34.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.1757",
+            "fixed_packages": [
+                {
+                    "full_name": "libblkid-2.37.2-13.h18.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfdisk-2.37.2-13.h18.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmount-2.37.2-13.h18.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmartcols-2.37.2-13.h18.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libuuid-2.37.2-13.h18.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "util-linux-2.37.2-13.h18.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "util-linux-user-2.37.2-13.h18.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.1758",
+            "fixed_packages": [
+                {
+                    "full_name": "xorg-x11-server-help-1.20.11-13.h7.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.1850",
+            "fixed_packages": [
+                {
+                    "full_name": "bind-9.16.23-15.h10.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-chroot-9.16.23-15.h10.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-dnssec-doc-9.16.23-15.h10.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-dnssec-utils-9.16.23-15.h10.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-libs-9.16.23-15.h10.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-license-9.16.23-15.h10.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-pkcs11-9.16.23-15.h10.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-pkcs11-libs-9.16.23-15.h10.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-pkcs11-utils-9.16.23-15.h10.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-utils-9.16.23-15.h10.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-bind-9.16.23-15.h10.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.1851",
+            "fixed_packages": [
+                {
+                    "full_name": "dnsmasq-2.86-3.h7.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.1852",
+            "fixed_packages": [
+                {
+                    "full_name": "docker-engine-18.09.0-400.h41.50.51.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "docker-engine-selinux-18.09.0-400.h41.50.51.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.1853",
+            "fixed_packages": [
+                {
+                    "full_name": "docker-runc-1.1.3-9.h24.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.1854",
+            "fixed_packages": [
+                {
+                    "full_name": "expat-2.4.1-8.h4.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.1855",
+            "fixed_packages": [
+                {
+                    "full_name": "gnutls-3.7.2-6.h11.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gnutls-utils-3.7.2-6.h11.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.1856",
+            "fixed_packages": [
+                {
+                    "full_name": "golang-1.17.3-12.h18.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-devel-1.17.3-12.h18.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-help-1.17.3-12.h18.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.1857",
+            "fixed_packages": [
+                {
+                    "full_name": "grub2-common-2.06-20.h16.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grub2-efi-aa64-2.06-20.h16.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grub2-efi-aa64-modules-2.06-20.h16.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grub2-tools-2.06-20.h16.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grub2-tools-extra-2.06-20.h16.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grub2-tools-minimal-2.06-20.h16.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.1858",
+            "fixed_packages": [
+                {
+                    "full_name": "iSulad-2.0.18-1.h89.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.1859",
+            "fixed_packages": [
+                {
+                    "full_name": "bpftool-5.10.0-136.12.0.86.h1903.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-5.10.0-136.12.0.86.h1903.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-abi-stablelists-5.10.0-136.12.0.86.h1903.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-5.10.0-136.12.0.86.h1903.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-libs-5.10.0-136.12.0.86.h1903.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-perf-5.10.0-136.12.0.86.h1903.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.1860",
+            "fixed_packages": [
+                {
+                    "full_name": "less-590-3.h4.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.1861",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-3.9.9-21.h10.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-fgo-3.9.9-21.h10.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-unversioned-command-3.9.9-21.h10.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.1862",
+            "fixed_packages": [
+                {
+                    "full_name": "shim-15.6-7.h14.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "shim-aa64-storage-15.6-7.h14.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.1863",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-unbound-1.13.2-7.h2.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "unbound-1.13.2-7.h2.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "unbound-libs-1.13.2-7.h2.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2208",
+            "fixed_packages": [
+                {
+                    "full_name": "curl-7.79.1-14.h26.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcurl-7.79.1-14.h26.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2209",
+            "fixed_packages": [
+                {
+                    "full_name": "docker-engine-18.09.0-400.h36.50.48.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "docker-engine-selinux-18.09.0-400.h36.50.48.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2210",
+            "fixed_packages": [
+                {
+                    "full_name": "emacs-filesystem-27.2-8.h4.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2211",
+            "fixed_packages": [
+                {
+                    "full_name": "expat-2.4.1-8.h4.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2212",
+            "fixed_packages": [
+                {
+                    "full_name": "glibc-2.34-105.h36.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-all-langpacks-2.34-105.h36.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-common-2.34-105.h36.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-locale-archive-2.34-105.h36.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-locale-source-2.34-105.h36.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnsl-2.34-105.h36.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "nscd-2.34-105.h36.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2213",
+            "fixed_packages": [
+                {
+                    "full_name": "gnutls-3.7.2-6.h11.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gnutls-utils-3.7.2-6.h11.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2214",
+            "fixed_packages": [
+                {
+                    "full_name": "golang-1.17.3-12.h18.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-devel-1.17.3-12.h18.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-help-1.17.3-12.h18.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2215",
+            "fixed_packages": [
+                {
+                    "full_name": "httpd-2.4.51-12.h9.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "httpd-filesystem-2.4.51-12.h9.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "httpd-tools-2.4.51-12.h9.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mod_ssl-2.4.51-12.h9.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2216",
+            "fixed_packages": [
+                {
+                    "full_name": "bpftool-5.10.0-136.12.0.86.h1837.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-5.10.0-136.12.0.86.h1837.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-abi-stablelists-5.10.0-136.12.0.86.h1837.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-5.10.0-136.12.0.86.h1837.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-libs-5.10.0-136.12.0.86.h1837.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-perf-5.10.0-136.12.0.86.h1837.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2217",
+            "fixed_packages": [
+                {
+                    "full_name": "less-590-3.h4.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2218",
+            "fixed_packages": [
+                {
+                    "full_name": "libyaml-0.2.5-4.h1.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2219",
+            "fixed_packages": [
+                {
+                    "full_name": "llvm-help-12.0.1-4.h1.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "llvm-libs-12.0.1-4.h1.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2220",
+            "fixed_packages": [
+                {
+                    "full_name": "mod_http2-1.15.25-2.h1.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2221",
+            "fixed_packages": [
+                {
+                    "full_name": "libnghttp2-1.46.0-3.h3.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2222",
+            "fixed_packages": [
+                {
+                    "full_name": "openssh-8.8p1-14.h18.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssh-clients-8.8p1-14.h18.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssh-server-8.8p1-14.h18.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2223",
+            "fixed_packages": [
+                {
+                    "full_name": "openssl-1.1.1m-15.h38.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-libs-1.1.1m-15.h38.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-perl-1.1.1m-15.h38.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2224",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-cryptography-36.0.1-1.h4.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2225",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-pillow-9.0.1-3.h5.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2226",
+            "fixed_packages": [
+                {
+                    "full_name": "ruby-3.0.3-128.h8.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby-help-3.0.3-128.h8.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby-irb-3.0.3-128.h8.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2227",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-sssd-2.6.1-8.h9.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sssd-2.6.1-8.h9.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2228",
+            "fixed_packages": [
+                {
+                    "full_name": "systemd-249-43.h37.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-container-249-43.h37.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-libs-249-43.h37.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-networkd-249-43.h37.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-nspawn-249-43.h37.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-pam-249-43.h37.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-resolved-249-43.h37.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-timesyncd-249-43.h37.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-udev-249-43.h37.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-udev-compat-249-43.h37.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2229",
+            "fixed_packages": [
+                {
+                    "full_name": "tpm2-tss-3.1.0-2.h6.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2230",
+            "fixed_packages": [
+                {
+                    "full_name": "libblkid-2.37.2-13.h22.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfdisk-2.37.2-13.h22.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmount-2.37.2-13.h22.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmartcols-2.37.2-13.h22.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libuuid-2.37.2-13.h22.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "util-linux-2.37.2-13.h22.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "util-linux-user-2.37.2-13.h22.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2231",
+            "fixed_packages": [
+                {
+                    "full_name": "xorg-x11-server-help-1.20.11-13.h8.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2342",
+            "fixed_packages": [
+                {
+                    "full_name": "git-2.33.0-5.h8.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "git-core-2.33.0-5.h8.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "git-help-2.33.0-5.h8.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-Git-2.33.0-5.h8.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2343",
+            "fixed_packages": [
+                {
+                    "full_name": "glibc-2.34-105.h38.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-all-langpacks-2.34-105.h38.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-common-2.34-105.h38.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-locale-archive-2.34-105.h38.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-locale-source-2.34-105.h38.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnsl-2.34-105.h38.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "nscd-2.34-105.h38.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2344",
+            "fixed_packages": [
+                {
+                    "full_name": "bpftool-5.10.0-136.12.0.86.h1903.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-5.10.0-136.12.0.86.h1903.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-abi-stablelists-5.10.0-136.12.0.86.h1903.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-5.10.0-136.12.0.86.h1903.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-libs-5.10.0-136.12.0.86.h1903.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-perf-5.10.0-136.12.0.86.h1903.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2345",
+            "fixed_packages": [
+                {
+                    "full_name": "libtiff-4.3.0-24.h16.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2346",
+            "fixed_packages": [
+                {
+                    "full_name": "openssl-1.1.1m-15.h41.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-libs-1.1.1m-15.h41.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-perl-1.1.1m-15.h41.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2347",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-idna-3.2-2.h1.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2348",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-jinja2-3.0.3-2.h2.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2349",
+            "fixed_packages": [
+                {
+                    "full_name": "python-pip-wheel-21.3.1-2.h3.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-pip-21.3.1-2.h3.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2454",
+            "fixed_packages": [
+                {
+                    "full_name": "openssh-8.8p1-14.h19.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssh-clients-8.8p1-14.h19.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssh-server-8.8p1-14.h19.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2496",
+            "fixed_packages": [
+                {
+                    "full_name": "bind-9.16.23-15.h12.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-chroot-9.16.23-15.h12.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-dnssec-doc-9.16.23-15.h12.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-dnssec-utils-9.16.23-15.h12.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-libs-9.16.23-15.h12.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-license-9.16.23-15.h12.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-pkcs11-9.16.23-15.h12.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-pkcs11-libs-9.16.23-15.h12.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-pkcs11-utils-9.16.23-15.h12.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-utils-9.16.23-15.h12.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-bind-9.16.23-15.h12.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2497",
+            "fixed_packages": [
+                {
+                    "full_name": "busybox-1.34.1-17.h9.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2498",
+            "fixed_packages": [
+                {
+                    "full_name": "c-ares-1.18.1-5.h2.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2499",
+            "fixed_packages": [
+                {
+                    "full_name": "cups-libs-2.4.0-4.h7.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2500",
+            "fixed_packages": [
+                {
+                    "full_name": "docker-engine-18.09.0-400.h44.50.54.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "docker-engine-selinux-18.09.0-400.h44.50.54.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2501",
+            "fixed_packages": [
+                {
+                    "full_name": "docker-runc-1.1.3-9.h27.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2502",
+            "fixed_packages": [
+                {
+                    "full_name": "emacs-filesystem-27.2-8.h6.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2503",
+            "fixed_packages": [
+                {
+                    "full_name": "glib2-2.72.2-5.h17.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2504",
+            "fixed_packages": [
+                {
+                    "full_name": "golang-1.17.3-12.h20.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-devel-1.17.3-12.h20.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-help-1.17.3-12.h20.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2505",
+            "fixed_packages": [
+                {
+                    "full_name": "httpd-2.4.51-12.h10.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "httpd-filesystem-2.4.51-12.h10.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "httpd-tools-2.4.51-12.h10.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mod_ssl-2.4.51-12.h10.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2506",
+            "fixed_packages": [
+                {
+                    "full_name": "krb5-1.19.2-6.h14.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "krb5-client-1.19.2-6.h14.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "krb5-libs-1.19.2-6.h14.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "krb5-server-1.19.2-6.h14.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2507",
+            "fixed_packages": [
+                {
+                    "full_name": "libarchive-3.5.2-5.h4.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2508",
+            "fixed_packages": [
+                {
+                    "full_name": "libndp-1.8-2.h3.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2509",
+            "fixed_packages": [
+                {
+                    "full_name": "libtiff-4.3.0-24.h17.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2510",
+            "fixed_packages": [
+                {
+                    "full_name": "libxml2-2.9.14-4.h21.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-libxml2-2.9.14-4.h21.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2511",
+            "fixed_packages": [
+                {
+                    "full_name": "openssh-8.8p1-14.h21.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssh-clients-8.8p1-14.h21.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssh-server-8.8p1-14.h21.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2512",
+            "fixed_packages": [
+                {
+                    "full_name": "openssl-1.1.1m-15.h42.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-libs-1.1.1m-15.h42.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-perl-1.1.1m-15.h42.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2513",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-dns-2.2.1-1.h1.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2514",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-lxml-4.7.1-5.h3.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2515",
+            "fixed_packages": [
+                {
+                    "full_name": "python-pip-wheel-21.3.1-2.h4.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-pip-21.3.1-2.h4.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2516",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-urllib3-1.26.12-1.h5.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2517",
+            "fixed_packages": [
+                {
+                    "full_name": "ruby-3.0.3-128.h11.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby-help-3.0.3-128.h11.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby-irb-3.0.3-128.h11.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2518",
+            "fixed_packages": [
+                {
+                    "full_name": "wget-1.21.2-3.h3.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2519",
+            "fixed_packages": [
+                {
+                    "full_name": "bpftool-5.10.0-136.12.0.86.h2059.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-5.10.0-136.12.0.86.h2059.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-abi-stablelists-5.10.0-136.12.0.86.h2059.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-5.10.0-136.12.0.86.h2059.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-libs-5.10.0-136.12.0.86.h2059.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-perf-5.10.0-136.12.0.86.h2059.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2783",
+            "fixed_packages": [
+                {
+                    "full_name": "curl-7.79.1-14.h28.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcurl-7.79.1-14.h28.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2784",
+            "fixed_packages": [
+                {
+                    "full_name": "dnsmasq-2.86-3.h9.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2785",
+            "fixed_packages": [
+                {
+                    "full_name": "docker-engine-18.09.0-400.h46.50.55.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "docker-engine-selinux-18.09.0-400.h46.50.55.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2787",
+            "fixed_packages": [
+                {
+                    "full_name": "gtk2-2.24.33-6.h4.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gtk2-devel-2.24.33-6.h4.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gtk2-help-2.24.33-6.h4.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2788",
+            "fixed_packages": [
+                {
+                    "full_name": "gtk3-3.24.30-6.h5.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gtk3-devel-3.24.30-6.h5.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gtk3-help-3.24.30-6.h5.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2789",
+            "fixed_packages": [
+                {
+                    "full_name": "libtiff-4.3.0-24.h18.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2790",
+            "fixed_packages": [
+                {
+                    "full_name": "orc-0.4.32-2.h1.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "orc-help-0.4.32-2.h1.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2791",
+            "fixed_packages": [
+                {
+                    "full_name": "python-setuptools-59.4.0-4.h4.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-setuptools-59.4.0-4.h4.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2792",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-zipp-3.7.0-1.h5.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2793",
+            "fixed_packages": [
+                {
+                    "full_name": "vim-common-9.0-5.h13.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-enhanced-9.0-5.h13.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-filesystem-9.0-5.h13.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-minimal-9.0-5.h13.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2794",
+            "fixed_packages": [
+                {
+                    "full_name": "bpftool-5.10.0-136.12.0.86.h2130.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-5.10.0-136.12.0.86.h2130.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-abi-stablelists-5.10.0-136.12.0.86.h2130.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-5.10.0-136.12.0.86.h2130.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-libs-5.10.0-136.12.0.86.h2130.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-perf-5.10.0-136.12.0.86.h2130.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2920",
+            "fixed_packages": [
+                {
+                    "full_name": "gdk-pixbuf2-2.42.6-5.h4.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gdk-pixbuf2-devel-2.42.6-5.h4.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gdk-pixbuf2-help-2.42.6-5.h4.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gdk-pixbuf2-modules-2.42.6-5.h4.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2921",
+            "fixed_packages": [
+                {
+                    "full_name": "golang-1.17.3-12.h21.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-devel-1.17.3-12.h21.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-help-1.17.3-12.h21.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2922",
+            "fixed_packages": [
+                {
+                    "full_name": "jbig2dec-0.19-4.h1.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "jbig2dec-help-0.19-4.h1.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2923",
+            "fixed_packages": [
+                {
+                    "full_name": "bpftool-5.10.0-136.12.0.86.h2177.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-5.10.0-136.12.0.86.h2177.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-abi-stablelists-5.10.0-136.12.0.86.h2177.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-5.10.0-136.12.0.86.h2177.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-libs-5.10.0-136.12.0.86.h2177.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-perf-5.10.0-136.12.0.86.h2177.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2924",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-unbound-1.13.2-7.h4.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "unbound-1.13.2-7.h4.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "unbound-libs-1.13.2-7.h4.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2925",
+            "fixed_packages": [
+                {
+                    "full_name": "vim-common-9.0-5.h15.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-enhanced-9.0-5.h15.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-filesystem-9.0-5.h15.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-minimal-9.0-5.h15.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2932",
+            "fixed_packages": [
+                {
+                    "full_name": "cups-libs-2.4.0-4.h8.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2933",
+            "fixed_packages": [
+                {
+                    "full_name": "curl-7.79.1-14.h30.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcurl-7.79.1-14.h30.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2934",
+            "fixed_packages": [
+                {
+                    "full_name": "docker-runc-1.1.3-9.h29.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2935",
+            "fixed_packages": [
+                {
+                    "full_name": "expat-2.4.1-8.h5.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2936",
+            "fixed_packages": [
+                {
+                    "full_name": "golang-1.17.3-12.h22.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-devel-1.17.3-12.h22.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-help-1.17.3-12.h22.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2937",
+            "fixed_packages": [
+                {
+                    "full_name": "httpd-2.4.51-12.h11.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "httpd-filesystem-2.4.51-12.h11.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "httpd-tools-2.4.51-12.h11.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mod_ssl-2.4.51-12.h11.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2938",
+            "fixed_packages": [
+                {
+                    "full_name": "bpftool-5.10.0-136.12.0.86.h2271.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-5.10.0-136.12.0.86.h2271.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-abi-stablelists-5.10.0-136.12.0.86.h2271.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-5.10.0-136.12.0.86.h2271.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-libs-5.10.0-136.12.0.86.h2271.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-perf-5.10.0-136.12.0.86.h2271.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2939",
+            "fixed_packages": [
+                {
+                    "full_name": "lua-5.4.3-9.h4.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2940",
+            "fixed_packages": [
+                {
+                    "full_name": "OpenIPMI-2.0.32-1.h4.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "OpenIPMI-perl-2.0.32-1.h4.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-openipmi-2.0.32-1.h4.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2941",
+            "fixed_packages": [
+                {
+                    "full_name": "openssl-1.1.1m-15.h48.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-libs-1.1.1m-15.h48.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-perl-1.1.1m-15.h48.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2942",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-3.9.9-21.h14.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-fgo-3.9.9-21.h14.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-unversioned-command-3.9.9-21.h14.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2943",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-unbound-1.13.2-7.h6.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "unbound-1.13.2-7.h6.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "unbound-libs-1.13.2-7.h6.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2944",
+            "fixed_packages": [
+                {
+                    "full_name": "vim-common-9.0-5.h17.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-enhanced-9.0-5.h17.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-filesystem-9.0-5.h17.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-minimal-9.0-5.h17.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2945",
+            "fixed_packages": [
+                {
+                    "full_name": "xmlrpc-c-help-1.51.08-2.h1.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2024.2946",
+            "fixed_packages": [
+                {
+                    "full_name": "xorg-x11-server-help-1.20.11-13.h10.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1169",
+            "fixed_packages": [
+                {
+                    "full_name": "busybox-1.34.1-17.h10.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1170",
+            "fixed_packages": [
+                {
+                    "full_name": "curl-7.79.1-14.h31.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcurl-7.79.1-14.h31.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1171",
+            "fixed_packages": [
+                {
+                    "full_name": "docker-engine-18.09.0-400.h51.50.57.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "docker-engine-selinux-18.09.0-400.h51.50.57.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1172",
+            "fixed_packages": [
+                {
+                    "full_name": "expat-2.4.1-8.h6.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1173",
+            "fixed_packages": [
+                {
+                    "full_name": "glib2-2.72.2-5.h19.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1174",
+            "fixed_packages": [
+                {
+                    "full_name": "golang-1.17.3-12.h23.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-devel-1.17.3-12.h23.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-help-1.17.3-12.h23.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1175",
+            "fixed_packages": [
+                {
+                    "full_name": "iptraf-ng-1.2.1-3.h1.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1176",
+            "fixed_packages": [
+                {
+                    "full_name": "bpftool-5.10.0-136.12.0.86.h2367.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-5.10.0-136.12.0.86.h2367.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-abi-stablelists-5.10.0-136.12.0.86.h2367.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-5.10.0-136.12.0.86.h2367.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-libs-5.10.0-136.12.0.86.h2367.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-perf-5.10.0-136.12.0.86.h2367.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1177",
+            "fixed_packages": [
+                {
+                    "full_name": "libsoup-2.74.2-2.h3.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsoup-help-2.74.2-2.h3.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1178",
+            "fixed_packages": [
+                {
+                    "full_name": "pam-1.5.2-4.h5.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1179",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-3.9.9-21.h15.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-fgo-3.9.9-21.h15.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-unversioned-command-3.9.9-21.h15.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1180",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-configobj-5.0.6-18.h1.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1181",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-requests-2.26.0-7.h4.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1182",
+            "fixed_packages": [
+                {
+                    "full_name": "subversion-1.14.2-1.h4.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "subversion-help-1.14.2-1.h4.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1183",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-unbound-1.13.2-7.h6.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "unbound-1.13.2-7.h6.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "unbound-libs-1.13.2-7.h6.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1184",
+            "fixed_packages": [
+                {
+                    "full_name": "xorg-x11-server-help-1.20.11-13.h11.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1290",
+            "fixed_packages": [
+                {
+                    "full_name": "curl-7.79.1-14.h32.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcurl-7.79.1-14.h32.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1292",
+            "fixed_packages": [
+                {
+                    "full_name": "dhcp-4.4.3-1.h8.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1294",
+            "fixed_packages": [
+                {
+                    "full_name": "dpdk-21.11-27.h9.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "dpdk-devel-21.11-27.h9.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "dpdk-tools-21.11-27.h9.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1296",
+            "fixed_packages": [
+                {
+                    "full_name": "git-2.33.0-5.h9.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "git-core-2.33.0-5.h9.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "git-help-2.33.0-5.h9.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1298",
+            "fixed_packages": [
+                {
+                    "full_name": "haproxy-2.6.6-2.h14.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1300",
+            "fixed_packages": [
+                {
+                    "full_name": "bpftool-5.10.0-136.12.0.86.h2441.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-5.10.0-136.12.0.86.h2441.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-abi-stablelists-5.10.0-136.12.0.86.h2441.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-5.10.0-136.12.0.86.h2441.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-libs-5.10.0-136.12.0.86.h2441.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-perf-5.10.0-136.12.0.86.h2441.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1302",
+            "fixed_packages": [
+                {
+                    "full_name": "openjpeg2-2.5.0-1.h1.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1304",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-3.9.9-21.h16.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-fgo-3.9.9-21.h16.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-unversioned-command-3.9.9-21.h16.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1306",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-jinja2-3.0.3-2.h4.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1308",
+            "fixed_packages": [
+                {
+                    "full_name": "rsync-3.2.5-1.h3.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1310",
+            "fixed_packages": [
+                {
+                    "full_name": "wget-1.21.2-3.h4.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1404",
+            "fixed_packages": [
+                {
+                    "full_name": "bind-9.16.23-15.h14.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-chroot-9.16.23-15.h14.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-dnssec-doc-9.16.23-15.h14.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-dnssec-utils-9.16.23-15.h14.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-libs-9.16.23-15.h14.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-license-9.16.23-15.h14.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-pkcs11-9.16.23-15.h14.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-pkcs11-libs-9.16.23-15.h14.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-pkcs11-utils-9.16.23-15.h14.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-utils-9.16.23-15.h14.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-bind-9.16.23-15.h14.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1406",
+            "fixed_packages": [
+                {
+                    "full_name": "binutils-2.37-14.h12.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1408",
+            "fixed_packages": [
+                {
+                    "full_name": "curl-7.79.1-14.h34.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcurl-7.79.1-14.h34.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1410",
+            "fixed_packages": [
+                {
+                    "full_name": "dhcp-4.4.3-1.h9.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1412",
+            "fixed_packages": [
+                {
+                    "full_name": "elfutils-0.185-17.h7.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1414",
+            "fixed_packages": [
+                {
+                    "full_name": "emacs-filesystem-27.2-8.h7.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1416",
+            "fixed_packages": [
+                {
+                    "full_name": "git-2.33.0-5.h10.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "git-core-2.33.0-5.h10.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "git-help-2.33.0-5.h10.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1418",
+            "fixed_packages": [
+                {
+                    "full_name": "glibc-2.34-105.h48.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-all-langpacks-2.34-105.h48.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-common-2.34-105.h48.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-locale-archive-2.34-105.h48.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-locale-source-2.34-105.h48.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnsl-2.34-105.h48.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "nscd-2.34-105.h48.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1420",
+            "fixed_packages": [
+                {
+                    "full_name": "gnutls-3.7.2-6.h12.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gnutls-utils-3.7.2-6.h12.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1422",
+            "fixed_packages": [
+                {
+                    "full_name": "bpftool-5.10.0-136.12.0.86.h2482.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-5.10.0-136.12.0.86.h2482.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-abi-stablelists-5.10.0-136.12.0.86.h2482.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-5.10.0-136.12.0.86.h2482.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-libs-5.10.0-136.12.0.86.h2482.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-perf-5.10.0-136.12.0.86.h2482.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1424",
+            "fixed_packages": [
+                {
+                    "full_name": "krb5-1.19.2-6.h15.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "krb5-client-1.19.2-6.h15.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "krb5-libs-1.19.2-6.h15.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "krb5-server-1.19.2-6.h15.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1426",
+            "fixed_packages": [
+                {
+                    "full_name": "libtasn1-4.17.0-3.h1.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1428",
+            "fixed_packages": [
+                {
+                    "full_name": "llvm-help-12.0.1-4.h2.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "llvm-libs-12.0.1-4.h2.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1430",
+            "fixed_packages": [
+                {
+                    "full_name": "openssh-8.8p1-14.h23.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssh-clients-8.8p1-14.h23.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssh-server-8.8p1-14.h23.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1432",
+            "fixed_packages": [
+                {
+                    "full_name": "openssl-1.1.1m-15.h50.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-libs-1.1.1m-15.h50.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-perl-1.1.1m-15.h50.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-pkcs11-0.4.12-1.h1.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1434",
+            "fixed_packages": [
+                {
+                    "full_name": "proftpd-1.3.7c-4.h8.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1436",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-3.9.9-21.h17.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-fgo-3.9.9-21.h17.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-unversioned-command-3.9.9-21.h17.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1438",
+            "fixed_packages": [
+                {
+                    "full_name": "rsync-3.2.5-1.h5.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1440",
+            "fixed_packages": [
+                {
+                    "full_name": "ruby-3.0.3-128.h14.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby-help-3.0.3-128.h14.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby-irb-3.0.3-128.h14.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1442",
+            "fixed_packages": [
+                {
+                    "full_name": "vim-common-9.0-5.h19.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-enhanced-9.0-5.h19.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-filesystem-9.0-5.h19.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-minimal-9.0-5.h19.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1578",
+            "fixed_packages": [
+                {
+                    "full_name": "abseil-cpp-20220623.1-4.h2.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1580",
+            "fixed_packages": [
+                {
+                    "full_name": "docker-engine-18.09.0-400.h55.51.58.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "docker-engine-selinux-18.09.0-400.h55.51.58.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1582",
+            "fixed_packages": [
+                {
+                    "full_name": "expat-2.4.1-8.h8.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1584",
+            "fixed_packages": [
+                {
+                    "full_name": "freetype-2.12.1-1.h4.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1586",
+            "fixed_packages": [
+                {
+                    "full_name": "golang-1.17.3-12.h25.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-devel-1.17.3-12.h25.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-help-1.17.3-12.h25.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1588",
+            "fixed_packages": [
+                {
+                    "full_name": "grub2-common-2.06-20.h21.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grub2-efi-aa64-2.06-20.h21.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grub2-efi-aa64-modules-2.06-20.h21.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grub2-tools-2.06-20.h21.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grub2-tools-extra-2.06-20.h21.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grub2-tools-minimal-2.06-20.h21.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1590",
+            "fixed_packages": [
+                {
+                    "full_name": "bpftool-5.10.0-136.12.0.86.h2554.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-5.10.0-136.12.0.86.h2554.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-abi-stablelists-5.10.0-136.12.0.86.h2554.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-5.10.0-136.12.0.86.h2554.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-libs-5.10.0-136.12.0.86.h2554.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-perf-5.10.0-136.12.0.86.h2554.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1592",
+            "fixed_packages": [
+                {
+                    "full_name": "libarchive-3.5.2-5.h5.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1594",
+            "fixed_packages": [
+                {
+                    "full_name": "libcap-2.61-4.h6.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1596",
+            "fixed_packages": [
+                {
+                    "full_name": "libxkbfile-1.1.0-5.h1.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1598",
+            "fixed_packages": [
+                {
+                    "full_name": "libxml2-2.9.14-4.h24.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-libxml2-2.9.14-4.h24.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1600",
+            "fixed_packages": [
+                {
+                    "full_name": "libxslt-1.1.37-1.h2.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1602",
+            "fixed_packages": [
+                {
+                    "full_name": "nasm-2.15.05-3.h5.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "nasm-help-2.15.05-3.h5.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1604",
+            "fixed_packages": [
+                {
+                    "full_name": "ruby-3.0.3-128.h15.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby-help-3.0.3-128.h15.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby-irb-3.0.3-128.h15.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1607",
+            "fixed_packages": [
+                {
+                    "full_name": "vim-common-9.0-5.h21.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-enhanced-9.0-5.h21.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-filesystem-9.0-5.h21.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-minimal-9.0-5.h21.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1609",
+            "fixed_packages": [
+                {
+                    "full_name": "yajl-2.1.0-20.h2.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1815",
+            "fixed_packages": [
+                {
+                    "full_name": "augeas-1.13.0-5.h3.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1817",
+            "fixed_packages": [
+                {
+                    "full_name": "emacs-filesystem-27.2-8.h8.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1819",
+            "fixed_packages": [
+                {
+                    "full_name": "glibc-2.34-105.h53.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-all-langpacks-2.34-105.h53.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-common-2.34-105.h53.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-locale-archive-2.34-105.h53.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-locale-source-2.34-105.h53.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnsl-2.34-105.h53.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "nscd-2.34-105.h53.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1821",
+            "fixed_packages": [
+                {
+                    "full_name": "golang-1.17.3-12.h27.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-devel-1.17.3-12.h27.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-help-1.17.3-12.h27.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1823",
+            "fixed_packages": [
+                {
+                    "full_name": "haproxy-2.6.6-2.h16.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1825",
+            "fixed_packages": [
+                {
+                    "full_name": "iputils-20221126-1.h6.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1827",
+            "fixed_packages": [
+                {
+                    "full_name": "bpftool-5.10.0-136.12.0.86.h2615.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-5.10.0-136.12.0.86.h2615.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-abi-stablelists-5.10.0-136.12.0.86.h2615.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-5.10.0-136.12.0.86.h2615.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-libs-5.10.0-136.12.0.86.h2615.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-perf-5.10.0-136.12.0.86.h2615.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1829",
+            "fixed_packages": [
+                {
+                    "full_name": "libsoup-2.74.2-2.h8.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsoup-help-2.74.2-2.h8.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1831",
+            "fixed_packages": [
+                {
+                    "full_name": "libxml2-2.9.14-4.h26.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-libxml2-2.9.14-4.h26.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1833",
+            "fixed_packages": [
+                {
+                    "full_name": "openssh-8.8p1-14.h24.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssh-clients-8.8p1-14.h24.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssh-server-8.8p1-14.h24.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1835",
+            "fixed_packages": [
+                {
+                    "full_name": "perl-5.34.0-6.h13.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-libs-5.34.0-6.h13.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1837",
+            "fixed_packages": [
+                {
+                    "full_name": "ppp-2.4.9-3.h3.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1839",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-jinja2-3.0.3-2.h5.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1841",
+            "fixed_packages": [
+                {
+                    "full_name": "screen-4.9.0-1.h3.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1843",
+            "fixed_packages": [
+                {
+                    "full_name": "vim-common-9.0-5.h22.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-enhanced-9.0-5.h22.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-filesystem-9.0-5.h22.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-minimal-9.0-5.h22.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.1845",
+            "fixed_packages": [
+                {
+                    "full_name": "xorg-x11-server-help-1.20.11-13.h13.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.2031",
+            "fixed_packages": [
+                {
+                    "full_name": "binutils-2.37-14.h15.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.2032",
+            "fixed_packages": [
+                {
+                    "full_name": "busybox-1.34.1-17.h10.h1.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.2033",
+            "fixed_packages": [
+                {
+                    "full_name": "coreutils-9.0-6.h9.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.2034",
+            "fixed_packages": [
+                {
+                    "full_name": "gdk-pixbuf2-2.42.6-5.h5.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gdk-pixbuf2-devel-2.42.6-5.h5.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gdk-pixbuf2-help-2.42.6-5.h5.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gdk-pixbuf2-modules-2.42.6-5.h5.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.2035",
+            "fixed_packages": [
+                {
+                    "full_name": "git-2.33.0-5.h11.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "git-core-2.33.0-5.h11.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "git-help-2.33.0-5.h11.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.2036",
+            "fixed_packages": [
+                {
+                    "full_name": "glib2-2.72.2-5.h22.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.2037",
+            "fixed_packages": [
+                {
+                    "full_name": "gnupg2-2.2.32-3.h4.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.2038",
+            "fixed_packages": [
+                {
+                    "full_name": "gnutls-3.7.2-6.h13.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gnutls-utils-3.7.2-6.h13.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.2039",
+            "fixed_packages": [
+                {
+                    "full_name": "golang-1.17.3-12.h28.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-devel-1.17.3-12.h28.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-help-1.17.3-12.h28.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.2040",
+            "fixed_packages": [
+                {
+                    "full_name": "grub2-common-2.06-20.h22.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grub2-efi-aa64-2.06-20.h22.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grub2-efi-aa64-modules-2.06-20.h22.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grub2-tools-2.06-20.h22.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grub2-tools-extra-2.06-20.h22.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "grub2-tools-minimal-2.06-20.h22.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.2041",
+            "fixed_packages": [
+                {
+                    "full_name": "httpd-2.4.51-12.h17.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "httpd-filesystem-2.4.51-12.h17.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "httpd-tools-2.4.51-12.h17.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mod_ssl-2.4.51-12.h17.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.2042",
+            "fixed_packages": [
+                {
+                    "full_name": "iputils-20221126-1.h7.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.2043",
+            "fixed_packages": [
+                {
+                    "full_name": "bpftool-5.10.0-136.12.0.86.h2674.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-5.10.0-136.12.0.86.h2674.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-abi-stablelists-5.10.0-136.12.0.86.h2674.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-5.10.0-136.12.0.86.h2674.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-libs-5.10.0-136.12.0.86.h2674.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-perf-5.10.0-136.12.0.86.h2674.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.2044",
+            "fixed_packages": [
+                {
+                    "full_name": "libarchive-3.5.2-5.h6.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.2045",
+            "fixed_packages": [
+                {
+                    "full_name": "libblockdev-2.26-2.h2.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-blockdev-2.26-2.h2.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.2046",
+            "fixed_packages": [
+                {
+                    "full_name": "libsoup-2.74.2-2.h9.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsoup-help-2.74.2-2.h9.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.2047",
+            "fixed_packages": [
+                {
+                    "full_name": "libssh-0.9.6-5.h7.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.2048",
+            "fixed_packages": [
+                {
+                    "full_name": "libxml2-2.9.14-4.h29.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-libxml2-2.9.14-4.h29.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.2049",
+            "fixed_packages": [
+                {
+                    "full_name": "nss-3.72.0-5.h7.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "nss-softokn-3.72.0-5.h7.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "nss-util-3.72.0-5.h7.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.2050",
+            "fixed_packages": [
+                {
+                    "full_name": "pam-1.5.2-4.h6.r1.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.2051",
+            "fixed_packages": [
+                {
+                    "full_name": "perl-5.34.0-6.h14.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-libs-5.34.0-6.h14.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.2052",
+            "fixed_packages": [
+                {
+                    "full_name": "polkit-0.120-8.h5.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "polkit-libs-0.120-8.h5.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.2053",
+            "fixed_packages": [
+                {
+                    "full_name": "protobuf-3.14.0-7.h4.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "protobuf-compiler-3.14.0-7.h4.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.2054",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-requests-2.26.0-7.h5.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.2055",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-urllib3-1.26.12-1.h6.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.2056",
+            "fixed_packages": [
+                {
+                    "full_name": "ruby-3.0.3-128.h16.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby-help-3.0.3-128.h16.eulerosv2r12.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ruby-irb-3.0.3-128.h16.eulerosv2r12.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.2057",
+            "fixed_packages": [
+                {
+                    "full_name": "screen-4.9.0-1.h5.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.2058",
+            "fixed_packages": [
+                {
+                    "full_name": "shim-15.6-7.h16.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "shim-aa64-storage-15.6-7.h16.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.2059",
+            "fixed_packages": [
+                {
+                    "full_name": "sqlite-3.37.2-5.h7.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.2060",
+            "fixed_packages": [
+                {
+                    "full_name": "sudo-1.9.8p2-7.h11.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2025.2061",
+            "fixed_packages": [
+                {
+                    "full_name": "libudisks2-2.9.4-3.h1.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "udisks2-2.9.4-3.h1.eulerosv2r12.aarch64",
+                    "specifier": ">="
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,596 @@
+{
+    "version": "1.2",
+    "spdx-license-identifier": "GPL-2.0-only",
+    "copyright": "Copyright (C) 2008-2025 Greenbone AG",
+    "package_type": "rpm",
+    "product_name": "SUSE Linux Enterprise Module for Certifications 15-SP3",
+    "advisories": [
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.0948.2",
+            "fixed_packages": [
+                {
+                    "full_name": "gmp-debugsource-6.1.2-4.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gmp-debugsource-6.1.2-4.3.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gmp-debugsource-6.1.2-4.3.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gmp-debugsource-6.1.2-4.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gmp-devel-32bit-6.1.2-4.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gmp-devel-6.1.2-4.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gmp-devel-6.1.2-4.3.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gmp-devel-6.1.2-4.3.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gmp-devel-6.1.2-4.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgmp10-32bit-6.1.2-4.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgmp10-32bit-debuginfo-6.1.2-4.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgmp10-6.1.2-4.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgmp10-6.1.2-4.3.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgmp10-6.1.2-4.3.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgmp10-6.1.2-4.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgmp10-debuginfo-6.1.2-4.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgmp10-debuginfo-6.1.2-4.3.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgmp10-debuginfo-6.1.2-4.3.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgmp10-debuginfo-6.1.2-4.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgmpxx4-32bit-6.1.2-4.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgmpxx4-32bit-debuginfo-6.1.2-4.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgmpxx4-6.1.2-4.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgmpxx4-6.1.2-4.3.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgmpxx4-6.1.2-4.3.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgmpxx4-6.1.2-4.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgmpxx4-debuginfo-6.1.2-4.3.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgmpxx4-debuginfo-6.1.2-4.3.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgmpxx4-debuginfo-6.1.2-4.3.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgmpxx4-debuginfo-6.1.2-4.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libhogweed4-3.4.1-4.12.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libhogweed4-3.4.1-4.12.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libhogweed4-3.4.1-4.12.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libhogweed4-3.4.1-4.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libhogweed4-32bit-3.4.1-4.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libhogweed4-32bit-debuginfo-3.4.1-4.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libhogweed4-debuginfo-3.4.1-4.12.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libhogweed4-debuginfo-3.4.1-4.12.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libhogweed4-debuginfo-3.4.1-4.12.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libhogweed4-debuginfo-3.4.1-4.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnettle-debugsource-3.4.1-4.12.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnettle-debugsource-3.4.1-4.12.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnettle-debugsource-3.4.1-4.12.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnettle-debugsource-3.4.1-4.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnettle-devel-3.4.1-4.12.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnettle-devel-3.4.1-4.12.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnettle-devel-3.4.1-4.12.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnettle-devel-3.4.1-4.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnettle-devel-32bit-3.4.1-4.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnettle6-3.4.1-4.12.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnettle6-3.4.1-4.12.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnettle6-3.4.1-4.12.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnettle6-3.4.1-4.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnettle6-32bit-3.4.1-4.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnettle6-32bit-debuginfo-3.4.1-4.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnettle6-debuginfo-3.4.1-4.12.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnettle6-debuginfo-3.4.1-4.12.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnettle6-debuginfo-3.4.1-4.12.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnettle6-debuginfo-3.4.1-4.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "nettle-3.4.1-4.12.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "nettle-3.4.1-4.12.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "nettle-3.4.1-4.12.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "nettle-3.4.1-4.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "nettle-debuginfo-3.4.1-4.12.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "nettle-debuginfo-3.4.1-4.12.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "nettle-debuginfo-3.4.1-4.12.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "nettle-debuginfo-3.4.1-4.12.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.2864.2",
+            "fixed_packages": [
+                {
+                    "full_name": "gnutls-3.6.7-14.4.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gnutls-3.6.7-14.4.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gnutls-3.6.7-14.4.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gnutls-3.6.7-14.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gnutls-debuginfo-3.6.7-14.4.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gnutls-debuginfo-3.6.7-14.4.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gnutls-debuginfo-3.6.7-14.4.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gnutls-debuginfo-3.6.7-14.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gnutls-debugsource-3.6.7-14.4.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gnutls-debugsource-3.6.7-14.4.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gnutls-debugsource-3.6.7-14.4.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gnutls-debugsource-3.6.7-14.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutls-devel-3.6.7-14.4.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutls-devel-3.6.7-14.4.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutls-devel-3.6.7-14.4.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutls-devel-3.6.7-14.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutls-devel-32bit-3.6.7-14.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutls30-3.6.7-14.4.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutls30-3.6.7-14.4.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutls30-3.6.7-14.4.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutls30-3.6.7-14.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutls30-32bit-3.6.7-14.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutls30-32bit-debuginfo-3.6.7-14.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutls30-debuginfo-3.6.7-14.4.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutls30-debuginfo-3.6.7-14.4.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutls30-debuginfo-3.6.7-14.4.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutls30-debuginfo-3.6.7-14.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutls30-hmac-3.6.7-14.4.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutls30-hmac-3.6.7-14.4.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutls30-hmac-3.6.7-14.4.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutls30-hmac-3.6.7-14.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutls30-hmac-32bit-3.6.7-14.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutlsxx-devel-3.6.7-14.4.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutlsxx-devel-3.6.7-14.4.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutlsxx-devel-3.6.7-14.4.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutlsxx-devel-3.6.7-14.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutlsxx28-3.6.7-14.4.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutlsxx28-3.6.7-14.4.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutlsxx28-3.6.7-14.4.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutlsxx28-3.6.7-14.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutlsxx28-debuginfo-3.6.7-14.4.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutlsxx28-debuginfo-3.6.7-14.4.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutlsxx28-debuginfo-3.6.7-14.4.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgnutlsxx28-debuginfo-3.6.7-14.4.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2021.0955.2",
+            "fixed_packages": [
+                {
+                    "full_name": "libopenssl-1_1-devel-1.1.1d-11.20.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl-1_1-devel-1.1.1d-11.20.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl-1_1-devel-1.1.1d-11.20.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl-1_1-devel-1.1.1d-11.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl-1_1-devel-32bit-1.1.1d-11.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_1-1.1.1d-11.20.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_1-1.1.1d-11.20.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_1-1.1.1d-11.20.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_1-1.1.1d-11.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_1-32bit-1.1.1d-11.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_1-32bit-debuginfo-1.1.1d-11.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_1-debuginfo-1.1.1d-11.20.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_1-debuginfo-1.1.1d-11.20.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_1-debuginfo-1.1.1d-11.20.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_1-debuginfo-1.1.1d-11.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_1-hmac-1.1.1d-11.20.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_1-hmac-1.1.1d-11.20.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_1-hmac-1.1.1d-11.20.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_1-hmac-1.1.1d-11.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenssl1_1-hmac-32bit-1.1.1d-11.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_1-1.1.1d-11.20.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_1-1.1.1d-11.20.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_1-1.1.1d-11.20.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_1-1.1.1d-11.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_1-debuginfo-1.1.1d-11.20.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_1-debuginfo-1.1.1d-11.20.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_1-debuginfo-1.1.1d-11.20.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_1-debuginfo-1.1.1d-11.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_1-debugsource-1.1.1d-11.20.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_1-debugsource-1.1.1d-11.20.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_1-debugsource-1.1.1d-11.20.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_1-debugsource-1.1.1d-11.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-1_1-doc-1.1.1d-11.20.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        }
+    ]
+}

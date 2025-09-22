@@ -1,0 +1,4612 @@
+{
+    "version": "1.2",
+    "spdx-license-identifier": "GPL-2.0-only",
+    "copyright": "Copyright (C) 2008-2025 Greenbone AG",
+    "package_type": "rpm",
+    "product_name": "SUSE Linux Enterprise Workstation Extension 12-SP4",
+    "advisories": [
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.2485.2",
+            "fixed_packages": [
+                {
+                    "full_name": "libreoffice-6.0.5.2-43.38.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-base-6.0.5.2-43.38.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-base-debuginfo-6.0.5.2-43.38.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-base-drivers-mysql-6.0.5.2-43.38.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-base-drivers-mysql-debuginfo-6.0.5.2-43.38.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-base-drivers-postgresql-6.0.5.2-43.38.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-base-drivers-postgresql-debuginfo-6.0.5.2-43.38.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-branding-upstream-6.0.5.2-43.38.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-calc-6.0.5.2-43.38.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-calc-debuginfo-6.0.5.2-43.38.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-calc-extensions-6.0.5.2-43.38.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-debuginfo-6.0.5.2-43.38.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-debugsource-6.0.5.2-43.38.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-draw-6.0.5.2-43.38.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-draw-debuginfo-6.0.5.2-43.38.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-filters-optional-6.0.5.2-43.38.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-gnome-6.0.5.2-43.38.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-gnome-debuginfo-6.0.5.2-43.38.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-gtk2-6.0.5.2-43.38.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-gtk2-debuginfo-6.0.5.2-43.38.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-icon-themes-6.0.5.2-43.38.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-impress-6.0.5.2-43.38.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-impress-debuginfo-6.0.5.2-43.38.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-af-6.0.5.2-43.38.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ar-6.0.5.2-43.38.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-bg-6.0.5.2-43.38.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ca-6.0.5.2-43.38.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-cs-6.0.5.2-43.38.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-da-6.0.5.2-43.38.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-de-6.0.5.2-43.38.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-en-6.0.5.2-43.38.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-es-6.0.5.2-43.38.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-fi-6.0.5.2-43.38.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-fr-6.0.5.2-43.38.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-gu-6.0.5.2-43.38.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-hi-6.0.5.2-43.38.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-hr-6.0.5.2-43.38.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-hu-6.0.5.2-43.38.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-it-6.0.5.2-43.38.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ja-6.0.5.2-43.38.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ko-6.0.5.2-43.38.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-lt-6.0.5.2-43.38.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-nb-6.0.5.2-43.38.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-nl-6.0.5.2-43.38.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-nn-6.0.5.2-43.38.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-pl-6.0.5.2-43.38.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-pt_BR-6.0.5.2-43.38.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-pt_PT-6.0.5.2-43.38.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ro-6.0.5.2-43.38.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ru-6.0.5.2-43.38.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-sk-6.0.5.2-43.38.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-sv-6.0.5.2-43.38.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-uk-6.0.5.2-43.38.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-xh-6.0.5.2-43.38.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-zh_CN-6.0.5.2-43.38.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-zh_TW-6.0.5.2-43.38.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-zu-6.0.5.2-43.38.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-mailmerge-6.0.5.2-43.38.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-math-6.0.5.2-43.38.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-math-debuginfo-6.0.5.2-43.38.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-officebean-6.0.5.2-43.38.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-officebean-debuginfo-6.0.5.2-43.38.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-pyuno-6.0.5.2-43.38.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-pyuno-debuginfo-6.0.5.2-43.38.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-writer-6.0.5.2-43.38.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-writer-debuginfo-6.0.5.2-43.38.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-writer-extensions-6.0.5.2-43.38.5.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.3554.2",
+            "fixed_packages": [
+                {
+                    "full_name": "python-base-debuginfo-2.7.13-28.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-base-debugsource-2.7.13-28.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-devel-2.7.13-28.16.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.3587.2",
+            "fixed_packages": [
+                {
+                    "full_name": "libntfs-3g84-2013.1.13-5.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libntfs-3g84-debuginfo-2013.1.13-5.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntfs-3g-2013.1.13-5.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntfs-3g-debuginfo-2013.1.13-5.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntfs-3g_ntfsprogs-debugsource-2013.1.13-5.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntfsprogs-2013.1.13-5.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntfsprogs-debuginfo-2013.1.13-5.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.3606.2",
+            "fixed_packages": [
+                {
+                    "full_name": "libSoundTouch0-32bit-1.7.1-5.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libSoundTouch0-debuginfo-32bit-1.7.1-5.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "soundtouch-1.7.1-5.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "soundtouch-debuginfo-1.7.1-5.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "soundtouch-debugsource-1.7.1-5.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.3812.2",
+            "fixed_packages": [
+                {
+                    "full_name": "libwpd-0_10-10-0.10.2-2.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwpd-0_10-10-debuginfo-0.10.2-2.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwpd-debugsource-0.10.2-2.7.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.4023.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ImageMagick-6.8.8.1-71.93.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ImageMagick-debuginfo-6.8.8.1-71.93.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ImageMagick-debugsource-6.8.8.1-71.93.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libMagick++-6_Q16-3-6.8.8.1-71.93.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libMagick++-6_Q16-3-debuginfo-6.8.8.1-71.93.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libMagickCore-6_Q16-1-32bit-6.8.8.1-71.93.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libMagickCore-6_Q16-1-debuginfo-32bit-6.8.8.1-71.93.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.4069.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-95.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-95.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-4.12.14-95.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-debuginfo-4.12.14-95.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.4188.1",
+            "fixed_packages": [
+                {
+                    "full_name": "bluez-cups-5.13-5.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bluez-cups-debuginfo-5.13-5.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bluez-debuginfo-5.13-5.7.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bluez-debugsource-5.13-5.7.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.4211.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libmysqlclient_r18-10.0.37-2.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmysqlclient_r18-32bit-10.0.37-2.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-100-debuginfo-10.0.37-2.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-100-debugsource-10.0.37-2.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.4217.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libatalk12-3.1.0-3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libatalk12-debuginfo-3.1.0-3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "netatalk-3.1.0-3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "netatalk-debuginfo-3.1.0-3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "netatalk-debugsource-3.1.0-3.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0002.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libraw-debugsource-0.15.4-27.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libraw9-0.15.4-27.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libraw9-debuginfo-0.15.4-27.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0019.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libpolkit0-32bit-0.113-5.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpolkit0-debuginfo-32bit-0.113-5.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "polkit-debugsource-0.113-5.15.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0059.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libwebkit2gtk3-lang-2.22.4-2.29.3.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0096.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libSoundTouch0-32bit-1.7.1-5.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libSoundTouch0-debuginfo-32bit-1.7.1-5.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "soundtouch-1.7.1-5.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "soundtouch-debuginfo-1.7.1-5.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "soundtouch-debugsource-1.7.1-5.11.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0127.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libraw-debugsource-0.15.4-30.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libraw9-0.15.4-30.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libraw9-debuginfo-0.15.4-30.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0128.1",
+            "fixed_packages": [
+                {
+                    "full_name": "PackageKit-debuginfo-1.1.3-24.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "PackageKit-debugsource-1.1.3-24.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "PackageKit-gstreamer-plugin-1.1.3-24.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "PackageKit-gstreamer-plugin-debuginfo-1.1.3-24.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "PackageKit-gtk3-module-1.1.3-24.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "PackageKit-gtk3-module-debuginfo-1.1.3-24.9.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0134.1",
+            "fixed_packages": [
+                {
+                    "full_name": "freerdp-2.0.0~git.1463131968.4e66df7-12.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freerdp-debuginfo-2.0.0~git.1463131968.4e66df7-12.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freerdp-debugsource-2.0.0~git.1463131968.4e66df7-12.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfreerdp2-2.0.0~git.1463131968.4e66df7-12.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfreerdp2-debuginfo-2.0.0~git.1463131968.4e66df7-12.8.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0146.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libwebkit2gtk3-lang-2.22.5-2.32.2.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0179.1",
+            "fixed_packages": [
+                {
+                    "full_name": "avahi-glib2-debugsource-0.6.32-32.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavahi-gobject0-0.6.32-32.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavahi-gobject0-debuginfo-0.6.32-32.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavahi-ui-gtk3-0-0.6.32-32.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavahi-ui-gtk3-0-debuginfo-0.6.32-32.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavahi-ui0-0.6.32-32.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavahi-ui0-debuginfo-0.6.32-32.3.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0196.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-95.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-95.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-4.12.14-95.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-debuginfo-4.12.14-95.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0393.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libpodofo0_9_2-0.9.2-3.6.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpodofo0_9_2-debuginfo-0.9.2-3.6.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "podofo-debuginfo-0.9.2-3.6.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "podofo-debugsource-0.9.2-3.6.3.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0482.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python-base-debuginfo-2.7.13-28.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-base-debugsource-2.7.13-28.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-devel-2.7.13-28.21.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0511.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libwebkit2gtk3-lang-2.22.6-2.35.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0747.1",
+            "fixed_packages": [
+                {
+                    "full_name": "gd-32bit-2.1.0-24.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gd-debuginfo-32bit-2.1.0-24.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gd-debugsource-2.1.0-24.12.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0765.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-95.13.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-95.13.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-4.12.14-95.13.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-debuginfo-4.12.14-95.13.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0838.1",
+            "fixed_packages": [
+                {
+                    "full_name": "bash-lang-4.3-83.23.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1000.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libntfs-3g84-2013.1.13-5.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libntfs-3g84-debuginfo-2013.1.13-5.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntfs-3g-2013.1.13-5.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntfs-3g-debuginfo-2013.1.13-5.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntfs-3g_ntfsprogs-debugsource-2013.1.13-5.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntfsprogs-2013.1.13-5.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ntfsprogs-debuginfo-2013.1.13-5.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1030.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libwebkit2gtk3-lang-2.24.0-2.38.2.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1033.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ImageMagick-6.8.8.1-71.108.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ImageMagick-config-6-SUSE-6.8.8.1-71.108.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ImageMagick-config-6-upstream-6.8.8.1-71.108.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ImageMagick-debuginfo-6.8.8.1-71.108.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ImageMagick-debugsource-6.8.8.1-71.108.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libMagick++-6_Q16-3-6.8.8.1-71.108.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libMagick++-6_Q16-3-debuginfo-6.8.8.1-71.108.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libMagickCore-6_Q16-1-32bit-6.8.8.1-71.108.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libMagickCore-6_Q16-1-debuginfo-32bit-6.8.8.1-71.108.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1155.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libwebkit2gtk3-lang-2.24.1-2.41.5.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1241.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-95.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-95.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-4.12.14-95.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-debuginfo-4.12.14-95.16.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1339.1",
+            "fixed_packages": [
+                {
+                    "full_name": "bluez-cups-5.13-5.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bluez-cups-debuginfo-5.13-5.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bluez-debuginfo-5.13-5.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bluez-debugsource-5.13-5.12.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1390.1",
+            "fixed_packages": [
+                {
+                    "full_name": "gnome-shell-calendar-3.20.4-77.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gnome-shell-calendar-debuginfo-3.20.4-77.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gnome-shell-debuginfo-3.20.4-77.23.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gnome-shell-debugsource-3.20.4-77.23.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1391.1",
+            "fixed_packages": [
+                {
+                    "full_name": "evolution-3.22.6-19.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "evolution-debuginfo-3.22.6-19.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "evolution-debugsource-3.22.6-19.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "evolution-lang-3.22.6-19.9.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1439.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python-base-debuginfo-2.7.13-28.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-base-debugsource-2.7.13-28.26.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-devel-2.7.13-28.26.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1448.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libixion-0_14-0-0.14.1-13.9.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libixion-0_14-0-debuginfo-0.14.1-13.9.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libixion-debugsource-0.14.1-13.9.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "liborcus-0_14-0-0.14.1-10.12.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "liborcus-0_14-0-debuginfo-0.14.1-10.12.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "liborcus-debugsource-0.14.1-10.12.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-6.2.3.2-43.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-base-6.2.3.2-43.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-base-debuginfo-6.2.3.2-43.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-base-drivers-postgresql-6.2.3.2-43.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-base-drivers-postgresql-debuginfo-6.2.3.2-43.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-branding-upstream-6.2.3.2-43.49.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-calc-6.2.3.2-43.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-calc-debuginfo-6.2.3.2-43.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-calc-extensions-6.2.3.2-43.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-debuginfo-6.2.3.2-43.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-debugsource-6.2.3.2-43.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-draw-6.2.3.2-43.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-draw-debuginfo-6.2.3.2-43.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-filters-optional-6.2.3.2-43.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-gnome-6.2.3.2-43.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-gnome-debuginfo-6.2.3.2-43.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-gtk2-6.2.3.2-43.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-gtk2-debuginfo-6.2.3.2-43.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-icon-themes-6.2.3.2-43.49.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-impress-6.2.3.2-43.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-impress-debuginfo-6.2.3.2-43.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-af-6.2.3.2-43.49.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ar-6.2.3.2-43.49.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-bg-6.2.3.2-43.49.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ca-6.2.3.2-43.49.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-cs-6.2.3.2-43.49.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-da-6.2.3.2-43.49.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-de-6.2.3.2-43.49.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-en-6.2.3.2-43.49.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-es-6.2.3.2-43.49.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-fi-6.2.3.2-43.49.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-fr-6.2.3.2-43.49.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-gu-6.2.3.2-43.49.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-hi-6.2.3.2-43.49.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-hr-6.2.3.2-43.49.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-hu-6.2.3.2-43.49.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-it-6.2.3.2-43.49.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ja-6.2.3.2-43.49.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ko-6.2.3.2-43.49.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-lt-6.2.3.2-43.49.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-nb-6.2.3.2-43.49.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-nl-6.2.3.2-43.49.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-nn-6.2.3.2-43.49.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-pl-6.2.3.2-43.49.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-pt_BR-6.2.3.2-43.49.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-pt_PT-6.2.3.2-43.49.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ro-6.2.3.2-43.49.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ru-6.2.3.2-43.49.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-sk-6.2.3.2-43.49.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-sv-6.2.3.2-43.49.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-uk-6.2.3.2-43.49.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-xh-6.2.3.2-43.49.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-zh_CN-6.2.3.2-43.49.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-zh_TW-6.2.3.2-43.49.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-zu-6.2.3.2-43.49.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-mailmerge-6.2.3.2-43.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-math-6.2.3.2-43.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-math-debuginfo-6.2.3.2-43.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-officebean-6.2.3.2-43.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-officebean-debuginfo-6.2.3.2-43.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-pyuno-6.2.3.2-43.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-pyuno-debuginfo-6.2.3.2-43.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-writer-6.2.3.2-43.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-writer-debuginfo-6.2.3.2-43.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-writer-extensions-6.2.3.2-43.49.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwps-0_4-4-0.4.10-10.13.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwps-0_4-4-debuginfo-0.4.10-10.13.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libwps-debugsource-0.4.10-10.13.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-af_NA-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-af_ZA-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ar-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ar_AE-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ar_BH-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ar_DZ-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ar_EG-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ar_IQ-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ar_JO-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ar_KW-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ar_LB-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ar_LY-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ar_MA-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ar_OM-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ar_QA-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ar_SA-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ar_SD-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ar_SY-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ar_TN-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ar_YE-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-be_BY-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-bg_BG-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-bn_BD-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-bn_IN-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-bs-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-bs_BA-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ca-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ca_AD-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ca_ES-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ca_ES_valencia-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ca_FR-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ca_IT-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-cs_CZ-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-da_DK-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-de-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-de_AT-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-de_CH-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-de_DE-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-dictionaries-20190423-16.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-el_GR-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-en-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-en_AU-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-en_BS-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-en_BZ-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-en_CA-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-en_GB-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-en_GH-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-en_IE-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-en_IN-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-en_JM-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-en_MW-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-en_NA-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-en_NZ-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-en_PH-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-en_TT-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-en_US-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-en_ZA-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-en_ZW-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-es-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-es_AR-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-es_BO-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-es_CL-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-es_CO-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-es_CR-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-es_CU-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-es_DO-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-es_EC-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-es_ES-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-es_GT-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-es_HN-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-es_MX-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-es_NI-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-es_PA-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-es_PE-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-es_PR-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-es_PY-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-es_SV-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-es_UY-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-es_VE-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-et_EE-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-fr_BE-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-fr_CA-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-fr_CH-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-fr_FR-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-fr_LU-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-fr_MC-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-gu_IN-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-he_IL-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-hi_IN-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-hr_HR-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-hu_HU-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-id-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-id_ID-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-it_IT-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-lightproof-en-20190423-16.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-lightproof-hu_HU-20190423-16.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-lightproof-pt_BR-20190423-16.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-lightproof-ru_RU-20190423-16.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-lo_LA-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-lt_LT-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-lv_LV-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-nb_NO-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-nl_BE-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-nl_NL-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-nn_NO-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-no-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-pl_PL-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-pt_AO-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-pt_BR-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-pt_PT-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ro-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ro_RO-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ru_RU-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-sk_SK-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-sl_SI-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-sr-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-sr_CS-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-sr_Latn_CS-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-sr_Latn_RS-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-sr_RS-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-sv_FI-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-sv_SE-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-te-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-te_IN-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-th_TH-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-uk_UA-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-vi-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-vi_VN-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-zu_ZA-20190423-16.18.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1530.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-95.19.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-95.19.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-4.12.14-95.19.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-debuginfo-4.12.14-95.19.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1570.1",
+            "fixed_packages": [
+                {
+                    "full_name": "doxygen-1.8.6-3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "doxygen-debuginfo-1.8.6-3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "doxygen-debugsource-1.8.6-3.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1600.1",
+            "fixed_packages": [
+                {
+                    "full_name": "gstreamer-plugins-base-debuginfo-1.8.3-13.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gstreamer-plugins-base-debuginfo-32bit-1.8.3-13.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gstreamer-plugins-base-debugsource-1.8.3-13.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgstfft-1_0-0-32bit-1.8.3-13.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgstfft-1_0-0-debuginfo-32bit-1.8.3-13.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-GstAudio-1_0-1.8.3-13.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-GstPbutils-1_0-1.8.3-13.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-GstTag-1_0-1.8.3-13.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-GstVideo-1_0-1.8.3-13.3.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1602.1",
+            "fixed_packages": [
+                {
+                    "full_name": "gstreamer-0_10-plugins-base-0.10.36-18.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gstreamer-0_10-plugins-base-32bit-0.10.36-18.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gstreamer-0_10-plugins-base-debuginfo-0.10.36-18.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gstreamer-0_10-plugins-base-debuginfo-32bit-0.10.36-18.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gstreamer-0_10-plugins-base-debugsource-0.10.36-18.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gstreamer-0_10-plugins-base-lang-0.10.36-18.3.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgstapp-0_10-0-0.10.36-18.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgstapp-0_10-0-32bit-0.10.36-18.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgstapp-0_10-0-debuginfo-0.10.36-18.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgstapp-0_10-0-debuginfo-32bit-0.10.36-18.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgstinterfaces-0_10-0-0.10.36-18.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgstinterfaces-0_10-0-32bit-0.10.36-18.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgstinterfaces-0_10-0-debuginfo-0.10.36-18.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgstinterfaces-0_10-0-debuginfo-32bit-0.10.36-18.3.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1712.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ImageMagick-6.8.8.1-71.123.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ImageMagick-config-6-SUSE-6.8.8.1-71.123.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ImageMagick-config-6-upstream-6.8.8.1-71.123.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ImageMagick-debuginfo-6.8.8.1-71.123.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ImageMagick-debugsource-6.8.8.1-71.123.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libMagick++-6_Q16-3-6.8.8.1-71.123.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libMagick++-6_Q16-3-debuginfo-6.8.8.1-71.123.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libMagickCore-6_Q16-1-32bit-6.8.8.1-71.123.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libMagickCore-6_Q16-1-debuginfo-32bit-6.8.8.1-71.123.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1722.1",
+            "fixed_packages": [
+                {
+                    "full_name": "glib2-debugsource-2.48.2-12.12.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgio-fam-2.48.2-12.12.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgio-fam-debuginfo-2.48.2-12.12.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1785.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libzmq3-4.0.4-15.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libzmq3-debuginfo-4.0.4-15.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "zeromq-debugsource-4.0.4-15.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1830.1",
+            "fixed_packages": [
+                {
+                    "full_name": "glib2-debugsource-2.48.2-12.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgio-fam-2.48.2-12.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgio-fam-debuginfo-2.48.2-12.15.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1849.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libpodofo0_9_2-0.9.2-3.9.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpodofo0_9_2-debuginfo-0.9.2-3.9.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "podofo-debuginfo-0.9.2-3.9.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "podofo-debugsource-0.9.2-3.9.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1850.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libwebkit2gtk3-lang-2.24.2-2.44.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1851.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-95.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-95.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-4.12.14-95.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-debuginfo-4.12.14-95.24.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1962.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libIlmImf-Imf_2_1-21-32bit-2.1.0-6.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libIlmImf-Imf_2_1-21-debuginfo-32bit-2.1.0-6.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openexr-debugsource-2.1.0-6.10.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.2010.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ImageMagick-6.8.8.1-71.126.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ImageMagick-config-6-SUSE-6.8.8.1-71.126.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ImageMagick-config-6-upstream-6.8.8.1-71.126.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ImageMagick-debuginfo-6.8.8.1-71.126.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ImageMagick-debugsource-6.8.8.1-71.126.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libMagick++-6_Q16-3-6.8.8.1-71.126.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libMagick++-6_Q16-3-debuginfo-6.8.8.1-71.126.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libMagickCore-6_Q16-1-32bit-6.8.8.1-71.126.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libMagickCore-6_Q16-1-debuginfo-32bit-6.8.8.1-71.126.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.2014.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libIlmImf-Imf_2_1-21-32bit-2.1.0-6.13.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libIlmImf-Imf_2_1-21-debuginfo-32bit-2.1.0-6.13.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openexr-debugsource-2.1.0-6.13.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.2035.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libpolkit0-32bit-0.113-5.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpolkit0-debuginfo-32bit-0.113-5.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "polkit-debugsource-0.113-5.18.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.2072.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-95.29.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-95.29.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-4.12.14-95.29.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-debuginfo-4.12.14-95.29.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.2080.1",
+            "fixed_packages": [
+                {
+                    "full_name": "evince-debuginfo-3.20.2-6.27.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "evince-debugsource-3.20.2-6.27.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-EvinceDocument-3_0-3.20.2-6.27.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-EvinceView-3_0-3.20.2-6.27.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.2091.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python-base-debuginfo-2.7.13-28.31.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-base-debugsource-2.7.13-28.31.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-devel-2.7.13-28.31.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.2118.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libmysqlclient_r18-10.0.38-2.6.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmysqlclient_r18-32bit-10.0.38-2.6.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-100-debuginfo-10.0.38-2.6.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-100-debugsource-10.0.38-2.6.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.2258.1",
+            "fixed_packages": [
+                {
+                    "full_name": "NetworkManager-1.0.12-13.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "NetworkManager-debuginfo-1.0.12-13.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "NetworkManager-debugsource-1.0.12-13.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "NetworkManager-lang-1.0.12-13.12.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "typelib-1_0-NM-1_0-1.0.12-13.12.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.2345.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libwebkit2gtk3-lang-2.24.4-2.47.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.2389.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ibus-debuginfo-1.5.13-15.11.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ibus-debugsource-1.5.13-15.11.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ibus-gtk3-32bit-1.5.13-15.11.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ibus-gtk3-debuginfo-32bit-1.5.13-15.11.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libibus-1_0-5-32bit-1.5.13-15.11.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libibus-1_0-5-debuginfo-32bit-1.5.13-15.11.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-ibus-1.5.13-15.11.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.2401.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libreoffice-6.2.7.1-43.56.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-base-6.2.7.1-43.56.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-base-debuginfo-6.2.7.1-43.56.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-base-drivers-postgresql-6.2.7.1-43.56.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-base-drivers-postgresql-debuginfo-6.2.7.1-43.56.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-branding-upstream-6.2.7.1-43.56.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-calc-6.2.7.1-43.56.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-calc-debuginfo-6.2.7.1-43.56.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-calc-extensions-6.2.7.1-43.56.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-debuginfo-6.2.7.1-43.56.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-debugsource-6.2.7.1-43.56.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-draw-6.2.7.1-43.56.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-draw-debuginfo-6.2.7.1-43.56.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-filters-optional-6.2.7.1-43.56.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-gnome-6.2.7.1-43.56.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-gnome-debuginfo-6.2.7.1-43.56.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-gtk2-6.2.7.1-43.56.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-gtk2-debuginfo-6.2.7.1-43.56.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-icon-themes-6.2.7.1-43.56.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-impress-6.2.7.1-43.56.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-impress-debuginfo-6.2.7.1-43.56.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-af-6.2.7.1-43.56.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ar-6.2.7.1-43.56.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-bg-6.2.7.1-43.56.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ca-6.2.7.1-43.56.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-cs-6.2.7.1-43.56.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-da-6.2.7.1-43.56.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-de-6.2.7.1-43.56.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-en-6.2.7.1-43.56.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-es-6.2.7.1-43.56.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-fi-6.2.7.1-43.56.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-fr-6.2.7.1-43.56.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-gu-6.2.7.1-43.56.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-hi-6.2.7.1-43.56.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-hr-6.2.7.1-43.56.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-hu-6.2.7.1-43.56.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-it-6.2.7.1-43.56.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ja-6.2.7.1-43.56.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ko-6.2.7.1-43.56.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-lt-6.2.7.1-43.56.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-nb-6.2.7.1-43.56.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-nl-6.2.7.1-43.56.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-nn-6.2.7.1-43.56.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-pl-6.2.7.1-43.56.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-pt_BR-6.2.7.1-43.56.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-pt_PT-6.2.7.1-43.56.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ro-6.2.7.1-43.56.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ru-6.2.7.1-43.56.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-sk-6.2.7.1-43.56.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-sv-6.2.7.1-43.56.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-uk-6.2.7.1-43.56.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-xh-6.2.7.1-43.56.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-zh_CN-6.2.7.1-43.56.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-zh_TW-6.2.7.1-43.56.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-zu-6.2.7.1-43.56.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-mailmerge-6.2.7.1-43.56.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-math-6.2.7.1-43.56.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-math-debuginfo-6.2.7.1-43.56.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-officebean-6.2.7.1-43.56.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-officebean-debuginfo-6.2.7.1-43.56.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-pyuno-6.2.7.1-43.56.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-pyuno-debuginfo-6.2.7.1-43.56.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-writer-6.2.7.1-43.56.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-writer-debuginfo-6.2.7.1-43.56.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-writer-extensions-6.2.7.1-43.56.3.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.2412.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-95.32.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-95.32.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-4.12.14-95.32.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-debuginfo-4.12.14-95.32.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.2669.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libpcap-debugsource-1.8.1-10.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpcap1-32bit-1.8.1-10.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpcap1-debuginfo-32bit-1.8.1-10.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.2687.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libmysqlclient_r18-10.0.40.1-2.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmysqlclient_r18-32bit-10.0.40.1-2.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-100-debuginfo-10.0.40.1-2.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-100-debugsource-10.0.40.1-2.9.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.2744.1",
+            "fixed_packages": [
+                {
+                    "full_name": "openconnect-7.08-3.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openconnect-debuginfo-7.08-3.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openconnect-debugsource-7.08-3.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openconnect-lang-7.08-3.4.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.2748.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python-base-debuginfo-2.7.13-28.36.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-base-debugsource-2.7.13-28.36.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-devel-2.7.13-28.36.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.2785.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ImageMagick-6.8.8.1-71.131.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ImageMagick-config-6-SUSE-6.8.8.1-71.131.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ImageMagick-config-6-upstream-6.8.8.1-71.131.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ImageMagick-debuginfo-6.8.8.1-71.131.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ImageMagick-debugsource-6.8.8.1-71.131.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libMagick++-6_Q16-3-6.8.8.1-71.131.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libMagick++-6_Q16-3-debuginfo-6.8.8.1-71.131.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libMagickCore-6_Q16-1-32bit-6.8.8.1-71.131.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libMagickCore-6_Q16-1-debuginfo-32bit-6.8.8.1-71.131.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.2879.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-95.37.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-95.37.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-4.12.14-95.37.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-debuginfo-4.12.14-95.37.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.2915.1",
+            "fixed_packages": [
+                {
+                    "full_name": "bluez-cups-5.13-5.15.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bluez-cups-debuginfo-5.13-5.15.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bluez-debuginfo-5.13-5.15.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bluez-debugsource-5.13-5.15.3.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.2948.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-95.40.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-95.40.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-4.12.14-95.40.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-debuginfo-4.12.14-95.40.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.3077.1",
+            "fixed_packages": [
+                {
+                    "full_name": "freerdp-2.0.0~git.1463131968.4e66df7-12.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freerdp-debuginfo-2.0.0~git.1463131968.4e66df7-12.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "freerdp-debugsource-2.0.0~git.1463131968.4e66df7-12.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfreerdp2-2.0.0~git.1463131968.4e66df7-12.11.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfreerdp2-debuginfo-2.0.0~git.1463131968.4e66df7-12.11.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.3095.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libtomcrypt-debugsource-1.17-3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtomcrypt0-1.17-3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtomcrypt0-debuginfo-1.17-3.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.3341.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libzzip-0-13-0.13.67-10.25.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libzzip-0-13-debuginfo-0.13.67-10.25.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "zziplib-debugsource-0.13.67-10.25.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.3370.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libmysqlclient_r18-10.0.40.2-2.12.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmysqlclient_r18-32bit-10.0.40.2-2.12.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-100-debuginfo-10.0.40.2-2.12.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-100-debugsource-10.0.40.2-2.12.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.3371.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-95.45.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-95.45.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-4.12.14-95.45.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-debuginfo-4.12.14-95.45.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.3390.1",
+            "fixed_packages": [
+                {
+                    "full_name": "dia-0.97.3-17.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "dia-debuginfo-0.97.3-17.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "dia-debugsource-0.97.3-17.4.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "dia-lang-0.97.3-17.4.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.0145.1",
+            "fixed_packages": [
+                {
+                    "full_name": "Mesa-debugsource-18.0.2-8.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "Mesa-libGLESv2-2-32bit-18.0.2-8.3.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "Mesa-libGLESv2-2-debuginfo-32bit-18.0.2-8.3.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.0324.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python-reportlab-2.7-3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-reportlab-debuginfo-2.7-3.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-reportlab-debugsource-2.7-3.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.0372.1",
+            "fixed_packages": [
+                {
+                    "full_name": "bluez-cups-5.13-5.20.6.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bluez-cups-debuginfo-5.13-5.20.6.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bluez-debuginfo-5.13-5.20.6.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bluez-debugsource-5.13-5.20.6.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cmis-client-debuginfo-0.5.2-9.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cmis-client-debugsource-0.5.2-9.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcmis-0_5-5-0.5.2-9.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcmis-0_5-5-debuginfo-0.5.2-9.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libixion-0_15-0-0.15.0-13.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libixion-0_15-0-debuginfo-0.15.0-13.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libixion-debugsource-0.15.0-13.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmwaw-0_3-3-0.3.15-7.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmwaw-0_3-3-debuginfo-0.3.15-7.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmwaw-debugsource-0.3.15-7.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "liborcus-0_15-0-0.15.3-10.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "liborcus-0_15-0-debuginfo-0.15.3-10.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "liborcus-debugsource-0.15.3-10.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-6.3.3.2-43.59.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-base-6.3.3.2-43.59.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-base-debuginfo-6.3.3.2-43.59.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-base-drivers-postgresql-6.3.3.2-43.59.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-base-drivers-postgresql-debuginfo-6.3.3.2-43.59.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-branding-upstream-6.3.3.2-43.59.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-calc-6.3.3.2-43.59.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-calc-debuginfo-6.3.3.2-43.59.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-calc-extensions-6.3.3.2-43.59.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-debuginfo-6.3.3.2-43.59.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-debugsource-6.3.3.2-43.59.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-draw-6.3.3.2-43.59.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-draw-debuginfo-6.3.3.2-43.59.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-filters-optional-6.3.3.2-43.59.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-gnome-6.3.3.2-43.59.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-gnome-debuginfo-6.3.3.2-43.59.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-icon-themes-6.3.3.2-43.59.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-impress-6.3.3.2-43.59.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-impress-debuginfo-6.3.3.2-43.59.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-af-6.3.3.2-43.59.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ar-6.3.3.2-43.59.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-bg-6.3.3.2-43.59.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ca-6.3.3.2-43.59.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-cs-6.3.3.2-43.59.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-da-6.3.3.2-43.59.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-de-6.3.3.2-43.59.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-en-6.3.3.2-43.59.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-es-6.3.3.2-43.59.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-fi-6.3.3.2-43.59.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-fr-6.3.3.2-43.59.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-gu-6.3.3.2-43.59.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-hi-6.3.3.2-43.59.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-hr-6.3.3.2-43.59.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-hu-6.3.3.2-43.59.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-it-6.3.3.2-43.59.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ja-6.3.3.2-43.59.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ko-6.3.3.2-43.59.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-lt-6.3.3.2-43.59.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-nb-6.3.3.2-43.59.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-nl-6.3.3.2-43.59.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-nn-6.3.3.2-43.59.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-pl-6.3.3.2-43.59.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-pt_BR-6.3.3.2-43.59.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-pt_PT-6.3.3.2-43.59.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ro-6.3.3.2-43.59.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ru-6.3.3.2-43.59.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-sk-6.3.3.2-43.59.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-sv-6.3.3.2-43.59.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-uk-6.3.3.2-43.59.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-xh-6.3.3.2-43.59.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-zh_CN-6.3.3.2-43.59.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-zh_TW-6.3.3.2-43.59.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-zu-6.3.3.2-43.59.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-librelogo-6.3.3.2-43.59.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-mailmerge-6.3.3.2-43.59.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-math-6.3.3.2-43.59.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-math-debuginfo-6.3.3.2-43.59.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-officebean-6.3.3.2-43.59.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-officebean-debuginfo-6.3.3.2-43.59.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-pyuno-6.3.3.2-43.59.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-pyuno-debuginfo-6.3.3.2-43.59.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-writer-6.3.3.2-43.59.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-writer-debuginfo-6.3.3.2-43.59.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-writer-extensions-6.3.3.2-43.59.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-af_NA-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-af_ZA-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ar-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ar_AE-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ar_BH-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ar_DZ-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ar_EG-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ar_IQ-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ar_JO-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ar_KW-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ar_LB-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ar_LY-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ar_MA-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ar_OM-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ar_QA-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ar_SA-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ar_SD-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ar_SY-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ar_TN-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ar_YE-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-be_BY-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-bg_BG-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-bn_BD-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-bn_IN-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-bs-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-bs_BA-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ca-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ca_AD-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ca_ES-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ca_ES_valencia-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ca_FR-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ca_IT-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-cs_CZ-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-da_DK-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-de-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-de_AT-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-de_CH-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-de_DE-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-dictionaries-20191016-16.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-el_GR-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-en-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-en_AU-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-en_BS-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-en_BZ-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-en_CA-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-en_GB-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-en_GH-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-en_IE-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-en_IN-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-en_JM-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-en_MW-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-en_NA-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-en_NZ-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-en_PH-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-en_TT-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-en_US-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-en_ZA-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-en_ZW-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-es-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-es_AR-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-es_BO-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-es_CL-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-es_CO-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-es_CR-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-es_CU-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-es_DO-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-es_EC-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-es_ES-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-es_GT-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-es_HN-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-es_MX-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-es_NI-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-es_PA-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-es_PE-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-es_PR-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-es_PY-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-es_SV-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-es_UY-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-es_VE-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-et_EE-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-fr_BE-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-fr_CA-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-fr_CH-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-fr_FR-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-fr_LU-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-fr_MC-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-gu_IN-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-he_IL-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-hi_IN-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-hr_HR-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-hu_HU-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-id-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-id_ID-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-it_IT-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-lightproof-en-20191016-16.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-lightproof-hu_HU-20191016-16.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-lightproof-pt_BR-20191016-16.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-lightproof-ru_RU-20191016-16.21.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-lo_LA-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-lt_LT-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-lv_LV-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-nb_NO-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-nl_BE-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-nl_NL-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-nn_NO-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-no-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-pl_PL-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-pt_AO-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-pt_BR-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-pt_PT-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ro-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ro_RO-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-ru_RU-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-sk_SK-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-sl_SI-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-sr-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-sr_CS-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-sr_Latn_CS-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-sr_Latn_RS-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-sr_RS-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-sv_FI-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-sv_SE-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-te-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-te_IN-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-th_TH-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-uk_UA-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-vi-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-vi_VN-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "myspell-zu_ZA-20191016-16.21.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.0411.1",
+            "fixed_packages": [
+                {
+                    "full_name": "ImageMagick-6.8.8.1-71.141.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ImageMagick-config-6-SUSE-6.8.8.1-71.141.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ImageMagick-config-6-upstream-6.8.8.1-71.141.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ImageMagick-debuginfo-6.8.8.1-71.141.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ImageMagick-debugsource-6.8.8.1-71.141.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libMagick++-6_Q16-3-6.8.8.1-71.141.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libMagick++-6_Q16-3-debuginfo-6.8.8.1-71.141.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libMagickCore-6_Q16-1-32bit-6.8.8.1-71.141.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libMagickCore-6_Q16-1-debuginfo-32bit-6.8.8.1-71.141.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.0459.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libvpx-debugsource-1.3.0-3.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvpx1-32bit-1.3.0-3.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvpx1-debuginfo-32bit-1.3.0-3.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vpx-tools-1.3.0-3.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vpx-tools-debuginfo-1.3.0-3.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.0523.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libmysqlclient_r18-10.0.40.3-2.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmysqlclient_r18-32bit-10.0.40.3-2.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-100-debuginfo-10.0.40.3-2.15.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-100-debugsource-10.0.40.3-2.15.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.0584.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-95.48.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-95.48.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-4.12.14-95.48.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-debuginfo-4.12.14-95.48.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.0601.1",
+            "fixed_packages": [
+                {
+                    "full_name": "gimp-2.8.18-9.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-debuginfo-2.8.18-9.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-debugsource-2.8.18-9.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-lang-2.8.18-9.8.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-plugins-python-2.8.18-9.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-plugins-python-debuginfo-2.8.18-9.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgimp-2_0-0-2.8.18-9.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgimp-2_0-0-debuginfo-2.8.18-9.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgimpui-2_0-0-2.8.18-9.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgimpui-2_0-0-debuginfo-2.8.18-9.8.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.0623.1",
+            "fixed_packages": [
+                {
+                    "full_name": "gd-32bit-2.1.0-24.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gd-debuginfo-32bit-2.1.0-24.17.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gd-debugsource-2.1.0-24.17.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.1021.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libqt4-debuginfo-32bit-4.8.7-8.13.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqt4-debugsource-4.8.7-8.13.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqt4-sql-mysql-32bit-4.8.7-8.13.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqt4-sql-mysql-debuginfo-32bit-4.8.7-8.13.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqt4-sql-plugins-debugsource-4.8.7-8.13.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqt4-sql-postgresql-32bit-4.8.7-8.13.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqt4-sql-postgresql-4.8.7-8.13.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqt4-sql-postgresql-debuginfo-32bit-4.8.7-8.13.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqt4-sql-postgresql-debuginfo-4.8.7-8.13.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqt4-sql-sqlite-32bit-4.8.7-8.13.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqt4-sql-sqlite-debuginfo-32bit-4.8.7-8.13.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqt4-sql-unixODBC-32bit-4.8.7-8.13.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqt4-sql-unixODBC-4.8.7-8.13.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqt4-sql-unixODBC-debuginfo-32bit-4.8.7-8.13.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libqt4-sql-unixODBC-debuginfo-4.8.7-8.13.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.1135.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libwebkit2gtk3-lang-2.28.1-2.50.3.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.1141.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-95.51.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-95.51.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-4.12.14-95.51.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-debuginfo-4.12.14-95.51.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.1180.1",
+            "fixed_packages": [
+                {
+                    "full_name": "icu-52.1-8.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "icu-debuginfo-52.1-8.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "icu-debugsource-52.1-8.10.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.1211.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libwebkit2gtk3-lang-2.28.2-2.53.2.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.1264.1",
+            "fixed_packages": [
+                {
+                    "full_name": "openconnect-7.08-3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openconnect-debuginfo-7.08-3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openconnect-debugsource-7.08-3.9.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openconnect-lang-7.08-3.9.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.1292.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libIlmImf-Imf_2_1-21-32bit-2.1.0-6.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libIlmImf-Imf_2_1-21-debuginfo-32bit-2.1.0-6.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openexr-debugsource-2.1.0-6.20.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.1524.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python-base-debuginfo-2.7.17-28.42.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-base-debugsource-2.7.17-28.42.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-devel-2.7.17-28.42.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.1605.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-default-debuginfo-4.12.14-95.54.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-debugsource-4.12.14-95.54.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-4.12.14-95.54.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-default-extra-debuginfo-4.12.14-95.54.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.1622.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libEMF-debugsource-1.0.7-11.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libEMF1-1.0.7-11.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libEMF1-debuginfo-1.0.7-11.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.1658.1",
+            "fixed_packages": [
+                {
+                    "full_name": "gegl-0_2-0.2.0-15.3.99.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gegl-0_2-debuginfo-0.2.0-15.3.99.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gegl-0_2-lang-0.2.0-15.3.99.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gegl-debuginfo-0.2.0-15.3.99.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gegl-debugsource-0.2.0-15.3.99.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgegl-0_2-0-0.2.0-15.3.99.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libgegl-0_2-0-debuginfo-0.2.0-15.3.99.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.1659.1",
+            "fixed_packages": [
+                {
+                    "full_name": "guile1-1.8.8-16.4.39.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "guile1-debuginfo-1.8.8-16.4.39.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "guile1-debugsource-1.8.8-16.4.39.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libguile-srfi-srfi-1-v-3-3-1.8.8-16.4.39.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libguile-srfi-srfi-1-v-3-3-debuginfo-1.8.8-16.4.39.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libguile-srfi-srfi-13-14-v-3-3-1.8.8-16.4.39.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libguile-srfi-srfi-13-14-v-3-3-debuginfo-1.8.8-16.4.39.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libguile-srfi-srfi-4-v-3-3-1.8.8-16.4.39.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libguile-srfi-srfi-4-v-3-3-debuginfo-1.8.8-16.4.39.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libguile-srfi-srfi-60-v-2-2-1.8.8-16.4.39.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libguile-srfi-srfi-60-v-2-2-debuginfo-1.8.8-16.4.39.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libguile17-1.8.8-16.4.39.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libguile17-debuginfo-1.8.8-16.4.39.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libguilereadline-v-17-17-1.8.8-16.4.39.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libguilereadline-v-17-17-debuginfo-1.8.8-16.4.39.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.1712.1",
+            "fixed_packages": [
+                {
+                    "full_name": "tv-common-3.103-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "tv-common-debuginfo-3.103-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "v4l-conf-3.103-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "v4l-conf-debuginfo-3.103-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "v4l-tools-3.103-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "v4l-tools-debuginfo-3.103-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xawtv-debuginfo-3.103-6.3.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xawtv-debugsource-3.103-6.3.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.1731.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libreoffice-6.4.4.2-43.65.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-base-6.4.4.2-43.65.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-base-debuginfo-6.4.4.2-43.65.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-base-drivers-postgresql-6.4.4.2-43.65.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-base-drivers-postgresql-debuginfo-6.4.4.2-43.65.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-branding-upstream-6.4.4.2-43.65.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-calc-6.4.4.2-43.65.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-calc-debuginfo-6.4.4.2-43.65.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-calc-extensions-6.4.4.2-43.65.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-debuginfo-6.4.4.2-43.65.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-debugsource-6.4.4.2-43.65.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-draw-6.4.4.2-43.65.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-draw-debuginfo-6.4.4.2-43.65.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-filters-optional-6.4.4.2-43.65.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-gnome-6.4.4.2-43.65.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-gnome-debuginfo-6.4.4.2-43.65.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-icon-themes-6.4.4.2-43.65.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-impress-6.4.4.2-43.65.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-impress-debuginfo-6.4.4.2-43.65.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-af-6.4.4.2-43.65.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ar-6.4.4.2-43.65.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-bg-6.4.4.2-43.65.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ca-6.4.4.2-43.65.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-cs-6.4.4.2-43.65.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-da-6.4.4.2-43.65.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-de-6.4.4.2-43.65.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-en-6.4.4.2-43.65.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-es-6.4.4.2-43.65.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-fi-6.4.4.2-43.65.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-fr-6.4.4.2-43.65.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-gu-6.4.4.2-43.65.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-hi-6.4.4.2-43.65.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-hr-6.4.4.2-43.65.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-hu-6.4.4.2-43.65.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-it-6.4.4.2-43.65.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ja-6.4.4.2-43.65.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ko-6.4.4.2-43.65.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-lt-6.4.4.2-43.65.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-nb-6.4.4.2-43.65.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-nl-6.4.4.2-43.65.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-nn-6.4.4.2-43.65.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-pl-6.4.4.2-43.65.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-pt_BR-6.4.4.2-43.65.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-pt_PT-6.4.4.2-43.65.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ro-6.4.4.2-43.65.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-ru-6.4.4.2-43.65.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-sk-6.4.4.2-43.65.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-sv-6.4.4.2-43.65.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-uk-6.4.4.2-43.65.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-xh-6.4.4.2-43.65.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-zh_CN-6.4.4.2-43.65.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-zh_TW-6.4.4.2-43.65.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-l10n-zu-6.4.4.2-43.65.5.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-librelogo-6.4.4.2-43.65.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-mailmerge-6.4.4.2-43.65.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-math-6.4.4.2-43.65.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-math-debuginfo-6.4.4.2-43.65.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-officebean-6.4.4.2-43.65.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-officebean-debuginfo-6.4.4.2-43.65.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-pyuno-6.4.4.2-43.65.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-pyuno-debuginfo-6.4.4.2-43.65.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-writer-6.4.4.2-43.65.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-writer-debuginfo-6.4.4.2-43.65.5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreoffice-writer-extensions-6.4.4.2-43.65.5.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.1798.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libmysqlclient_r18-10.0.40.4-2.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmysqlclient_r18-32bit-10.0.40.4-2.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-100-debuginfo-10.0.40.4-2.20.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-100-debugsource-10.0.40.4-2.20.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.1807.1",
+            "fixed_packages": [
+                {
+                    "full_name": "openconnect-7.08-3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openconnect-debuginfo-7.08-3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openconnect-debugsource-7.08-3.12.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openconnect-lang-7.08-3.12.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        }
+    ]
+}

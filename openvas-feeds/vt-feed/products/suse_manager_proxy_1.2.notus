@@ -1,0 +1,79 @@
+{
+    "version": "1.2",
+    "spdx-license-identifier": "GPL-2.0-only",
+    "copyright": "Copyright (C) 2008-2025 Greenbone AG",
+    "package_type": "rpm",
+    "product_name": "SUSE Manager Proxy 1.2",
+    "advisories": [
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.0510.1",
+            "fixed_packages": [
+                {
+                    "full_name": "nocpulse-common-2.1.19-0.12.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "osad-5.9.44-0.16.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-1.2.74-0.50.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-backend-libs-1.2.74-0.50.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-client-repository-0.1-0.5.196.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-client-repository-sle-10-3-0.1-0.7.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-client-repository-sle-10-4-0.1-0.7.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-client-repository-sle-11-1-0.1-0.5.196.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-proxy-broker-1.2.15-0.13.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-proxy-common-1.2.15-0.13.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-proxy-management-1.2.15-0.13.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-proxy-package-manager-1.2.15-0.13.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacewalk-proxy-redirect-1.2.15-0.13.2.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2012.1244.1",
+            "fixed_packages": [
+                {
+                    "full_name": "jabberd-2.2.11-0.10.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "jabberd-db-2.2.11-0.10.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        }
+    ]
+}

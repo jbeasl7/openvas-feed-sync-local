@@ -1,0 +1,476 @@
+{
+    "version": "1.2",
+    "spdx-license-identifier": "GPL-2.0-only",
+    "copyright": "Copyright (C) 2008-2025 Greenbone AG",
+    "package_type": "rpm",
+    "product_name": "SUSE Manager Ubuntu 18.04",
+    "advisories": [
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.14303.1",
+            "fixed_packages": [
+                {
+                    "full_name": "salt-common-2019.2.2+ds-1.1+27.9.1.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-minion-2019.2.2+ds-1.1+27.9.1.all",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.14331.1",
+            "fixed_packages": [
+                {
+                    "full_name": "salt-common-2019.2.2+ds-1.1+27.12.2.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-minion-2019.2.2+ds-1.1+27.12.2.all",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.14350.1",
+            "fixed_packages": [
+                {
+                    "full_name": "salt-common-2019.2.0+ds-1.1+38.1.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-minion-2019.2.0+ds-1.1+38.1.all",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.14403.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-systemd-234-2build2.amd64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-tornado-4.5.3-1ubuntu0.1.amd64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-zmq-16.0.2-2build2.amd64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-common-3000+ds-1+27.20.1.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-minion-3000+ds-1+27.20.1.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacecmd-4.1.4-2.9.1.all",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.14430.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-systemd-234-2build2.amd64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-tornado-4.5.3-1ubuntu0.1.amd64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-zmq-16.0.2-2build2.amd64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-common-3000+ds-1+48.1.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-minion-3000+ds-1+48.1.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacecmd-4.1.4-5.2.all",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.14563.1",
+            "fixed_packages": [
+                {
+                    "full_name": "salt-common-3000+ds-1+62.1.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-minion-3000+ds-1+62.1.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacecmd-4.1.9-17.1.all",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.14572.1",
+            "fixed_packages": [
+                {
+                    "full_name": "debconf-1.5.66-.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "debconf-doc-1.5.66-.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "debconf-i18n-1.5.66-.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "debconf-utils-1.5.66-.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnorm1-1.5r6+dfsg1-6.amd64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpgm-5.2-0-5.2.122~dfsg-3.amd64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsodium23-1.0.16-2.amd64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libzmq5-4.3.1-3ubuntu2.amd64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "moreutils-0.62-1.amd64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "prometheus-apache-exporter-0.5.0+ds-2.amd64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "prometheus-node-exporter-0.17.0+ds-3.amd64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "prometheus-postgres-exporter-0.4.7+ds-2.amd64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-croniter-0.3.12-2.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-debconf-1.5.66-.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-distro-1.0.1-2.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-gnupg-0.4.1-1ubuntu1.18.04.1.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-rpm-4.14.1+dfsg1-2.1~uyuni1.amd64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-singledispatch-3.4.0.3-2.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-systemd-234-2build2.amd64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-tornado-4.5.3-1ubuntu0.1.amd64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-zmq-16.0.2-2build2.amd64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rpm-common-4.14.1+dfsg1-2.1~uyuni1.amd64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-common-3000+ds-1+27.23.1.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-minion-3000+ds-1+27.23.1.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacecmd-4.2.3-2.12.3.all",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2021.14624.1",
+            "fixed_packages": [
+                {
+                    "full_name": "prometheus-exporter-exporter-0.4.0-1.amd64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-common-3002.2+ds-1+27.28.2.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-minion-3002.2+ds-1+27.28.2.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacecmd-4.2.4-2.15.1.all",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2021.14649.1",
+            "fixed_packages": [
+                {
+                    "full_name": "salt-common-3000+ds-1+74.1.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-minion-3000+ds-1+74.1.all",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2021.14679.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libopenscap-dev-1.2.15-1build1~uyuni1.amd64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenscap-perl-1.2.15-1build1~uyuni1.amd64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenscap8-1.2.15-1build1~uyuni1.amd64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenscap8-dbg-1.2.15-1build1~uyuni1.amd64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-openscap-1.2.15-1build1~uyuni1.amd64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-common-3002.2+ds-1+27.34.1.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-minion-3002.2+ds-1+27.34.1.all",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2021.14733.1",
+            "fixed_packages": [
+                {
+                    "full_name": "salt-common-3002.2+ds-1+27.42.1.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-minion-3002.2+ds-1+27.42.1.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacecmd-4.2.8-2.24.1.all",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2021.14755.1",
+            "fixed_packages": [
+                {
+                    "full_name": "libopenscap-dev-1.2.15-1build1~uyuni1.amd64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenscap-perl-1.2.15-1build1~uyuni1.amd64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenscap8-1.2.15-1build1~uyuni1.amd64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenscap8-dbg-1.2.15-1build1~uyuni1.amd64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-openscap-1.2.15-1build1~uyuni1.amd64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-pycryptodome-3.4.7-1ubuntu1.amd64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-common-3002.2+ds-1+89.1.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-minion-3002.2+ds-1+89.1.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "scap-security-guide-ubuntu-0.1.55git20210323-2.3.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacecmd-4.2.8-26.2.all",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2021.14832.1",
+            "fixed_packages": [
+                {
+                    "full_name": "salt-common-3002.2+ds-1+98.1.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-minion-3002.2+ds-1+98.1.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "scap-security-guide-ubuntu-0.1.57-8.1.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacecmd-4.2.13-35.1.all",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2021.3903.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-contextvars-2.4-1.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-immutables-0.11-1.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-common-3003.3+ds-1+27.45.1.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-minion-3003.3+ds-1+27.45.1.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "scap-security-guide-ubuntu-0.1.58-2.6.1.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacecmd-4.3.4-2.27.1.all",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.14932.1",
+            "fixed_packages": [
+                {
+                    "full_name": "salt-common-3002.2+ds-1+107.1.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-minion-3002.2+ds-1+107.1.all",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.15037.1",
+            "fixed_packages": [
+                {
+                    "full_name": "salt-common-3004+ds-1+122.1.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-minion-3004+ds-1+122.1.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "scap-security-guide-ubuntu-0.1.62-20.1.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacecmd-4.3.14-50.1.all",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.15041.1",
+            "fixed_packages": [
+                {
+                    "full_name": "venv-salt-minion-3004-2.11.2.amd64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1527.1",
+            "fixed_packages": [
+                {
+                    "full_name": "salt-common-3004+ds-1+27.57.1.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "salt-minion-3004+ds-1+27.57.1.all",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "spacecmd-4.3.10-2.39.1.all",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1534.1",
+            "fixed_packages": [
+                {
+                    "full_name": "venv-salt-minion-3004-2.9.1.amd64",
+                    "specifier": ">="
+                }
+            ]
+        }
+    ]
+}

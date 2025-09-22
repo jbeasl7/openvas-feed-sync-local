@@ -1,0 +1,782 @@
+{
+    "version": "1.2",
+    "spdx-license-identifier": "GPL-2.0-only",
+    "copyright": "Copyright (C) 2008-2025 Greenbone AG",
+    "package_type": "rpm",
+    "product_name": "SUSE Linux Enterprise Module for Public Cloud 15",
+    "advisories": [
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.1952.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-azure-4.12.14-5.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-base-4.12.14-5.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-base-debuginfo-4.12.14-5.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-debuginfo-4.12.14-5.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-devel-4.12.14-5.5.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-devel-azure-4.12.14-5.5.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-source-azure-4.12.14-5.5.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-syms-azure-4.12.14-5.5.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.2222.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-azure-4.12.14-5.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-base-4.12.14-5.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-base-debuginfo-4.12.14-5.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-debuginfo-4.12.14-5.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-devel-4.12.14-5.8.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-devel-azure-4.12.14-5.8.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-source-azure-4.12.14-5.8.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-syms-azure-4.12.14-5.8.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.2450.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-azure-4.12.14-5.13.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-base-4.12.14-5.13.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-base-debuginfo-4.12.14-5.13.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-debuginfo-4.12.14-5.13.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-devel-4.12.14-5.13.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-devel-azure-4.12.14-5.13.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-source-azure-4.12.14-5.13.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-syms-azure-4.12.14-5.13.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2018.3961.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-azure-4.12.14-5.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-base-4.12.14-5.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-base-debuginfo-4.12.14-5.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-debuginfo-4.12.14-5.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-devel-4.12.14-5.16.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-devel-azure-4.12.14-5.16.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-source-azure-4.12.14-5.16.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-syms-azure-4.12.14-5.16.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0150.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-azure-4.12.14-5.19.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-base-4.12.14-5.19.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-base-debuginfo-4.12.14-5.19.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-debuginfo-4.12.14-5.19.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-devel-4.12.14-5.19.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-devel-azure-4.12.14-5.19.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-source-azure-4.12.14-5.19.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-syms-azure-4.12.14-5.19.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0174.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-paramiko-2.4.2-3.3.2.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0603.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python-azure-agent-2.2.36-7.6.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.0785.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-azure-4.12.14-5.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-base-4.12.14-5.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-base-debuginfo-4.12.14-5.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-debuginfo-4.12.14-5.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-devel-4.12.14-5.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-devel-azure-4.12.14-5.24.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-source-azure-4.12.14-5.24.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-syms-azure-4.12.14-5.24.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1240.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-azure-4.12.14-5.27.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-base-4.12.14-5.27.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-base-debuginfo-4.12.14-5.27.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-debuginfo-4.12.14-5.27.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-devel-4.12.14-5.27.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-devel-azure-4.12.14-5.27.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-source-azure-4.12.14-5.27.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-syms-azure-4.12.14-5.27.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1535.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-azure-4.12.14-5.30.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-base-4.12.14-5.30.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-base-debuginfo-4.12.14-5.30.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-debuginfo-4.12.14-5.30.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-devel-4.12.14-5.30.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-devel-azure-4.12.14-5.30.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-source-azure-4.12.14-5.30.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-syms-azure-4.12.14-5.30.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.1829.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-azure-4.12.14-5.33.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-base-4.12.14-5.33.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-base-debuginfo-4.12.14-5.33.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-debuginfo-4.12.14-5.33.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-devel-4.12.14-5.33.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-devel-azure-4.12.14-5.33.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-source-azure-4.12.14-5.33.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-syms-azure-4.12.14-5.33.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.2068.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-azure-4.12.14-5.38.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-base-4.12.14-5.38.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-base-debuginfo-4.12.14-5.38.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-debuginfo-4.12.14-5.38.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-devel-4.12.14-5.38.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-devel-azure-4.12.14-5.38.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-source-azure-4.12.14-5.38.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-syms-azure-4.12.14-5.38.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.2651.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-azure-4.12.14-5.41.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-base-4.12.14-5.41.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-base-debuginfo-4.12.14-5.41.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-debuginfo-4.12.14-5.41.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-devel-4.12.14-5.41.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-devel-azure-4.12.14-5.41.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-source-azure-4.12.14-5.41.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-syms-azure-4.12.14-5.41.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.2891.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-ecdsa-0.13.3-3.3.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.2951.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-azure-4.12.14-5.44.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-base-4.12.14-5.44.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-base-debuginfo-4.12.14-5.44.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-debuginfo-4.12.14-5.44.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-devel-4.12.14-5.44.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-devel-azure-4.12.14-5.44.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-source-azure-4.12.14-5.44.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-syms-azure-4.12.14-5.44.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.3097.1",
+            "fixed_packages": [
+                {
+                    "full_name": "cloud-init-19.2-5.18.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cloud-init-19.2-5.18.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cloud-init-19.2-5.18.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cloud-init-19.2-5.18.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cloud-init-config-suse-19.2-5.18.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cloud-init-config-suse-19.2-5.18.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cloud-init-config-suse-19.2-5.18.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cloud-init-config-suse-19.2-5.18.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.3289.1",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-azure-4.12.14-5.47.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-base-4.12.14-5.47.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-base-debuginfo-4.12.14-5.47.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-debuginfo-4.12.14-5.47.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-azure-devel-4.12.14-5.47.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-devel-azure-4.12.14-5.47.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-source-azure-4.12.14-5.47.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-syms-azure-4.12.14-5.47.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2019.3393.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python-azure-agent-2.2.45-7.9.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2020.0585.1",
+            "fixed_packages": [
+                {
+                    "full_name": "cloud-init-19.4-5.24.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cloud-init-19.4-5.24.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cloud-init-19.4-5.24.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cloud-init-19.4-5.24.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cloud-init-config-suse-19.4-5.24.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cloud-init-config-suse-19.4-5.24.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cloud-init-config-suse-19.4-5.24.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cloud-init-config-suse-19.4-5.24.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2021.1637.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-httplib2-0.19.0-1.8.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2021.2008.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-rsa-3.4.2-3.4.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.1510.1",
+            "fixed_packages": [
+                {
+                    "full_name": "amazon-ssm-agent-3.1.1260.0-150000.5.9.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "amazon-ssm-agent-3.1.1260.0-150000.5.9.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.2562.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python-M2Crypto-debugsource-0.35.2-150000.3.14.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-M2Crypto-debugsource-0.35.2-150000.3.14.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-M2Crypto-debugsource-0.35.2-150000.3.14.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-M2Crypto-debugsource-0.35.2-150000.3.14.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-M2Crypto-0.35.2-150000.3.14.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-M2Crypto-0.35.2-150000.3.14.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-M2Crypto-0.35.2-150000.3.14.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-M2Crypto-0.35.2-150000.3.14.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-M2Crypto-debuginfo-0.35.2-150000.3.14.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-M2Crypto-debuginfo-0.35.2-150000.3.14.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-M2Crypto-debuginfo-0.35.2-150000.3.14.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-M2Crypto-debuginfo-0.35.2-150000.3.14.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.2583.1",
+            "fixed_packages": [
+                {
+                    "full_name": "aws-iam-authenticator-0.5.3-150000.1.9.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.2841.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-PyYAML-5.1.2-150000.3.6.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-PyYAML-5.1.2-150000.3.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-PyYAML-5.1.2-150000.3.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-PyYAML-5.1.2-150000.3.6.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.2878.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-lxml-4.7.1-150100.6.6.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-lxml-4.7.1-150100.6.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-lxml-4.7.1-150100.6.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-lxml-4.7.1-150100.6.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-lxml-devel-4.7.1-150100.6.6.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-lxml-devel-4.7.1-150100.6.6.1.ppc64le",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-lxml-devel-4.7.1-150100.6.6.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-lxml-devel-4.7.1-150100.6.6.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-lxml-doc-4.7.1-150100.6.6.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.3545.1",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-PyJWT-1.5.3-150000.3.3.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.4150.1",
+            "fixed_packages": [
+                {
+                    "full_name": "cni-0.7.1-150000.1.7.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2022.4151.1",
+            "fixed_packages": [
+                {
+                    "full_name": "cni-plugins-0.8.6-150000.1.7.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        }
+    ]
+}

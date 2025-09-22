@@ -1,0 +1,1147 @@
+{
+    "version": "1.2",
+    "spdx-license-identifier": "GPL-2.0-only",
+    "copyright": "Copyright (C) 2008-2025 Greenbone AG",
+    "package_type": "rpm",
+    "product_name": "SUSE Manager Client Tools for SLE Micro 5",
+    "advisories": [
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.0812.1",
+            "fixed_packages": [
+                {
+                    "full_name": "dracut-saltboot-0.1.1674034019.a93ff61-150000.1.47.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "uyuni-proxy-systemd-services-4.3.8-150000.1.12.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.2182.1",
+            "fixed_packages": [
+                {
+                    "full_name": "prometheus-blackbox_exporter-0.19.0-150000.1.17.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "prometheus-blackbox_exporter-0.19.0-150000.1.17.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "prometheus-blackbox_exporter-0.19.0-150000.1.17.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.2187.1",
+            "fixed_packages": [
+                {
+                    "full_name": "golang-github-prometheus-node_exporter-1.5.0-150100.3.23.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-prometheus-node_exporter-1.5.0-150100.3.23.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-prometheus-node_exporter-1.5.0-150100.3.23.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.2578.1",
+            "fixed_packages": [
+                {
+                    "full_name": "bind-utils-9.16.6-150000.12.65.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-utils-9.16.6-150000.12.65.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-utils-9.16.6-150000.12.65.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "dracut-saltboot-0.1.1681904360.84ef141-150000.1.50.1.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libbind9-1600-64bit-9.16.6-150000.12.65.1.aarch64_ilp32",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libbind9-1600-9.16.6-150000.12.65.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libbind9-1600-9.16.6-150000.12.65.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libbind9-1600-9.16.6-150000.12.65.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libdns1605-64bit-9.16.6-150000.12.65.1.aarch64_ilp32",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libdns1605-9.16.6-150000.12.65.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libdns1605-9.16.6-150000.12.65.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libdns1605-9.16.6-150000.12.65.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libirs1601-64bit-9.16.6-150000.12.65.1.aarch64_ilp32",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libirs1601-9.16.6-150000.12.65.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libirs1601-9.16.6-150000.12.65.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libirs1601-9.16.6-150000.12.65.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisc1606-64bit-9.16.6-150000.12.65.1.aarch64_ilp32",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisc1606-9.16.6-150000.12.65.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisc1606-9.16.6-150000.12.65.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisc1606-9.16.6-150000.12.65.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccc1600-64bit-9.16.6-150000.12.65.1.aarch64_ilp32",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccc1600-9.16.6-150000.12.65.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccc1600-9.16.6-150000.12.65.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccc1600-9.16.6-150000.12.65.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccfg1600-64bit-9.16.6-150000.12.65.1.aarch64_ilp32",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccfg1600-9.16.6-150000.12.65.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccfg1600-9.16.6-150000.12.65.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccfg1600-9.16.6-150000.12.65.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libns1604-9.16.6-150000.12.65.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libns1604-9.16.6-150000.12.65.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-bind-9.16.6-150000.12.65.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.2794.1",
+            "fixed_packages": [
+                {
+                    "full_name": "bind-utils-9.16.6-150000.12.68.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-utils-9.16.6-150000.12.68.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-utils-9.16.6-150000.12.68.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libbind9-1600-64bit-9.16.6-150000.12.68.1.aarch64_ilp32",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libbind9-1600-9.16.6-150000.12.68.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libbind9-1600-9.16.6-150000.12.68.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libbind9-1600-9.16.6-150000.12.68.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libdns1605-64bit-9.16.6-150000.12.68.1.aarch64_ilp32",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libdns1605-9.16.6-150000.12.68.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libdns1605-9.16.6-150000.12.68.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libdns1605-9.16.6-150000.12.68.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libirs1601-64bit-9.16.6-150000.12.68.1.aarch64_ilp32",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libirs1601-9.16.6-150000.12.68.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libirs1601-9.16.6-150000.12.68.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libirs1601-9.16.6-150000.12.68.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisc1606-64bit-9.16.6-150000.12.68.1.aarch64_ilp32",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisc1606-9.16.6-150000.12.68.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisc1606-9.16.6-150000.12.68.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisc1606-9.16.6-150000.12.68.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccc1600-64bit-9.16.6-150000.12.68.1.aarch64_ilp32",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccc1600-9.16.6-150000.12.68.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccc1600-9.16.6-150000.12.68.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccc1600-9.16.6-150000.12.68.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccfg1600-64bit-9.16.6-150000.12.68.1.aarch64_ilp32",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccfg1600-9.16.6-150000.12.68.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccfg1600-9.16.6-150000.12.68.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccfg1600-9.16.6-150000.12.68.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libns1604-9.16.6-150000.12.68.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libns1604-9.16.6-150000.12.68.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-bind-9.16.6-150000.12.68.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.3142.1",
+            "fixed_packages": [
+                {
+                    "full_name": "venv-salt-minion-3006.0-150000.3.35.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "venv-salt-minion-3006.0-150000.3.35.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "venv-salt-minion-3006.0-150000.3.35.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.3144.1",
+            "fixed_packages": [
+                {
+                    "full_name": "prometheus-blackbox_exporter-0.24.0-150000.1.20.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "prometheus-blackbox_exporter-0.24.0-150000.1.20.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "prometheus-blackbox_exporter-0.24.0-150000.1.20.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "system-user-prometheus-1.0.0-150000.10.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.3805.1",
+            "fixed_packages": [
+                {
+                    "full_name": "bind-utils-9.16.6-150000.12.71.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-utils-9.16.6-150000.12.71.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-utils-9.16.6-150000.12.71.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libbind9-1600-64bit-9.16.6-150000.12.71.1.aarch64_ilp32",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libbind9-1600-9.16.6-150000.12.71.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libbind9-1600-9.16.6-150000.12.71.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libbind9-1600-9.16.6-150000.12.71.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libdns1605-64bit-9.16.6-150000.12.71.1.aarch64_ilp32",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libdns1605-9.16.6-150000.12.71.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libdns1605-9.16.6-150000.12.71.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libdns1605-9.16.6-150000.12.71.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libirs1601-64bit-9.16.6-150000.12.71.1.aarch64_ilp32",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libirs1601-9.16.6-150000.12.71.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libirs1601-9.16.6-150000.12.71.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libirs1601-9.16.6-150000.12.71.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisc1606-64bit-9.16.6-150000.12.71.1.aarch64_ilp32",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisc1606-9.16.6-150000.12.71.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisc1606-9.16.6-150000.12.71.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisc1606-9.16.6-150000.12.71.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccc1600-64bit-9.16.6-150000.12.71.1.aarch64_ilp32",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccc1600-9.16.6-150000.12.71.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccc1600-9.16.6-150000.12.71.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccc1600-9.16.6-150000.12.71.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccfg1600-64bit-9.16.6-150000.12.71.1.aarch64_ilp32",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccfg1600-9.16.6-150000.12.71.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccfg1600-9.16.6-150000.12.71.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccfg1600-9.16.6-150000.12.71.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libns1604-9.16.6-150000.12.71.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libns1604-9.16.6-150000.12.71.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-bind-9.16.6-150000.12.71.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.3868.1",
+            "fixed_packages": [
+                {
+                    "full_name": "golang-github-QubitProducts-exporter_exporter-0.4.0-150000.1.18.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-QubitProducts-exporter_exporter-0.4.0-150000.1.18.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-QubitProducts-exporter_exporter-0.4.0-150000.1.18.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "prometheus-blackbox_exporter-0.24.0-150000.1.23.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "prometheus-blackbox_exporter-0.24.0-150000.1.23.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "prometheus-blackbox_exporter-0.24.0-150000.1.23.3.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.3877.1",
+            "fixed_packages": [
+                {
+                    "full_name": "venv-salt-minion-3006.0-150000.3.42.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "venv-salt-minion-3006.0-150000.3.42.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "venv-salt-minion-3006.0-150000.3.42.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.3888.1",
+            "fixed_packages": [
+                {
+                    "full_name": "golang-github-prometheus-node_exporter-1.5.0-150100.3.26.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-prometheus-node_exporter-1.5.0-150100.3.26.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "golang-github-prometheus-node_exporter-1.5.0-150100.3.26.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2023.4749.1",
+            "fixed_packages": [
+                {
+                    "full_name": "venv-salt-minion-3006.0-150000.3.48.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "venv-salt-minion-3006.0-150000.3.48.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "venv-salt-minion-3006.0-150000.3.48.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.0487.1",
+            "fixed_packages": [
+                {
+                    "full_name": "uyuni-proxy-systemd-services-4.3.10-150000.1.15.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.1509.1",
+            "fixed_packages": [
+                {
+                    "full_name": "dracut-saltboot-0.1.1710765237.46af599-150000.1.53.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "uyuni-proxy-systemd-services-4.3.12-150000.1.21.2.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.1518.1",
+            "fixed_packages": [
+                {
+                    "full_name": "venv-salt-minion-3006.0-150000.3.54.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "venv-salt-minion-3006.0-150000.3.54.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "venv-salt-minion-3006.0-150000.3.54.3.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.2033.1",
+            "fixed_packages": [
+                {
+                    "full_name": "bind-utils-9.16.6-150000.12.74.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-utils-9.16.6-150000.12.74.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-utils-9.16.6-150000.12.74.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libbind9-1600-64bit-9.16.6-150000.12.74.2.aarch64_ilp32",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libbind9-1600-9.16.6-150000.12.74.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libbind9-1600-9.16.6-150000.12.74.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libbind9-1600-9.16.6-150000.12.74.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libdns1605-64bit-9.16.6-150000.12.74.2.aarch64_ilp32",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libdns1605-9.16.6-150000.12.74.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libdns1605-9.16.6-150000.12.74.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libdns1605-9.16.6-150000.12.74.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libirs1601-64bit-9.16.6-150000.12.74.2.aarch64_ilp32",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libirs1601-9.16.6-150000.12.74.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libirs1601-9.16.6-150000.12.74.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libirs1601-9.16.6-150000.12.74.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisc1606-64bit-9.16.6-150000.12.74.2.aarch64_ilp32",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisc1606-9.16.6-150000.12.74.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisc1606-9.16.6-150000.12.74.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisc1606-9.16.6-150000.12.74.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccc1600-64bit-9.16.6-150000.12.74.2.aarch64_ilp32",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccc1600-9.16.6-150000.12.74.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccc1600-9.16.6-150000.12.74.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccc1600-9.16.6-150000.12.74.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccfg1600-64bit-9.16.6-150000.12.74.2.aarch64_ilp32",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccfg1600-9.16.6-150000.12.74.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccfg1600-9.16.6-150000.12.74.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccfg1600-9.16.6-150000.12.74.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libns1604-9.16.6-150000.12.74.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libns1604-9.16.6-150000.12.74.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libns1604-9.16.6-150000.12.74.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libns1604-debuginfo-9.16.6-150000.12.74.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libns1604-debuginfo-9.16.6-150000.12.74.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libns1604-debuginfo-9.16.6-150000.12.74.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libuv1-1.18.0-150000.3.2.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libuv1-1.18.0-150000.3.2.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libuv1-1.18.0-150000.3.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libuv1-debuginfo-1.18.0-150000.3.2.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libuv1-debuginfo-1.18.0-150000.3.2.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libuv1-debuginfo-1.18.0-150000.3.2.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-bind-9.16.6-150000.12.74.2.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.2811.1",
+            "fixed_packages": [
+                {
+                    "full_name": "bind-utils-9.16.6-150000.12.77.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-utils-9.16.6-150000.12.77.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-utils-9.16.6-150000.12.77.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libbind9-1600-64bit-9.16.6-150000.12.77.1.aarch64_ilp32",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libbind9-1600-9.16.6-150000.12.77.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libbind9-1600-9.16.6-150000.12.77.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libbind9-1600-9.16.6-150000.12.77.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libdns1605-64bit-9.16.6-150000.12.77.1.aarch64_ilp32",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libdns1605-9.16.6-150000.12.77.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libdns1605-9.16.6-150000.12.77.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libdns1605-9.16.6-150000.12.77.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libirs1601-64bit-9.16.6-150000.12.77.1.aarch64_ilp32",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libirs1601-9.16.6-150000.12.77.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libirs1601-9.16.6-150000.12.77.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libirs1601-9.16.6-150000.12.77.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisc1606-64bit-9.16.6-150000.12.77.1.aarch64_ilp32",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisc1606-9.16.6-150000.12.77.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisc1606-9.16.6-150000.12.77.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisc1606-9.16.6-150000.12.77.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccc1600-64bit-9.16.6-150000.12.77.1.aarch64_ilp32",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccc1600-9.16.6-150000.12.77.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccc1600-9.16.6-150000.12.77.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccc1600-9.16.6-150000.12.77.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccfg1600-64bit-9.16.6-150000.12.77.1.aarch64_ilp32",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccfg1600-9.16.6-150000.12.77.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccfg1600-9.16.6-150000.12.77.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccfg1600-9.16.6-150000.12.77.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libns1604-9.16.6-150000.12.77.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libns1604-9.16.6-150000.12.77.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libns1604-9.16.6-150000.12.77.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libns1604-debuginfo-9.16.6-150000.12.77.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libns1604-debuginfo-9.16.6-150000.12.77.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libns1604-debuginfo-9.16.6-150000.12.77.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-bind-9.16.6-150000.12.77.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.3267.1",
+            "fixed_packages": [
+                {
+                    "full_name": "mgrctl-0.1.21-150000.1.8.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgrctl-0.1.21-150000.1.8.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgrctl-0.1.21-150000.1.8.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgrctl-bash-completion-0.1.21-150000.1.8.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgrctl-debuginfo-0.1.21-150000.1.8.2.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgrctl-debuginfo-0.1.21-150000.1.8.2.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgrctl-debuginfo-0.1.21-150000.1.8.2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgrctl-lang-0.1.21-150000.1.8.2.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgrctl-zsh-completion-0.1.21-150000.1.8.2.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.4006.1",
+            "fixed_packages": [
+                {
+                    "full_name": "uyuni-proxy-systemd-services-4.3.14-150000.1.27.4.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.4011.1",
+            "fixed_packages": [
+                {
+                    "full_name": "mgrctl-0.1.23-150000.1.13.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgrctl-0.1.23-150000.1.13.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgrctl-0.1.23-150000.1.13.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgrctl-bash-completion-0.1.23-150000.1.13.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgrctl-debuginfo-0.1.23-150000.1.13.3.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgrctl-debuginfo-0.1.23-150000.1.13.3.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgrctl-debuginfo-0.1.23-150000.1.13.3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgrctl-lang-0.1.23-150000.1.13.3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mgrctl-zsh-completion-0.1.23-150000.1.13.3.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2024.4021.1",
+            "fixed_packages": [
+                {
+                    "full_name": "venv-salt-minion-3006.0-150000.3.67.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "venv-salt-minion-3006.0-150000.3.67.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "venv-salt-minion-3006.0-150000.3.67.1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.4.2025.0337.1",
+            "fixed_packages": [
+                {
+                    "full_name": "bind-utils-9.16.6-150000.12.80.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-utils-9.16.6-150000.12.80.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-utils-9.16.6-150000.12.80.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libbind9-1600-64bit-9.16.6-150000.12.80.1.aarch64_ilp32",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libbind9-1600-9.16.6-150000.12.80.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libbind9-1600-9.16.6-150000.12.80.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libbind9-1600-9.16.6-150000.12.80.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libdns1605-64bit-9.16.6-150000.12.80.1.aarch64_ilp32",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libdns1605-9.16.6-150000.12.80.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libdns1605-9.16.6-150000.12.80.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libdns1605-9.16.6-150000.12.80.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libirs1601-64bit-9.16.6-150000.12.80.1.aarch64_ilp32",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libirs1601-9.16.6-150000.12.80.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libirs1601-9.16.6-150000.12.80.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libirs1601-9.16.6-150000.12.80.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisc1606-64bit-9.16.6-150000.12.80.1.aarch64_ilp32",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisc1606-9.16.6-150000.12.80.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisc1606-9.16.6-150000.12.80.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisc1606-9.16.6-150000.12.80.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccc1600-64bit-9.16.6-150000.12.80.1.aarch64_ilp32",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccc1600-9.16.6-150000.12.80.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccc1600-9.16.6-150000.12.80.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccc1600-9.16.6-150000.12.80.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccfg1600-64bit-9.16.6-150000.12.80.1.aarch64_ilp32",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccfg1600-9.16.6-150000.12.80.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccfg1600-9.16.6-150000.12.80.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libisccfg1600-9.16.6-150000.12.80.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libns1604-9.16.6-150000.12.80.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libns1604-9.16.6-150000.12.80.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libns1604-9.16.6-150000.12.80.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libns1604-debuginfo-9.16.6-150000.12.80.1.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libns1604-debuginfo-9.16.6-150000.12.80.1.s390x",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libns1604-debuginfo-9.16.6-150000.12.80.1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-bind-9.16.6-150000.12.80.1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        }
+    ]
+}

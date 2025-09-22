@@ -1,0 +1,627 @@
+{
+    "version": "1.2",
+    "spdx-license-identifier": "GPL-2.0-only",
+    "copyright": "Copyright (C) 2008-2025 Greenbone AG",
+    "package_type": "rpm",
+    "product_name": "EulerOS Virtualization 2.5.2",
+    "advisories": [
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2018.1276",
+            "fixed_packages": [
+                {
+                    "full_name": "ncurses-5.9-13.20130511.h3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ncurses-base-5.9-13.20130511.h3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ncurses-libs-5.9-13.20130511.h3.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2018.1351",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-3.10.0-514.44.5.10_97.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-devel-3.10.0-514.44.5.10_97.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-headers-3.10.0-514.44.5.10_97.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-3.10.0-514.44.5.10_97.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-libs-3.10.0-514.44.5.10_97.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-libs-devel-3.10.0-514.44.5.10_97.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2018.1352",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-3.10.0-514.44.5.10_102.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-devel-3.10.0-514.44.5.10_102.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-headers-3.10.0-514.44.5.10_102.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-3.10.0-514.44.5.10_102.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-libs-3.10.0-514.44.5.10_102.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-libs-devel-3.10.0-514.44.5.10_102.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2018.1369",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-3.10.0-514.44.5.10_103.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-devel-3.10.0-514.44.5.10_103.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-headers-3.10.0-514.44.5.10_103.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-3.10.0-514.44.5.10_103.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-libs-3.10.0-514.44.5.10_103.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-libs-devel-3.10.0-514.44.5.10_103.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2018.1370",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-3.10.0-514.44.5.10_103.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-devel-3.10.0-514.44.5.10_103.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-headers-3.10.0-514.44.5.10_103.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-3.10.0-514.44.5.10_103.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-libs-3.10.0-514.44.5.10_103.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-libs-devel-3.10.0-514.44.5.10_103.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2018.1371",
+            "fixed_packages": [
+                {
+                    "full_name": "libgudev1-219-57.h58.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-219-57.h58.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-devel-219-57.h58.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-libs-219-57.h58.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-networkd-219-57.h58.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-python-219-57.h58.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-resolved-219-57.h58.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-sysv-219-57.h58.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2018.1372",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-3.10.0-514.44.5.10_104.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-devel-3.10.0-514.44.5.10_104.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-headers-3.10.0-514.44.5.10_104.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-3.10.0-514.44.5.10_104.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-libs-3.10.0-514.44.5.10_104.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-libs-devel-3.10.0-514.44.5.10_104.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2018.1373",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-3.10.0-514.44.5.10_104.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-devel-3.10.0-514.44.5.10_104.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-headers-3.10.0-514.44.5.10_104.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-3.10.0-514.44.5.10_104.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-libs-3.10.0-514.44.5.10_104.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-libs-devel-3.10.0-514.44.5.10_104.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2018.1382",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-3.10.0-514.44.5.10_106.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-devel-3.10.0-514.44.5.10_106.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-headers-3.10.0-514.44.5.10_106.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-3.10.0-514.44.5.10_106.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-libs-3.10.0-514.44.5.10_106.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-libs-devel-3.10.0-514.44.5.10_106.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2018.1407",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-3.10.0-514.44.5.10_112.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-devel-3.10.0-514.44.5.10_112.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-headers-3.10.0-514.44.5.10_112.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-3.10.0-514.44.5.10_112.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-libs-3.10.0-514.44.5.10_112.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-libs-devel-3.10.0-514.44.5.10_112.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2018.1408",
+            "fixed_packages": [
+                {
+                    "full_name": "krb5-devel-1.15.1-19.h1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "krb5-libs-1.15.1-19.h1.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "krb5-libs-1.15.1-19.h1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "krb5-pkinit-1.15.1-19.h1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "krb5-server-1.15.1-19.h1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "krb5-workstation-1.15.1-19.h1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libkadm5-1.15.1-19.h1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2018.1409",
+            "fixed_packages": [
+                {
+                    "full_name": "fuse-2.9.2-11.h3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "fuse-libs-2.9.2-11.h3.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2018.1412",
+            "fixed_packages": [
+                {
+                    "full_name": "ghostscript-9.07-31.6.h1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2018.1413",
+            "fixed_packages": [
+                {
+                    "full_name": "openssh-7.4p1-13.h7.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssh-clients-7.4p1-13.h7.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssh-keycat-7.4p1-13.h7.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssh-server-7.4p1-13.h7.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2019.1017",
+            "fixed_packages": [
+                {
+                    "full_name": "libtasn1-4.10-1.h2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtasn1-devel-4.10-1.h2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2019.1018",
+            "fixed_packages": [
+                {
+                    "full_name": "libtasn1-4.10-1.h3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtasn1-devel-4.10-1.h3.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2019.1063",
+            "fixed_packages": [
+                {
+                    "full_name": "libgudev1-219-57.h64.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-219-57.h64.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-devel-219-57.h64.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-libs-219-57.h64.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-networkd-219-57.h64.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-python-219-57.h64.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-resolved-219-57.h64.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "systemd-sysv-219-57.h64.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2019.1077",
+            "fixed_packages": [
+                {
+                    "full_name": "gnupg2-2.0.22-5.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2019.1078",
+            "fixed_packages": [
+                {
+                    "full_name": "perl-5.16.3-292.h3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-Pod-Escapes-1.04-292.h3.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-libs-5.16.3-292.h3.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-macros-5.16.3-292.h3.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2019.1079",
+            "fixed_packages": [
+                {
+                    "full_name": "libjpeg-turbo-1.2.90-5.h1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2019.1080",
+            "fixed_packages": [
+                {
+                    "full_name": "yum-utils-1.1.31-42.h1.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2019.1081",
+            "fixed_packages": [
+                {
+                    "full_name": "bind-libs-9.9.4-51.2.h2.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bind-libs-lite-9.9.4-51.2.h2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2019.1082",
+            "fixed_packages": [
+                {
+                    "full_name": "libtasn1-4.10-1.h1.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtasn1-devel-4.10-1.h1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2019.1083",
+            "fixed_packages": [
+                {
+                    "full_name": "curl-7.29.0-35.h23.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2019.1084",
+            "fixed_packages": [
+                {
+                    "full_name": "openssl-1.0.2k-12.h5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-devel-1.0.2k-12.h5.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-libs-1.0.2k-12.h5.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openssl-libs-1.0.2k-12.h5.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2019.1085",
+            "fixed_packages": [
+                {
+                    "full_name": "wget-1.14-15.1.h2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2019.1086",
+            "fixed_packages": [
+                {
+                    "full_name": "glibc-2.17-196.h25.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-2.17-196.h25.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-common-2.17-196.h25.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-devel-2.17-196.h25.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "glibc-headers-2.17-196.h25.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2019.1087",
+            "fixed_packages": [
+                {
+                    "full_name": "ghostscript-9.07-29.2.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2019.1088",
+            "fixed_packages": [
+                {
+                    "full_name": "ghostscript-9.07-29.2.h1.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.2.2019.1637",
+            "fixed_packages": [
+                {
+                    "full_name": "kernel-3.10.0-514.35.4.1_39.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-devel-3.10.0-514.35.4.1_39.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-headers-3.10.0-514.35.4.1_39.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-3.10.0-514.35.4.1_39.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-libs-3.10.0-514.35.4.1_39.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "kernel-tools-libs-devel-3.10.0-514.35.4.1_39.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perf-3.10.0-514.35.4.1_39.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python-perf-3.10.0-514.35.4.1_39.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        }
+    ]
+}
