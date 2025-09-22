@@ -1,5 +1,5 @@
-# .github/workflows/openvas-feed-latest-sync.yml
-name: OpenVAS Feed Latest Incremental Sync
+# .github/workflows/openvas-feed-fixed-links.yml
+name: OpenVAS Feed Fixed Links Incremental Sync
 
 on:
   schedule:
@@ -15,34 +15,24 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y rsync git zip
 
-      - name: Determine latest feed version
-        id: latest_version
-        run: |
-          mkdir -p /tmp/feeds-list
-          rsync rsync://feed.community.greenbone.net/community/ > /tmp/feeds-list/versions.txt || true
-          # Extract latest version (e.g., 24.10, 25.0)
-          LATEST=$(grep -Eo '^[0-9]+\.[0-9]+' /tmp/feeds-list/versions.txt | sort -V | tail -n1)
-          echo "Latest feed version: $LATEST"
-          echo "LATEST_VERSION=$LATEST" >> $GITHUB_ENV
-
       - name: Create temporary working directory
         run: mkdir -p $GITHUB_WORKSPACE/openvas-feeds
 
       - name: Pull feeds from Greenbone
         run: |
-          echo "[INFO] Pulling feeds for version $LATEST_VERSION"
+          echo "[INFO] Pulling feeds from fixed rsync links"
 
-          # NVT feed - new path
+          # NVT feed
           rsync -avz --delete rsync://feed.community.greenbone.net:/nvt-feed/ $GITHUB_WORKSPACE/openvas-feeds/nvt-feed/
 
           # SCAP feed
-          rsync -avz --delete rsync://feed.community.greenbone.net/community/$LATEST_VERSION/scap-data/ $GITHUB_WORKSPACE/openvas-feeds/scap-feed/
+          rsync -avz --delete rsync://feed.community.greenbone.net/community/vulnerability-feed/24.10/scap-data/ $GITHUB_WORKSPACE/openvas-feeds/scap-feed/
 
           # CERT feed
-          rsync -avz --delete rsync://feed.community.greenbone.net/community/$LATEST_VERSION/cert-data/ $GITHUB_WORKSPACE/openvas-feeds/cert-feed/
+          rsync -avz --delete rsync://feed.community.greenbone.net/community/vulnerability-feed/24.10/cert-data/ $GITHUB_WORKSPACE/openvas-feeds/cert-feed/
 
-          # VT feed - all subdirectories under vt-data
-          rsync -avz --delete rsync://feed.community.greenbone.net/community/$LATEST_VERSION/vt-data/ $GITHUB_WORKSPACE/openvas-feeds/vt-feed/
+          # VT feed
+          rsync -avz --delete rsync://feed.community.greenbone.net/community/vulnerability-feed/24.10/vt-data/ $GITHUB_WORKSPACE/openvas-feeds/vt-feed/
 
       - name: Split large feeds into parts
         run: |
