@@ -18,10 +18,9 @@ jobs:
       - name: Determine latest feed version
         id: latest_version
         run: |
-          # List available directories on Greenbone rsync server
           mkdir -p /tmp/feeds-list
-          rsync rsync://feed.community.greenbone.net/community/ > /tmp/feeds-list/versions.txt
-          # Extract latest version (assuming version naming like 24.10, 25.0 etc.)
+          rsync rsync://feed.community.greenbone.net/community/ > /tmp/feeds-list/versions.txt || true
+          # Extract latest version (e.g., 24.10, 25.0)
           LATEST=$(grep -Eo '^[0-9]+\.[0-9]+' /tmp/feeds-list/versions.txt | sort -V | tail -n1)
           echo "Latest feed version: $LATEST"
           echo "LATEST_VERSION=$LATEST" >> $GITHUB_ENV
@@ -32,14 +31,22 @@ jobs:
       - name: Pull feeds from Greenbone
         run: |
           echo "[INFO] Pulling feeds for version $LATEST_VERSION"
-          rsync -avz --delete rsync://feed.community.greenbone.net/community/$LATEST_VERSION/nvt/ $GITHUB_WORKSPACE/openvas-feeds/nvt-feed/
+
+          # NVT feed - new path
+          rsync -avz --delete rsync://feed.community.greenbone.net:/nvt-feed/ $GITHUB_WORKSPACE/openvas-feeds/nvt-feed/
+
+          # SCAP feed
           rsync -avz --delete rsync://feed.community.greenbone.net/community/$LATEST_VERSION/scap-data/ $GITHUB_WORKSPACE/openvas-feeds/scap-feed/
+
+          # CERT feed
           rsync -avz --delete rsync://feed.community.greenbone.net/community/$LATEST_VERSION/cert-data/ $GITHUB_WORKSPACE/openvas-feeds/cert-feed/
+
+          # VT feed - all subdirectories under vt-data
           rsync -avz --delete rsync://feed.community.greenbone.net/community/$LATEST_VERSION/vt-data/ $GITHUB_WORKSPACE/openvas-feeds/vt-feed/
 
       - name: Split large feeds into parts
         run: |
-          # SCAP feed example
+          # SCAP feed split
           SCAP_DIR=$GITHUB_WORKSPACE/openvas-feeds/scap-feed
           mkdir -p $GITHUB_WORKSPACE/scap-feed-parts
           PART=1
