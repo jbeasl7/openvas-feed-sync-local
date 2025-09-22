@@ -1,5 +1,5 @@
-# .github/workflows/openvas-feed-split-sync.yml
-name: OpenVAS Feed Split Sync
+# .github/workflows/openvas-feed-latest-sync.yml
+name: OpenVAS Feed Latest Incremental Sync
 
 on:
   schedule:
@@ -15,109 +15,98 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y rsync git zip
 
+      - name: Determine latest feed version
+        id: latest_version
+        run: |
+          # List available directories on Greenbone rsync server
+          mkdir -p /tmp/feeds-list
+          rsync rsync://feed.community.greenbone.net/community/ > /tmp/feeds-list/versions.txt
+          # Extract latest version (assuming version naming like 24.10, 25.0 etc.)
+          LATEST=$(grep -Eo '^[0-9]+\.[0-9]+' /tmp/feeds-list/versions.txt | sort -V | tail -n1)
+          echo "Latest feed version: $LATEST"
+          echo "LATEST_VERSION=$LATEST" >> $GITHUB_ENV
+
       - name: Create temporary working directory
-        run: mkdir -p /tmp/openvas-feeds
+        run: mkdir -p $GITHUB_WORKSPACE/openvas-feeds
 
       - name: Pull feeds from Greenbone
         run: |
-          # NVT feed
-          rsync -avz --delete rsync://feed.community.greenbone.net/community/vulnerability-feed/24.10/nvt-feed/ /tmp/openvas-feeds/nvt-feed/
+          echo "[INFO] Pulling feeds for version $LATEST_VERSION"
+          rsync -avz --delete rsync://feed.community.greenbone.net/community/$LATEST_VERSION/nvt/ $GITHUB_WORKSPACE/openvas-feeds/nvt-feed/
+          rsync -avz --delete rsync://feed.community.greenbone.net/community/$LATEST_VERSION/scap-data/ $GITHUB_WORKSPACE/openvas-feeds/scap-feed/
+          rsync -avz --delete rsync://feed.community.greenbone.net/community/$LATEST_VERSION/cert-data/ $GITHUB_WORKSPACE/openvas-feeds/cert-feed/
+          rsync -avz --delete rsync://feed.community.greenbone.net/community/$LATEST_VERSION/vt-data/ $GITHUB_WORKSPACE/openvas-feeds/vt-feed/
 
-          # SCAP feed
-          rsync -avz --delete rsync://feed.community.greenbone.net/community/vulnerability-feed/24.10/scap-data/ /tmp/openvas-feeds/scap-feed/
-
-          # CERT feed
-          rsync -avz --delete rsync://feed.community.greenbone.net/community/vulnerability-feed/24.10/cert-data/ /tmp/openvas-feeds/cert-feed/
-
-          # VT feed - pull everything under vt-data (including all subdirectories)
-          rsync -avz --delete rsync://feed.community.greenbone.net/community/vulnerability-feed/24.10/vt-data/ /tmp/openvas-feeds/vt-feed/
-
-      - name: Split large feeds
+      - name: Split large feeds into parts
         run: |
-          # Example: split scap-feed into multiple small repos (<100 MB per file)
-          SCAP_DIR=/tmp/openvas-feeds/scap-feed
+          # SCAP feed example
+          SCAP_DIR=$GITHUB_WORKSPACE/openvas-feeds/scap-feed
+          mkdir -p $GITHUB_WORKSPACE/scap-feed-parts
           PART=1
-          mkdir -p /tmp/scap-feed-parts
           for f in "$SCAP_DIR"/*; do
               SIZE_MB=$(du -m "$f" | cut -f1)
               if [ $SIZE_MB -gt 90 ]; then
-                  PART_DIR="/tmp/scap-feed-parts/part-$PART"
+                  PART_DIR="$GITHUB_WORKSPACE/scap-feed-parts/part-$PART"
                   mkdir -p "$PART_DIR"
                   cp "$f" "$PART_DIR/"
                   PART=$((PART+1))
               else
-                  cp "$f" /tmp/scap-feed-parts/part-1/
+                  cp "$f" $GITHUB_WORKSPACE/scap-feed-parts/part-1/
               fi
           done
 
-      - name: Push parts to GitHub
+      - name: Push incremental changes to GitHub
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # Example for SCAP feed parts
-          for part in /tmp/scap-feed-parts/*; do
-              PART_NAME=$(basename $part)
-              REPO="username/openvas-scap-feed-$PART_NAME"
-              git clone https://x-access-token:$GH_TOKEN@github.com/$REPO.git /tmp/$PART_NAME || git init /tmp/$PART_NAME
-              cp -r $part/* /tmp/$PART_NAME/
-              cd /tmp/$PART_NAME
+          push_repo() {
+              local SRC_DIR=$1
+              local REPO_NAME=$2
+              local TMP_REPO=$GITHUB_WORKSPACE/tmp-$REPO_NAME
+
+              if [ -d "$TMP_REPO/.git" ]; then
+                  cd "$TMP_REPO"
+                  git pull origin main
+              else
+                  git clone https://x-access-token:$GH_TOKEN@github.com/username/$REPO_NAME.git "$TMP_REPO" || git init "$TMP_REPO"
+              fi
+
+              cp -r "$SRC_DIR"/* "$TMP_REPO/"
+              cd "$TMP_REPO"
               git add .
-              git commit -m "Update SCAP feed $PART_NAME [skip ci]" || echo "No changes"
-              git push https://x-access-token:$GH_TOKEN@github.com/$REPO.git main --force
+              git diff-index --quiet HEAD || git commit -m "Update $REPO_NAME [skip ci]"
+              git push https://x-access-token:$GH_TOKEN@github.com/$REPO_NAME.git main --force
+          }
+
+          # Push NVT
+          push_repo "$GITHUB_WORKSPACE/openvas-feeds/nvt-feed" "openvas-nvt-feed"
+
+          # Push CERT
+          push_repo "$GITHUB_WORKSPACE/openvas-feeds/cert-feed" "openvas-cert-feed"
+
+          # Push SCAP parts
+          for part in $GITHUB_WORKSPACE/scap-feed-parts/*; do
+              PART_NAME=$(basename $part)
+              push_repo "$part" "openvas-scap-feed-$PART_NAME"
           done
 
-      - name: Push NVT feed
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          REPO="username/openvas-nvt-feed"
-          git clone https://x-access-token:$GH_TOKEN@github.com/$REPO.git /tmp/nvt-feed || git init /tmp/nvt-feed
-          cp -r /tmp/openvas-feeds/nvt-feed/* /tmp/nvt-feed/
-          cd /tmp/nvt-feed
-          git add .
-          git commit -m "Update NVT feed [skip ci]" || echo "No changes"
-          git push https://x-access-token:$GH_TOKEN@github.com/$REPO.git main --force
-
-      - name: Push CERT feed
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          REPO="username/openvas-cert-feed"
-          git clone https://x-access-token:$GH_TOKEN@github.com/$REPO.git /tmp/cert-feed || git init /tmp/cert-feed
-          cp -r /tmp/openvas-feeds/cert-feed/* /tmp/cert-feed/
-          cd /tmp/cert-feed
-          git add .
-          git commit -m "Update CERT feed [skip ci]" || echo "No changes"
-          git push https://x-access-token:$GH_TOKEN@github.com/$REPO.git main --force
-
-      - name: Push VT feed parts
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          # Split VT feed into parts if needed
-          VT_DIR=/tmp/openvas-feeds/vt-feed
+          # VT feed - split and push
+          VT_DIR=$GITHUB_WORKSPACE/openvas-feeds/vt-feed
+          mkdir -p $GITHUB_WORKSPACE/vt-feed-parts
           PART=1
-          mkdir -p /tmp/vt-feed-parts
           find "$VT_DIR" -mindepth 1 -maxdepth 1 -type d | while read d; do
               SIZE_MB=$(du -sm "$d" | cut -f1)
               if [ $SIZE_MB -gt 90 ]; then
-                  PART_DIR="/tmp/vt-feed-parts/part-$PART"
+                  PART_DIR="$GITHUB_WORKSPACE/vt-feed-parts/part-$PART"
                   mkdir -p "$PART_DIR"
                   cp -r "$d" "$PART_DIR/"
                   PART=$((PART+1))
               else
-                  cp -r "$d" /tmp/vt-feed-parts/part-1/
+                  cp -r "$d" $GITHUB_WORKSPACE/vt-feed-parts/part-1/
               fi
           done
 
-          # Push each VT feed part
-          for part in /tmp/vt-feed-parts/*; do
+          for part in $GITHUB_WORKSPACE/vt-feed-parts/*; do
               PART_NAME=$(basename $part)
-              REPO="username/openvas-vt-feed-$PART_NAME"
-              git clone https://x-access-token:$GH_TOKEN@github.com/$REPO.git /tmp/$PART_NAME || git init /tmp/$PART_NAME
-              cp -r $part/* /tmp/$PART_NAME/
-              cd /tmp/$PART_NAME
-              git add .
-              git commit -m "Update VT feed $PART_NAME [skip ci]" || echo "No changes"
-              git push https://x-access-token:$GH_TOKEN@github.com/$REPO.git main --force
+              push_repo "$part" "openvas-vt-feed-$PART_NAME"
           done
