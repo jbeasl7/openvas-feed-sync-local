@@ -1,0 +1,44 @@
+name: OpenVAS Feed Sync
+
+on:
+  schedule:
+    - cron: '0 2 * * *'  # Runs daily at 02:00 UTC
+  workflow_dispatch:  # Allows manual trigger
+
+jobs:
+  sync-feeds:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: true
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y rsync git
+
+      - name: Ensure feed directory structure
+        run: |
+          mkdir -p openvas-feeds/nvt-feed
+          mkdir -p openvas-feeds/scap-feed
+          mkdir -p openvas-feeds/cert-feed
+
+      - name: Pull NVT feed
+        run: |
+          rsync -avz --ignore-existing --progress rsync://feed.community.greenbone.net:/nvt-feed/ openvas-feeds/nvt-feed/
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add openvas-feeds/*
+          git add -u
+
+          # Only commit if changes exist
+          git diff --cached --quiet || git commit -m "Incremental OpenVAS NVT feed update [skip ci]"
+
+          git push
