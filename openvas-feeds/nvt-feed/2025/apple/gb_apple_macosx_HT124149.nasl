@@ -1,0 +1,87 @@
+# SPDX-FileCopyrightText: 2025 Greenbone AG
+# Some text descriptions might be excerpted from (a) referenced
+# source(s), and are Copyright (C) by the respective right holder(s).
+#
+# SPDX-License-Identifier: GPL-2.0-only
+
+if(description)
+{
+  script_oid("1.3.6.1.4.1.25623.1.0.836556");
+  script_version("2025-09-03T05:38:18+0000");
+  script_xref(name:"CISA", value:"Known Exploited Vulnerability (KEV) catalog");
+  script_xref(name:"URL", value:"https://www.cisa.gov/known-exploited-vulnerabilities-catalog");
+  script_cve_id("CVE-2025-43191", "CVE-2025-43186", "CVE-2025-43244", "CVE-2025-31243",
+                "CVE-2025-43253", "CVE-2025-43249", "CVE-2025-43248", "CVE-2025-43245",
+                "CVE-2025-43257", "CVE-2025-43222", "CVE-2025-43223", "CVE-2025-43220",
+                "CVE-2025-43199", "CVE-2025-43277", "CVE-2025-43273", "CVE-2025-43210",
+                "CVE-2025-43230", "CVE-2025-43195", "CVE-2025-43267", "CVE-2025-43187",
+                "CVE-2025-43188", "CVE-2025-43198", "CVE-2025-43254", "CVE-2025-43261",
+                "CVE-2025-31279", "CVE-2025-43255", "CVE-2025-43209", "CVE-2025-43226",
+                "CVE-2025-43276", "CVE-2025-43268", "CVE-2025-43202", "CVE-2025-7425",
+                "CVE-2025-43196", "CVE-2025-7424", "CVE-2025-43192", "CVE-2025-31275",
+                "CVE-2025-43234", "CVE-2025-43264", "CVE-2025-43219", "CVE-2025-31281",
+                "CVE-2025-43224", "CVE-2025-43221", "CVE-2025-31280", "CVE-2025-43218",
+                "CVE-2025-43215", "CVE-2025-43275", "CVE-2025-43270", "CVE-2025-43225",
+                "CVE-2025-43266", "CVE-2025-43260", "CVE-2025-43247", "CVE-2025-43194",
+                "CVE-2025-43232", "CVE-2025-43236", "CVE-2025-43235", "CVE-2025-43274",
+                "CVE-2025-24188", "CVE-2025-43241", "CVE-2025-43233", "CVE-2025-43193",
+                "CVE-2025-43250", "CVE-2025-43197", "CVE-2025-43239", "CVE-2025-43243",
+                "CVE-2025-43246", "CVE-2025-43256", "CVE-2025-43206", "CVE-2025-43251",
+                "CVE-2025-43185", "CVE-2025-43189", "CVE-2025-43237", "CVE-2025-43229",
+                "CVE-2025-43227", "CVE-2025-31278", "CVE-2025-31277", "CVE-2025-31273",
+                "CVE-2025-43240", "CVE-2025-43214", "CVE-2025-43213", "CVE-2025-43212",
+                "CVE-2025-43211", "CVE-2025-43265", "CVE-2025-43216", "CVE-2025-6558",
+                "CVE-2025-43259", "CVE-2025-43238", "CVE-2025-43252", "CVE-2025-43284");
+  script_tag(name:"cvss_base", value:"5.6");
+  script_tag(name:"cvss_base_vector", value:"AV:L/AC:H/Au:N/C:N/I:C/A:C");
+  script_tag(name:"last_modification", value:"2025-09-03 05:38:18 +0000 (Wed, 03 Sep 2025)");
+  script_tag(name:"severity_vector", value:"CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:H");
+  script_tag(name:"severity_origin", value:"NVD");
+  script_tag(name:"severity_date", value:"2025-07-10 14:15:27 +0000 (Thu, 10 Jul 2025)");
+  script_tag(name:"creation_date", value:"2025-07-30 17:24:15 +0530 (Wed, 30 Jul 2025)");
+  script_name("Apple MacOSX Security Update (HT124149)");
+
+  script_tag(name:"summary", value:"Apple Mac OS X is prone to multiple
+  vulnerabilities.");
+
+  script_tag(name:"vuldetect", value:"Checks if a vulnerable version is present
+  on the target host.");
+
+  script_tag(name:"impact", value:"Successful exploitation allows an attacker
+  to run arbitrary code, disclose information, elevate privileges, bypass
+  security restrictions and cause denial of service.");
+
+  script_tag(name:"affected", value:"Apple macOS Sequoia prior to version 15.6.");
+
+  script_tag(name:"solution", value:"Update macOS Sequoia to version 15.6 or
+  later.");
+
+  script_tag(name:"solution_type", value:"VendorFix");
+  script_tag(name:"qod_type", value:"package");
+  script_xref(name:"URL", value:"https://support.apple.com/en-us/124149");
+  script_category(ACT_GATHER_INFO);
+  script_copyright("Copyright (C) 2025 Greenbone AG");
+  script_family("Mac OS X Local Security Checks");
+  script_dependencies("gather-package-list.nasl");
+  script_mandatory_keys("ssh/login/osx_name", "ssh/login/osx_version", re:"ssh/login/osx_version=^15\.");
+  exit(0);
+}
+
+include("version_func.inc");
+
+osName = get_kb_item("ssh/login/osx_name");
+if(!osName)
+  exit(0);
+
+osVer = get_kb_item("ssh/login/osx_version");
+if(!osVer || osVer !~ "^15\." || "Mac OS X" >!< osName) {
+  exit(0);
+}
+
+if(version_is_less(version:osVer, test_version:"15.6")) {
+  report = report_fixed_ver(installed_version:osVer, fixed_version:"15.6");
+  security_message(port:0, data:report);
+  exit(0);
+}
+
+exit(99);

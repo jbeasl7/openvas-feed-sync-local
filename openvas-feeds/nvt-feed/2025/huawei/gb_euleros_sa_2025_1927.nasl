@@ -1,0 +1,77 @@
+# SPDX-FileCopyrightText: 2025 Greenbone AG
+# Some text descriptions might be excerpted from (a) referenced
+# source(s), and are Copyright (C) by the respective right holder(s).
+#
+# SPDX-License-Identifier: GPL-2.0-only
+
+if(description)
+{
+  script_oid("1.3.6.1.4.1.25623.1.1.2.2025.1927");
+  script_cve_id("CVE-2024-45336", "CVE-2024-45341");
+  script_tag(name:"creation_date", value:"2025-08-12 04:32:34 +0000 (Tue, 12 Aug 2025)");
+  script_version("2025-08-13T05:40:47+0000");
+  script_tag(name:"last_modification", value:"2025-08-13 05:40:47 +0000 (Wed, 13 Aug 2025)");
+  script_tag(name:"cvss_base", value:"5.0");
+  script_tag(name:"cvss_base_vector", value:"AV:N/AC:L/Au:N/C:P/I:N/A:N");
+
+  script_name("Huawei EulerOS: Security Advisory for golang (EulerOS-SA-2025-1927)");
+  script_category(ACT_GATHER_INFO);
+  script_copyright("Copyright (C) 2025 Greenbone AG");
+  script_family("Huawei EulerOS Local Security Checks");
+  script_dependencies("gb_huawei_euleros_consolidation.nasl");
+  script_mandatory_keys("ssh/login/euleros", "ssh/login/rpms", re:"ssh/login/release=EULEROS\-2\.0SP11");
+
+  script_xref(name:"Advisory-ID", value:"EulerOS-SA-2025-1927");
+  script_xref(name:"URL", value:"https://developer.huaweicloud.com/intl/en-us/euleros/securitydetail.html?secId=EulerOS-SA-2025-1927");
+
+  script_tag(name:"summary", value:"The remote host is missing an update for the Huawei EulerOS 'golang' package(s) announced via the EulerOS-SA-2025-1927 advisory.");
+
+  script_tag(name:"vuldetect", value:"Checks if a vulnerable package version is present on the target host.");
+
+  script_tag(name:"insight", value:"The HTTP client drops sensitive headers after following a cross-domain redirect. For example, a request to a.com/ containing an Authorization header which is redirected to b.com/ will not send that header to b.com. In the event that the client received a subsequent same-domain redirect, however, the sensitive headers would be restored. For example, a chain of redirects from a.com/, to b.com/1, and finally to b.com/2 would incorrectly send the Authorization header to b.com/2.(CVE-2024-45336)
+
+A certificate with a URI which has a IPv6 address with a zone ID may incorrectly satisfy a URI name constraint that applies to the certificate chain. Certificates containing URIs are not permitted in the web PKI, so this only affects users of private PKIs which make use of URIs.(CVE-2024-45341)");
+
+  script_tag(name:"affected", value:"'golang' package(s) on Huawei EulerOS V2.0SP11.");
+
+  script_tag(name:"solution", value:"Please install the updated package(s).");
+
+  script_tag(name:"solution_type", value:"VendorFix");
+  script_tag(name:"qod_type", value:"package");
+
+  exit(0);
+}
+
+include("revisions-lib.inc");
+include("pkg-lib-rpm.inc");
+
+release = rpm_get_ssh_release();
+if(!release)
+  exit(0);
+
+res = "";
+report = "";
+
+if(release == "EULEROS-2.0SP11") {
+
+  if(!isnull(res = isrpmvuln(pkg:"golang", rpm:"golang~1.17.3~1.h39.eulerosv2r11", rls:"EULEROS-2.0SP11"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"golang-devel", rpm:"golang-devel~1.17.3~1.h39.eulerosv2r11", rls:"EULEROS-2.0SP11"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"golang-help", rpm:"golang-help~1.17.3~1.h39.eulerosv2r11", rls:"EULEROS-2.0SP11"))) {
+    report += res;
+  }
+
+  if(report != "") {
+    security_message(data:report);
+  } else if(__pkg_match) {
+    exit(99);
+  }
+  exit(0);
+}
+
+exit(0);

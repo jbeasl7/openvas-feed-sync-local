@@ -1,0 +1,61 @@
+# SPDX-FileCopyrightText: 2008 E-Soft Inc.
+# Some text descriptions might be excerpted from (a) referenced
+# source(s), and are Copyright (C) by the respective right holder(s).
+#
+# SPDX-License-Identifier: GPL-2.0-only
+
+if(description)
+{
+  script_oid("1.3.6.1.4.1.25623.1.0.53814");
+  script_cve_id("CVE-2001-0522");
+  script_version("2023-07-19T05:05:15+0000");
+  script_tag(name:"last_modification", value:"2023-07-19 05:05:15 +0000 (Wed, 19 Jul 2023)");
+  script_tag(name:"creation_date", value:"2008-01-17 14:24:38 +0100 (Thu, 17 Jan 2008)");
+  script_tag(name:"cvss_base", value:"7.5");
+  script_tag(name:"cvss_base_vector", value:"AV:N/AC:L/Au:N/C:P/I:P/A:P");
+  script_name("Debian Security Advisory DSA 061-1 (gnupg)");
+  script_category(ACT_GATHER_INFO);
+  script_copyright("Copyright (C) 2008 E-Soft Inc.");
+  script_family("Debian Local Security Checks");
+  script_dependencies("gather-package-list.nasl");
+  script_mandatory_keys("ssh/login/debian_linux", "ssh/login/packages", re:"ssh/login/release=DEB2\.2");
+  script_xref(name:"URL", value:"https://secure1.securityspace.com/smysecure/catid.html?in=DSA%20061-1");
+  script_tag(name:"insight", value:"The version of GnuPG (GNU Privacy Guard, an OpenPGP implementation)
+as distributed in Debian GNU/Linux 2.2 suffers from two problems:
+
+fish stiqz reported on bugtraq that there was a printf format
+problem in the do_get() function: it printed a prompt which included
+the filename that was being decrypted without checking for
+possible printf format attacks. This could be exploited by tricking
+someone into decrypting a file with a specially crafted filename.
+
+The second bug is related to importing secret keys: when gnupg
+imported a secret key it would immediately make the associated
+public key fully trusted which changes your web of trust without
+asking for a confirmation. To fix this you now need a special
+option to import a secret key.
+
+Both problems have been fixed in version 1.0.6-0potato1.");
+  script_tag(name:"summary", value:"The remote host is missing an update to gnupg
+announced via advisory DSA 061-1.");
+  script_tag(name:"qod_type", value:"package");
+  script_tag(name:"solution", value:"Please install the updated package(s).");
+  script_tag(name:"solution_type", value:"VendorFix");
+
+  exit(0);
+}
+
+include("revisions-lib.inc");
+include("pkg-lib-deb.inc");
+
+res = "";
+report = "";
+if((res = isdpkgvuln(pkg:"gnupg", ver:"1.0.6-0potato1", rls:"DEB2.2")) != NULL) {
+  report += res;
+}
+
+if(report != "") {
+  security_message(data:report);
+} else if(__pkg_match) {
+  exit(99);
+}

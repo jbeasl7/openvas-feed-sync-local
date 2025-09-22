@@ -1,0 +1,194 @@
+# SPDX-FileCopyrightText: 2025 Greenbone AG
+# Some text descriptions might be excerpted from (a) referenced
+# source(s), and are Copyright (C) by the respective right holder(s).
+#
+# SPDX-License-Identifier: GPL-2.0-only
+
+if(description)
+{
+  script_oid("1.3.6.1.4.1.25623.1.1.9.2025.100210232980607");
+  script_tag(name:"creation_date", value:"2025-02-07 04:08:51 +0000 (Fri, 07 Feb 2025)");
+  script_version("2025-02-07T05:37:57+0000");
+  script_tag(name:"last_modification", value:"2025-02-07 05:37:57 +0000 (Fri, 07 Feb 2025)");
+  script_tag(name:"cvss_base", value:"5.0");
+  script_tag(name:"cvss_base_vector", value:"AV:N/AC:L/Au:N/C:P/I:N/A:N");
+
+  script_name("Fedora: Security Advisory (FEDORA-2025-d2f32b0607)");
+  script_category(ACT_GATHER_INFO);
+  script_copyright("Copyright (C) 2025 Greenbone AG");
+  script_family("Fedora Local Security Checks");
+  script_dependencies("gather-package-list.nasl");
+  script_mandatory_keys("ssh/login/fedora", "ssh/login/rpms", re:"ssh/login/release=FC40");
+
+  script_xref(name:"Advisory-ID", value:"FEDORA-2025-d2f32b0607");
+  script_xref(name:"URL", value:"https://bodhi.fedoraproject.org/updates/FEDORA-2025-d2f32b0607");
+
+  script_tag(name:"summary", value:"The remote host is missing an update for the 'java-latest-openjdk' package(s) announced via the FEDORA-2025-d2f32b0607 advisory.");
+
+  script_tag(name:"vuldetect", value:"Checks if a vulnerable package version is present on the target host.");
+
+  script_tag(name:"insight", value:"January CPU 2025");
+
+  script_tag(name:"affected", value:"'java-latest-openjdk' package(s) on Fedora 40.");
+
+  script_tag(name:"solution", value:"Please install the updated package(s).");
+
+  script_tag(name:"solution_type", value:"VendorFix");
+  script_tag(name:"qod_type", value:"package");
+
+  exit(0);
+}
+
+include("revisions-lib.inc");
+include("pkg-lib-rpm.inc");
+
+release = rpm_get_ssh_release();
+if(!release)
+  exit(0);
+
+res = "";
+report = "";
+
+if(release == "FC40") {
+
+  if(!isnull(res = isrpmvuln(pkg:"java-latest-openjdk", rpm:"java-latest-openjdk~23.0.2.0.7~1.rolling.fc40", rls:"FC40"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"java-latest-openjdk-debuginfo", rpm:"java-latest-openjdk-debuginfo~23.0.2.0.7~1.rolling.fc40", rls:"FC40"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"java-latest-openjdk-debugsource", rpm:"java-latest-openjdk-debugsource~23.0.2.0.7~1.rolling.fc40", rls:"FC40"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"java-latest-openjdk-demo", rpm:"java-latest-openjdk-demo~23.0.2.0.7~1.rolling.fc40", rls:"FC40"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"java-latest-openjdk-demo-fastdebug", rpm:"java-latest-openjdk-demo-fastdebug~23.0.2.0.7~1.rolling.fc40", rls:"FC40"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"java-latest-openjdk-demo-slowdebug", rpm:"java-latest-openjdk-demo-slowdebug~23.0.2.0.7~1.rolling.fc40", rls:"FC40"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"java-latest-openjdk-devel", rpm:"java-latest-openjdk-devel~23.0.2.0.7~1.rolling.fc40", rls:"FC40"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"java-latest-openjdk-devel-debuginfo", rpm:"java-latest-openjdk-devel-debuginfo~23.0.2.0.7~1.rolling.fc40", rls:"FC40"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"java-latest-openjdk-devel-fastdebug", rpm:"java-latest-openjdk-devel-fastdebug~23.0.2.0.7~1.rolling.fc40", rls:"FC40"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"java-latest-openjdk-devel-fastdebug-debuginfo", rpm:"java-latest-openjdk-devel-fastdebug-debuginfo~23.0.2.0.7~1.rolling.fc40", rls:"FC40"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"java-latest-openjdk-devel-slowdebug", rpm:"java-latest-openjdk-devel-slowdebug~23.0.2.0.7~1.rolling.fc40", rls:"FC40"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"java-latest-openjdk-devel-slowdebug-debuginfo", rpm:"java-latest-openjdk-devel-slowdebug-debuginfo~23.0.2.0.7~1.rolling.fc40", rls:"FC40"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"java-latest-openjdk-fastdebug", rpm:"java-latest-openjdk-fastdebug~23.0.2.0.7~1.rolling.fc40", rls:"FC40"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"java-latest-openjdk-fastdebug-debuginfo", rpm:"java-latest-openjdk-fastdebug-debuginfo~23.0.2.0.7~1.rolling.fc40", rls:"FC40"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"java-latest-openjdk-headless", rpm:"java-latest-openjdk-headless~23.0.2.0.7~1.rolling.fc40", rls:"FC40"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"java-latest-openjdk-headless-debuginfo", rpm:"java-latest-openjdk-headless-debuginfo~23.0.2.0.7~1.rolling.fc40", rls:"FC40"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"java-latest-openjdk-headless-fastdebug", rpm:"java-latest-openjdk-headless-fastdebug~23.0.2.0.7~1.rolling.fc40", rls:"FC40"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"java-latest-openjdk-headless-fastdebug-debuginfo", rpm:"java-latest-openjdk-headless-fastdebug-debuginfo~23.0.2.0.7~1.rolling.fc40", rls:"FC40"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"java-latest-openjdk-headless-slowdebug", rpm:"java-latest-openjdk-headless-slowdebug~23.0.2.0.7~1.rolling.fc40", rls:"FC40"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"java-latest-openjdk-headless-slowdebug-debuginfo", rpm:"java-latest-openjdk-headless-slowdebug-debuginfo~23.0.2.0.7~1.rolling.fc40", rls:"FC40"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"java-latest-openjdk-javadoc", rpm:"java-latest-openjdk-javadoc~23.0.2.0.7~1.rolling.fc40", rls:"FC40"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"java-latest-openjdk-javadoc-zip", rpm:"java-latest-openjdk-javadoc-zip~23.0.2.0.7~1.rolling.fc40", rls:"FC40"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"java-latest-openjdk-jmods", rpm:"java-latest-openjdk-jmods~23.0.2.0.7~1.rolling.fc40", rls:"FC40"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"java-latest-openjdk-jmods-fastdebug", rpm:"java-latest-openjdk-jmods-fastdebug~23.0.2.0.7~1.rolling.fc40", rls:"FC40"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"java-latest-openjdk-jmods-slowdebug", rpm:"java-latest-openjdk-jmods-slowdebug~23.0.2.0.7~1.rolling.fc40", rls:"FC40"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"java-latest-openjdk-slowdebug", rpm:"java-latest-openjdk-slowdebug~23.0.2.0.7~1.rolling.fc40", rls:"FC40"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"java-latest-openjdk-slowdebug-debuginfo", rpm:"java-latest-openjdk-slowdebug-debuginfo~23.0.2.0.7~1.rolling.fc40", rls:"FC40"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"java-latest-openjdk-src", rpm:"java-latest-openjdk-src~23.0.2.0.7~1.rolling.fc40", rls:"FC40"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"java-latest-openjdk-src-fastdebug", rpm:"java-latest-openjdk-src-fastdebug~23.0.2.0.7~1.rolling.fc40", rls:"FC40"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"java-latest-openjdk-src-slowdebug", rpm:"java-latest-openjdk-src-slowdebug~23.0.2.0.7~1.rolling.fc40", rls:"FC40"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"java-latest-openjdk-static-libs", rpm:"java-latest-openjdk-static-libs~23.0.2.0.7~1.rolling.fc40", rls:"FC40"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"java-latest-openjdk-static-libs-fastdebug", rpm:"java-latest-openjdk-static-libs-fastdebug~23.0.2.0.7~1.rolling.fc40", rls:"FC40"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"java-latest-openjdk-static-libs-slowdebug", rpm:"java-latest-openjdk-static-libs-slowdebug~23.0.2.0.7~1.rolling.fc40", rls:"FC40"))) {
+    report += res;
+  }
+
+  if(report != "") {
+    security_message(data:report);
+  } else if(__pkg_match) {
+    exit(99);
+  }
+  exit(0);
+}
+
+exit(0);

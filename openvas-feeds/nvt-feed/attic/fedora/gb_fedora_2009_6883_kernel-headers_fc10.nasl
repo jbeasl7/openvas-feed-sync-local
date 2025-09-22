@@ -1,0 +1,74 @@
+# SPDX-FileCopyrightText: 2009 E-Soft Inc.
+# Some text descriptions might be excerpted from (a) referenced
+# source(s), and are Copyright (C) by the respective right holder(s).
+#
+# SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only
+
+if(description)
+{
+  script_oid("1.3.6.1.4.1.25623.1.0.64289");
+  script_version("2025-01-13T08:32:03+0000");
+  script_tag(name:"last_modification", value:"2025-01-13 08:32:03 +0000 (Mon, 13 Jan 2025)");
+  script_tag(name:"creation_date", value:"2009-06-30 00:29:55 +0200 (Tue, 30 Jun 2009)");
+  script_cve_id("CVE-2009-0065", "CVE-2008-5079", "CVE-2009-1385", "CVE-2009-1389");
+  script_tag(name:"cvss_base", value:"10.0");
+  script_tag(name:"cvss_base_vector", value:"AV:N/AC:L/Au:N/C:C/I:C/A:C");
+  script_name("Fedora Core 10 FEDORA-2009-6883 (kernel)");
+  script_category(ACT_GATHER_INFO);
+  script_copyright("Copyright (C) 2009 E-Soft Inc.");
+  script_family("Fedora Local Security Checks");
+  script_tag(name:"insight", value:"Update Information:
+
+Update to linux kernel 2.6.27.25
+
+ChangeLog:
+
+  * Sat Jun 20 2009 Chuck Ebbert   2.6.27.25-170.2.72
+
+  - Copy fixes from latest F-9:
+kvm-make-efer-reads-safe-when-efer-does-not-exist.patch
+linux-2.6-dev-zero-avoid-oom-lockup.patch
+linux-2.6-parport-quickfix-the-proc-registration-bug.patch
+
+  * Sat Jun 20 2009 Chuck Ebbert   2.6.27.25-170.2.70
+
+  - Update r8169 network driver to the version in Fedora 9:
+the 2.6.30 version + fixes from 2.6.31
+
+  * Sat Jun 20 2009 Chuck Ebbert   2.6.27.25-170.2.69
+
+  - Linux 2.6.27.25
+
+  - Dropped patches merged upstream in -stable:
+linux-2.6-x86-workaround-failures-on-intel-atom.patch
+ext4.git*
+linux-2.6-ext4*
+
+  * Wed May 20 2009 Chuck Ebbert   2.6.27.24-170.2.68
+
+  - Enable Divas (formerly Eicon) ISDN drivers on x86_64. (#480837)
+
+  * Wed May 20 2009 Chuck Ebbert   2.6.27.24-170.2.67
+
+  - Enable sfc driver for Solarflare SFC4000 network adapter (#499392)
+(disabled on powerpc)");
+  script_tag(name:"solution", value:"Apply the appropriate updates.
+
+This update can be installed with the yum update program.  Use
+su -c 'yum update kernel' at the command line.");
+
+  script_xref(name:"URL", value:"https://secure1.securityspace.com/smysecure/catid.html?in=FEDORA-2009-6883");
+  script_tag(name:"summary", value:"The remote host is missing an update to kernel
+announced via advisory FEDORA-2009-6883.
+Note: This VT has been deprecated and is therefore no longer functional.");
+  script_tag(name:"qod_type", value:"package");
+  script_tag(name:"solution_type", value:"VendorFix");
+  script_xref(name:"URL", value:"https://bugzilla.redhat.com/show_bug.cgi?id=502981");
+  script_xref(name:"URL", value:"https://bugzilla.redhat.com/show_bug.cgi?id=504726");
+
+  script_tag(name:"deprecated", value:TRUE);
+
+  exit(0);
+}
+
+exit(66);

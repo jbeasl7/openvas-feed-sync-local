@@ -1,0 +1,161 @@
+# SPDX-FileCopyrightText: 2009 E-Soft Inc.
+# Some text descriptions might be excerpted from (a) referenced
+# source(s), and are Copyright (C) by the respective right holder(s).
+#
+# SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only
+
+if(description)
+{
+  script_oid("1.3.6.1.4.1.25623.1.0.64954");
+  script_version("2023-07-18T05:05:36+0000");
+  script_tag(name:"last_modification", value:"2023-07-18 05:05:36 +0000 (Tue, 18 Jul 2023)");
+  script_tag(name:"creation_date", value:"2009-09-28 19:09:13 +0200 (Mon, 28 Sep 2009)");
+  script_cve_id("CVE-2009-0946");
+  script_tag(name:"cvss_base", value:"7.5");
+  script_tag(name:"cvss_base_vector", value:"AV:N/AC:L/Au:N/C:P/I:P/A:P");
+  script_name("Mandrake Security Advisory MDVSA-2009:243 (freetype2)");
+  script_category(ACT_GATHER_INFO);
+  script_copyright("Copyright (C) 2009 E-Soft Inc.");
+  script_family("Mandrake Local Security Checks");
+  script_dependencies("gather-package-list.nasl");
+  script_mandatory_keys("ssh/login/mandriva_mandrake_linux", "ssh/login/rpms", re:"ssh/login/release=MNDK_(2008\.1|2009\.0|2009\.1|3\.0|4\.0|mes5)");
+  script_tag(name:"insight", value:"Multiple integer overflows in FreeType 2.3.9 and earlier allow remote
+attackers to execute arbitrary code via vectors related to large
+values in certain inputs in (1) smooth/ftsmooth.c, (2) sfnt/ttcmap.c,
+and (3) cff/cffload.c.
+
+This update corrects the problem.
+
+Affected: 2008.1, 2009.0, 2009.1, Corporate 3.0, Corporate 4.0,
+          Enterprise Server 5.0");
+  script_tag(name:"solution", value:"To upgrade automatically use MandrakeUpdate or urpmi. The verification
+of md5 checksums and GPG signatures is performed automatically for you.");
+
+  script_xref(name:"URL", value:"https://secure1.securityspace.com/smysecure/catid.html?in=MDVSA-2009:243");
+  script_tag(name:"summary", value:"The remote host is missing an update to freetype2
+announced via advisory MDVSA-2009:243.");
+  script_tag(name:"qod_type", value:"package");
+  script_tag(name:"solution_type", value:"VendorFix");
+
+  exit(0);
+}
+
+include("revisions-lib.inc");
+include("pkg-lib-rpm.inc");
+
+res = "";
+report = "";
+if ((res = isrpmvuln(pkg:"libfreetype6", rpm:"libfreetype6~2.3.5~2.2mdv2008.1", rls:"MNDK_2008.1")) != NULL) {
+    report += res;
+}
+if ((res = isrpmvuln(pkg:"libfreetype6-devel", rpm:"libfreetype6-devel~2.3.5~2.2mdv2008.1", rls:"MNDK_2008.1")) != NULL) {
+    report += res;
+}
+if ((res = isrpmvuln(pkg:"libfreetype6-static-devel", rpm:"libfreetype6-static-devel~2.3.5~2.2mdv2008.1", rls:"MNDK_2008.1")) != NULL) {
+    report += res;
+}
+if ((res = isrpmvuln(pkg:"lib64freetype6", rpm:"lib64freetype6~2.3.5~2.2mdv2008.1", rls:"MNDK_2008.1")) != NULL) {
+    report += res;
+}
+if ((res = isrpmvuln(pkg:"lib64freetype6-devel", rpm:"lib64freetype6-devel~2.3.5~2.2mdv2008.1", rls:"MNDK_2008.1")) != NULL) {
+    report += res;
+}
+if ((res = isrpmvuln(pkg:"lib64freetype6-static-devel", rpm:"lib64freetype6-static-devel~2.3.5~2.2mdv2008.1", rls:"MNDK_2008.1")) != NULL) {
+    report += res;
+}
+if ((res = isrpmvuln(pkg:"libfreetype6", rpm:"libfreetype6~2.3.7~1.1mdv2009.0", rls:"MNDK_2009.0")) != NULL) {
+    report += res;
+}
+if ((res = isrpmvuln(pkg:"libfreetype6-devel", rpm:"libfreetype6-devel~2.3.7~1.1mdv2009.0", rls:"MNDK_2009.0")) != NULL) {
+    report += res;
+}
+if ((res = isrpmvuln(pkg:"libfreetype6-static-devel", rpm:"libfreetype6-static-devel~2.3.7~1.1mdv2009.0", rls:"MNDK_2009.0")) != NULL) {
+    report += res;
+}
+if ((res = isrpmvuln(pkg:"lib64freetype6", rpm:"lib64freetype6~2.3.7~1.1mdv2009.0", rls:"MNDK_2009.0")) != NULL) {
+    report += res;
+}
+if ((res = isrpmvuln(pkg:"lib64freetype6-devel", rpm:"lib64freetype6-devel~2.3.7~1.1mdv2009.0", rls:"MNDK_2009.0")) != NULL) {
+    report += res;
+}
+if ((res = isrpmvuln(pkg:"lib64freetype6-static-devel", rpm:"lib64freetype6-static-devel~2.3.7~1.1mdv2009.0", rls:"MNDK_2009.0")) != NULL) {
+    report += res;
+}
+if ((res = isrpmvuln(pkg:"libfreetype6", rpm:"libfreetype6~2.3.9~1.1mdv2009.1", rls:"MNDK_2009.1")) != NULL) {
+    report += res;
+}
+if ((res = isrpmvuln(pkg:"libfreetype6-devel", rpm:"libfreetype6-devel~2.3.9~1.1mdv2009.1", rls:"MNDK_2009.1")) != NULL) {
+    report += res;
+}
+if ((res = isrpmvuln(pkg:"libfreetype6-static-devel", rpm:"libfreetype6-static-devel~2.3.9~1.1mdv2009.1", rls:"MNDK_2009.1")) != NULL) {
+    report += res;
+}
+if ((res = isrpmvuln(pkg:"lib64freetype6", rpm:"lib64freetype6~2.3.9~1.1mdv2009.1", rls:"MNDK_2009.1")) != NULL) {
+    report += res;
+}
+if ((res = isrpmvuln(pkg:"lib64freetype6-devel", rpm:"lib64freetype6-devel~2.3.9~1.1mdv2009.1", rls:"MNDK_2009.1")) != NULL) {
+    report += res;
+}
+if ((res = isrpmvuln(pkg:"lib64freetype6-static-devel", rpm:"lib64freetype6-static-devel~2.3.9~1.1mdv2009.1", rls:"MNDK_2009.1")) != NULL) {
+    report += res;
+}
+if ((res = isrpmvuln(pkg:"libfreetype6", rpm:"libfreetype6~2.1.7~4.1mdk", rls:"MNDK_3.0")) != NULL) {
+    report += res;
+}
+if ((res = isrpmvuln(pkg:"libfreetype6-devel", rpm:"libfreetype6-devel~2.1.7~4.1mdk", rls:"MNDK_3.0")) != NULL) {
+    report += res;
+}
+if ((res = isrpmvuln(pkg:"libfreetype6-static-devel", rpm:"libfreetype6-static-devel~2.1.7~4.1mdk", rls:"MNDK_3.0")) != NULL) {
+    report += res;
+}
+if ((res = isrpmvuln(pkg:"lib64freetype6", rpm:"lib64freetype6~2.1.7~4.1mdk", rls:"MNDK_3.0")) != NULL) {
+    report += res;
+}
+if ((res = isrpmvuln(pkg:"lib64freetype6-devel", rpm:"lib64freetype6-devel~2.1.7~4.1mdk", rls:"MNDK_3.0")) != NULL) {
+    report += res;
+}
+if ((res = isrpmvuln(pkg:"lib64freetype6-static-devel", rpm:"lib64freetype6-static-devel~2.1.7~4.1mdk", rls:"MNDK_3.0")) != NULL) {
+    report += res;
+}
+if ((res = isrpmvuln(pkg:"libfreetype6", rpm:"libfreetype6~2.1.10~9.5.20060mdk", rls:"MNDK_4.0")) != NULL) {
+    report += res;
+}
+if ((res = isrpmvuln(pkg:"libfreetype6-devel", rpm:"libfreetype6-devel~2.1.10~9.5.20060mdk", rls:"MNDK_4.0")) != NULL) {
+    report += res;
+}
+if ((res = isrpmvuln(pkg:"libfreetype6-static-devel", rpm:"libfreetype6-static-devel~2.1.10~9.5.20060mdk", rls:"MNDK_4.0")) != NULL) {
+    report += res;
+}
+if ((res = isrpmvuln(pkg:"lib64freetype6", rpm:"lib64freetype6~2.1.10~9.5.20060mdk", rls:"MNDK_4.0")) != NULL) {
+    report += res;
+}
+if ((res = isrpmvuln(pkg:"lib64freetype6-devel", rpm:"lib64freetype6-devel~2.1.10~9.5.20060mdk", rls:"MNDK_4.0")) != NULL) {
+    report += res;
+}
+if ((res = isrpmvuln(pkg:"lib64freetype6-static-devel", rpm:"lib64freetype6-static-devel~2.1.10~9.5.20060mdk", rls:"MNDK_4.0")) != NULL) {
+    report += res;
+}
+if ((res = isrpmvuln(pkg:"libfreetype6", rpm:"libfreetype6~2.3.7~1.1mdvmes5", rls:"MNDK_mes5")) != NULL) {
+    report += res;
+}
+if ((res = isrpmvuln(pkg:"libfreetype6-devel", rpm:"libfreetype6-devel~2.3.7~1.1mdvmes5", rls:"MNDK_mes5")) != NULL) {
+    report += res;
+}
+if ((res = isrpmvuln(pkg:"libfreetype6-static-devel", rpm:"libfreetype6-static-devel~2.3.7~1.1mdvmes5", rls:"MNDK_mes5")) != NULL) {
+    report += res;
+}
+if ((res = isrpmvuln(pkg:"lib64freetype6", rpm:"lib64freetype6~2.3.7~1.1mdvmes5", rls:"MNDK_mes5")) != NULL) {
+    report += res;
+}
+if ((res = isrpmvuln(pkg:"lib64freetype6-devel", rpm:"lib64freetype6-devel~2.3.7~1.1mdvmes5", rls:"MNDK_mes5")) != NULL) {
+    report += res;
+}
+if ((res = isrpmvuln(pkg:"lib64freetype6-static-devel", rpm:"lib64freetype6-static-devel~2.3.7~1.1mdvmes5", rls:"MNDK_mes5")) != NULL) {
+    report += res;
+}
+
+if (report != "") {
+    security_message(data:report);
+} else if (__pkg_match) {
+    exit(99);
+}

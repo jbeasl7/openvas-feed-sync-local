@@ -1,0 +1,153 @@
+# SPDX-FileCopyrightText: 2022 Greenbone AG
+# Some text descriptions might be excerpted from (a) referenced
+# source(s), and are Copyright (C) by the respective right holder(s).
+#
+# SPDX-License-Identifier: GPL-2.0-only
+
+if(description)
+{
+  script_oid("1.3.6.1.4.1.25623.1.1.4.2022.1267.1");
+  script_cve_id("CVE-2021-39713", "CVE-2021-45868", "CVE-2022-0812", "CVE-2022-0850", "CVE-2022-1016", "CVE-2022-1048", "CVE-2022-23036", "CVE-2022-23037", "CVE-2022-23038", "CVE-2022-23039", "CVE-2022-23040", "CVE-2022-23041", "CVE-2022-23042", "CVE-2022-26490", "CVE-2022-26966", "CVE-2022-27666", "CVE-2022-28356", "CVE-2022-28388", "CVE-2022-28389", "CVE-2022-28390");
+  script_tag(name:"creation_date", value:"2022-04-20 04:34:07 +0000 (Wed, 20 Apr 2022)");
+  script_version("2025-08-15T15:42:25+0000");
+  script_tag(name:"last_modification", value:"2025-08-15 15:42:25 +0000 (Fri, 15 Aug 2025)");
+  script_tag(name:"cvss_base", value:"6.9");
+  script_tag(name:"cvss_base_vector", value:"AV:L/AC:M/Au:N/C:C/I:C/A:C");
+  script_tag(name:"severity_vector", value:"CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H");
+  script_tag(name:"severity_origin", value:"NVD");
+  script_tag(name:"severity_date", value:"2022-05-11 14:45:16 +0000 (Wed, 11 May 2022)");
+
+  script_name("SUSE: Security Advisory (SUSE-SU-2022:1267-1)");
+  script_category(ACT_GATHER_INFO);
+  script_copyright("Copyright (C) 2022 Greenbone AG");
+  script_family("SuSE Local Security Checks");
+  script_dependencies("gather-package-list.nasl");
+  script_mandatory_keys("ssh/login/suse_sles", "ssh/login/rpms", re:"ssh/login/release=(SLES12\.0SP4)");
+
+  script_xref(name:"Advisory-ID", value:"SUSE-SU-2022:1267-1");
+  script_xref(name:"URL", value:"https://www.suse.com/support/update/announcement/2022/suse-su-20221267-1.html");
+  script_xref(name:"URL", value:"https://bugzilla.suse.com/1180153");
+  script_xref(name:"URL", value:"https://bugzilla.suse.com/1189562");
+  script_xref(name:"URL", value:"https://bugzilla.suse.com/1193738");
+  script_xref(name:"URL", value:"https://bugzilla.suse.com/1194943");
+  script_xref(name:"URL", value:"https://bugzilla.suse.com/1195051");
+  script_xref(name:"URL", value:"https://bugzilla.suse.com/1195353");
+  script_xref(name:"URL", value:"https://bugzilla.suse.com/1196018");
+  script_xref(name:"URL", value:"https://bugzilla.suse.com/1196114");
+  script_xref(name:"URL", value:"https://bugzilla.suse.com/1196468");
+  script_xref(name:"URL", value:"https://bugzilla.suse.com/1196488");
+  script_xref(name:"URL", value:"https://bugzilla.suse.com/1196514");
+  script_xref(name:"URL", value:"https://bugzilla.suse.com/1196573");
+  script_xref(name:"URL", value:"https://bugzilla.suse.com/1196639");
+  script_xref(name:"URL", value:"https://bugzilla.suse.com/1196761");
+  script_xref(name:"URL", value:"https://bugzilla.suse.com/1196830");
+  script_xref(name:"URL", value:"https://bugzilla.suse.com/1196836");
+  script_xref(name:"URL", value:"https://bugzilla.suse.com/1196942");
+  script_xref(name:"URL", value:"https://bugzilla.suse.com/1196973");
+  script_xref(name:"URL", value:"https://bugzilla.suse.com/1197211");
+  script_xref(name:"URL", value:"https://bugzilla.suse.com/1197227");
+  script_xref(name:"URL", value:"https://bugzilla.suse.com/1197331");
+  script_xref(name:"URL", value:"https://bugzilla.suse.com/1197366");
+  script_xref(name:"URL", value:"https://bugzilla.suse.com/1197391");
+  script_xref(name:"URL", value:"https://bugzilla.suse.com/1197462");
+  script_xref(name:"URL", value:"https://bugzilla.suse.com/1198031");
+  script_xref(name:"URL", value:"https://bugzilla.suse.com/1198032");
+  script_xref(name:"URL", value:"https://bugzilla.suse.com/1198033");
+  script_xref(name:"URL", value:"https://lists.suse.com/pipermail/sle-security-updates/2022-April/010755.html");
+
+  script_tag(name:"summary", value:"The remote host is missing an update for the 'Linux Kernel' package(s) announced via the SUSE-SU-2022:1267-1 advisory.");
+
+  script_tag(name:"vuldetect", value:"Checks if a vulnerable package version is present on the target host.");
+
+  script_tag(name:"insight", value:"The SUSE Linux Enterprise 12 SP4 kernel was updated.
+
+The following security bugs were fixed:
+
+- CVE-2022-0812: Fixed an incorrect header size calculations which could lead to a memory leak. (bsc#1196639)
+- CVE-2021-39713: Fixed a race condition in the network scheduling subsystem which could lead to a use-after-free. (bnc#1196973)
+- CVE-2022-27666: Fixed a buffer overflow vulnerability in IPsec ESP transformation code. This flaw allowed a local attacker with a normal user privilege to overwrite kernel heap objects and may cause a local privilege escalation. (bnc#1197462)
+- CVE-2022-1016: Fixed a vulnerability in the nf_tables component of the netfilter subsystem. This vulnerability gives an attacker a powerful primitive that can be used to both read from and write to relative stack data, which can lead to arbitrary code execution. (bsc#1197227)
+- CVE-2022-28389: Fixed a double free in drivers/net/can/usb/mcba_usb.c vulnerability in the Linux kernel. (bnc#1198033)
+- CVE-2022-28356: Fixed a refcount bug in llc_ui_bind and llc_ui_autobind which could allow an unprivileged user to execute a DoS. (bnc#1197391)
+- CVE-2022-28388: Fixed a double free in drivers/net/can/usb/usb_8dev.c vulnerability in the Linux kernel. (bnc#1198032)
+- CVE-2022-28390: Fixed a double free in drivers/net/can/usb/ems_usb.c vulnerability in the Linux kernel. (bnc#1198031)
+- CVE-2022-1048: Fixed a race Condition in snd_pcm_hw_free leading to use-after-free due to the AB/BA lock with buffer_mutex and mmap_lock. (bsc#1197331)
+- CVE-2022-0850: Fixed a kernel information leak vulnerability in iov_iter.c. (bsc#1196761)
+- CVE-2022-26966: Fixed an issue in drivers/net/usb/sr9700.c, which allowed attackers to obtain sensitive information from the memory via crafted frame lengths from a USB device. (bsc#1196836)
+- CVE-2021-45868: Fixed a wrong validation check in fs/quota/quota_tree.c which could lead to an use-after-free if there is a corrupted quota file. (bnc#1197366)
+- CVE-2022-23036,CVE-2022-23037,CVE-2022-23038,CVE-2022-23039,CVE-2022-23040,CVE-2022-23041,CVE-2022-23042: Fixed multiple issues which could have lead to read/write access to memory pages or denial of service. These issues are related to the Xen PV device frontend drivers. (bsc#1196488)
+- CVE-2022-26490: Fixed a buffer overflow in the st21nfca driver. An attacker with adjacent NFC access could crash the system or corrupt the system memory. (bsc#1196830)
+
+The following non-security bugs were fixed:
+
+- ax88179_178a: Merge memcpy + le32_to_cpus to get_unaligned_le32 (bsc#1196018).
+- genirq: Use rcu in kstat_irqs_usr() (bsc#1193738).
+- llc: fix netdevice reference leaks in llc_ui_bind() (git-fixes).
+- net: usb: ax88179_178a: Fix out-of-bounds accesses in RX fixup (bsc#1196018).
+- net: usb: ax88179_178a: fix packet alignment padding (bsc#1196018).
+- net/mlx5e: Fix page DMA map/unmap attributes (bsc#1196468).
+- sr9700: sanity check for packet ... [Please see the references for more information on the vulnerabilities]");
+
+  script_tag(name:"affected", value:"'Linux Kernel' package(s) on SUSE Linux Enterprise Server 12-SP4, SUSE Linux Enterprise Server for SAP Applications 12-SP4.");
+
+  script_tag(name:"solution", value:"Please install the updated package(s).");
+
+  script_tag(name:"solution_type", value:"VendorFix");
+  script_tag(name:"qod_type", value:"package");
+
+  exit(0);
+}
+
+include("revisions-lib.inc");
+include("pkg-lib-rpm.inc");
+
+release = rpm_get_ssh_release();
+if(!release)
+  exit(0);
+
+res = "";
+report = "";
+
+if(release == "SLES12.0SP4") {
+
+  if(!isnull(res = isrpmvuln(pkg:"kernel-default", rpm:"kernel-default~4.12.14~95.96.1", rls:"SLES12.0SP4"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"kernel-default-base", rpm:"kernel-default-base~4.12.14~95.96.1", rls:"SLES12.0SP4"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"kernel-default-devel", rpm:"kernel-default-devel~4.12.14~95.96.1", rls:"SLES12.0SP4"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"kernel-default-man", rpm:"kernel-default-man~4.12.14~95.96.1", rls:"SLES12.0SP4"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"kernel-devel", rpm:"kernel-devel~4.12.14~95.96.1", rls:"SLES12.0SP4"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"kernel-macros", rpm:"kernel-macros~4.12.14~95.96.1", rls:"SLES12.0SP4"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"kernel-source", rpm:"kernel-source~4.12.14~95.96.1", rls:"SLES12.0SP4"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"kernel-syms", rpm:"kernel-syms~4.12.14~95.96.1", rls:"SLES12.0SP4"))) {
+    report += res;
+  }
+
+  if(report != "") {
+    security_message(data:report);
+  } else if(__pkg_match) {
+    exit(99);
+  }
+  exit(0);
+}
+
+exit(0);

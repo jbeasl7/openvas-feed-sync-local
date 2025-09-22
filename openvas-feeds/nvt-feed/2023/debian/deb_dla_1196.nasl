@@ -1,0 +1,77 @@
+# SPDX-FileCopyrightText: 2023 Greenbone AG
+# Some text descriptions might be excerpted from (a) referenced
+# source(s), and are Copyright (C) by the respective right holder(s).
+#
+# SPDX-License-Identifier: GPL-2.0-only
+
+if(description)
+{
+  script_oid("1.3.6.1.4.1.25623.1.1.1.2.2017.1196");
+  script_cve_id("CVE-2017-16938");
+  script_tag(name:"creation_date", value:"2023-03-08 12:56:44 +0000 (Wed, 08 Mar 2023)");
+  script_version("2024-02-02T05:06:10+0000");
+  script_tag(name:"last_modification", value:"2024-02-02 05:06:10 +0000 (Fri, 02 Feb 2024)");
+  script_tag(name:"cvss_base", value:"6.8");
+  script_tag(name:"cvss_base_vector", value:"AV:N/AC:M/Au:N/C:P/I:P/A:P");
+  script_tag(name:"severity_vector", value:"CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H");
+  script_tag(name:"severity_origin", value:"NVD");
+  script_tag(name:"severity_date", value:"2017-12-06 15:34:29 +0000 (Wed, 06 Dec 2017)");
+
+  script_name("Debian: Security Advisory (DLA-1196-1)");
+  script_category(ACT_GATHER_INFO);
+  script_copyright("Copyright (C) 2023 Greenbone AG");
+  script_family("Debian Local Security Checks");
+  script_dependencies("gather-package-list.nasl");
+  script_mandatory_keys("ssh/login/debian_linux", "ssh/login/packages", re:"ssh/login/release=DEB7");
+
+  script_xref(name:"Advisory-ID", value:"DLA-1196-1");
+  script_xref(name:"URL", value:"https://www.debian.org/lts/security/2017/DLA-1196-1");
+  script_xref(name:"URL", value:"https://wiki.debian.org/LTS");
+
+  script_tag(name:"summary", value:"The remote host is missing an update for the Debian 'optipng' package(s) announced via the DLA-1196-1 advisory.");
+
+  script_tag(name:"vuldetect", value:"Checks if a vulnerable package version is present on the target host.");
+
+  script_tag(name:"insight", value:"optipng, an advanced PNG (Portable Network Graphics) optimizer, has been found vulnerable to a buffer overflow which allows remote attackers to cause a denial-of-service attack or other unspecified impact with a maliciously crafted GIF format file, related to an uncontrolled loop in the LZWReadByte function of the gifread.c file.
+
+For Debian 7 Wheezy, these problems have been fixed in version 0.6.4-1+deb7u4.
+
+We recommend that you upgrade your optipng packages.
+
+Further information about Debian LTS security advisories, how to apply these updates to your system and frequently asked questions can be found at: [link moved to references]");
+
+  script_tag(name:"affected", value:"'optipng' package(s) on Debian 7.");
+
+  script_tag(name:"solution", value:"Please install the updated package(s).");
+
+  script_tag(name:"solution_type", value:"VendorFix");
+  script_tag(name:"qod_type", value:"package");
+
+  exit(0);
+}
+
+include("revisions-lib.inc");
+include("pkg-lib-deb.inc");
+
+release = dpkg_get_ssh_release();
+if(!release)
+  exit(0);
+
+res = "";
+report = "";
+
+if(release == "DEB7") {
+
+  if(!isnull(res = isdpkgvuln(pkg:"optipng", ver:"0.6.4-1+deb7u4", rls:"DEB7"))) {
+    report += res;
+  }
+
+  if(report != "") {
+    security_message(data:report);
+  } else if(__pkg_match) {
+    exit(99);
+  }
+  exit(0);
+}
+
+exit(0);

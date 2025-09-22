@@ -1,0 +1,79 @@
+# SPDX-FileCopyrightText: 2022 Greenbone AG
+# Some text descriptions might be excerpted from (a) referenced
+# source(s), and are Copyright (C) by the respective right holder(s).
+#
+# SPDX-License-Identifier: GPL-2.0-only
+
+if(description)
+{
+  script_oid("1.3.6.1.4.1.25623.1.1.10.2016.0019");
+  script_tag(name:"creation_date", value:"2022-01-28 10:58:44 +0000 (Fri, 28 Jan 2022)");
+  script_version("2024-10-23T05:05:59+0000");
+  script_tag(name:"last_modification", value:"2024-10-23 05:05:59 +0000 (Wed, 23 Oct 2024)");
+  script_tag(name:"cvss_base", value:"5.0");
+  script_tag(name:"cvss_base_vector", value:"AV:N/AC:L/Au:N/C:P/I:N/A:N");
+
+  script_name("Mageia: Security Advisory (MGASA-2016-0019)");
+  script_category(ACT_GATHER_INFO);
+  script_copyright("Copyright (C) 2022 Greenbone AG");
+  script_family("Mageia Linux Local Security Checks");
+  script_dependencies("gather-package-list.nasl");
+  script_mandatory_keys("ssh/login/mageia_linux", "ssh/login/release", re:"ssh/login/release=MAGEIA5");
+
+  script_xref(name:"Advisory-ID", value:"MGASA-2016-0019");
+  script_xref(name:"URL", value:"https://advisories.mageia.org/MGASA-2016-0019.html");
+  script_xref(name:"URL", value:"http://lists.opensuse.org/opensuse-updates/2016-01/msg00013.html");
+  script_xref(name:"URL", value:"http://openwall.com/lists/oss-security/2015/12/11/3");
+  script_xref(name:"URL", value:"https://bugs.mageia.org/show_bug.cgi?id=17325");
+
+  script_tag(name:"summary", value:"The remote host is missing an update for the 'ruby-mail' package(s) announced via the MGASA-2016-0019 advisory.");
+
+  script_tag(name:"vuldetect", value:"Checks if a vulnerable package version is present on the target host.");
+
+  script_tag(name:"insight", value:"The Mail library does not impose a length limit on email addresses, so an
+attacker can send a long spam message via a recipient address unless there
+is a limit on the application's side. The attacker-injected message in the
+recipient address is processed by the server. This type of vulnerability
+can be real threats in inquiry forms, member signup forms, or any other
+application that delivers an email to a user-specified email address
+(bsc#959129)");
+
+  script_tag(name:"affected", value:"'ruby-mail' package(s) on Mageia 5.");
+
+  script_tag(name:"solution", value:"Please install the updated package(s).");
+
+  script_tag(name:"solution_type", value:"VendorFix");
+  script_tag(name:"qod_type", value:"package");
+
+  exit(0);
+}
+
+include("revisions-lib.inc");
+include("pkg-lib-rpm.inc");
+
+release = rpm_get_ssh_release();
+if(!release)
+  exit(0);
+
+res = "";
+report = "";
+
+if(release == "MAGEIA5") {
+
+  if(!isnull(res = isrpmvuln(pkg:"ruby-mail", rpm:"ruby-mail~2.5.4~9.1.mga5", rls:"MAGEIA5"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"ruby-mail-doc", rpm:"ruby-mail-doc~2.5.4~9.1.mga5", rls:"MAGEIA5"))) {
+    report += res;
+  }
+
+  if(report != "") {
+    security_message(data:report);
+  } else if(__pkg_match) {
+    exit(99);
+  }
+  exit(0);
+}
+
+exit(0);
