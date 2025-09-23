@@ -1,5 +1,5 @@
 # .github/workflows/openvas-feed-fixed-links.yml
-name: OpenVAS Feed Fixed Links Incremental Sync
+name: OpenVAS Feed Incremental Sync
 
 on:
   schedule:
@@ -14,6 +14,11 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y rsync git zip
+
+      - name: Configure Git
+        run: |
+          git config --global user.email "github-actions@users.noreply.github.com"
+          git config --global user.name "GitHub Actions"
 
       - name: Create temporary working directory
         run: mkdir -p $GITHUB_WORKSPACE/openvas-feeds
