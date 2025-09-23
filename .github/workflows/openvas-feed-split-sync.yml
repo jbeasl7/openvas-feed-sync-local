@@ -61,7 +61,7 @@ jobs:
 
       - name: Push incremental changes to GitHub
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
           push_repo() {
               local SRC_DIR=$1
