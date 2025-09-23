@@ -24,11 +24,13 @@ jobs:
 
       # === NVT FEED ===
       - name: Sync NVT Feed
-        run: rsync -av --delete rsync://feed.community.greenbone.net:/nvt-feed/ feeds/nvt/
-
-      - name: Split and push NVT Feed
         run: |
-          # Create tar outside the source folder
+          rsync -av --delete rsync://feed.community.greenbone.net:/nvt-feed/ feeds/nvt/
+          sync
+
+      - name: Tar and split NVT Feed safely
+        run: |
+          # create tar outside the source folder
           tar -cf nvt-feed.tar -C feeds nvt
           split -b 500m nvt-feed.tar nvt-part-
           i=1
@@ -52,9 +54,11 @@ jobs:
 
       # === SCAP FEED ===
       - name: Sync SCAP Feed
-        run: rsync -av --delete rsync://feed.community.greenbone.net/community/vulnerability-feed/24.10/scap-data/ feeds/scap/
+        run: |
+          rsync -av --delete rsync://feed.community.greenbone.net/community/vulnerability-feed/24.10/scap-data/ feeds/scap/
+          sync
 
-      - name: Split and push SCAP Feed
+      - name: Tar and split SCAP Feed safely
         run: |
           tar -cf scap-feed.tar -C feeds scap
           split -b 500m scap-feed.tar scap-part-
@@ -79,7 +83,9 @@ jobs:
 
       # === CERT FEED ===
       - name: Sync CERT Feed
-        run: rsync -av --delete rsync://feed.community.greenbone.net/community/vulnerability-feed/24.10/cert-data/ feeds/cert/
+        run: |
+          rsync -av --delete rsync://feed.community.greenbone.net/community/vulnerability-feed/24.10/cert-data/ feeds/cert/
+          sync
 
       - name: Push CERT Feed
         run: |
@@ -96,9 +102,11 @@ jobs:
 
       # === VT FEED ===
       - name: Sync VT Feed
-        run: rsync -av --delete rsync://feed.community.greenbone.net/community/vulnerability-feed/24.10/vt-data/ feeds/vt/
+        run: |
+          rsync -av --delete rsync://feed.community.greenbone.net/community/vulnerability-feed/24.10/vt-data/ feeds/vt/
+          sync
 
-      - name: Split and push VT Feed
+      - name: Tar and split VT Feed safely
         run: |
           tar -cf vt-feed.tar -C feeds vt
           split -b 500m vt-feed.tar vt-part-
