@@ -48,7 +48,9 @@ jobs:
                   cp "$f" "$PART_DIR/"
                   PART=$((PART+1))
               else
-                  cp "$f" $GITHUB_WORKSPACE/scap-feed-parts/part-1/
+                  PART_DIR="$GITHUB_WORKSPACE/scap-feed-parts/part-1"
+                  mkdir -p "$PART_DIR"
+                  cp "$f" "$PART_DIR/"
               fi
           done
 
@@ -99,7 +101,9 @@ jobs:
                   cp -r "$d" "$PART_DIR/"
                   PART=$((PART+1))
               else
-                  cp -r "$d" $GITHUB_WORKSPACE/vt-feed-parts/part-1/
+                  PART_DIR="$GITHUB_WORKSPACE/vt-feed-parts/part-1"
+                  mkdir -p "$PART_DIR"
+                  cp -r "$d" "$PART_DIR/"
               fi
           done
 
