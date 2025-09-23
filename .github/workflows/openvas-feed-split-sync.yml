@@ -69,17 +69,17 @@ jobs:
               local TMP_REPO=$GITHUB_WORKSPACE/tmp-$REPO_NAME
 
               # Clone repo if exists; otherwise init a new one
-              if git ls-remote https://x-access-token:$GH_TOKEN@github.com/username/$REPO_NAME.git >/dev/null 2>&1; then
-                  git clone https://x-access-token:$GH_TOKEN@github.com/username/$REPO_NAME.git "$TMP_REPO"
+              if git ls-remote https://x-access-token:$GH_TOKEN@github.com/jbeasl7/$REPO_NAME.git >/dev/null 2>&1; then
+                  git clone https://x-access-token:$GH_TOKEN@github.com/jbeasl7/$REPO_NAME.git "$TMP_REPO"
               else
                   mkdir -p "$TMP_REPO"
                   cd "$TMP_REPO"
                   git init
-                  git remote add origin https://x-access-token:$GH_TOKEN@github.com/username/$REPO_NAME.git
+                  git remote add origin https://x-access-token:$GH_TOKEN@github.com/jbeasl7/$REPO_NAME.git
               fi
 
               cd "$TMP_REPO"
-              cp -r "$SRC_DIR"/* "$TMP_REPO/"
+              cp -r "$SRC_DIR"/* "$TMP_REPO/" || true
 
               # Ensure main branch exists
               if ! git rev-parse --verify main >/dev/null 2>&1; then
