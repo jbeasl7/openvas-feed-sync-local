@@ -12,7 +12,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install rsync and git-lfs
+      - name: Install dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y rsync git-lfs
@@ -26,14 +26,15 @@ jobs:
       - name: Sync NVT Feed
         run: rsync -av --delete rsync://feed.community.greenbone.net:/nvt-feed/ feeds/nvt/
 
-      - name: Push NVT Feed (split in parts if >500MB)
+      - name: Split and push NVT Feed
         run: |
           cd feeds/nvt
-          split -b 500m -d -a 1 --additional-suffix="" <(tar -cf - .) nvt-part-
+          tar -cf nvt-feed.tar .
+          split -b 500m nvt-feed.tar nvt-part-
           i=1
           for part in nvt-part-*; do
             mkdir -p ../nvt-part-$i
-            tar -xf $part -C ../nvt-part-$i
+            cat $part | tar -xf - -C ../nvt-part-$i
             cd ../nvt-part-$i
             git init
             git remote add origin https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/jbeasl7/openvas-nvt-feed-part-$i.git
@@ -53,14 +54,15 @@ jobs:
       - name: Sync SCAP Feed
         run: rsync -av --delete rsync://feed.community.greenbone.net/community/vulnerability-feed/24.10/scap-data/ feeds/scap/
 
-      - name: Push SCAP Feed (split into parts)
+      - name: Split and push SCAP Feed
         run: |
           cd feeds/scap
-          split -b 500m -d -a 1 --additional-suffix="" <(tar -cf - .) scap-part-
+          tar -cf scap-feed.tar .
+          split -b 500m scap-feed.tar scap-part-
           i=1
           for part in scap-part-*; do
             mkdir -p ../scap-part-$i
-            tar -xf $part -C ../scap-part-$i
+            cat $part | tar -xf - -C ../scap-part-$i
             cd ../scap-part-$i
             git init
             git remote add origin https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/jbeasl7/openvas-scap-feed-part-$i.git
@@ -96,14 +98,15 @@ jobs:
       - name: Sync VT Feed
         run: rsync -av --delete rsync://feed.community.greenbone.net/community/vulnerability-feed/24.10/vt-data/ feeds/vt/
 
-      - name: Push VT Feed (split into parts)
+      - name: Split and push VT Feed
         run: |
           cd feeds/vt
-          split -b 500m -d -a 1 --additional-suffix="" <(tar -cf - .) vt-part-
+          tar -cf vt-feed.tar .
+          split -b 500m vt-feed.tar vt-part-
           i=1
           for part in vt-part-*; do
             mkdir -p ../vt-part-$i
-            tar -xf $part -C ../vt-part-$i
+            cat $part | tar -xf - -C ../vt-part-$i
             cd ../vt-part-$i
             git init
             git remote add origin https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/jbeasl7/openvas-vt-feed-part-$i.git
