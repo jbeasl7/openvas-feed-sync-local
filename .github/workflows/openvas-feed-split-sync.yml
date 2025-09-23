@@ -70,16 +70,28 @@ jobs:
 
               if [ -d "$TMP_REPO/.git" ]; then
                   cd "$TMP_REPO"
-                  git pull origin main
+                  git pull origin main || true
               else
                   git clone https://x-access-token:$GH_TOKEN@github.com/username/$REPO_NAME.git "$TMP_REPO" || git init "$TMP_REPO"
               fi
 
               cp -r "$SRC_DIR"/* "$TMP_REPO/"
               cd "$TMP_REPO"
+
+              # Ensure branch exists
+              if ! git rev-parse --verify main >/dev/null 2>&1; then
+                  git checkout -b main
+              fi
+
               git add .
-              git diff-index --quiet HEAD || git commit -m "Update $REPO_NAME [skip ci]"
-              git push https://x-access-token:$GH_TOKEN@github.com/$REPO_NAME.git main --force
+
+              # Only commit and push if there are changes
+              if ! git diff-index --quiet HEAD; then
+                  git commit -m "Update $REPO_NAME [skip ci]"
+                  git push https://x-access-token:$GH_TOKEN@github.com/$REPO_NAME.git main --force
+              else
+                  echo "[INFO] No changes to commit for $REPO_NAME"
+              fi
           }
 
           # Push NVT
