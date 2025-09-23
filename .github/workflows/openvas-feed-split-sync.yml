@@ -28,14 +28,14 @@ jobs:
 
       - name: Split and push NVT Feed
         run: |
-          cd feeds/nvt
-          tar -cf nvt-feed.tar .
+          # Create tar outside the source folder
+          tar -cf nvt-feed.tar -C feeds nvt
           split -b 500m nvt-feed.tar nvt-part-
           i=1
           for part in nvt-part-*; do
-            mkdir -p ../nvt-part-$i
-            cat $part | tar -xf - -C ../nvt-part-$i
-            cd ../nvt-part-$i
+            mkdir -p feeds/nvt-part-$i
+            cat $part | tar -xf - -C feeds/nvt-part-$i
+            cd feeds/nvt-part-$i
             git init
             git remote add origin https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/jbeasl7/openvas-nvt-feed-part-$i.git
             git checkout -B main
@@ -46,7 +46,7 @@ jobs:
             git config user.email "github-actions[bot]@users.noreply.github.com"
             git commit -m "Update NVT feed part $i" || echo "No changes"
             git push origin main --force
-            cd ..
+            cd ../..
             i=$((i+1))
           done
 
@@ -56,14 +56,13 @@ jobs:
 
       - name: Split and push SCAP Feed
         run: |
-          cd feeds/scap
-          tar -cf scap-feed.tar .
+          tar -cf scap-feed.tar -C feeds scap
           split -b 500m scap-feed.tar scap-part-
           i=1
           for part in scap-part-*; do
-            mkdir -p ../scap-part-$i
-            cat $part | tar -xf - -C ../scap-part-$i
-            cd ../scap-part-$i
+            mkdir -p feeds/scap-part-$i
+            cat $part | tar -xf - -C feeds/scap-part-$i
+            cd feeds/scap-part-$i
             git init
             git remote add origin https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/jbeasl7/openvas-scap-feed-part-$i.git
             git checkout -B main
@@ -74,7 +73,7 @@ jobs:
             git config user.email "github-actions[bot]@users.noreply.github.com"
             git commit -m "Update SCAP feed part $i" || echo "No changes"
             git push origin main --force
-            cd ..
+            cd ../..
             i=$((i+1))
           done
 
@@ -93,6 +92,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git commit -m "Update CERT feed" || echo "No changes"
           git push origin main --force
+          cd ../..
 
       # === VT FEED ===
       - name: Sync VT Feed
@@ -100,14 +100,13 @@ jobs:
 
       - name: Split and push VT Feed
         run: |
-          cd feeds/vt
-          tar -cf vt-feed.tar .
+          tar -cf vt-feed.tar -C feeds vt
           split -b 500m vt-feed.tar vt-part-
           i=1
           for part in vt-part-*; do
-            mkdir -p ../vt-part-$i
-            cat $part | tar -xf - -C ../vt-part-$i
-            cd ../vt-part-$i
+            mkdir -p feeds/vt-part-$i
+            cat $part | tar -xf - -C feeds/vt-part-$i
+            cd feeds/vt-part-$i
             git init
             git remote add origin https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/jbeasl7/openvas-vt-feed-part-$i.git
             git checkout -B main
@@ -118,6 +117,6 @@ jobs:
             git config user.email "github-actions[bot]@users.noreply.github.com"
             git commit -m "Update VT feed part $i" || echo "No changes"
             git push origin main --force
-            cd ..
+            cd ../..
             i=$((i+1))
           done
