@@ -1,4 +1,4 @@
-# .github/workflows/openvas-feed-fixed-links.yml
+# .github/workflows/openvas-feed-split-sync.yml
 name: OpenVAS Feed Incremental Sync
 
 on:
@@ -68,27 +68,31 @@ jobs:
               local REPO_NAME=$2
               local TMP_REPO=$GITHUB_WORKSPACE/tmp-$REPO_NAME
 
-              if [ -d "$TMP_REPO/.git" ]; then
-                  cd "$TMP_REPO"
-                  git pull origin main || true
+              # Clone repo if exists; otherwise init a new one
+              if git ls-remote https://x-access-token:$GH_TOKEN@github.com/username/$REPO_NAME.git >/dev/null 2>&1; then
+                  git clone https://x-access-token:$GH_TOKEN@github.com/username/$REPO_NAME.git "$TMP_REPO"
               else
-                  git clone https://x-access-token:$GH_TOKEN@github.com/username/$REPO_NAME.git "$TMP_REPO" || git init "$TMP_REPO"
+                  mkdir -p "$TMP_REPO"
+                  cd "$TMP_REPO"
+                  git init
+                  git remote add origin https://x-access-token:$GH_TOKEN@github.com/username/$REPO_NAME.git
               fi
 
-              cp -r "$SRC_DIR"/* "$TMP_REPO/"
               cd "$TMP_REPO"
+              cp -r "$SRC_DIR"/* "$TMP_REPO/"
 
-              # Ensure branch exists
+              # Ensure main branch exists
               if ! git rev-parse --verify main >/dev/null 2>&1; then
                   git checkout -b main
+              else
+                  git checkout main
               fi
 
               git add .
-
               # Only commit and push if there are changes
               if ! git diff-index --quiet HEAD; then
                   git commit -m "Update $REPO_NAME [skip ci]"
-                  git push https://x-access-token:$GH_TOKEN@github.com/$REPO_NAME.git main --force
+                  git push -u origin main --force
               else
                   echo "[INFO] No changes to commit for $REPO_NAME"
               fi
