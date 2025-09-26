@@ -1,0 +1,102 @@
+# SPDX-FileCopyrightText: 2025 Greenbone AG
+# Some text descriptions might be excerpted from (a) referenced
+# source(s), and are Copyright (C) by the respective right holder(s).
+#
+# SPDX-License-Identifier: GPL-2.0-only
+
+# ------------------------------------------------------------------
+# METADATA
+# ------------------------------------------------------------------
+
+if(description)
+{
+  script_oid("1.3.6.1.4.1.25623.1.0.130416");
+  script_version("2025-09-25T05:39:09+0000");
+  script_tag(name:"last_modification", value:"2025-09-25 05:39:09 +0000 (Thu, 25 Sep 2025)");
+  script_tag(name:"creation_date", value:"2025-05-07 11:45:55 +0000 (Wed, 07 May 2025)");
+  script_tag(name:"cvss_base", value:"0.0");
+  script_tag(name:"cvss_base_vector", value:"AV:L/AC:H/Au:S/C:N/I:N/A:N");
+  script_tag(name:"qod", value:"97");
+
+  script_name("Ensure That Common Users Run Privileged Programs Using the sudo Command");
+
+  script_category(ACT_GATHER_INFO);
+  script_copyright("Copyright (C) 2025 Greenbone AG");
+  script_family("Policy");
+
+  script_add_preference(name:"Status", type:"radio", value:"Not Compliant;Compliant", id:1);
+
+  script_xref(name:"Policy", value:"EulerOS Baseline: Security Committee Benchmark (v1.0.0): 2. Secure Access: 2.4 Access Control: 2.4.5 Ensure That Common Users Run Privileged Programs Using the sudo Command (Requirement)");
+  script_xref(name:"Policy", value:"HCE Linux (Huawei Cloud EulerOS): Security Committee Benchmark (v1.0.0): 2. Secure Access: 2.4 Access Control: 2.4.5 Ensure That Common Users Run Privileged Programs Using the sudo Command (Requirement)");
+  script_xref(name:"Policy", value:"openEuler Baseline: Security Committee Benchmark (v1.0.0): 2. Secure Access: 2.4 Access Control: 2.4.5 Ensure That Common Users Run Privileged Programs Using the sudo Command (Requirement)");
+
+  script_tag(name:"summary", value:"The sudo command enables a specified common user to execute
+certain programs with the root permission. Most system management commands need to be executed by
+the root user. For the system administrator, properly authorizing other users can reduce the burden
+of the system administrator. However, directly granting the password of the root user to a common
+user brings security risks. The sudo command can be used to avoid this problem. You can use the
+sudo mechanism to avoid using the root user to log in to privileged programs that need to be run by
+the root user.
+
+Using the sudo command instead of the root user to run privileged programs not only reduces the
+load of the system administrator, but also improves security because the password of the root user
+is not required when the sudo command is used.");
+
+  exit(0);
+}
+
+include("policy_reporting_module.inc");
+
+title = "Ensure That Common Users Run Privileged Programs Using the sudo Command";
+
+solution = "Modify the /etc/sudoers configuration file to configure permissions for users who need
+to execute specified privileges as the root user.
+
+# vim /etc/sudoers
+test_sudo  ALL=(root)  /bin/ping
+
+The preceding line contains four fields, as shown in the preceding example:
+
+The first field test_sudo indicates the user. In actual configuration, you can specify a user group
+so that all users in the user group can run the sudo command based on the following rules.
+
+The second field ALL indicates that the configuration is applicable to any host name.
+
+The third field root indicates that the user or user group set in the first field can be switched
+to the root user to execute privileged programs.";
+
+check_type = "Manual";
+
+action = "Needs manual check";
+
+expected_value = script_get_preference("Status", id:1);
+
+actual_value = expected_value;
+
+# ------------------------------------------------------------------
+# MANUAL CHECK
+# ------------------------------------------------------------------
+
+if(expected_value == "Compliant"){
+  compliant = "yes";
+  comment = "Marked as Compliant via Policy";
+}
+else if(expected_value == "Not Compliant"){
+  compliant = "no";
+  comment = "Marked as Non-Compliant via Policy.";
+}
+
+# ------------------------------------------------------------------
+# REPORT
+# ------------------------------------------------------------------
+
+report_audit(action: action,
+             actual_value: actual_value,
+             expected_value: expected_value,
+             is_compliant: compliant,
+             solution: solution,
+             check_type: check_type,
+             title: title,
+             comment: comment);
+
+exit(0);

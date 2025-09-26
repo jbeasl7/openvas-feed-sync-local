@@ -1,0 +1,192 @@
+# SPDX-FileCopyrightText: 2025 Greenbone AG
+# Some text descriptions might be excerpted from (a) referenced
+# source(s), and are Copyright (C) by the respective right holder(s).
+#
+# SPDX-License-Identifier: GPL-2.0-only
+
+if(description)
+{
+  script_oid("1.3.6.1.4.1.25623.1.1.12.2025.7771.1");
+  script_cve_id("CVE-2025-38003", "CVE-2025-38004", "CVE-2025-38029", "CVE-2025-38031", "CVE-2025-38032", "CVE-2025-38033", "CVE-2025-38034", "CVE-2025-38035", "CVE-2025-38036", "CVE-2025-38037", "CVE-2025-38038", "CVE-2025-38039", "CVE-2025-38040", "CVE-2025-38041", "CVE-2025-38042", "CVE-2025-38043", "CVE-2025-38044", "CVE-2025-38045", "CVE-2025-38047", "CVE-2025-38048", "CVE-2025-38050", "CVE-2025-38051", "CVE-2025-38052", "CVE-2025-38053", "CVE-2025-38054", "CVE-2025-38055", "CVE-2025-38057", "CVE-2025-38058", "CVE-2025-38059", "CVE-2025-38060", "CVE-2025-38061", "CVE-2025-38062", "CVE-2025-38063", "CVE-2025-38064", "CVE-2025-38065", "CVE-2025-38066", "CVE-2025-38067", "CVE-2025-38068", "CVE-2025-38069", "CVE-2025-38070", "CVE-2025-38071", "CVE-2025-38072", "CVE-2025-38073", "CVE-2025-38074", "CVE-2025-38075", "CVE-2025-38076", "CVE-2025-38077", "CVE-2025-38078", "CVE-2025-38079", "CVE-2025-38080", "CVE-2025-38081", "CVE-2025-38082", "CVE-2025-38088", "CVE-2025-38091", "CVE-2025-38092", "CVE-2025-38096", "CVE-2025-38097", "CVE-2025-38098", "CVE-2025-38099", "CVE-2025-38100", "CVE-2025-38101", "CVE-2025-38102", "CVE-2025-38103", "CVE-2025-38105", "CVE-2025-38106", "CVE-2025-38107", "CVE-2025-38108", "CVE-2025-38109", "CVE-2025-38110", "CVE-2025-38111", "CVE-2025-38112", "CVE-2025-38113", "CVE-2025-38114", "CVE-2025-38115", "CVE-2025-38116", "CVE-2025-38117", "CVE-2025-38118", "CVE-2025-38119", "CVE-2025-38120", "CVE-2025-38122", "CVE-2025-38123", "CVE-2025-38124", "CVE-2025-38125", "CVE-2025-38126", "CVE-2025-38127", "CVE-2025-38128", "CVE-2025-38129", "CVE-2025-38130", "CVE-2025-38131", "CVE-2025-38132", "CVE-2025-38134", "CVE-2025-38135", "CVE-2025-38136", "CVE-2025-38137", "CVE-2025-38138", "CVE-2025-38139", "CVE-2025-38140", "CVE-2025-38141", "CVE-2025-38142", "CVE-2025-38143", "CVE-2025-38145", "CVE-2025-38146", "CVE-2025-38147", "CVE-2025-38148", "CVE-2025-38149", "CVE-2025-38151", "CVE-2025-38153", "CVE-2025-38154", "CVE-2025-38155", "CVE-2025-38156", "CVE-2025-38157", "CVE-2025-38158", "CVE-2025-38159", "CVE-2025-38160", "CVE-2025-38161", "CVE-2025-38162", "CVE-2025-38163", "CVE-2025-38164", "CVE-2025-38165", "CVE-2025-38166", "CVE-2025-38167", "CVE-2025-38168", "CVE-2025-38169", "CVE-2025-38170", "CVE-2025-38172", "CVE-2025-38173", "CVE-2025-38175", "CVE-2025-38176", "CVE-2025-38265", "CVE-2025-38267", "CVE-2025-38268", "CVE-2025-38269", "CVE-2025-38270", "CVE-2025-38272", "CVE-2025-38274", "CVE-2025-38275", "CVE-2025-38277", "CVE-2025-38278", "CVE-2025-38279", "CVE-2025-38280", "CVE-2025-38281", "CVE-2025-38282", "CVE-2025-38283", "CVE-2025-38284", "CVE-2025-38285", "CVE-2025-38286", "CVE-2025-38287", "CVE-2025-38288", "CVE-2025-38289", "CVE-2025-38290", "CVE-2025-38291", "CVE-2025-38292", "CVE-2025-38293", "CVE-2025-38294", "CVE-2025-38295", "CVE-2025-38296", "CVE-2025-38297", "CVE-2025-38298", "CVE-2025-38299", "CVE-2025-38300", "CVE-2025-38301", "CVE-2025-38302", "CVE-2025-38303", "CVE-2025-38304", "CVE-2025-38305", "CVE-2025-38306", "CVE-2025-38307", "CVE-2025-38310", "CVE-2025-38311", "CVE-2025-38312", "CVE-2025-38313", "CVE-2025-38314", "CVE-2025-38315", "CVE-2025-38316", "CVE-2025-38317", "CVE-2025-38318", "CVE-2025-38319", "CVE-2025-38352", "CVE-2025-38414", "CVE-2025-38415", "CVE-2025-38498", "CVE-2025-38499");
+  script_tag(name:"creation_date", value:"2025-09-25 04:04:35 +0000 (Thu, 25 Sep 2025)");
+  script_version("2025-09-25T05:39:09+0000");
+  script_tag(name:"last_modification", value:"2025-09-25 05:39:09 +0000 (Thu, 25 Sep 2025)");
+  script_tag(name:"cvss_base", value:"5.0");
+  script_tag(name:"cvss_base_vector", value:"AV:N/AC:L/Au:N/C:P/I:N/A:N");
+
+  script_name("Ubuntu: Security Advisory (USN-7771-1)");
+  script_category(ACT_GATHER_INFO);
+  script_copyright("Copyright (C) 2025 Greenbone AG");
+  script_family("Ubuntu Local Security Checks");
+  script_dependencies("gather-package-list.nasl");
+  script_mandatory_keys("ssh/login/ubuntu_linux", "ssh/login/packages", re:"ssh/login/release=UBUNTU24\.04\ LTS");
+
+  script_xref(name:"Advisory-ID", value:"USN-7771-1");
+  script_xref(name:"URL", value:"https://ubuntu.com/security/notices/USN-7771-1");
+
+  script_tag(name:"summary", value:"The remote host is missing an update for the 'linux-oem-6.14' package(s) announced via the USN-7771-1 advisory.");
+
+  script_tag(name:"vuldetect", value:"Checks if a vulnerable package version is present on the target host.");
+
+  script_tag(name:"insight", value:"Several security issues were discovered in the Linux kernel.
+An attacker could possibly use these to compromise the system.
+This update corrects flaws in the following subsystems:
+ - ARM64 architecture,
+ - PowerPC architecture,
+ - x86 architecture,
+ - Block layer subsystem,
+ - Cryptographic API,
+ - ACPI drivers,
+ - Android drivers,
+ - Bluetooth drivers,
+ - Bus devices,
+ - Clock framework and drivers,
+ - CPU frequency scaling framework,
+ - Hardware crypto device drivers,
+ - DMA engine subsystem,
+ - EDAC drivers,
+ - Arm Firmware Framework for ARMv8-A(FFA),
+ - FPGA Framework,
+ - GPIO subsystem,
+ - GPU drivers,
+ - HID subsystem,
+ - Hardware monitoring drivers,
+ - HW tracing,
+ - InfiniBand drivers,
+ - IOMMU subsystem,
+ - Multiple devices driver,
+ - Media drivers,
+ - VMware VMCI Driver,
+ - MTD block device drivers,
+ - Network drivers,
+ - Mellanox network drivers,
+ - STMicroelectronics network drivers,
+ - NVDIMM (Non-Volatile Memory Device) drivers,
+ - NVME drivers,
+ - NVMEM (Non Volatile Memory) drivers,
+ - PCI subsystem,
+ - Amlogic Meson DDR PMU,
+ - NI-700 PMU driver,
+ - PHY drivers,
+ - Pin controllers subsystem,
+ - x86 platform drivers,
+ - PTP clock framework,
+ - SCSI subsystem,
+ - ASPEED SoC drivers,
+ - SPI subsystem,
+ - TCM subsystem,
+ - TTY drivers,
+ - UFS subsystem,
+ - USB core drivers,
+ - USB Gadget drivers,
+ - Renesas USBHS Controller drivers,
+ - USB Type-C Port Controller Manager driver,
+ - VFIO drivers,
+ - Virtio Host (VHOST) subsystem,
+ - Backlight driver,
+ - Framebuffer layer,
+ - Virtio drivers,
+ - BTRFS file system,
+ - EROFS file system,
+ - F2FS file system,
+ - File systems infrastructure,
+ - Network file systems library,
+ - NTFS3 file system,
+ - SMB network file system,
+ - Codetag library,
+ - BPF subsystem,
+ - LZO compression library,
+ - Mellanox drivers,
+ - IPv4 networking,
+ - Bluetooth subsystem,
+ - Network sockets,
+ - XFRM subsystem,
+ - Digital Audio (PCM) driver,
+ - Tracing infrastructure,
+ - io_uring subsystem,
+ - Padata parallel execution mechanism,
+ - DVFS energy model driver,
+ - Restartable seuqences system call mechanism,
+ - Timer subsystem,
+ - Memory management,
+ - KASAN memory debugging framework,
+ - CAN network layer,
+ - Networking core,
+ - IPv6 networking,
+ - Netfilter,
+ - NetLabel subsystem,
+ - Open vSwitch,
+ - Network traffic control,
+ - TIPC protocol,
+ - TLS protocol,
+ - ALSA framework,
+ - sma1307 audio codecs,
+ - Intel ASoC drivers,
+ - MediaTek ASoC drivers,
+ - USB sound devices,
+(CVE-2025-38141, CVE-2025-38039, CVE-2025-38283, CVE-2025-38272,
+CVE-2025-38290, CVE-2025-38168, CVE-2025-38134, CVE-2025-38158,
+CVE-2025-38097, CVE-2025-38078, CVE-2025-38161, CVE-2025-38116,
+CVE-2025-38312, CVE-2025-38067, CVE-2025-38129, CVE-2025-38119,
+CVE-2025-38061, CVE-2025-38352, CVE-2025-38269, CVE-2025-38163,
+CVE-2025-38315, CVE-2025-38301, CVE-2025-38115, CVE-2025-38032,
+CVE-2025-38127, CVE-2025-38029, CVE-2025-38277, CVE-2025-38075,
+CVE-2025-38300, ... [Please see the references for more information on the vulnerabilities]");
+
+  script_tag(name:"affected", value:"'linux-oem-6.14' package(s) on Ubuntu 24.04.");
+
+  script_tag(name:"solution", value:"Please install the updated package(s).");
+
+  script_tag(name:"solution_type", value:"VendorFix");
+  script_tag(name:"qod_type", value:"package");
+  script_xref(name:"CISA", value:"Known Exploited Vulnerability (KEV) catalog");
+  script_xref(name:"URL", value:"https://www.cisa.gov/known-exploited-vulnerabilities-catalog");
+
+  exit(0);
+}
+
+include("revisions-lib.inc");
+include("pkg-lib-deb.inc");
+
+release = dpkg_get_ssh_release();
+if(!release)
+  exit(0);
+
+res = "";
+report = "";
+
+if(release == "UBUNTU24.04 LTS") {
+
+  if(!isnull(res = isdpkgvuln(pkg:"linux-image-6.14.0-1012-oem", ver:"6.14.0-1012.12", rls:"UBUNTU24.04 LTS"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isdpkgvuln(pkg:"linux-image-oem-24.04", ver:"6.14.0-1012.12", rls:"UBUNTU24.04 LTS"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isdpkgvuln(pkg:"linux-image-oem-24.04a", ver:"6.14.0-1012.12", rls:"UBUNTU24.04 LTS"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isdpkgvuln(pkg:"linux-image-oem-24.04b", ver:"6.14.0-1012.12", rls:"UBUNTU24.04 LTS"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isdpkgvuln(pkg:"linux-image-oem-24.04c", ver:"6.14.0-1012.12", rls:"UBUNTU24.04 LTS"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isdpkgvuln(pkg:"linux-image-oem-6.14", ver:"6.14.0-1012.12", rls:"UBUNTU24.04 LTS"))) {
+    report += res;
+  }
+
+  if(report != "") {
+    security_message(data:report);
+  } else if(__pkg_match) {
+    exit(99);
+  }
+  exit(0);
+}
+
+exit(0);
