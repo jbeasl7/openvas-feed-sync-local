@@ -1,0 +1,186 @@
+# SPDX-FileCopyrightText: 2026 Greenbone AG
+# Some text descriptions might be excerpted from (a) referenced
+# source(s), and are Copyright (C) by the respective right holder(s).
+#
+# SPDX-License-Identifier: GPL-2.0-only
+
+if(description)
+{
+  script_oid("1.3.6.1.4.1.25623.1.1.12.2026.8029.3");
+  script_cve_id("CVE-2025-40001", "CVE-2025-40002", "CVE-2025-40003", "CVE-2025-40004", "CVE-2025-40029", "CVE-2025-40030", "CVE-2025-40031", "CVE-2025-40032", "CVE-2025-40033", "CVE-2025-40034", "CVE-2025-40035", "CVE-2025-40036", "CVE-2025-40037", "CVE-2025-40038", "CVE-2025-40039", "CVE-2025-40040", "CVE-2025-40042", "CVE-2025-40043", "CVE-2025-40044", "CVE-2025-40045", "CVE-2025-40046", "CVE-2025-40047", "CVE-2025-40048", "CVE-2025-40049", "CVE-2025-40050", "CVE-2025-40051", "CVE-2025-40052", "CVE-2025-40053", "CVE-2025-40054", "CVE-2025-40055", "CVE-2025-40056", "CVE-2025-40057", "CVE-2025-40058", "CVE-2025-40059", "CVE-2025-40060", "CVE-2025-40061", "CVE-2025-40062", "CVE-2025-40063", "CVE-2025-40064", "CVE-2025-40065", "CVE-2025-40066", "CVE-2025-40067", "CVE-2025-40068", "CVE-2025-40069", "CVE-2025-40070", "CVE-2025-40071", "CVE-2025-40072", "CVE-2025-40073", "CVE-2025-40074", "CVE-2025-40075", "CVE-2025-40076", "CVE-2025-40077", "CVE-2025-40078", "CVE-2025-40079", "CVE-2025-40080", "CVE-2025-40081", "CVE-2025-40082", "CVE-2025-40084", "CVE-2025-40085", "CVE-2025-40086", "CVE-2025-40087", "CVE-2025-40088", "CVE-2025-40089", "CVE-2025-40091", "CVE-2025-40092", "CVE-2025-40093", "CVE-2025-40094", "CVE-2025-40095", "CVE-2025-40096", "CVE-2025-40097", "CVE-2025-40098", "CVE-2025-40099", "CVE-2025-40100", "CVE-2025-40101", "CVE-2025-40102", "CVE-2025-40103", "CVE-2025-40104", "CVE-2025-40105", "CVE-2025-40106", "CVE-2025-40110", "CVE-2025-40111", "CVE-2025-40112", "CVE-2025-40113", "CVE-2025-40115", "CVE-2025-40116", "CVE-2025-40117", "CVE-2025-40118", "CVE-2025-40119", "CVE-2025-40120", "CVE-2025-40121", "CVE-2025-40122", "CVE-2025-40123", "CVE-2025-40124", "CVE-2025-40125", "CVE-2025-40126", "CVE-2025-40127", "CVE-2025-40129", "CVE-2025-40130", "CVE-2025-40131", "CVE-2025-40132", "CVE-2025-40133", "CVE-2025-40134", "CVE-2025-40135", "CVE-2025-40136", "CVE-2025-40137", "CVE-2025-40138", "CVE-2025-40139", "CVE-2025-40140", "CVE-2025-40141", "CVE-2025-40142", "CVE-2025-40143", "CVE-2025-40145", "CVE-2025-40146", "CVE-2025-40147", "CVE-2025-40148", "CVE-2025-40149", "CVE-2025-40150", "CVE-2025-40152", "CVE-2025-40153", "CVE-2025-40154", "CVE-2025-40155", "CVE-2025-40156", "CVE-2025-40158", "CVE-2025-40159", "CVE-2025-40160", "CVE-2025-40161", "CVE-2025-40162", "CVE-2025-40163", "CVE-2025-40164", "CVE-2025-40165", "CVE-2025-40166", "CVE-2025-40167", "CVE-2025-40168", "CVE-2025-40169", "CVE-2025-40170", "CVE-2025-40171", "CVE-2025-40172", "CVE-2025-40173", "CVE-2025-40174", "CVE-2025-40175", "CVE-2025-40176", "CVE-2025-40177", "CVE-2025-40178", "CVE-2025-40179", "CVE-2025-40180", "CVE-2025-40181", "CVE-2025-40182", "CVE-2025-40183", "CVE-2025-40184", "CVE-2025-40185", "CVE-2025-40186", "CVE-2025-40187", "CVE-2025-40188", "CVE-2025-40189", "CVE-2025-40191", "CVE-2025-40192", "CVE-2025-40193", "CVE-2025-40194", "CVE-2025-40195", "CVE-2025-40196", "CVE-2025-40198", "CVE-2025-40199", "CVE-2025-40200", "CVE-2025-40201", "CVE-2025-40203", "CVE-2025-40204", "CVE-2025-40205", "CVE-2025-40206", "CVE-2025-40207", "CVE-2025-40208", "CVE-2025-40209", "CVE-2025-40210", "CVE-2025-40211", "CVE-2025-40212", "CVE-2025-40213", "CVE-2025-40217", "CVE-2025-40218", "CVE-2025-40219", "CVE-2025-40220", "CVE-2025-40221", "CVE-2025-40222", "CVE-2025-40223", "CVE-2025-40224", "CVE-2025-40225", "CVE-2025-40226", "CVE-2025-40227", "CVE-2025-40228", "CVE-2025-40229", "CVE-2025-40230", "CVE-2025-40231", "CVE-2025-40233", "CVE-2025-40234", "CVE-2025-40235", "CVE-2025-40236", "CVE-2025-40237", "CVE-2025-40238", "CVE-2025-40239", "CVE-2025-40240", "CVE-2025-40241", "CVE-2025-40242", "CVE-2025-40243", "CVE-2025-40244", "CVE-2025-40245", "CVE-2025-40256", "CVE-2025-40267", "CVE-2025-40268", "CVE-2025-40269", "CVE-2025-40270", "CVE-2025-40271", "CVE-2025-40272", "CVE-2025-40273", "CVE-2025-40274", "CVE-2025-40275", "CVE-2025-40276", "CVE-2025-40277", "CVE-2025-40278", "CVE-2025-40279", "CVE-2025-40280", "CVE-2025-40281", "CVE-2025-40282", "CVE-2025-40283", "CVE-2025-40284", "CVE-2025-40285", "CVE-2025-40286", "CVE-2025-40287", "CVE-2025-40288", "CVE-2025-40289", "CVE-2025-40291", "CVE-2025-40292", "CVE-2025-40293", "CVE-2025-40294", "CVE-2025-40295", "CVE-2025-40296", "CVE-2025-40297", "CVE-2025-40298", "CVE-2025-40299", "CVE-2025-40301", "CVE-2025-40302", "CVE-2025-40303", "CVE-2025-40304", "CVE-2025-40305", "CVE-2025-40306", "CVE-2025-40307", "CVE-2025-40308", "CVE-2025-40309", "CVE-2025-40310", "CVE-2025-40311", "CVE-2025-40312", "CVE-2025-40313", "CVE-2025-40314", "CVE-2025-40315", "CVE-2025-40316", "CVE-2025-40317", "CVE-2025-40318", "CVE-2025-40319", "CVE-2025-40320", "CVE-2025-40321", "CVE-2025-40322", "CVE-2025-40323", "CVE-2025-40324", "CVE-2025-40326", "CVE-2025-40327", "CVE-2025-40328", "CVE-2025-40329", "CVE-2025-40330", "CVE-2025-40331", "CVE-2025-40332", "CVE-2025-40333", "CVE-2025-40334", "CVE-2025-40335", "CVE-2025-40336", "CVE-2025-40337", "CVE-2025-40338", "CVE-2025-40339", "CVE-2025-40340", "CVE-2025-40341", "CVE-2025-40342", "CVE-2025-40343", "CVE-2025-40344", "CVE-2025-40346", "CVE-2025-40347", "CVE-2025-40349", "CVE-2025-40350", "CVE-2025-40351", "CVE-2025-40352", "CVE-2025-40353", "CVE-2025-40354", "CVE-2025-40355", "CVE-2025-40356", "CVE-2025-40357", "CVE-2025-40358", "CVE-2025-40359", "CVE-2025-40360", "CVE-2025-40362", "CVE-2025-40363", "CVE-2025-68167", "CVE-2025-68168", "CVE-2025-68169", "CVE-2025-68170", "CVE-2025-68171", "CVE-2025-68172", "CVE-2025-68173", "CVE-2025-68174", "CVE-2025-68175", "CVE-2025-68176", "CVE-2025-68177", "CVE-2025-68178", "CVE-2025-68179", "CVE-2025-68180", "CVE-2025-68181", "CVE-2025-68182", "CVE-2025-68183", "CVE-2025-68184", "CVE-2025-68185", "CVE-2025-68186", "CVE-2025-68187", "CVE-2025-68188", "CVE-2025-68189", "CVE-2025-68190", "CVE-2025-68191", "CVE-2025-68192", "CVE-2025-68193", "CVE-2025-68194", "CVE-2025-68196", "CVE-2025-68197", "CVE-2025-68198", "CVE-2025-68199", "CVE-2025-68200", "CVE-2025-68201", "CVE-2025-68202", "CVE-2025-68204", "CVE-2025-68205", "CVE-2025-68206", "CVE-2025-68207", "CVE-2025-68208", "CVE-2025-68209", "CVE-2025-68210", "CVE-2025-68211", "CVE-2025-68239", "CVE-2025-68240", "CVE-2025-68241", "CVE-2025-68242", "CVE-2025-68243", "CVE-2025-68244", "CVE-2025-68245", "CVE-2025-68246", "CVE-2025-68247", "CVE-2025-68248", "CVE-2025-68249", "CVE-2025-68250", "CVE-2025-68251", "CVE-2025-68253", "CVE-2025-68309", "CVE-2025-68310", "CVE-2025-68311", "CVE-2025-68312", "CVE-2025-68313", "CVE-2025-68314", "CVE-2025-68315", "CVE-2025-68316", "CVE-2025-68317", "CVE-2025-68318", "CVE-2025-68319", "CVE-2025-68320", "CVE-2025-68321", "CVE-2025-68322", "CVE-2025-68734");
+  script_tag(name:"creation_date", value:"2026-02-25 04:38:06 +0000 (Wed, 25 Feb 2026)");
+  script_version("2026-02-27T05:55:46+0000");
+  script_tag(name:"last_modification", value:"2026-02-27 05:55:46 +0000 (Fri, 27 Feb 2026)");
+  script_tag(name:"cvss_base", value:"6.8");
+  script_tag(name:"cvss_base_vector", value:"AV:L/AC:L/Au:S/C:C/I:C/A:C");
+  script_tag(name:"severity_vector", value:"CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H");
+  script_tag(name:"severity_origin", value:"NVD");
+  script_tag(name:"severity_date", value:"2026-02-26 15:51:45 +0000 (Thu, 26 Feb 2026)");
+
+  script_name("Ubuntu: Security Advisory (USN-8029-3)");
+  script_category(ACT_GATHER_INFO);
+  script_copyright("Copyright (C) 2026 Greenbone AG");
+  script_family("Ubuntu Local Security Checks");
+  script_dependencies("gather-package-list.nasl");
+  script_mandatory_keys("ssh/login/ubuntu_linux", "ssh/login/packages", re:"ssh/login/release=UBUNTU25\.10");
+
+  script_xref(name:"Advisory-ID", value:"USN-8029-3");
+  script_xref(name:"URL", value:"https://ubuntu.com/security/notices/USN-8029-3");
+
+  script_tag(name:"summary", value:"The remote host is missing an update for the 'linux-azure' package(s) announced via the USN-8029-3 advisory.");
+
+  script_tag(name:"vuldetect", value:"Checks if a vulnerable package version is present on the target host.");
+
+  script_tag(name:"insight", value:"Several security issues were discovered in the Linux kernel.
+An attacker could possibly use these to compromise the system.
+This update corrects flaws in the following subsystems:
+ - ARM64 architecture,
+ - MIPS architecture,
+ - Nios II architecture,
+ - PA-RISC architecture,
+ - RISC-V architecture,
+ - S390 architecture,
+ - Sun Sparc architecture,
+ - x86 architecture,
+ - Xtensa architecture,
+ - Block layer subsystem,
+ - Cryptographic API,
+ - Compute Acceleration Framework,
+ - ACPI drivers,
+ - Drivers core,
+ - Network block device driver,
+ - Bluetooth drivers,
+ - Bus devices,
+ - Hardware random number generator core,
+ - Character device driver,
+ - Clock framework and drivers,
+ - Data acquisition framework and drivers,
+ - CPU frequency scaling framework,
+ - Hardware crypto device drivers,
+ - CXL (Compute Express Link) drivers,
+ - Device frequency scaling framework,
+ - ARM SCMI message protocol,
+ - GPIO subsystem,
+ - GPU drivers,
+ - Hardware monitoring drivers,
+ - HW tracing,
+ - InfiniBand drivers,
+ - Input Device (Miscellaneous) drivers,
+ - IOMMU subsystem,
+ - ISDN/mISDN subsystem,
+ - Mailbox framework,
+ - Multiple devices driver,
+ - Media drivers,
+ - Fastrpc Driver,
+ - PCI Endpoint Test driver,
+ - VMware Balloon Driver,
+ - MOST (Media Oriented Systems Transport) drivers,
+ - Network drivers,
+ - Mellanox network drivers,
+ - STMicroelectronics network drivers,
+ - NVME drivers,
+ - PCI subsystem,
+ - Performance monitor drivers,
+ - Pin controllers subsystem,
+ - Mellanox platform drivers,
+ - x86 platform drivers,
+ - ARM PM domains,
+ - PPS (Pulse Per Second) driver,
+ - PTP clock framework,
+ - PWM drivers,
+ - Remote Processor subsystem,
+ - SCSI subsystem,
+ - SPI subsystem,
+ - Trusted Execution Environment drivers,
+ - Thunderbolt and USB4 drivers,
+ - TTY drivers,
+ - UFS subsystem,
+ - Userspace I/O drivers,
+ - Cadence USB3 driver,
+ - USB Gadget drivers,
+ - USB Host Controller drivers,
+ - vDPA drivers,
+ - Virtio Host (VHOST) subsystem,
+ - Framebuffer layer,
+ - Xen hypervisor drivers,
+ - File systems infrastructure,
+ - BTRFS file system,
+ - Ceph distributed file system,
+ - EROFS file system,
+ - Ext4 file system,
+ - F2FS file system,
+ - GFS2 file system,
+ - JFS file system,
+ - Network file system (NFS) client,
+ - Network file system (NFS) server daemon,
+ - NILFS2 file system,
+ - File system notification infrastructure,
+ - NTFS3 file system,
+ - Proc file system,
+ - Diskquota system,
+ - SMB network file system,
+ - BPF subsystem,
+ - Mellanox drivers,
+ - Memory management,
+ - Virtio network driver,
+ - Bluetooth subsystem,
+ - IP tunnels definitions,
+ - io_uring subsystem,
+ - Kernel crash support code,
+ - Perf events,
+ - Kernel futex primitives,
+ - PID allocator,
+ - Scheduler infrastructure,
+ - Syscalls implementation,
+ - Timer subsystem,
+ - Tracing infrastructure,
+ - 9P file system network protocol,
+ - Ethernet bridge,
+ - Networking core,
+ - IPv4 networking,
+ - IPv6 networking,
+ - Multipath ... [Please see the references for more information on the vulnerabilities]");
+
+  script_tag(name:"affected", value:"'linux-azure' package(s) on Ubuntu 25.10.");
+
+  script_tag(name:"solution", value:"Please install the updated package(s).");
+
+  script_tag(name:"solution_type", value:"VendorFix");
+  script_tag(name:"qod_type", value:"package");
+
+  exit(0);
+}
+
+include("revisions-lib.inc");
+include("pkg-lib-deb.inc");
+
+release = dpkg_get_ssh_release();
+if(!release)
+  exit(0);
+
+res = "";
+report = "";
+
+if(release == "UBUNTU25.10") {
+
+  if(!isnull(res = isdpkgvuln(pkg:"linux-image-6.17.0-1008-azure", ver:"6.17.0-1008.8", rls:"UBUNTU25.10"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isdpkgvuln(pkg:"linux-image-azure", ver:"6.17.0-1008.8", rls:"UBUNTU25.10"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isdpkgvuln(pkg:"linux-image-azure-6.17", ver:"6.17.0-1008.8", rls:"UBUNTU25.10"))) {
+    report += res;
+  }
+
+  if(report != "") {
+    security_message(data:report);
+  } else if(__pkg_match) {
+    exit(99);
+  }
+  exit(0);
+}
+
+exit(0);
