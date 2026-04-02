@@ -1,0 +1,172 @@
+# SPDX-FileCopyrightText: 2026 Greenbone AG
+# Some text descriptions might be excerpted from (a) referenced
+# source(s), and are Copyright (C) by the respective right holder(s).
+#
+# SPDX-License-Identifier: GPL-2.0-only
+
+if(description)
+{
+  script_oid("1.3.6.1.4.1.25623.1.1.2.2026.1629");
+  script_cve_id("CVE-2022-21546", "CVE-2022-49426", "CVE-2022-49444", "CVE-2022-49534", "CVE-2022-49568", "CVE-2022-49624", "CVE-2022-49731", "CVE-2022-49770", "CVE-2022-49771", "CVE-2022-49783", "CVE-2022-49822", "CVE-2022-49824", "CVE-2022-49828", "CVE-2022-49829", "CVE-2022-49851", "CVE-2022-49937", "CVE-2022-49938", "CVE-2022-49958", "CVE-2022-49975", "CVE-2022-49981", "CVE-2022-49986", "CVE-2022-49987", "CVE-2022-49993", "CVE-2022-50004", "CVE-2022-50007", "CVE-2022-50033", "CVE-2022-50041", "CVE-2022-50042", "CVE-2022-50045", "CVE-2022-50053", "CVE-2022-50072", "CVE-2022-50080", "CVE-2022-50085", "CVE-2022-50087", "CVE-2022-50092", "CVE-2022-50093", "CVE-2022-50116", "CVE-2022-50127", "CVE-2022-50149", "CVE-2022-50171", "CVE-2022-50211", "CVE-2022-50235", "CVE-2022-50241", "CVE-2022-50243", "CVE-2022-50246", "CVE-2022-50250", "CVE-2022-50252", "CVE-2022-50272", "CVE-2022-50274", "CVE-2022-50282", "CVE-2022-50285", "CVE-2022-50299", "CVE-2022-50304", "CVE-2022-50314", "CVE-2022-50334", "CVE-2022-50341", "CVE-2022-50348", "CVE-2022-50352", "CVE-2022-50356", "CVE-2022-50359", "CVE-2022-50365", "CVE-2022-50366", "CVE-2022-50367", "CVE-2022-50374", "CVE-2022-50381", "CVE-2022-50385", "CVE-2022-50395", "CVE-2022-50401", "CVE-2022-50402", "CVE-2022-50405", "CVE-2022-50410", "CVE-2022-50422", "CVE-2022-50428", "CVE-2022-50432", "CVE-2022-50435", "CVE-2022-50436", "CVE-2022-50445", "CVE-2022-50454", "CVE-2022-50459", "CVE-2022-50465", "CVE-2022-50466", "CVE-2022-50470", "CVE-2022-50472", "CVE-2022-50482", "CVE-2022-50488", "CVE-2022-50489", "CVE-2022-50494", "CVE-2022-50496", "CVE-2022-50499", "CVE-2022-50500", "CVE-2022-50511", "CVE-2022-50516", "CVE-2022-50521", "CVE-2022-50530", "CVE-2022-50532", "CVE-2022-50534", "CVE-2022-50535", "CVE-2022-50536", "CVE-2022-50544", "CVE-2022-50546", "CVE-2022-50549", "CVE-2022-50552", "CVE-2022-50554", "CVE-2022-50555", "CVE-2022-50556", "CVE-2022-50562", "CVE-2022-50563", "CVE-2022-50566", "CVE-2022-50569", "CVE-2022-50578", "CVE-2022-50579", "CVE-2023-53044", "CVE-2023-53047", "CVE-2023-53078", "CVE-2023-53117", "CVE-2023-53140", "CVE-2023-53147", "CVE-2023-53148", "CVE-2023-53150", "CVE-2023-53165", "CVE-2023-53179", "CVE-2023-53182", "CVE-2023-53189", "CVE-2023-53198", "CVE-2023-53200", "CVE-2023-53201", "CVE-2023-53204", "CVE-2023-53241", "CVE-2023-53254", "CVE-2023-53265", "CVE-2023-53272", "CVE-2023-53282", "CVE-2023-53286", "CVE-2023-53292", "CVE-2023-53295", "CVE-2023-53296", "CVE-2023-53299", "CVE-2023-53307", "CVE-2023-53322", "CVE-2023-53335", "CVE-2023-53343", "CVE-2023-53352", "CVE-2023-53354", "CVE-2023-53357", "CVE-2023-53365", "CVE-2023-53380", "CVE-2023-53393", "CVE-2023-53397", "CVE-2023-53422", "CVE-2023-53423", "CVE-2023-53427", "CVE-2023-53432", "CVE-2023-53433", "CVE-2023-53438", "CVE-2023-53446", "CVE-2023-53451", "CVE-2023-53454", "CVE-2023-53469", "CVE-2023-53473", "CVE-2023-53476", "CVE-2023-53477", "CVE-2023-53481", "CVE-2023-53484", "CVE-2023-53488", "CVE-2023-53491", "CVE-2023-53494", "CVE-2023-53499", "CVE-2023-53500", "CVE-2023-53509", "CVE-2023-53512", "CVE-2023-53513", "CVE-2023-53539", "CVE-2023-53546", "CVE-2023-53548", "CVE-2023-53549", "CVE-2023-53556", "CVE-2023-53559", "CVE-2023-53567", "CVE-2023-53581", "CVE-2023-53585", "CVE-2023-53586", "CVE-2023-53590", "CVE-2023-53594", "CVE-2023-53600", "CVE-2023-53604", "CVE-2023-53605", "CVE-2023-53610", "CVE-2023-53613", "CVE-2023-53619", "CVE-2023-53620", "CVE-2023-53624", "CVE-2023-53627", "CVE-2023-53635", "CVE-2023-53655", "CVE-2023-53659", "CVE-2023-53667", "CVE-2023-53675", "CVE-2023-53676", "CVE-2023-53680", "CVE-2023-53684", "CVE-2023-53685", "CVE-2023-53692", "CVE-2023-53695", "CVE-2023-53696", "CVE-2023-53705", "CVE-2023-53709", "CVE-2023-53716", "CVE-2023-53718", "CVE-2023-53719", "CVE-2023-53722", "CVE-2023-53726", "CVE-2023-53728", "CVE-2023-53733", "CVE-2023-7324", "CVE-2024-21823", "CVE-2024-58093", "CVE-2025-21772", "CVE-2025-21992", "CVE-2025-22022", "CVE-2025-22025", "CVE-2025-22044", "CVE-2025-22045", "CVE-2025-22125", "CVE-2025-23161", "CVE-2025-37773", "CVE-2025-37780", "CVE-2025-37819", "CVE-2025-37829", "CVE-2025-37834", "CVE-2025-37836", "CVE-2025-37844", "CVE-2025-37857", "CVE-2025-37885", "CVE-2025-37937", "CVE-2025-37967", "CVE-2025-37980", "CVE-2025-37994", "CVE-2025-38022", "CVE-2025-38023", "CVE-2025-38024", "CVE-2025-38051", "CVE-2025-38057", "CVE-2025-38058", "CVE-2025-38062", "CVE-2025-38064", "CVE-2025-38085", "CVE-2025-38161", "CVE-2025-38177", "CVE-2025-38181", "CVE-2025-38193", "CVE-2025-38200", "CVE-2025-38201", "CVE-2025-38232", "CVE-2025-38342", "CVE-2025-38350", "CVE-2025-38387", "CVE-2025-38415", "CVE-2025-38430", "CVE-2025-38439", "CVE-2025-38445", "CVE-2025-38461", "CVE-2025-38462", "CVE-2025-38468", "CVE-2025-38474", "CVE-2025-38477", "CVE-2025-38527", "CVE-2025-38531", "CVE-2025-38556", "CVE-2025-38569", "CVE-2025-38617", "CVE-2025-38618", "CVE-2025-38664", "CVE-2025-38678", "CVE-2025-38683", "CVE-2025-38691", "CVE-2025-38694", "CVE-2025-38700", "CVE-2025-38702", "CVE-2025-38709", "CVE-2025-38718", "CVE-2025-38724", "CVE-2025-38728", "CVE-2025-39697", "CVE-2025-39730", "CVE-2025-39742", "CVE-2025-39756", "CVE-2025-39772", "CVE-2025-39773", "CVE-2025-39797", "CVE-2025-39798", "CVE-2025-39810", "CVE-2025-39817", "CVE-2025-39825", "CVE-2025-39838", "CVE-2025-39841", "CVE-2025-39847", "CVE-2025-39853", "CVE-2025-39883", "CVE-2025-39901", "CVE-2025-39902", "CVE-2025-39911", "CVE-2025-39927", "CVE-2025-39931", "CVE-2025-39940", "CVE-2025-39945", "CVE-2025-39949", "CVE-2025-39955", "CVE-2025-39964", "CVE-2025-39969", "CVE-2025-39970", "CVE-2025-39980", "CVE-2025-39993", "CVE-2025-39994", "CVE-2025-39998", "CVE-2025-40016", "CVE-2025-40018", "CVE-2025-40019", "CVE-2025-40021", "CVE-2025-40026", "CVE-2025-40030", "CVE-2025-40042", "CVE-2025-40044", "CVE-2025-40048", "CVE-2025-40074", "CVE-2025-40075", "CVE-2025-40080", "CVE-2025-40081", "CVE-2025-40083", "CVE-2025-40087", "CVE-2025-40102", "CVE-2025-40104", "CVE-2025-40105", "CVE-2025-40109", "CVE-2025-40110", "CVE-2025-40115", "CVE-2025-40123", "CVE-2025-40134", "CVE-2025-40153", "CVE-2025-40157", "CVE-2025-40164", "CVE-2025-40167", "CVE-2025-40178", "CVE-2025-40194", "CVE-2025-40196", "CVE-2025-40198", "CVE-2025-40300");
+  script_tag(name:"creation_date", value:"2026-03-19 04:58:29 +0000 (Thu, 19 Mar 2026)");
+  script_version("2026-03-20T05:55:14+0000");
+  script_tag(name:"last_modification", value:"2026-03-20 05:55:14 +0000 (Fri, 20 Mar 2026)");
+  script_tag(name:"cvss_base", value:"6.8");
+  script_tag(name:"cvss_base_vector", value:"AV:L/AC:L/Au:S/C:C/I:C/A:C");
+  script_tag(name:"severity_vector", value:"CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H");
+  script_tag(name:"severity_origin", value:"NVD");
+  script_tag(name:"severity_date", value:"2026-02-03 15:19:06 +0000 (Tue, 03 Feb 2026)");
+
+  script_name("Huawei EulerOS: Security Advisory for kernel (EulerOS-SA-2026-1629)");
+  script_category(ACT_GATHER_INFO);
+  script_copyright("Copyright (C) 2026 Greenbone AG");
+  script_family("Huawei EulerOS Local Security Checks");
+  script_dependencies("gb_huawei_euleros_consolidation.nasl");
+  script_mandatory_keys("ssh/login/euleros", "ssh/login/rpms", re:"ssh/login/release=EULEROSVIRT\-2\.13\.0");
+
+  script_xref(name:"Advisory-ID", value:"EulerOS-SA-2026-1629");
+  script_xref(name:"URL", value:"https://developer.huaweicloud.com/intl/en-us/euleros/securitydetail.html?secId=EulerOS-SA-2026-1629");
+
+  script_tag(name:"summary", value:"The remote host is missing an update for the Huawei EulerOS 'kernel' package(s) announced via the EulerOS-SA-2026-1629 advisory.");
+
+  script_tag(name:"vuldetect", value:"Checks if a vulnerable package version is present on the target host.");
+
+  script_tag(name:"insight", value:"scsi: target: Fix WRITE_SAME No Data Buffer crash(CVE-2022-21546)
+
+iommu/arm-smmu-v3-sva: Fix mm use-after-free(CVE-2022-49426)
+
+module: fix [e_shstrndx].sh_size=0 OOB access(CVE-2022-49444)
+
+scsi: lpfc: Protect memory leak for NPIV ports sending PLOGI_RJT(CVE-2022-49534)
+
+KVM: Don't null dereference ops->destroy(CVE-2022-49568)
+
+net: atlantic: remove aq_nic_deinit() when resume(CVE-2022-49624)
+
+ata: libata-core: fix NULL pointer deref in ata_host_alloc_pinfo()(CVE-2022-49731)
+
+ceph: avoid putting the realm twice when decoding snaps fails(CVE-2022-49770)
+
+dm ioctl: fix misbehavior if list_versions races with module loading(CVE-2022-49771)
+
+x86/fpu: Drop fpregs lock before inheriting FPU permissions(CVE-2022-49783)
+
+cifs: Fix connections leak when tlink setup failed(CVE-2022-49822)
+
+ata: libata-transport: fix error handling in ata_tlink_add()(CVE-2022-49824)
+
+hugetlbfs: don't delete error page from pagecache(CVE-2022-49828)
+
+drm/scheduler: fix fence ref counting(CVE-2022-49829)
+
+riscv: fix reserved memory setup(CVE-2022-49851)
+
+media: mceusb: Use new usb_control_msg_*() routines(CVE-2022-49937)
+
+cifs: fix small mempool leak in SMB2_negotiate()(CVE-2022-49938)
+
+net/sched: fix netdevice reference leaks in attach_default_qdiscs()(CVE-2022-49958)
+
+bpf: Don't redirect packets with invalid pkt_len(CVE-2022-49975)
+
+HID: hidraw: fix memory leak in hidraw_release()(CVE-2022-49981)
+
+scsi: storvsc: Remove WQ_MEM_RECLAIM from storvsc_error_wq(CVE-2022-49986)
+
+md: call __md_stop_writes in md_stop(CVE-2022-49987)
+
+loop: Check for overflow while configuring loop(CVE-2022-49993)
+
+xfrm: policy: fix metadata dst->dev xmit null pointer dereference(CVE-2022-50004)
+
+xfrm: fix refcount leak in __xfrm_policy_check()(CVE-2022-50007)
+
+usb: host: ohci-ppc-of: Fix refcount leak bug(CVE-2022-50033)
+
+ice: Fix call trace with null VSI during VF reset(CVE-2022-50041)
+
+net: genl: fix error path memory leak in policy dumping(CVE-2022-50042)
+
+powerpc/pci: Fix get_phb_number() locking(CVE-2022-50045)
+
+iavf: Fix reset error handling(CVE-2022-50053)
+
+NFSv4/pnfs: Fix a use-after-free bug in open(CVE-2022-50072)
+
+tee: add overflow check in register_shm_helper()(CVE-2022-50080)
+
+dm raid: fix address sanitizer warning in raid_resume(CVE-2022-50085)
+
+firmware: arm_scpi: Ensure scpi_info is not assigned if the probe fails(CVE-2022-50087)
+
+dm thin: fix use-after-free crash in dm_sm_register_threshold_callback(CVE-2022-50092)
+
+iommu/vt-d: avoid invalid memory access via node_online(NUMA_NO_NODE)(CVE-2022-50093)
+
+tty: n_gsm: fix deadlock and link starvation in outgoing data path(CVE-2022-50116)
+
+RDMA/rxe: Fix error unwind in rxe_create_qp()(CVE-2022-50127)
+
+driver core: fix potential deadlock in __driver_attach(CVE-2022-50149)
+
+crypto: hisilicon/sec - don't sleep when in softirq(CVE-2022-50171)
+
+md-raid10: fix KASAN warning(CVE-2022-50211)
+
+NFSD: Protect against send buffer overflow in NFSv2 ... [Please see the references for more information on the vulnerabilities]");
+
+  script_tag(name:"affected", value:"'kernel' package(s) on Huawei EulerOS Virtualization release 2.13.0.");
+
+  script_tag(name:"solution", value:"Please install the updated package(s).");
+
+  script_tag(name:"solution_type", value:"VendorFix");
+  script_tag(name:"qod_type", value:"package");
+
+  exit(0);
+}
+
+include("revisions-lib.inc");
+include("pkg-lib-rpm.inc");
+
+release = rpm_get_ssh_release();
+if(!release)
+  exit(0);
+
+res = "";
+report = "";
+
+if(release == "EULEROSVIRT-2.13.0") {
+
+  if(!isnull(res = isrpmvuln(pkg:"bpftool", rpm:"bpftool~5.10.0~182.0.0.95.h3188.eulerosv2r13", rls:"EULEROSVIRT-2.13.0"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"kernel", rpm:"kernel~5.10.0~182.0.0.95.h3188.eulerosv2r13", rls:"EULEROSVIRT-2.13.0"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"kernel-abi-stablelists", rpm:"kernel-abi-stablelists~5.10.0~182.0.0.95.h3188.eulerosv2r13", rls:"EULEROSVIRT-2.13.0"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"kernel-tools", rpm:"kernel-tools~5.10.0~182.0.0.95.h3188.eulerosv2r13", rls:"EULEROSVIRT-2.13.0"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"kernel-tools-libs", rpm:"kernel-tools-libs~5.10.0~182.0.0.95.h3188.eulerosv2r13", rls:"EULEROSVIRT-2.13.0"))) {
+    report += res;
+  }
+
+  if(!isnull(res = isrpmvuln(pkg:"python3-perf", rpm:"python3-perf~5.10.0~182.0.0.95.h3188.eulerosv2r13", rls:"EULEROSVIRT-2.13.0"))) {
+    report += res;
+  }
+
+  if(report != "") {
+    security_message(data:report);
+  } else if(__pkg_match) {
+    exit(99);
+  }
+  exit(0);
+}
+
+exit(0);
