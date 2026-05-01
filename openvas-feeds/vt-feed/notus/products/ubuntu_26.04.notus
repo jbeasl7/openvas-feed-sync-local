@@ -1,0 +1,214 @@
+{
+    "version": "1.2",
+    "spdx-license-identifier": "GPL-2.0-only",
+    "copyright": "Copyright (C) 2008-2026 Greenbone AG",
+    "package_type": "deb",
+    "product_name": "Ubuntu 26.04",
+    "advisories": [
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2026.8190.2",
+            "fixed_packages": [
+                {
+                    "name": "ruby-rack-session",
+                    "full_version": "2.1.1-0.1ubuntu0.26.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2026.8192.2",
+            "fixed_packages": [
+                {
+                    "name": "ntfs-3g",
+                    "full_version": "1:2022.10.3-5ubuntu1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2026.8195.2",
+            "fixed_packages": [
+                {
+                    "name": "packagekit",
+                    "full_version": "1.3.4-3ubuntu1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2026.8196.2",
+            "fixed_packages": [
+                {
+                    "name": "strongswan",
+                    "full_version": "6.0.4-1ubuntu3",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2026.8198.2",
+            "fixed_packages": [
+                {
+                    "name": "python3-tornado",
+                    "full_version": "6.5.4-0.1ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2026.8202.2",
+            "fixed_packages": [
+                {
+                    "name": "jq",
+                    "full_version": "1.8.1-4ubuntu2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libjq-dev",
+                    "full_version": "1.8.1-4ubuntu2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "libjq1",
+                    "full_version": "1.8.1-4ubuntu2",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2026.8207.1",
+            "fixed_packages": [
+                {
+                    "name": "clamav",
+                    "full_version": "1.4.4+dfsg-0ubuntu0.26.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2026.8208.1",
+            "fixed_packages": [
+                {
+                    "name": "haproxy",
+                    "full_version": "3.2.9-1ubuntu2.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2026.8209.1",
+            "fixed_packages": [
+                {
+                    "name": "liblcms2-2",
+                    "full_version": "2.17-1ubuntu0.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "liblcms2-utils",
+                    "full_version": "2.17-1ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2026.8211.1",
+            "fixed_packages": [
+                {
+                    "name": "python3-pil",
+                    "full_version": "12.1.1-2ubuntu1.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "python3-pil.imagetk",
+                    "full_version": "12.1.1-2ubuntu1.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2026.8212.1",
+            "fixed_packages": [
+                {
+                    "name": "authd",
+                    "full_version": "0.6.1ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2026.8214.1",
+            "fixed_packages": [
+                {
+                    "name": "python3-nltk",
+                    "full_version": "3.9.2-1ubuntu0.1~esm1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2026.8216.1",
+            "fixed_packages": [
+                {
+                    "name": "aspnetcore-runtime-10.0",
+                    "full_version": "10.0.7-0ubuntu1~26.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "dotnet-host-10.0",
+                    "full_version": "10.0.7-0ubuntu1~26.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "dotnet-hostfxr-10.0",
+                    "full_version": "10.0.7-0ubuntu1~26.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "dotnet-runtime-10.0",
+                    "full_version": "10.0.7-0ubuntu1~26.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "dotnet-sdk-10.0",
+                    "full_version": "10.0.107-0ubuntu1~26.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "dotnet-sdk-aot-10.0",
+                    "full_version": "10.0.107-0ubuntu1~26.04.1",
+                    "specifier": ">="
+                },
+                {
+                    "name": "dotnet10",
+                    "full_version": "10.0.107-10.0.7-0ubuntu1~26.04.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2026.8219.1",
+            "fixed_packages": [
+                {
+                    "name": "python3-ujson",
+                    "full_version": "5.11.0-3ubuntu0.1",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.12.2026.8222.1",
+            "fixed_packages": [
+                {
+                    "name": "openssh-client",
+                    "full_version": "1:10.2p1-2ubuntu3.2",
+                    "specifier": ">="
+                },
+                {
+                    "name": "openssh-server",
+                    "full_version": "1:10.2p1-2ubuntu3.2",
+                    "specifier": ">="
+                }
+            ]
+        }
+    ]
+}
