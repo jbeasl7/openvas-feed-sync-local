@@ -1,0 +1,2556 @@
+{
+    "version": "1.2",
+    "spdx-license-identifier": "GPL-2.0-only",
+    "copyright": "Copyright (C) 2008-2026 Greenbone AG",
+    "package_type": "rpm",
+    "product_name": "Mageia 10",
+    "advisories": [
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.10.2026.0234",
+            "fixed_packages": [
+                {
+                    "full_name": "yt-dlp+default-2026.06.09-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "yt-dlp+secretstorage-2026.06.09-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "yt-dlp-2026.06.09-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "yt-dlp-2026.06.09-1.mga10.src",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "yt-dlp-bash-completion-2026.06.09-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "yt-dlp-fish-completion-2026.06.09-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "yt-dlp-zsh-completion-2026.06.09-1.mga10.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.10.2026.0235",
+            "fixed_packages": [
+                {
+                    "full_name": "lib64mariadb-devel-12.3.2-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64mariadb-devel-12.3.2-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64mariadb-embedded-devel-12.3.2-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64mariadb-embedded-devel-12.3.2-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64mariadb3-12.3.2-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64mariadb3-12.3.2-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64mariadbd19-12.3.2-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64mariadbd19-12.3.2-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmariadb-devel-12.3.2-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmariadb-devel-12.3.2-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmariadb-embedded-devel-12.3.2-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmariadb-embedded-devel-12.3.2-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmariadb3-12.3.2-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmariadb3-12.3.2-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmariadbd19-12.3.2-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmariadbd19-12.3.2-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-12.3.2-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-12.3.2-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-12.3.2-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-12.3.2-1.mga10.src",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-12.3.2-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-bench-12.3.2-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-bench-12.3.2-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-bench-12.3.2-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-bench-12.3.2-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-client-12.3.2-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-client-12.3.2-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-client-12.3.2-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-client-12.3.2-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-common-12.3.2-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-common-12.3.2-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-common-12.3.2-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-common-12.3.2-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-common-core-12.3.2-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-common-core-12.3.2-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-common-core-12.3.2-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-common-core-12.3.2-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-connect-12.3.2-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-connect-12.3.2-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-connect-12.3.2-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-connect-12.3.2-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-core-12.3.2-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-core-12.3.2-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-core-12.3.2-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-core-12.3.2-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-extra-12.3.2-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-extra-12.3.2-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-extra-12.3.2-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-extra-12.3.2-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-feedback-12.3.2-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-feedback-12.3.2-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-feedback-12.3.2-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-feedback-12.3.2-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-mroonga-12.3.2-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-mroonga-12.3.2-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-mroonga-12.3.2-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-mroonga-12.3.2-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-obsolete-12.3.2-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-obsolete-12.3.2-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-obsolete-12.3.2-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-obsolete-12.3.2-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-pam-12.3.2-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-pam-12.3.2-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-pam-12.3.2-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-pam-12.3.2-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-rocks-12.3.2-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-rocks-12.3.2-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-rocks-12.3.2-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-s3-engine-12.3.2-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-s3-engine-12.3.2-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-s3-engine-12.3.2-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-s3-engine-12.3.2-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-sequence-12.3.2-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-sequence-12.3.2-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-sequence-12.3.2-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-sequence-12.3.2-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-sphinx-12.3.2-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-sphinx-12.3.2-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-sphinx-12.3.2-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-sphinx-12.3.2-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-spider-12.3.2-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-spider-12.3.2-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-spider-12.3.2-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mariadb-spider-12.3.2-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mysql-MariaDB-12.3.2-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mysql-MariaDB-12.3.2-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mysql-MariaDB-12.3.2-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mysql-MariaDB-12.3.2-1.mga10.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.10.2026.0236",
+            "fixed_packages": [
+                {
+                    "full_name": "lib64openvpn-devel-2.6.21-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64openvpn-devel-2.6.21-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenvpn-devel-2.6.21-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libopenvpn-devel-2.6.21-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openvpn-2.6.21-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openvpn-2.6.21-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openvpn-2.6.21-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openvpn-2.6.21-1.mga10.src",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openvpn-2.6.21-1.mga10.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.10.2026.0237",
+            "fixed_packages": [
+                {
+                    "full_name": "lib64vips-devel-8.18.3-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64vips-devel-8.18.3-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64vips-gir8.0-8.18.3-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64vips-gir8.0-8.18.3-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64vips42-8.18.3-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64vips42-8.18.3-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvips-devel-8.18.3-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvips-devel-8.18.3-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvips-gir8.0-8.18.3-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvips-gir8.0-8.18.3-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvips42-8.18.3-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libvips42-8.18.3-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vips-8.18.3-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vips-8.18.3-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vips-8.18.3-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vips-8.18.3-1.mga10.src",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vips-8.18.3-1.mga10.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.10.2026.0238",
+            "fixed_packages": [
+                {
+                    "full_name": "7zip-26.02-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "7zip-26.02-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "7zip-26.02-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "7zip-26.02-1.mga10.src",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "7zip-26.02-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "7zip-reduced-26.02-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "7zip-reduced-26.02-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "7zip-reduced-26.02-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "7zip-reduced-26.02-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "7zip-standalone-26.02-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "7zip-standalone-26.02-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "7zip-standalone-26.02-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "7zip-standalone-26.02-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "7zip-standalone-all-26.02-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "7zip-standalone-all-26.02-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "7zip-standalone-all-26.02-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "7zip-standalone-all-26.02-1.mga10.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.10.2026.0239",
+            "fixed_packages": [
+                {
+                    "full_name": "ack-3.10.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ack-3.10.0-1.mga10.src",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.10.2026.0240",
+            "fixed_packages": [
+                {
+                    "full_name": "vim-9.2.782-1.mga10.src",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-X11-9.2.782-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-X11-9.2.782-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-X11-9.2.782-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-X11-9.2.782-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-common-9.2.782-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-common-9.2.782-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-common-9.2.782-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-common-9.2.782-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-enhanced-9.2.782-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-enhanced-9.2.782-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-enhanced-9.2.782-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-enhanced-9.2.782-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-minimal-9.2.782-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-minimal-9.2.782-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-minimal-9.2.782-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-minimal-9.2.782-1.mga10.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.10.2026.0241",
+            "fixed_packages": [
+                {
+                    "full_name": "bsdcat-3.8.8-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bsdcat-3.8.8-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bsdcat-3.8.8-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bsdcat-3.8.8-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bsdcpio-3.8.8-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bsdcpio-3.8.8-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bsdcpio-3.8.8-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bsdcpio-3.8.8-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bsdtar-3.8.8-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bsdtar-3.8.8-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bsdtar-3.8.8-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bsdtar-3.8.8-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bsdunzip-3.8.8-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bsdunzip-3.8.8-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bsdunzip-3.8.8-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bsdunzip-3.8.8-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64archive-devel-3.8.8-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64archive-devel-3.8.8-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64archive13-3.8.8-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64archive13-3.8.8-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libarchive-3.8.8-1.mga10.src",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libarchive-devel-3.8.8-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libarchive-devel-3.8.8-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libarchive13-3.8.8-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libarchive13-3.8.8-1.mga10.i686",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.10.2026.0242",
+            "fixed_packages": [
+                {
+                    "full_name": "firefox-140.12.0-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-140.12.0-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-140.12.0-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-140.12.0-1.mga10.src",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-140.12.0-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-af-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-an-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-ar-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-ast-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-az-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-be-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-bg-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-bn-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-br-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-bs-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-ca-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-cs-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-cy-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-da-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-de-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-el-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-en_CA-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-en_GB-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-en_US-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-eo-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-es_AR-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-es_CL-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-es_ES-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-es_MX-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-et-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-eu-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-fa-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-ff-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-fi-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-fr-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-fur-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-fy_NL-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-ga_IE-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-gd-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-gl-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-gu_IN-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-he-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-hi_IN-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-hr-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-hsb-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-hu-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-hy_AM-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-ia-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-id-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-is-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-it-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-ja-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-ka-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-kab-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-kk-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-km-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-kn-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-ko-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-l10n-140.12.0-1.mga10.src",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-lij-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-lt-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-lv-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-mk-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-mr-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-ms-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-my-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-nb_NO-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-nl-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-nn_NO-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-oc-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-pa_IN-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-pl-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-pt_BR-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-pt_PT-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-ro-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-ru-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-sat-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-sc-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-si-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-sk-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-sl-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-sq-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-sr-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-sv_SE-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-szl-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-ta-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-te-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-tg-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-th-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-tl-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-tr-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-uk-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-ur-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-uz-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-vi-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-xh-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-zh_CN-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "firefox-zh_TW-140.12.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64nss-devel-3.125.0-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64nss-devel-3.125.0-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64nss-static-devel-3.125.0-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64nss-static-devel-3.125.0-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64nss3-3.125.0-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64nss3-3.125.0-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnss-devel-3.125.0-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnss-devel-3.125.0-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnss-static-devel-3.125.0-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnss-static-devel-3.125.0-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnss3-3.125.0-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnss3-3.125.0-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "nss-3.125.0-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "nss-3.125.0-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "nss-3.125.0-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "nss-3.125.0-1.mga10.src",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "nss-3.125.0-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "nss-doc-3.125.0-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rootcerts-20260611.00-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rootcerts-20260611.00-1.mga10.src",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rootcerts-java-20260611.00-1.mga10.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.10.2026.0243",
+            "fixed_packages": [
+                {
+                    "full_name": "thunderbird-140.12.1-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-140.12.1-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-140.12.1-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-140.12.1-1.mga10.src",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-140.12.1-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-af-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-ar-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-ast-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-be-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-bg-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-br-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-ca-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-cs-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-cy-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-da-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-de-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-dsb-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-el-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-en_CA-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-en_GB-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-en_US-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-es_AR-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-es_ES-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-es_MX-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-et-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-eu-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-fi-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-fr-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-fy_NL-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-ga_IE-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-gd-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-gl-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-he-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-hr-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-hsb-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-hu-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-hy_AM-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-id-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-is-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-it-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-ja-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-ka-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-kab-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-kk-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-ko-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-l10n-140.12.1-1.mga10.src",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-lt-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-lv-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-ms-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-nb_NO-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-nl-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-nn_NO-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-pa_IN-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-pl-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-pt_BR-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-pt_PT-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-ro-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-ru-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-sk-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-sl-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-sq-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-sr-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-sv_SE-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-th-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-tr-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-uk-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-uz-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-vi-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-zh_CN-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-zh_TW-140.12.1-1.mga10.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.10.2026.0244",
+            "fixed_packages": [
+                {
+                    "full_name": "perl-List-SomeUtils-XS-0.590.0-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-List-SomeUtils-XS-0.590.0-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-List-SomeUtils-XS-0.590.0-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-List-SomeUtils-XS-0.590.0-1.mga10.src",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-List-SomeUtils-XS-0.590.0-1.mga10.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.10.2026.0245",
+            "fixed_packages": [
+                {
+                    "full_name": "gzip-1.14-2.1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gzip-1.14-2.1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gzip-1.14-2.1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gzip-1.14-2.1.mga10.src",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gzip-1.14-2.1.mga10.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.10.2026.0246",
+            "fixed_packages": [
+                {
+                    "full_name": "lib64tiff-devel-4.7.2-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64tiff-devel-4.7.2-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64tiff-static-devel-4.7.2-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64tiff-static-devel-4.7.2-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64tiff6-4.7.2-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64tiff6-4.7.2-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtiff-4.7.2-1.mga10.src",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtiff-devel-4.7.2-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtiff-devel-4.7.2-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtiff-progs-4.7.2-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtiff-progs-4.7.2-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtiff-progs-4.7.2-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtiff-progs-4.7.2-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtiff-static-devel-4.7.2-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtiff-static-devel-4.7.2-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtiff6-4.7.2-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtiff6-4.7.2-1.mga10.i686",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.10.2026.0247",
+            "fixed_packages": [
+                {
+                    "full_name": "lib64heif-devel-1.20.2-3.1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64heif-devel-1.20.2-3.1.mga10.tainted.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64heif-devel-1.20.2-3.1.mga10.tainted.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64heif-devel-1.20.2-3.1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64heif-plugins-1.20.2-3.1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64heif-plugins-1.20.2-3.1.mga10.tainted.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64heif-plugins-1.20.2-3.1.mga10.tainted.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64heif-plugins-1.20.2-3.1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64heif1-1.20.2-3.1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64heif1-1.20.2-3.1.mga10.tainted.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64heif1-1.20.2-3.1.mga10.tainted.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64heif1-1.20.2-3.1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libheif-1.20.2-3.1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libheif-1.20.2-3.1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libheif-1.20.2-3.1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libheif-1.20.2-3.1.mga10.src",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libheif-1.20.2-3.1.mga10.tainted.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libheif-1.20.2-3.1.mga10.tainted.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libheif-1.20.2-3.1.mga10.tainted.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libheif-1.20.2-3.1.mga10.tainted.src",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libheif-1.20.2-3.1.mga10.tainted.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libheif-1.20.2-3.1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libheif-devel-1.20.2-3.1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libheif-devel-1.20.2-3.1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libheif-devel-1.20.2-3.1.mga10.tainted.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libheif-devel-1.20.2-3.1.mga10.tainted.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libheif-plugins-1.20.2-3.1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libheif-plugins-1.20.2-3.1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libheif-plugins-1.20.2-3.1.mga10.tainted.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libheif-plugins-1.20.2-3.1.mga10.tainted.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libheif1-1.20.2-3.1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libheif1-1.20.2-3.1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libheif1-1.20.2-3.1.mga10.tainted.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libheif1-1.20.2-3.1.mga10.tainted.i686",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.10.2026.0248",
+            "fixed_packages": [
+                {
+                    "full_name": "lib64xml2-devel-2.15.1-3.1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64xml2-devel-2.15.1-3.1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64xml2_16-2.15.1-3.1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64xml2_16-2.15.1-3.1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxml2-2.15.1-3.1.mga10.src",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxml2-devel-2.15.1-3.1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxml2-devel-2.15.1-3.1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxml2-python3-2.15.1-3.1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxml2-python3-2.15.1-3.1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxml2-python3-2.15.1-3.1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxml2-python3-2.15.1-3.1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxml2-utils-2.15.1-3.1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxml2-utils-2.15.1-3.1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxml2-utils-2.15.1-3.1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxml2-utils-2.15.1-3.1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxml2_16-2.15.1-3.1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxml2_16-2.15.1-3.1.mga10.i686",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.10.2026.0249",
+            "fixed_packages": [
+                {
+                    "full_name": "ffmpeg-7.1.5-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ffmpeg-7.1.5-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ffmpeg-7.1.5-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ffmpeg-7.1.5-1.mga10.src",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ffmpeg-7.1.5-1.mga10.tainted.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ffmpeg-7.1.5-1.mga10.tainted.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ffmpeg-7.1.5-1.mga10.tainted.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ffmpeg-7.1.5-1.mga10.tainted.src",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ffmpeg-7.1.5-1.mga10.tainted.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ffmpeg-7.1.5-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64avcodec61-7.1.5-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64avcodec61-7.1.5-1.mga10.tainted.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64avcodec61-7.1.5-1.mga10.tainted.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64avcodec61-7.1.5-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64avdevice61-7.1.5-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64avdevice61-7.1.5-1.mga10.tainted.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64avdevice61-7.1.5-1.mga10.tainted.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64avdevice61-7.1.5-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64avfilter10-7.1.5-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64avfilter10-7.1.5-1.mga10.tainted.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64avfilter10-7.1.5-1.mga10.tainted.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64avfilter10-7.1.5-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64avformat61-7.1.5-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64avformat61-7.1.5-1.mga10.tainted.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64avformat61-7.1.5-1.mga10.tainted.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64avformat61-7.1.5-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64avutil59-7.1.5-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64avutil59-7.1.5-1.mga10.tainted.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64avutil59-7.1.5-1.mga10.tainted.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64avutil59-7.1.5-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64ffmpeg-devel-7.1.5-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64ffmpeg-devel-7.1.5-1.mga10.tainted.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64ffmpeg-devel-7.1.5-1.mga10.tainted.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64ffmpeg-devel-7.1.5-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64ffmpeg-static-devel-7.1.5-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64ffmpeg-static-devel-7.1.5-1.mga10.tainted.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64ffmpeg-static-devel-7.1.5-1.mga10.tainted.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64ffmpeg-static-devel-7.1.5-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64postproc58-7.1.5-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64postproc58-7.1.5-1.mga10.tainted.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64postproc58-7.1.5-1.mga10.tainted.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64postproc58-7.1.5-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64swresample5-7.1.5-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64swresample5-7.1.5-1.mga10.tainted.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64swresample5-7.1.5-1.mga10.tainted.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64swresample5-7.1.5-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64swscaler8-7.1.5-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64swscaler8-7.1.5-1.mga10.tainted.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64swscaler8-7.1.5-1.mga10.tainted.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64swscaler8-7.1.5-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavcodec61-7.1.5-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavcodec61-7.1.5-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavcodec61-7.1.5-1.mga10.tainted.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavcodec61-7.1.5-1.mga10.tainted.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavdevice61-7.1.5-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavdevice61-7.1.5-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavdevice61-7.1.5-1.mga10.tainted.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavdevice61-7.1.5-1.mga10.tainted.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavfilter10-7.1.5-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavfilter10-7.1.5-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavfilter10-7.1.5-1.mga10.tainted.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavfilter10-7.1.5-1.mga10.tainted.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavformat61-7.1.5-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavformat61-7.1.5-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavformat61-7.1.5-1.mga10.tainted.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavformat61-7.1.5-1.mga10.tainted.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavutil59-7.1.5-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavutil59-7.1.5-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavutil59-7.1.5-1.mga10.tainted.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavutil59-7.1.5-1.mga10.tainted.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libffmpeg-devel-7.1.5-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libffmpeg-devel-7.1.5-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libffmpeg-devel-7.1.5-1.mga10.tainted.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libffmpeg-devel-7.1.5-1.mga10.tainted.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libffmpeg-static-devel-7.1.5-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libffmpeg-static-devel-7.1.5-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libffmpeg-static-devel-7.1.5-1.mga10.tainted.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libffmpeg-static-devel-7.1.5-1.mga10.tainted.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpostproc58-7.1.5-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpostproc58-7.1.5-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpostproc58-7.1.5-1.mga10.tainted.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libpostproc58-7.1.5-1.mga10.tainted.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libswresample5-7.1.5-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libswresample5-7.1.5-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libswresample5-7.1.5-1.mga10.tainted.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libswresample5-7.1.5-1.mga10.tainted.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libswscaler8-7.1.5-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libswscaler8-7.1.5-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libswscaler8-7.1.5-1.mga10.tainted.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libswscaler8-7.1.5-1.mga10.tainted.i686",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.10.2026.0250",
+            "fixed_packages": [
+                {
+                    "full_name": "haproxy-3.4.2-1.2.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "haproxy-3.4.2-1.2.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "haproxy-3.4.2-1.2.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "haproxy-3.4.2-1.2.mga10.src",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "haproxy-3.4.2-1.2.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "haproxy-awslc-3.4.2-1.2.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "haproxy-awslc-3.4.2-1.2.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "haproxy-awslc-3.4.2-1.2.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "haproxy-awslc-3.4.2-1.2.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "haproxy-openssl-3.4.2-1.2.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "haproxy-openssl-3.4.2-1.2.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "haproxy-openssl-3.4.2-1.2.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "haproxy-openssl-3.4.2-1.2.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "haproxy-utils-3.4.2-1.2.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "haproxy-utils-3.4.2-1.2.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "haproxy-utils-3.4.2-1.2.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "haproxy-utils-3.4.2-1.2.mga10.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.10.2026.0251",
+            "fixed_packages": [
+                {
+                    "full_name": "perl-Socket-2.41.0-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-Socket-2.41.0-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-Socket-2.41.0-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-Socket-2.41.0-1.mga10.src",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-Socket-2.41.0-1.mga10.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.10.2026.0252",
+            "fixed_packages": [
+                {
+                    "full_name": "imagemagick-7.1.2.27-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "imagemagick-7.1.2.27-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "imagemagick-7.1.2.27-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "imagemagick-7.1.2.27-1.mga10.src",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "imagemagick-7.1.2.27-1.mga10.tainted.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "imagemagick-7.1.2.27-1.mga10.tainted.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "imagemagick-7.1.2.27-1.mga10.tainted.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "imagemagick-7.1.2.27-1.mga10.tainted.src",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "imagemagick-7.1.2.27-1.mga10.tainted.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "imagemagick-7.1.2.27-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "imagemagick-desktop-7.1.2.27-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "imagemagick-desktop-7.1.2.27-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "imagemagick-desktop-7.1.2.27-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "imagemagick-desktop-7.1.2.27-1.mga10.tainted.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "imagemagick-desktop-7.1.2.27-1.mga10.tainted.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "imagemagick-desktop-7.1.2.27-1.mga10.tainted.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "imagemagick-desktop-7.1.2.27-1.mga10.tainted.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "imagemagick-desktop-7.1.2.27-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "imagemagick-doc-7.1.2.27-1.mga10.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "imagemagick-doc-7.1.2.27-1.mga10.tainted.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64magick++-7Q16HDRI_5-7.1.2.27-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64magick++-7Q16HDRI_5-7.1.2.27-1.mga10.tainted.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64magick++-7Q16HDRI_5-7.1.2.27-1.mga10.tainted.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64magick++-7Q16HDRI_5-7.1.2.27-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64magick-7Q16HDRI_10-7.1.2.27-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64magick-7Q16HDRI_10-7.1.2.27-1.mga10.tainted.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64magick-7Q16HDRI_10-7.1.2.27-1.mga10.tainted.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64magick-7Q16HDRI_10-7.1.2.27-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64magick-devel-7.1.2.27-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64magick-devel-7.1.2.27-1.mga10.tainted.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64magick-devel-7.1.2.27-1.mga10.tainted.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "lib64magick-devel-7.1.2.27-1.mga10.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmagick++-7Q16HDRI_5-7.1.2.27-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmagick++-7Q16HDRI_5-7.1.2.27-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmagick++-7Q16HDRI_5-7.1.2.27-1.mga10.tainted.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmagick++-7Q16HDRI_5-7.1.2.27-1.mga10.tainted.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmagick-7Q16HDRI_10-7.1.2.27-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmagick-7Q16HDRI_10-7.1.2.27-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmagick-7Q16HDRI_10-7.1.2.27-1.mga10.tainted.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmagick-7Q16HDRI_10-7.1.2.27-1.mga10.tainted.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmagick-devel-7.1.2.27-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmagick-devel-7.1.2.27-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmagick-devel-7.1.2.27-1.mga10.tainted.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmagick-devel-7.1.2.27-1.mga10.tainted.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-Image-Magick-7.1.2.27-1.mga10.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-Image-Magick-7.1.2.27-1.mga10.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-Image-Magick-7.1.2.27-1.mga10.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-Image-Magick-7.1.2.27-1.mga10.tainted.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-Image-Magick-7.1.2.27-1.mga10.tainted.armv7hl",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-Image-Magick-7.1.2.27-1.mga10.tainted.i686",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-Image-Magick-7.1.2.27-1.mga10.tainted.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "perl-Image-Magick-7.1.2.27-1.mga10.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        }
+    ]
+}
