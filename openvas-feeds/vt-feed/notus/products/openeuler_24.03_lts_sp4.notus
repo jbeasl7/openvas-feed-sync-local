@@ -1,0 +1,3218 @@
+{
+    "version": "1.2",
+    "spdx-license-identifier": "GPL-2.0-only",
+    "copyright": "Copyright (C) 2008-2026 Greenbone AG",
+    "package_type": "rpm",
+    "product_name": "openEuler 24.03 LTS SP4",
+    "advisories": [
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.2981",
+            "fixed_packages": [
+                {
+                    "full_name": "libtiff-4.6.0-11.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtiff-4.6.0-11.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtiff-debuginfo-4.6.0-11.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtiff-debuginfo-4.6.0-11.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtiff-debugsource-4.6.0-11.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtiff-debugsource-4.6.0-11.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtiff-devel-4.6.0-11.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtiff-devel-4.6.0-11.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtiff-help-4.6.0-11.oe2403sp4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtiff-static-4.6.0-11.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtiff-static-4.6.0-11.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtiff-tools-4.6.0-11.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libtiff-tools-4.6.0-11.oe2403sp4.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.2982",
+            "fixed_packages": [
+                {
+                    "full_name": "graphite2-1.3.14-9.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "graphite2-1.3.14-9.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "graphite2-debuginfo-1.3.14-9.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "graphite2-debuginfo-1.3.14-9.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "graphite2-debugsource-1.3.14-9.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "graphite2-debugsource-1.3.14-9.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "graphite2-devel-1.3.14-9.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "graphite2-devel-1.3.14-9.oe2403sp4.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.2983",
+            "fixed_packages": [
+                {
+                    "full_name": "libidn-1.41-2.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libidn-1.41-2.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libidn-debuginfo-1.41-2.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libidn-debuginfo-1.41-2.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libidn-debugsource-1.41-2.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libidn-debugsource-1.41-2.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libidn-devel-1.41-2.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libidn-devel-1.41-2.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libidn-help-1.41-2.oe2403sp4.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.2988",
+            "fixed_packages": [
+                {
+                    "full_name": "curl-8.4.0-32.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "curl-8.4.0-32.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "curl-debuginfo-8.4.0-32.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "curl-debuginfo-8.4.0-32.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "curl-debugsource-8.4.0-32.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "curl-debugsource-8.4.0-32.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "curl-help-8.4.0-32.oe2403sp4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcurl-8.4.0-32.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcurl-8.4.0-32.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcurl-devel-8.4.0-32.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libcurl-devel-8.4.0-32.oe2403sp4.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.2989",
+            "fixed_packages": [
+                {
+                    "full_name": "pacemaker-2.1.7-12.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pacemaker-2.1.7-12.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pacemaker-cli-2.1.7-12.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pacemaker-cli-2.1.7-12.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pacemaker-cluster-libs-2.1.7-12.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pacemaker-cluster-libs-2.1.7-12.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pacemaker-cts-2.1.7-12.oe2403sp4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pacemaker-debuginfo-2.1.7-12.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pacemaker-debuginfo-2.1.7-12.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pacemaker-debugsource-2.1.7-12.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pacemaker-debugsource-2.1.7-12.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pacemaker-doc-2.1.7-12.oe2403sp4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pacemaker-libs-2.1.7-12.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pacemaker-libs-2.1.7-12.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pacemaker-libs-devel-2.1.7-12.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pacemaker-libs-devel-2.1.7-12.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pacemaker-nagios-plugins-metadata-2.1.7-12.oe2403sp4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pacemaker-remote-2.1.7-12.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pacemaker-remote-2.1.7-12.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pacemaker-schemas-2.1.7-12.oe2403sp4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-pacemaker-2.1.7-12.oe2403sp4.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.2994",
+            "fixed_packages": [
+                {
+                    "full_name": "uboot-images-armv8-2024.01-5.oe2403sp4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "uboot-images-elf-2024.01-5.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "uboot-tools-2024.01-5.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "uboot-tools-2024.01-5.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "uboot-tools-debuginfo-2024.01-5.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "uboot-tools-debuginfo-2024.01-5.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "uboot-tools-debugsource-2024.01-5.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "uboot-tools-debugsource-2024.01-5.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "uboot-tools-help-2024.01-5.oe2403sp4.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.2997",
+            "fixed_packages": [
+                {
+                    "full_name": "gzip-1.12-7.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gzip-1.12-7.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gzip-debuginfo-1.12-7.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gzip-debuginfo-1.12-7.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gzip-debugsource-1.12-7.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gzip-debugsource-1.12-7.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gzip-help-1.12-7.oe2403sp4.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.3000",
+            "fixed_packages": [
+                {
+                    "full_name": "xdg-desktop-portal-1.20.4-2.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xdg-desktop-portal-1.20.4-2.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xdg-desktop-portal-debuginfo-1.20.4-2.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xdg-desktop-portal-debuginfo-1.20.4-2.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xdg-desktop-portal-debugsource-1.20.4-2.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xdg-desktop-portal-debugsource-1.20.4-2.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xdg-desktop-portal-devel-1.20.4-2.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xdg-desktop-portal-devel-1.20.4-2.oe2403sp4.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.3001",
+            "fixed_packages": [
+                {
+                    "full_name": "openvpn-2.6.9-8.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openvpn-2.6.9-8.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openvpn-debuginfo-2.6.9-8.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openvpn-debuginfo-2.6.9-8.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openvpn-debugsource-2.6.9-8.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openvpn-debugsource-2.6.9-8.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openvpn-devel-2.6.9-8.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openvpn-devel-2.6.9-8.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "openvpn-help-2.6.9-8.oe2403sp4.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.3003",
+            "fixed_packages": [
+                {
+                    "full_name": "edk2-aarch64-202308-45.oe2403sp4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "edk2-debuginfo-202308-45.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "edk2-debuginfo-202308-45.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "edk2-debugsource-202308-45.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "edk2-debugsource-202308-45.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "edk2-devel-202308-45.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "edk2-devel-202308-45.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "edk2-help-202308-45.oe2403sp4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "edk2-ovmf-202308-45.oe2403sp4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-edk2-devel-202308-45.oe2403sp4.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.3007",
+            "fixed_packages": [
+                {
+                    "full_name": "containerd-1.6.22-29.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "containerd-1.6.22-29.oe2403sp4.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.3008",
+            "fixed_packages": [
+                {
+                    "full_name": "pam-1.5.3-12.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pam-1.5.3-12.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pam-debuginfo-1.5.3-12.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pam-debuginfo-1.5.3-12.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pam-debugsource-1.5.3-12.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pam-debugsource-1.5.3-12.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pam-devel-1.5.3-12.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pam-devel-1.5.3-12.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "pam-help-1.5.3-12.oe2403sp4.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.3012",
+            "fixed_packages": [
+                {
+                    "full_name": "mod_auth_openidc-2.4.19.4-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mod_auth_openidc-2.4.19.4-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mod_auth_openidc-debuginfo-2.4.19.4-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mod_auth_openidc-debuginfo-2.4.19.4-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mod_auth_openidc-debugsource-2.4.19.4-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "mod_auth_openidc-debugsource-2.4.19.4-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.3013",
+            "fixed_packages": [
+                {
+                    "full_name": "rpm-ostree-2024.4-8.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rpm-ostree-2024.4-8.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rpm-ostree-debuginfo-2024.4-8.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rpm-ostree-debuginfo-2024.4-8.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rpm-ostree-debugsource-2024.4-8.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rpm-ostree-debugsource-2024.4-8.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rpm-ostree-devel-2024.4-8.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rpm-ostree-devel-2024.4-8.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rpm-ostree-libs-2024.4-8.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "rpm-ostree-libs-2024.4-8.oe2403sp4.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.3021",
+            "fixed_packages": [
+                {
+                    "full_name": "libipa_hbac-2.9.4-22.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libipa_hbac-2.9.4-22.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libipa_hbac-devel-2.9.4-22.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libipa_hbac-devel-2.9.4-22.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsss_autofs-2.9.4-22.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsss_autofs-2.9.4-22.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsss_certmap-2.9.4-22.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsss_certmap-2.9.4-22.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsss_certmap-devel-2.9.4-22.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsss_certmap-devel-2.9.4-22.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsss_idmap-2.9.4-22.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsss_idmap-2.9.4-22.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsss_idmap-devel-2.9.4-22.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsss_idmap-devel-2.9.4-22.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsss_nss_idmap-2.9.4-22.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsss_nss_idmap-2.9.4-22.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsss_nss_idmap-devel-2.9.4-22.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsss_nss_idmap-devel-2.9.4-22.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsss_sudo-2.9.4-22.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsss_sudo-2.9.4-22.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-libipa_hbac-2.9.4-22.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-libipa_hbac-2.9.4-22.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-libsss_nss_idmap-2.9.4-22.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-libsss_nss_idmap-2.9.4-22.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-sss-2.9.4-22.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-sss-2.9.4-22.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-sss-murmur-2.9.4-22.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-sss-murmur-2.9.4-22.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-sssdconfig-2.9.4-22.oe2403sp4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sssd-2.9.4-22.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sssd-2.9.4-22.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sssd-ad-2.9.4-22.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sssd-ad-2.9.4-22.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sssd-client-2.9.4-22.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sssd-client-2.9.4-22.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sssd-common-2.9.4-22.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sssd-common-2.9.4-22.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sssd-common-pac-2.9.4-22.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sssd-common-pac-2.9.4-22.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sssd-dbus-2.9.4-22.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sssd-dbus-2.9.4-22.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sssd-debuginfo-2.9.4-22.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sssd-debuginfo-2.9.4-22.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sssd-debugsource-2.9.4-22.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sssd-debugsource-2.9.4-22.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sssd-help-2.9.4-22.oe2403sp4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sssd-idp-2.9.4-22.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sssd-idp-2.9.4-22.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sssd-ipa-2.9.4-22.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sssd-ipa-2.9.4-22.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sssd-kcm-2.9.4-22.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sssd-kcm-2.9.4-22.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sssd-krb5-2.9.4-22.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sssd-krb5-2.9.4-22.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sssd-krb5-common-2.9.4-22.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sssd-krb5-common-2.9.4-22.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sssd-ldap-2.9.4-22.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sssd-ldap-2.9.4-22.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sssd-nfs-idmap-2.9.4-22.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sssd-nfs-idmap-2.9.4-22.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sssd-proxy-2.9.4-22.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sssd-proxy-2.9.4-22.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sssd-tools-2.9.4-22.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sssd-tools-2.9.4-22.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sssd-winbind-idmap-2.9.4-22.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "sssd-winbind-idmap-2.9.4-22.oe2403sp4.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.3023",
+            "fixed_packages": [
+                {
+                    "full_name": "libnfs-5.0.2-3.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnfs-5.0.2-3.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnfs-debuginfo-5.0.2-3.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnfs-debuginfo-5.0.2-3.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnfs-debugsource-5.0.2-3.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnfs-debugsource-5.0.2-3.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnfs-devel-5.0.2-3.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnfs-devel-5.0.2-3.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnfs-help-5.0.2-3.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnfs-help-5.0.2-3.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnfs-utils-5.0.2-3.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libnfs-utils-5.0.2-3.oe2403sp4.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.3026",
+            "fixed_packages": [
+                {
+                    "full_name": "xorg-x11-server-1.20.11-46.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-1.20.11-46.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-Xdmx-1.20.11-46.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-Xdmx-1.20.11-46.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-Xephyr-1.20.11-46.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-Xephyr-1.20.11-46.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-Xnest-1.20.11-46.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-Xnest-1.20.11-46.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-Xvfb-1.20.11-46.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-Xvfb-1.20.11-46.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-common-1.20.11-46.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-common-1.20.11-46.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-debuginfo-1.20.11-46.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-debuginfo-1.20.11-46.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-debugsource-1.20.11-46.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-debugsource-1.20.11-46.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-devel-1.20.11-46.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-devel-1.20.11-46.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-help-1.20.11-46.oe2403sp4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "xorg-x11-server-source-1.20.11-46.oe2403sp4.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.3027",
+            "fixed_packages": [
+                {
+                    "full_name": "vim-X11-9.0.2092-38.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-X11-9.0.2092-38.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-common-9.0.2092-38.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-common-9.0.2092-38.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-debuginfo-9.0.2092-38.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-debuginfo-9.0.2092-38.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-debugsource-9.0.2092-38.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-debugsource-9.0.2092-38.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-enhanced-9.0.2092-38.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-enhanced-9.0.2092-38.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-filesystem-9.0.2092-38.oe2403sp4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-minimal-9.0.2092-38.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "vim-minimal-9.0.2092-38.oe2403sp4.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.3028",
+            "fixed_packages": [
+                {
+                    "full_name": "cifs-utils-7.0-7.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cifs-utils-7.0-7.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cifs-utils-debuginfo-7.0-7.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cifs-utils-debuginfo-7.0-7.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cifs-utils-debugsource-7.0-7.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cifs-utils-debugsource-7.0-7.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cifs-utils-devel-7.0-7.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cifs-utils-devel-7.0-7.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cifs-utils-help-7.0-7.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cifs-utils-help-7.0-7.oe2403sp4.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.3035",
+            "fixed_packages": [
+                {
+                    "full_name": "gpsd-3.25-3.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gpsd-3.25-3.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gpsd-clients-3.25-3.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gpsd-clients-3.25-3.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gpsd-debuginfo-3.25-3.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gpsd-debuginfo-3.25-3.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gpsd-debugsource-3.25-3.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gpsd-debugsource-3.25-3.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gpsd-devel-3.25-3.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gpsd-devel-3.25-3.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gpsd-libs-3.25-3.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gpsd-libs-3.25-3.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gpsd-qt-3.25-3.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gpsd-qt-3.25-3.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gpsd-qt-devel-3.25-3.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gpsd-qt-devel-3.25-3.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gpsd-xclients-3.25-3.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gpsd-xclients-3.25-3.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-gpsd-3.25-3.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-gpsd-3.25-3.oe2403sp4.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.3038",
+            "fixed_packages": [
+                {
+                    "full_name": "NetworkManager-1.44.2-7.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "NetworkManager-1.44.2-7.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "NetworkManager-bluetooth-1.44.2-7.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "NetworkManager-bluetooth-1.44.2-7.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "NetworkManager-cloud-setup-1.44.2-7.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "NetworkManager-cloud-setup-1.44.2-7.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "NetworkManager-config-server-1.44.2-7.oe2403sp4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "NetworkManager-debuginfo-1.44.2-7.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "NetworkManager-debuginfo-1.44.2-7.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "NetworkManager-debugsource-1.44.2-7.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "NetworkManager-debugsource-1.44.2-7.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "NetworkManager-help-1.44.2-7.oe2403sp4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "NetworkManager-libnm-1.44.2-7.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "NetworkManager-libnm-1.44.2-7.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "NetworkManager-libnm-devel-1.44.2-7.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "NetworkManager-libnm-devel-1.44.2-7.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "NetworkManager-ppp-1.44.2-7.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "NetworkManager-ppp-1.44.2-7.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "NetworkManager-team-1.44.2-7.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "NetworkManager-team-1.44.2-7.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "NetworkManager-wifi-1.44.2-7.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "NetworkManager-wifi-1.44.2-7.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "NetworkManager-wwan-1.44.2-7.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "NetworkManager-wwan-1.44.2-7.oe2403sp4.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.3039",
+            "fixed_packages": [
+                {
+                    "full_name": "libxml2-2.11.9-14.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxml2-2.11.9-14.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxml2-debuginfo-2.11.9-14.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxml2-debuginfo-2.11.9-14.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxml2-debugsource-2.11.9-14.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxml2-debugsource-2.11.9-14.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxml2-devel-2.11.9-14.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxml2-devel-2.11.9-14.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libxml2-help-2.11.9-14.oe2403sp4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-libxml2-2.11.9-14.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-libxml2-2.11.9-14.oe2403sp4.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.3040",
+            "fixed_packages": [
+                {
+                    "full_name": "bsdcat-3.7.1-12.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bsdcat-3.7.1-12.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bsdcpio-3.7.1-12.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bsdcpio-3.7.1-12.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bsdtar-3.7.1-12.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bsdtar-3.7.1-12.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bsdunzip-3.7.1-12.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "bsdunzip-3.7.1-12.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libarchive-3.7.1-12.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libarchive-3.7.1-12.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libarchive-debuginfo-3.7.1-12.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libarchive-debuginfo-3.7.1-12.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libarchive-debugsource-3.7.1-12.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libarchive-debugsource-3.7.1-12.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libarchive-devel-3.7.1-12.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libarchive-devel-3.7.1-12.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libarchive-help-3.7.1-12.oe2403sp4.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.3042",
+            "fixed_packages": [
+                {
+                    "full_name": "erlang-25.3.2.6-18.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-25.3.2.6-18.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-asn1-25.3.2.6-18.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-asn1-25.3.2.6-18.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-common_test-25.3.2.6-18.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-common_test-25.3.2.6-18.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-compiler-25.3.2.6-18.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-compiler-25.3.2.6-18.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-crypto-25.3.2.6-18.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-crypto-25.3.2.6-18.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-debugger-25.3.2.6-18.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-debugger-25.3.2.6-18.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-debuginfo-25.3.2.6-18.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-debuginfo-25.3.2.6-18.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-debugsource-25.3.2.6-18.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-debugsource-25.3.2.6-18.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-dialyzer-25.3.2.6-18.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-dialyzer-25.3.2.6-18.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-diameter-25.3.2.6-18.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-diameter-25.3.2.6-18.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-edoc-25.3.2.6-18.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-edoc-25.3.2.6-18.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-eldap-25.3.2.6-18.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-eldap-25.3.2.6-18.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-erl_docgen-25.3.2.6-18.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-erl_docgen-25.3.2.6-18.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-erl_interface-25.3.2.6-18.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-erl_interface-25.3.2.6-18.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-erts-25.3.2.6-18.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-erts-25.3.2.6-18.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-et-25.3.2.6-18.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-et-25.3.2.6-18.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-eunit-25.3.2.6-18.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-eunit-25.3.2.6-18.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-examples-25.3.2.6-18.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-examples-25.3.2.6-18.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-ftp-25.3.2.6-18.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-ftp-25.3.2.6-18.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-inets-25.3.2.6-18.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-inets-25.3.2.6-18.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-jinterface-25.3.2.6-18.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-jinterface-25.3.2.6-18.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-kernel-25.3.2.6-18.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-kernel-25.3.2.6-18.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-megaco-25.3.2.6-18.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-megaco-25.3.2.6-18.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-mnesia-25.3.2.6-18.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-mnesia-25.3.2.6-18.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-observer-25.3.2.6-18.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-observer-25.3.2.6-18.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-odbc-25.3.2.6-18.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-odbc-25.3.2.6-18.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-os_mon-25.3.2.6-18.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-os_mon-25.3.2.6-18.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-parsetools-25.3.2.6-18.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-parsetools-25.3.2.6-18.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-public_key-25.3.2.6-18.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-public_key-25.3.2.6-18.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-reltool-25.3.2.6-18.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-reltool-25.3.2.6-18.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-runtime_tools-25.3.2.6-18.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-runtime_tools-25.3.2.6-18.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-sasl-25.3.2.6-18.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-sasl-25.3.2.6-18.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-snmp-25.3.2.6-18.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-snmp-25.3.2.6-18.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-src-25.3.2.6-18.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-src-25.3.2.6-18.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-ssh-25.3.2.6-18.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-ssh-25.3.2.6-18.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-ssl-25.3.2.6-18.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-ssl-25.3.2.6-18.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-stdlib-25.3.2.6-18.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-stdlib-25.3.2.6-18.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-syntax_tools-25.3.2.6-18.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-syntax_tools-25.3.2.6-18.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-tftp-25.3.2.6-18.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-tftp-25.3.2.6-18.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-tools-25.3.2.6-18.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-tools-25.3.2.6-18.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-wx-25.3.2.6-18.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-wx-25.3.2.6-18.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-xmerl-25.3.2.6-18.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "erlang-xmerl-25.3.2.6-18.oe2403sp4.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.3045",
+            "fixed_packages": [
+                {
+                    "full_name": "varnish-7.4.3-5.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "varnish-7.4.3-5.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "varnish-debuginfo-7.4.3-5.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "varnish-debuginfo-7.4.3-5.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "varnish-debugsource-7.4.3-5.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "varnish-debugsource-7.4.3-5.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "varnish-devel-7.4.3-5.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "varnish-devel-7.4.3-5.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "varnish-help-7.4.3-5.oe2403sp4.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.3046",
+            "fixed_packages": [
+                {
+                    "full_name": "qemu-8.2.0-81.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-8.2.0-81.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-block-curl-8.2.0-81.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-block-curl-8.2.0-81.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-block-iscsi-8.2.0-81.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-block-iscsi-8.2.0-81.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-block-rbd-8.2.0-81.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-block-rbd-8.2.0-81.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-block-ssh-8.2.0-81.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-block-ssh-8.2.0-81.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-debuginfo-8.2.0-81.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-debuginfo-8.2.0-81.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-debugsource-8.2.0-81.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-debugsource-8.2.0-81.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-guest-agent-8.2.0-81.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-guest-agent-8.2.0-81.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-help-8.2.0-81.oe2403sp4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-hw-usb-host-8.2.0-81.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-hw-usb-host-8.2.0-81.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-img-8.2.0-81.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-img-8.2.0-81.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-seabios-8.2.0-81.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-system-aarch64-8.2.0-81.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-system-aarch64-8.2.0-81.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-system-arm-8.2.0-81.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-system-arm-8.2.0-81.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-system-riscv-8.2.0-81.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-system-riscv-8.2.0-81.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-system-x86_64-8.2.0-81.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-system-x86_64-8.2.0-81.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-user-8.2.0-81.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-user-8.2.0-81.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-user-binfmt-8.2.0-81.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-user-binfmt-8.2.0-81.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-user-static-8.2.0-81.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "qemu-user-static-8.2.0-81.oe2403sp4.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.3047",
+            "fixed_packages": [
+                {
+                    "full_name": "gnome-tour-44.0-3.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gnome-tour-44.0-3.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gnome-tour-debuginfo-44.0-3.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gnome-tour-debuginfo-44.0-3.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gnome-tour-debugsource-44.0-3.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gnome-tour-debugsource-44.0-3.oe2403sp4.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.3051",
+            "fixed_packages": [
+                {
+                    "full_name": "composer-generators-8.3.32-1.oe2403sp4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-8.3.32-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-8.3.32-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-bcmath-8.3.32-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-bcmath-8.3.32-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-cli-8.3.32-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-cli-8.3.32-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-common-8.3.32-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-common-8.3.32-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-dba-8.3.32-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-dba-8.3.32-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-dbg-8.3.32-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-dbg-8.3.32-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-debuginfo-8.3.32-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-debuginfo-8.3.32-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-debugsource-8.3.32-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-debugsource-8.3.32-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-devel-8.3.32-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-devel-8.3.32-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-embedded-8.3.32-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-embedded-8.3.32-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-enchant-8.3.32-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-enchant-8.3.32-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-ffi-8.3.32-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-ffi-8.3.32-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-fpm-8.3.32-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-fpm-8.3.32-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-gd-8.3.32-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-gd-8.3.32-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-gmp-8.3.32-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-gmp-8.3.32-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-help-8.3.32-1.oe2403sp4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-intl-8.3.32-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-intl-8.3.32-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-ldap-8.3.32-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-ldap-8.3.32-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-mbstring-8.3.32-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-mbstring-8.3.32-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-mysqlnd-8.3.32-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-mysqlnd-8.3.32-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-odbc-8.3.32-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-odbc-8.3.32-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-opcache-8.3.32-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-opcache-8.3.32-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-pdo-8.3.32-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-pdo-8.3.32-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-pdo-dblib-8.3.32-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-pdo-dblib-8.3.32-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-pdo-firebird-8.3.32-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-pdo-firebird-8.3.32-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-pgsql-8.3.32-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-pgsql-8.3.32-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-process-8.3.32-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-process-8.3.32-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-snmp-8.3.32-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-snmp-8.3.32-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-soap-8.3.32-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-soap-8.3.32-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-sodium-8.3.32-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-sodium-8.3.32-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-tidy-8.3.32-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-tidy-8.3.32-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-xml-8.3.32-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "php-xml-8.3.32-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.3053",
+            "fixed_packages": [
+                {
+                    "full_name": "yelp-42.3-2.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "yelp-42.3-2.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "yelp-debuginfo-42.3-2.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "yelp-debuginfo-42.3-2.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "yelp-debugsource-42.3-2.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "yelp-debugsource-42.3-2.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "yelp-devel-42.3-2.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "yelp-devel-42.3-2.oe2403sp4.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.3054",
+            "fixed_packages": [
+                {
+                    "full_name": "giflib-5.2.2-4.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "giflib-5.2.2-4.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "giflib-devel-5.2.2-4.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "giflib-devel-5.2.2-4.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "giflib-help-5.2.2-4.oe2403sp4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "giflib-utils-5.2.2-4.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "giflib-utils-5.2.2-4.oe2403sp4.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.3055",
+            "fixed_packages": [
+                {
+                    "full_name": "libXfont2-2.0.6-3.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libXfont2-2.0.6-3.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libXfont2-debuginfo-2.0.6-3.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libXfont2-debuginfo-2.0.6-3.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libXfont2-debugsource-2.0.6-3.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libXfont2-debugsource-2.0.6-3.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libXfont2-devel-2.0.6-3.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libXfont2-devel-2.0.6-3.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libXfont2-help-2.0.6-3.oe2403sp4.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.3056",
+            "fixed_packages": [
+                {
+                    "full_name": "patch-2.7.6-23.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "patch-2.7.6-23.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "patch-debuginfo-2.7.6-23.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "patch-debuginfo-2.7.6-23.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "patch-debugsource-2.7.6-23.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "patch-debugsource-2.7.6-23.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "patch-help-2.7.6-23.oe2403sp4.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.3060",
+            "fixed_packages": [
+                {
+                    "full_name": "ImageMagick-7.1.2.27-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ImageMagick-7.1.2.27-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ImageMagick-c++-7.1.2.27-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ImageMagick-c++-7.1.2.27-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ImageMagick-c++-devel-7.1.2.27-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ImageMagick-c++-devel-7.1.2.27-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ImageMagick-debuginfo-7.1.2.27-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ImageMagick-debuginfo-7.1.2.27-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ImageMagick-debugsource-7.1.2.27-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ImageMagick-debugsource-7.1.2.27-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ImageMagick-devel-7.1.2.27-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ImageMagick-devel-7.1.2.27-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ImageMagick-help-7.1.2.27-1.oe2403sp4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ImageMagick-perl-7.1.2.27-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ImageMagick-perl-7.1.2.27-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.3062",
+            "fixed_packages": [
+                {
+                    "full_name": "coredns-1.7.0-1.6.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "coredns-1.7.0-1.6.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "coredns-help-1.7.0-1.6.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "coredns-help-1.7.0-1.6.oe2403sp4.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.3067",
+            "fixed_packages": [
+                {
+                    "full_name": "jpegxl-debuginfo-0.11.2-3.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "jpegxl-debuginfo-0.11.2-3.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "jpegxl-debugsource-0.11.2-3.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "jpegxl-debugsource-0.11.2-3.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "jpegxl-doc-0.11.2-3.oe2403sp4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "jxl-pixbuf-loader-0.11.2-3.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "jxl-pixbuf-loader-0.11.2-3.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libjxl-0.11.2-3.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libjxl-0.11.2-3.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libjxl-devel-0.11.2-3.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libjxl-devel-0.11.2-3.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libjxl-devtools-0.11.2-3.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libjxl-devtools-0.11.2-3.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libjxl-utils-0.11.2-3.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libjxl-utils-0.11.2-3.oe2403sp4.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.3072",
+            "fixed_packages": [
+                {
+                    "full_name": "python3-3.11.6-39.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-3.11.6-39.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-debug-3.11.6-39.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-debug-3.11.6-39.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-debuginfo-3.11.6-39.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-debuginfo-3.11.6-39.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-debugsource-3.11.6-39.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-debugsource-3.11.6-39.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-devel-3.11.6-39.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-devel-3.11.6-39.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-help-3.11.6-39.oe2403sp4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-tkinter-3.11.6-39.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-tkinter-3.11.6-39.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-unversioned-command-3.11.6-39.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-unversioned-command-3.11.6-39.oe2403sp4.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.3073",
+            "fixed_packages": [
+                {
+                    "full_name": "libreswan-4.15-3.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreswan-4.15-3.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreswan-debuginfo-4.15-3.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreswan-debuginfo-4.15-3.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreswan-debugsource-4.15-3.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreswan-debugsource-4.15-3.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libreswan-help-4.15-3.oe2403sp4.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.3078",
+            "fixed_packages": [
+                {
+                    "full_name": "python-django-help-4.2.15-17.oe2403sp4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-Django-4.2.15-17.oe2403sp4.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.3079",
+            "fixed_packages": [
+                {
+                    "full_name": "acl-2.3.1-7.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "acl-2.3.1-7.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "acl-debuginfo-2.3.1-7.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "acl-debuginfo-2.3.1-7.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "acl-debugsource-2.3.1-7.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "acl-debugsource-2.3.1-7.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "acl-help-2.3.1-7.oe2403sp4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libacl-2.3.1-7.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libacl-2.3.1-7.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libacl-devel-2.3.1-7.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libacl-devel-2.3.1-7.oe2403sp4.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.3080",
+            "fixed_packages": [
+                {
+                    "full_name": "attr-2.5.1-7.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "attr-2.5.1-7.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "attr-debuginfo-2.5.1-7.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "attr-debuginfo-2.5.1-7.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "attr-debugsource-2.5.1-7.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "attr-debugsource-2.5.1-7.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "attr-help-2.5.1-7.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "attr-help-2.5.1-7.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libattr-devel-2.5.1-7.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libattr-devel-2.5.1-7.oe2403sp4.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.3081",
+            "fixed_packages": [
+                {
+                    "full_name": "fluidsynth-2.5.6-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "fluidsynth-2.5.6-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "fluidsynth-debuginfo-2.5.6-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "fluidsynth-debuginfo-2.5.6-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "fluidsynth-debugsource-2.5.6-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "fluidsynth-debugsource-2.5.6-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "fluidsynth-devel-2.5.6-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "fluidsynth-devel-2.5.6-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "fluidsynth-help-2.5.6-1.oe2403sp4.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.3083",
+            "fixed_packages": [
+                {
+                    "full_name": "ffmpeg-6.1.1-35.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ffmpeg-6.1.1-35.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ffmpeg-debuginfo-6.1.1-35.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ffmpeg-debuginfo-6.1.1-35.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ffmpeg-debugsource-6.1.1-35.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ffmpeg-debugsource-6.1.1-35.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ffmpeg-devel-6.1.1-35.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ffmpeg-devel-6.1.1-35.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ffmpeg-libs-6.1.1-35.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "ffmpeg-libs-6.1.1-35.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavdevice-6.1.1-35.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libavdevice-6.1.1-35.oe2403sp4.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.3087",
+            "fixed_packages": [
+                {
+                    "full_name": "dnsmasq-2.90-11.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "dnsmasq-2.90-11.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "dnsmasq-debuginfo-2.90-11.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "dnsmasq-debuginfo-2.90-11.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "dnsmasq-debugsource-2.90-11.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "dnsmasq-debugsource-2.90-11.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "dnsmasq-help-2.90-11.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "dnsmasq-help-2.90-11.oe2403sp4.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.3088",
+            "fixed_packages": [
+                {
+                    "full_name": "libblkid-2.39.1-39.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libblkid-2.39.1-39.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfdisk-2.39.1-39.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libfdisk-2.39.1-39.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmount-2.39.1-39.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libmount-2.39.1-39.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmartcols-2.39.1-39.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libsmartcols-2.39.1-39.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libuuid-2.39.1-39.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "libuuid-2.39.1-39.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-libmount-2.39.1-39.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "python3-libmount-2.39.1-39.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "util-linux-2.39.1-39.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "util-linux-2.39.1-39.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "util-linux-debuginfo-2.39.1-39.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "util-linux-debuginfo-2.39.1-39.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "util-linux-debugsource-2.39.1-39.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "util-linux-debugsource-2.39.1-39.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "util-linux-devel-2.39.1-39.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "util-linux-devel-2.39.1-39.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "util-linux-help-2.39.1-39.oe2403sp4.noarch",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "util-linux-user-2.39.1-39.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "util-linux-user-2.39.1-39.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "uuidd-2.39.1-39.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "uuidd-2.39.1-39.oe2403sp4.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.3092",
+            "fixed_packages": [
+                {
+                    "full_name": "wireshark-4.4.17-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "wireshark-4.4.17-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "wireshark-debuginfo-4.4.17-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "wireshark-debuginfo-4.4.17-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "wireshark-debugsource-4.4.17-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "wireshark-debugsource-4.4.17-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "wireshark-devel-4.4.17-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "wireshark-devel-4.4.17-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "wireshark-help-4.4.17-1.oe2403sp4.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.3093",
+            "fixed_packages": [
+                {
+                    "full_name": "thunderbird-140.12.1-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-140.12.1-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-debuginfo-140.12.1-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-debuginfo-140.12.1-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-debugsource-140.12.1-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-debugsource-140.12.1-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-librnp-rnp-140.12.1-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-librnp-rnp-140.12.1-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-wayland-140.12.1-1.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "thunderbird-wayland-140.12.1-1.oe2403sp4.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.3094",
+            "fixed_packages": [
+                {
+                    "full_name": "nmap-7.94-10.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "nmap-7.94-10.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "nmap-debuginfo-7.94-10.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "nmap-debuginfo-7.94-10.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "nmap-debugsource-7.94-10.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "nmap-debugsource-7.94-10.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "nmap-help-7.94-10.oe2403sp4.noarch",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.3095",
+            "fixed_packages": [
+                {
+                    "full_name": "gimp-3.2.4-3.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-3.2.4-3.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-debuginfo-3.2.4-3.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-debuginfo-3.2.4-3.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-debugsource-3.2.4-3.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-debugsource-3.2.4-3.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-devel-3.2.4-3.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-devel-3.2.4-3.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-extension-goat-excercises-3.2.4-3.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-extension-goat-excercises-3.2.4-3.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-libs-3.2.4-3.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-libs-3.2.4-3.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-plugin-aa-3.2.4-3.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-plugin-aa-3.2.4-3.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-plugin-python3-3.2.4-3.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-plugin-python3-3.2.4-3.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-vala-3.2.4-3.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "gimp-vala-3.2.4-3.oe2403sp4.x86_64",
+                    "specifier": ">="
+                }
+            ]
+        },
+        {
+            "oid": "1.3.6.1.4.1.25623.1.1.16.2026.3098",
+            "fixed_packages": [
+                {
+                    "full_name": "cockpit-309-9.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cockpit-309-9.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cockpit-debuginfo-309-9.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cockpit-debuginfo-309-9.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cockpit-debugsource-309-9.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cockpit-debugsource-309-9.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cockpit-devel-309-9.oe2403sp4.aarch64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cockpit-devel-309-9.oe2403sp4.x86_64",
+                    "specifier": ">="
+                },
+                {
+                    "full_name": "cockpit-help-309-9.oe2403sp4.noarch",
+                    "specifier": ">="
+                }
+            ]
+        }
+    ]
+}
